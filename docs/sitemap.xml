@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jfrobbins.github.io/blog/posts/20241202-my-first-post/</loc>
+    <loc>https://jrobb.org/posts/20241202-my-first-post/</loc>
     <lastmod>2024-12-02T08:07:33-05:00</lastmod>
   </url><url>
-    <loc>https://jfrobbins.github.io/blog/</loc>
+    <loc>https://jrobb.org/</loc>
     <lastmod>2024-12-02T08:07:33-05:00</lastmod>
   </url><url>
-    <loc>https://jfrobbins.github.io/blog/posts/</loc>
+    <loc>https://jrobb.org/posts/</loc>
     <lastmod>2024-12-02T08:07:33-05:00</lastmod>
   </url><url>
-    <loc>https://jfrobbins.github.io/blog/categories/</loc>
+    <loc>https://jrobb.org/categories/</loc>
   </url><url>
-    <loc>https://jfrobbins.github.io/blog/tags/</loc>
+    <loc>https://jrobb.org/tags/</loc>
   </url>
 </urlset>
