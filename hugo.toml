@@ -1,0 +1,27 @@
+baseURL = "https://username.github.io/" # For user/organization pages
+# baseURL = 'https://jrobb.org/'
+languageCode = 'en-us'
+title = 'jrobb.org'
+theme = "hugo-theme-m10c"
+publishDir = "docs"
+
+
+
+author = "Jon Robbins"
+description = "???"
+avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
+# menu_item_separator = "-"
+# favicon = /favicon.ico"
+
+# https://themes.gohugo.io/themes/hugo-theme-m10c/
+
+[[params.social]]
+  icon = "brand-github"
+  name = "My Github"
+  url = "https://github.com/jfrobbins"
+
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
