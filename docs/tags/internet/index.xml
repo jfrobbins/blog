@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on jrobb.org</title>
+    <link>https://jrobb.org/tags/internet/</link>
+    <description>Recent content in Internet on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some web browser wars and the US reneges on 039leave Internet alone039 policy</title>
+      <link>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</link>
+      <pubDate>Sat, 27 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</guid>
+      <description>I wrote a [little something](http://factorq.net/2010/02/20/browsers-etc/&amp;quot; target=&amp;quot;_blank) about browsers not too long ago, but this is in quite a bit more details and compares several different browsers:&#xA;[Review: Linux browsers, Part 1](http://www.raiden.net/articles/review_linux_browsers_part_1/&amp;quot; target=&amp;quot;_blank) - Arora, Chromium, Dillo, Epiphany, Firefox and Galeon. In part 2, we&amp;rsquo;ll look at HV3, Kazehakaze, Midori, and Opera&#xA;[Review: Linux browsers, Part 2](http://www.raiden.net/articles/review_linux_browsers_part_2/&amp;quot; target=&amp;quot;_blank) - HV3, Kazehakaze, Midori, Opera and compare test results.&#xA;I think he has inspired me to try out some of these other browsers(on my laptop, Firefox actually runs fine on my desktop, and I do prefer it&amp;hellip;for now)&amp;ndash;I am especially interested in Epiphany, Midori and Opera.</description>
+    </item>
+  </channel>
+</rss>

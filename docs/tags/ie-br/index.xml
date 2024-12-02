@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IE &lt;Br&gt; on jrobb.org</title>
+    <link>https://jrobb.org/tags/ie-br/</link>
+    <description>Recent content in IE &lt;Br&gt; on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/ie-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Browsers etc.</title>
+      <link>https://jrobb.org/blog/browsers-etc./</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/browsers-etc./</guid>
+      <description>I had used[ firefox](http://www.mozilla.com/firefox/&amp;quot; target=&amp;quot;_blank) for a long time, and then recently started using [chrome](http://www.google.com/chrome&amp;quot; target=&amp;quot;_blank) / [chromium](http://code.google.com/chromium/&amp;quot; target=&amp;quot;_blank). It is nice in that it is faster, and load times are good. however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn&amp;rsquo;t even an option in my opinion.</description>
+    </item>
+  </channel>
+</rss>

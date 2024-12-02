@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software &lt;Br&gt; on jrobb.org</title>
+    <link>https://jrobb.org/tags/software-br/</link>
+    <description>Recent content in Software &lt;Br&gt; on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Aug 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/software-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my project site is fancy</title>
+      <link>https://jrobb.org/blog/my-project-site-is-fancy/</link>
+      <pubDate>Tue, 17 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-project-site-is-fancy/</guid>
+      <description>much more so than this wordpress stuff&amp;hellip;.&#xA;haha! So, I guess I consider this blog (factorq.net) my &amp;ldquo;personal blog&amp;rdquo; of any variety of opinionation and open source and other ramblings. My other website, jrob.co.cc (now jrobb.org), I suppose is my site dedicated to projects I work on and develop.&#xA;At work, I have several programs that I have developed, mostly all under the umbrella of one large program&amp;ndash;all written in VB6, unfortunately.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptos on jrobb.org</title>
+    <link>https://jrobb.org/crypto/</link>
+    <description>Recent content in Cryptos on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitmessage</title>
+      <link>https://jrobb.org/crypto/bitmessage/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/crypto/bitmessage/</guid>
+      <description>Lately I&amp;rsquo;ve started finding Bitmessage interesting again. I used it a little early on, but haven&amp;rsquo;t in a year or so.&#xA;After recovering my address, I&amp;rsquo;ve been back on the network and I&amp;rsquo;m remembering that I really like the idea of it&amp;ndash;mostly the simplicity! Compared to GPG, this is no contest that almost anyone could use this. Some people feel that GPG is damn near unusable, and while I don&amp;rsquo;t really agree, according to the guy in that talk I (and probably you) are considered the &amp;ldquo;technological elite.</description>
+    </item>
+  </channel>
+</rss>

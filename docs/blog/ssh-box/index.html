@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>SSH box // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SSH box">
+  <meta name="twitter:description" content="Work has been very crazy for the past few weeks, so I haven’t had much of a chance to update this. Unfortunately I haven’t even had a chance to even play Minecraft. Although I did manage to log in and convert my local worlds to the new format, but that’s about the extent of it.
+So a while back I received an eeePC 900a from a friend who owed me $25.">
+
+    <meta property="og:url" content="https://jrobb.org/blog/ssh-box/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="SSH box">
+  <meta property="og:description" content="Work has been very crazy for the past few weeks, so I haven’t had much of a chance to update this. Unfortunately I haven’t even had a chance to even play Minecraft. Although I did manage to log in and convert my local worlds to the new format, but that’s about the extent of it.
+So a while back I received an eeePC 900a from a friend who owed me $25.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2011-03-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2011-03-05T00:00:00+00:00">
+    <meta property="article:tag" content="Jbs">
+    <meta property="article:tag" content="Sshbox">
+    <meta property="article:tag" content="Tunnel">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="https://avatars.githubusercontent.com/u/850844?v=4" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/posts/">Blog</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/about-hugo/">About Hugo</a>
+      </nav>
+      <p>???</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">SSH box</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Mar 5, 2011
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          2 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="https://jrobb.org/tags/jbs/">Jbs</a>
+              <a class="tag" href="https://jrobb.org/tags/sshbox/">Sshbox</a>
+              <a class="tag" href="https://jrobb.org/tags/tunnel/">Tunnel</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Work has been very crazy for the past few weeks, so I haven&rsquo;t had much of a chance to update this.  Unfortunately I haven&rsquo;t even had a chance to even play <a href="http://www.minecraft.net/">Minecraft</a>. Although I did manage to log in and convert my local worlds to the new format, but that&rsquo;s about the extent of it.</p>
+<p>So a while back I received an eeePC 900a from a friend who owed me $25.  This thing was completely dismanteled, and in an unknown working condition&ndash;and the screen is cracked.
+I started a <a href="http://forums.linuxoutlaws.com/viewtopic.php?f=3&amp;t=3379">thread on the LinuxOutlaws forum</a> about what to do with it, and I thought having an SSH box would be a great idea.</p>
+<!-- raw HTML omitted -->
+<p>I decided to install <a href="http://debian.org">Debian</a>/testing, however because of the screen being cracked and the video on the external monitor being offset horribly, I couldn&rsquo;t manage to get into the bios to turn on &ldquo;boot from USB.&rdquo;
+I had to use my USB CDROM drive and an actual disc.  It&rsquo;s an older disc that I have, but you can turn on mirrors and it installs from the network instead of the disc and still be up to date.</p>
+<!-- raw HTML omitted -->
+<p>In the install, the wireless was configured perfectly, and came right up. I installed the base system and laptop tools, and skipped out on the GUI desktop environment and x etc&ndash;I wasn&rsquo;t going to be needing them.
+Once it was all set up in that regard, I set up the programs that I would be using predominantly on this remote machine:</p>
+<!-- raw HTML omitted -->
+<p>Those are pretty much the only applications that I use on here, but I may add more as I get into it.<br>
+I&rsquo;ve subsequently had problems with the wireless connecting, it was rather flaky, so I just moved the eeePC next to my router and plugged in a cable.  Then I installed my SSH keys and forwarded the port on my router and it has been good to go!</p>
+<p>I can log in from just about anywhere, as well as set up my <a href="http://jrobb.org/blog/index.php?article=128">tunnel</a>.</p>
+<p>The specs on this eee aren&rsquo;t too great:  1GHz Atom (360? I think, not sure though). 1GB RAM.  4GB SSD.</p>
+<p>but let me tell you, with no Xorg or anything with a GUI this thing <!-- raw HTML omitted -->flies<!-- raw HTML omitted -->.  I have not been disappointed.</p>
+<p>My next step:  hook up an external USB drive, and then back files up to it.  Or maybe even set up my own git or fossil repo (or mercurial, which I have been looking into).</p>
+<p>Lots of fun stuff can be done :)</p>
+<p>Tags: #sshbox #tunnel</p>
+<p>original filename: 165</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

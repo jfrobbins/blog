@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jbs on jrobb.org</title>
+    <link>https://jrobb.org/tags/jbs/</link>
+    <description>Recent content in Jbs on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/jbs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH box</title>
+      <link>https://jrobb.org/blog/ssh-box/</link>
+      <pubDate>Sat, 05 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/ssh-box/</guid>
+      <description>Work has been very crazy for the past few weeks, so I haven&amp;rsquo;t had much of a chance to update this. Unfortunately I haven&amp;rsquo;t even had a chance to even play Minecraft. Although I did manage to log in and convert my local worlds to the new format, but that&amp;rsquo;s about the extent of it.&#xA;So a while back I received an eeePC 900a from a friend who owed me $25.</description>
+    </item>
+    <item>
+      <title>Version Control synopsis git vs fossil</title>
+      <link>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</link>
+      <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve mentioned recently that I &lt;a href=&#34;?article=161&#34;&gt;started using Git&lt;/a&gt; for my version control needs.&lt;br&gt;&#xA;This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.&lt;/p&gt;&#xA;&lt;p&gt;Now at work in my department we only have two software guys: another guy and myself.&lt;br&gt;&#xA;We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things.&#xA;On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on.  If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes.  Hardly efficient, but it has worked okay up until this point.  Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.&lt;/p&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://git-scm.com/&#34;&gt;git&lt;/a&gt;, and love it.  Steve (the other guy) has heard of &lt;a href=&#34;http://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki&#34;&gt;fossil&lt;/a&gt;, and wanted me to evaluate these two main contenders.  While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.&lt;/p&gt;&#xA;&lt;p&gt;Go ahead and skip it if you aren&amp;rsquo;t already interested :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pseudo randomness   my PRNG</title>
+      <link>https://jrobb.org/blog/pseudo-randomness---my-prng/</link>
+      <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/pseudo-randomness---my-prng/</guid>
+      <description>My wife sells stuff on Etsy, and occasionally does some giveaway type things. She&amp;rsquo;s been using random.org, which is a great TRUE random generator site&amp;ndash;however, many of their better services are not free.&#xA;I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the &amp;ldquo;winner&amp;rdquo; of the giveaway.</description>
+    </item>
+    <item>
+      <title>Installing Chromium on Fedora 14</title>
+      <link>https://jrobb.org/blog/installing-chromium-on-fedora-14/</link>
+      <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/installing-chromium-on-fedora-14/</guid>
+      <description>This is very easy&amp;hellip;actually I think it is too easy to even blog about&amp;hellip; but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.&#xA;[code] #filename: fedora-chromium.repo&#xA;Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0&#xA;[fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 [/code]&#xA;After that, ran a &amp;ldquo;yum update&amp;rdquo; and &amp;ldquo;yum install chromium&amp;rdquo;, and that was it!</description>
+    </item>
+    <item>
+      <title>Gitting started</title>
+      <link>https://jrobb.org/blog/gitting-started/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/gitting-started/</guid>
+      <description>It is a bit embarassing for me to admit this, but I having been using Linux for 10ish years now, and I have never used Git until very recently. Sacrilege, I know! Other version control systems I have also stayed away from&amp;ndash;except for launchpad/bazaar, which I used I think 3 commands but never really got into it.&#xA;When I started hacking into my blog software, I started realizing that some sort of version control would definitely come in handy even though it is just rather simple PHP.</description>
+    </item>
+    <item>
+      <title>Got it to work...the code display thing</title>
+      <link>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</guid>
+      <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
+    </item>
+    <item>
+      <title>Captcha and Tagger thing</title>
+      <link>https://jrobb.org/blog/captcha-and-tagger-thing/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/captcha-and-tagger-thing/</guid>
+      <description>So I wanted to enable the commentation on my blog, but hl&amp;ndash; does not incorporate any spam control by default.&#xA;Luckily, however, @jezra has made a post on this very same subject in the past.&#xA;Using his code adapted into my php stuffs, it appears to work perfectly!&#xA;I did go back as Jezra suggested and convert it to use a SESSION variable, I also made it change the problem more often.</description>
+    </item>
+    <item>
+      <title>WeBreezes</title>
+      <link>https://jrobb.org/blog/webreezes/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/webreezes/</guid>
+      <description>A long time ago I had a friend who called himself my &amp;ldquo;arch-nemesis.&amp;rdquo; Well, I suppose we were better friends in our younger days, but at some point along the way his weirdness kind of took over. We were still friends&amp;hellip;just also pseudo-enemies, haha. Yeah, it doesn&amp;rsquo;t really make any sense.&#xA;Anyway, this friend&amp;rsquo;s name was Ryan (later changed to Frederic). He is actually the person who introduced me to #linux, in the form of #RedHat version 4 or something&amp;ndash;it was still a while before they changed the name to &amp;ldquo;fedora.</description>
+    </item>
+    <item>
+      <title>WP posts successfully copied and first post of the new year</title>
+      <link>https://jrobb.org/blog/wp-posts-successfully-copied-and-first-post-of-the-new-year/</link>
+      <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/wp-posts-successfully-copied-and-first-post-of-the-new-year/</guid>
+      <description>So, I wrote a quick script to parse through the Wordpress XML dump file and extract all of the posts into an hlscript/hl&amp;ndash; HTML type format. This turned out to be VERY easy, and pretty quick to do. I&amp;rsquo;ve now already imported all of these posts into this blog, and now I will move the factorq.net domain over here whenever I have time. My goal is to have jrobb.org and factorq.</description>
+    </item>
+    <item>
+      <title>New Years Eve</title>
+      <link>https://jrobb.org/blog/new-years-eve/</link>
+      <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/new-years-eve/</guid>
+      <description>As I mentioned in my fq blog post, 2010 is coming to an end. Also, today is my son&amp;rsquo;s birthday! He turned 2 years old today, and for the next week or so, he and my daughter are the same age (then she turns 3, of course).&#xA;I&amp;rsquo;m updating this blog from my chair, on my laptop, trying to catch up on LinuxOutlaws podcasts which I am listening to on my Droid phone (I am still at least 10 episodes behind).</description>
+    </item>
+    <item>
+      <title>2010 is coming to a close  Happy New Year</title>
+      <link>https://jrobb.org/blog/2010-is-coming-to-a-close--happy-new-year/</link>
+      <pubDate>Thu, 30 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010-is-coming-to-a-close--happy-new-year/</guid>
+      <description>&lt;p&gt;2010 has really flown by for me and our family.  As always, the year has been packed full of events&amp;ndash;way too many to document fully, but I can sure try to sum upthe highlights here.&lt;/p&gt;&#xA;&lt;p&gt;Major events of 2010 that I can think of at the moment:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2010 Christmas</title>
+      <link>https://jrobb.org/blog/2010-christmas/</link>
+      <pubDate>Sun, 26 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010-christmas/</guid>
+      <description>It goes and comes like&amp;hellip;a cheetah. I definitely think this year has felt more like Christmas than the past few years&amp;ndash;maybe because the kids are really into it this year. And we have (slightly) more money this year than we have had the last couple. Either way, the kids saw snow (we have like 5&amp;quot; out there now, and supped to snow some more today), got lots of presents, saw lots of family, and absolutely had a blast.</description>
+    </item>
+    <item>
+      <title>More backups this time in the &#34;cloud&#34;</title>
+      <link>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</link>
+      <pubDate>Sat, 04 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</guid>
+      <description>My wife was very concerned about the viability of our photos and things in the event of a house fire, or theft, or some other horrible event. I have an existing backup solution in-home, which would suffice for a drive failure or anything like that. What we have been lacking is an off-site backup, and after looking around at several options, I settled on JungleDisk. This service offers automated backups, directory syncing, and the ability to encrypt the disk and files.</description>
+    </item>
+    <item>
+      <title>Just a little test with a new toy</title>
+      <link>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</link>
+      <pubDate>Mon, 08 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</guid>
+      <description>&lt;p&gt;After waiting for quite a while, the other day I finally got my first 1911.  It is a Rock Island Armory 5&amp;quot; Tactical model, sweet.  A little bit of history:  The [M1911A1](&lt;a href=&#34;http://en.wikipedia.org/wiki/M1911_pistol%22&#34;&gt;http://en.wikipedia.org/wiki/M1911_pistol&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) was designed by [John M Browning](&lt;a href=&#34;http://en.wikipedia.org/wiki/John_Browning%22&#34;&gt;http://en.wikipedia.org/wiki/John_Browning&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) and was the standard issue sidearm for the US military forces from 1911 to 1985 (and is still used by some US forces).  This model saw action in WWI, WWII, Korean War, and Vietnam War.&lt;/p&gt;&#xA;&lt;p&gt;So anyway, I wanted to go break this thing in, and see what it can do.  I had some empty jugs laying around (2 milk, and one OJ), and decided to take these along.&lt;/p&gt;&#xA;&lt;p&gt;After going through a box of 50 FMJ + one or two more magazines, I decided to try out the JHPs.  As anyone knows, JHPs (or Jacketed Hollow Points) are the way to go for defensive rounds, in order to attempt to prevent overpenetration and transfer as much inertia as possible.  The problem is, some guns do not like to feed them&amp;ndash;and 1911s are known to be particularly&amp;hellip;particular.&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Test 1:&lt;!-- raw HTML omitted --&gt;&#xA;I lined up 1 OJ jug, 1 Milk Jug, and 1 pumpkin in a row on a fallen tree.  I loaded 1 Winchester White Box 230gr JHP round, and fired directly into the line.  The idea is to see how far it will penetrate, and (if we can find it) how much the JHP bullet will expand.  I crouched down to try to get a level shot, approximately 15 ft away from the target.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>general update</title>
+      <link>https://jrobb.org/blog/general-update/</link>
+      <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/general-update/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t really been updating as I would like to.  I&amp;rsquo;ve been kind of kicking around the idea of moving away from wordpress, and converting all of my existing posts to html so I can import them into my hl&amp;ndash; blog.  Then I will have more control of the domain and all of that. Besides, although wordpress is really feature rich and awesome&amp;hellip;I think it is kind of bloated.  But it is also really easy.&lt;/p&gt;&#xA;&lt;p&gt;So, what&amp;rsquo;s been going on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>checking in</title>
+      <link>https://jrobb.org/blog/checking-in/</link>
+      <pubDate>Thu, 14 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/checking-in/</guid>
+      <description>Not too much has been going on lately. Well&amp;hellip;we had a kid! On October 2nd: our third, a girl named Anastasia. So we have been busy with that. I have done a little with the jeep&amp;hellip;but not much: Mostly I am still just amassing parts still. I am also trying to decide between running a 220v line in the house and getting a bigger welder, vs getting a generator vs getting a welder/generator combo.</description>
+    </item>
+    <item>
+      <title>Wrecked my bike yesterday</title>
+      <link>https://jrobb.org/blog/wrecked-my-bike-yesterday/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/wrecked-my-bike-yesterday/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;410&amp;rdquo; caption=&amp;ldquo;I got up from the wreck, turned off the motor, checked my phone, tried to call my wife, and then took this picture&amp;rdquo;]&lt;a href=&#34;http://lh3.ggpht.com/_d4xnJM_h7n4/TJC4nEVqv8I/AAAAAAAAAL8/BZQzHMWE0zs/s640/IMG_20100914_120013.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;Yesterday I was coming home from work for lunch, and I downed my motorcycle.  I was actually turning into my neighborhood, so I wasn&amp;rsquo;t going more than 40mph (probably more like &amp;lt;=30), and there was a large section of very fine gravel that I went through&amp;hellip;in the turn&amp;hellip;.as I was downshifting.  Basically it was all my fault, and it should have never happened.  But it did.&lt;/p&gt;&#xA;&lt;p&gt;It was a left hand turn, but somehow the bike got slammed to the right.  I was thrown to the ground on my shoulder and head and elbow.  My hip hit shortly thereafter.  And I assume that as I was flung off, my left foot hi the handlebar or something, because my left ankle has a hematoma and is in quite a bit of pain.  My entire right side is very sore today.&lt;/p&gt;&#xA;&lt;p&gt;I was wearing my standard gear: helmet (full face), textile jacket,gloves, jeans, racing boots.  If not for these things I would be in a whole new world of hurt.&lt;/p&gt;&#xA;&lt;p&gt;I have scratches on my shoulder, and my shirt was torn (yes, even under the padded jacket).&lt;/p&gt;&#xA;&lt;p&gt;My elbow has some roadrash, once again through the jacket.&lt;/p&gt;&#xA;&lt;p&gt;I mentioned my ankle.&lt;/p&gt;&#xA;&lt;p&gt;My helmet has some scratching where it was impacted, and the visor broke off.&lt;/p&gt;&#xA;&lt;p&gt;My jeans were torn around the hip/right pocket area, and my DROID which was in that pocket has some scratching on its cover (the backside, luckily).&lt;/p&gt;&#xA;&lt;p&gt;So&amp;hellip;I&amp;rsquo;m just really sore today.  Otherwise I am fine.&lt;/p&gt;&#xA;&lt;p&gt;This really sucks because I&amp;rsquo;ve been trying to sell the dang bike.  doh!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1 Ton Axle Rebuild  Front Dana 60 part 1 hubs</title>
+      <link>https://jrobb.org/blog/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</link>
+      <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&amp;hellip;This is an ongoing work in progress&amp;hellip;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;As I have mentioned previously, I have &lt;a href=&#34;http://factorq.net/2010/09/06/jeep-rebuild-dana-60-time/&#34;&gt;attained a D60&lt;/a&gt; which I am going to install into my jeep as time and money allow.  This post is going to detail the teardown and rebuild procedure to get this junkyard axle back into tip-top shape&amp;ndash;to the extent of the upgrades that I plan to do.  As such, I will try to make this as picture-heavy as possible :-)  This post is somewhat echoed in [this thread on JF](&lt;a href=&#34;http://www.jeepforum.com/forum/f12/just-picked-up-front-d60-what-maintenance-should-i-do-1098475/%22&#34;&gt;http://www.jeepforum.com/forum/f12/just-picked-up-front-d60-what-maintenance-should-i-do-1098475/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank).&lt;/p&gt;&#xA;&lt;p&gt;I want to go ahead and preface this with &lt;!-- raw HTML omitted --&gt;I have never done this before&lt;!-- raw HTML omitted --&gt;. This is my first dana 60 axle, as well as my first axle that has ever had hubs.&lt;/p&gt;&#xA;&lt;p&gt;I am mostly going along with [Mr.N&amp;rsquo;s Dana 44 Build up](&lt;a href=&#34;http://77cj.littlekeylime.com/Mr.N44.htm%22&#34;&gt;http://77cj.littlekeylime.com/Mr.N44.htm&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) for the steps involved.&lt;/p&gt;&#xA;&lt;p&gt;Fresh off the trailer:&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;this sucker is heavy!&amp;rdquo;]&lt;!-- raw HTML omitted --&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jeep Rebuild Dana 60 Time</title>
+      <link>https://jrobb.org/blog/jeep-rebuild-dana-60-time/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/jeep-rebuild-dana-60-time/</guid>
+      <description>I picked up a front Dana 60 axle the other day&amp;ndash; it is from a 1979 F250. This thing is massive&amp;ndash;my internet searchage results detail that it weights in the neighborhood of 500lbs! I have a lot to do before I can actually use it, including but not limited to:&#xA;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;f350 front d60&amp;rdquo;][/caption]&#xA;Although my brother and I tried&amp;hellip;the ~500lb weight of this thing defeated us, and I had to go get an engine hoist to unload it and move it around!</description>
+    </item>
+    <item>
+      <title>Jeep teardown Part II  the rear</title>
+      <link>https://jrobb.org/blog/jeep-teardown-part-ii--the-rear/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/jeep-teardown-part-ii--the-rear/</guid>
+      <description>Today I had planned to do the task of dropping the rear suspension, which should have been pretty easy compared to the front. Turned out, it was not destined to be that way.&#xA;One day this week I am going to pick up a completely rebuil dana 30 axle geared 4.88:1, and also a guy is coming to buy my 3.5&amp;quot; lift springs. Next step will be to buy some 1.</description>
+    </item>
+    <item>
+      <title>The Jeep teardown begins</title>
+      <link>https://jrobb.org/blog/the-jeep-teardown-begins/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/the-jeep-teardown-begins/</guid>
+      <description>So, I have begun tearing apart my jeep&amp;ndash;and it has begun it&amp;rsquo;s long wait on jackstands. Yesterday morning I jacked up the front and started by removing the front driveshaft, whatever brake lines and things were still connected, shocks, tie rod, etc. Before I did all that, though, I did have the sense to go ahead and unbolt the passenger side hub and pop it out so I can easily remove the axleshaft later if I need to use it or remove the locker.</description>
+    </item>
+    <item>
+      <title>wpid IMG_20100821_122403.jpg</title>
+      <link>https://jrobb.org/blog/wpid-img_20100821_122403.jpg/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/wpid-img_20100821_122403.jpg/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 22 Aug 2010 12:18:08 +0000&#xA;Original URL | Original guid | PostID= 423&#xA;original filename: 144</description>
+    </item>
+    <item>
+      <title>my project site is fancy</title>
+      <link>https://jrobb.org/blog/my-project-site-is-fancy/</link>
+      <pubDate>Tue, 17 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-project-site-is-fancy/</guid>
+      <description>much more so than this wordpress stuff&amp;hellip;.&#xA;haha! So, I guess I consider this blog (factorq.net) my &amp;ldquo;personal blog&amp;rdquo; of any variety of opinionation and open source and other ramblings. My other website, jrob.co.cc (now jrobb.org), I suppose is my site dedicated to projects I work on and develop.&#xA;At work, I have several programs that I have developed, mostly all under the umbrella of one large program&amp;ndash;all written in VB6, unfortunately.</description>
+    </item>
+    <item>
+      <title>bike jeep image scripting</title>
+      <link>https://jrobb.org/blog/bike-jeep-image-scripting/</link>
+      <pubDate>Fri, 13 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/bike-jeep-image-scripting/</guid>
+      <description>I&amp;rsquo;ve put my bike up for sale&amp;hellip;the ad/info/pictures are here: [jrob.co.cc/forsale/2005sv650/](http://jrob.co.cc/forsale/2005sv650/&amp;quot; target=&amp;quot;_blank). Ideally this will sell so I can use the funds to fix my jeep in a more timely manner. Although I did have a pretty sweet deal worked out for a Dana 60 front and Dana 70u rear, it didn&amp;rsquo;t really appear that would work out&amp;ndash;the front was PSD, and I need DSD (without significantly more work/money). So, it looks like I am going to be going with a Dana 44 front / Ford 9&amp;quot; rear as long as we can work something out with pricing.</description>
+    </item>
+    <item>
+      <title>Interesting Reads and How To039s</title>
+      <link>https://jrobb.org/blog/interesting-reads-and-how-to039s/</link>
+      <pubDate>Wed, 04 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/interesting-reads-and-how-to039s/</guid>
+      <description>tags: #&#xA;Published Date: Wed, 04 Aug 2010 11:12:31 +0000&#xA;Original URL | Original guid | PostID= 402&#xA;original filename: 141</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE ghetto rig</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-ghetto-rig/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-ghetto-rig/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 17:05:54 +0000&#xA;Original URL | Original guid | PostID= 389&#xA;original filename: 136</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE Inital recovery attempt</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-inital-recovery-attempt/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-inital-recovery-attempt/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 16:21:11 +0000&#xA;Original URL | Original guid | PostID= 386&#xA;original filename: 134</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE Tow 1</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-tow-1/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-tow-1/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 17:37:25 +0000&#xA;Original URL | Original guid | PostID= 390&#xA;original filename: 137</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE Tow 2</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-tow-2/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-tow-2/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 17:40:37 +0000&#xA;Original URL | Original guid | PostID= 391&#xA;original filename: 138</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE Tow 3</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-tow-3/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-tow-3/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 17:44:21 +0000&#xA;Original URL | Original guid | PostID= 392&#xA;original filename: 139</description>
+    </item>
+    <item>
+      <title>2010.07.31 URE Upper ball joint finally gave out</title>
+      <link>https://jrobb.org/blog/2010.07.31-ure-upper-ball-joint-finally-gave-out/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/2010.07.31-ure-upper-ball-joint-finally-gave-out/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 16:28:36 +0000&#xA;Original URL | Original guid | PostID= 387&#xA;original filename: 135</description>
+    </item>
+    <item>
+      <title>Broken axle and lower ball joint 2010.07.31</title>
+      <link>https://jrobb.org/blog/broken-axle-and-lower-ball-joint-2010.07.31/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/broken-axle-and-lower-ball-joint-2010.07.31/</guid>
+      <description>tags: #&#xA;Published Date: Sun, 01 Aug 2010 15:28:56 +0000&#xA;Original URL | Original guid | PostID= 385&#xA;original filename: 133</description>
+    </item>
+    <item>
+      <title>Jeep escapades...and damages</title>
+      <link>https://jrobb.org/blog/jeep-escapades...and-damages/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/jeep-escapades...and-damages/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_385&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Broken axle and lower ball joint 2010.07.31&amp;rdquo;]&lt;a href=&#34;http://factorq.files.wordpress.com/2010/08/dsc09217_1.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;From the last time my friends and I had been  offroading, one of my front wheels was not spinning&amp;ndash;which I thought was just a vacuum actuator failure.  So I took Friday off work so I could try to fix it, and I replaced it with a cable mechanism that I put together.  Which still did not fix it.  The next step was removing the carrier, axles etc to see what else it could be&amp;ndash;to skip to the point, it was a &lt;!-- raw HTML omitted --&gt;snapped axle shaft&lt;!-- raw HTML omitted --&gt;.  Popped the nub out of the carrier, got my spare out of the shed, and put it all back together.  That all took about 8 or 9 hours on friday, we finished up around 11pm that night.&lt;/p&gt;&#xA;&lt;p&gt;Yesterday morning, we left to go offroading at what my kids call the &amp;ldquo;jeep park.&amp;rdquo;&amp;ndash;an offroad park on state property that is about an hour away.  We had originally intended to meet AT the park at 8am&amp;hellip;however everyone was running a bit late.  We were the last to get there, around 10am.  As we arrived, Mark was leaving with a busted rear driveshaft, so we went in and met the other guys.&lt;/p&gt;&#xA;&lt;p&gt;After a little bit of wheeling and everything being normal, it was not very long at all before we heard a loud &lt;!-- raw HTML omitted --&gt;&lt;em&gt;POP&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; as I was trying to make it up a rock face.  Then we noticed my wheel was not spinning&amp;hellip;crap, axle probably snapped again. This time the opposite side of the one we JUST fixed.  So I begin going up  easier way to try to limp out of there, and I didn&amp;rsquo;t get very far before realizing it was something a little more serious &amp;ndash;&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;The axleshaft had broken at the U-Joint&amp;ndash;and I mean it was pretty much obliterated.  The lower ball joint was completely broken off, as you can see in the picture (kind of).  The top ball joint was under extreme pressure, and along with the tie rod, the only thing holding the wheel/hub to the jeep.&lt;/p&gt;&#xA;&lt;p&gt;So naturally, i decided I would try to drive it out at least to the gravel road, where I could get a tow truck.  &amp;hellip;Nope. Didn&amp;rsquo;t get quite that far.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux vs BSD and an urge to hop</title>
+      <link>https://jrobb.org/blog/linux-vs-bsd-and-an-urge-to-hop/</link>
+      <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/linux-vs-bsd-and-an-urge-to-hop/</guid>
+      <description>So, my interest was peaked in BSD for some reason&amp;hellip;I think maybe I saw a release ([GhostBSD](http://www.ghostbsd.org/&amp;quot; target=&amp;quot;_blank) perhaps), and I realized that I don&amp;rsquo;t really know much about it. I have briefly used [PC-BSD](http://www.pcbsd.org/&amp;quot; target=&amp;quot;_blank) (which is based on [FreeBSD](http://www.freebsd.org/&amp;quot; target=&amp;quot;_blank)) before while I was distro-hopping, but I did not get very extensive use out of it.&#xA;I started searching for information about BSD and how it relates to (GNU/)Linux, which basically led me to this post: [http://www.</description>
+    </item>
+    <item>
+      <title>Packages</title>
+      <link>https://jrobb.org/blog/packages/</link>
+      <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/packages/</guid>
+      <description>tags: #&#xA;Published Date: Sat, 24 Jul 2010 12:25:04 +0000&#xA;Original URL | Original guid | PostID= 378&#xA;original filename: 131</description>
+    </item>
+    <item>
+      <title>jrob.co.cc is back on the air</title>
+      <link>https://jrobb.org/blog/jrob.co.cc-is-back-on-the-air/</link>
+      <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/jrob.co.cc-is-back-on-the-air/</guid>
+      <description>A while back, I had [made my own webserver](http://factorq.net/2010/03/03/i-got-bored-so-creating-a-www-server/&amp;quot; target=&amp;quot;_blank). Recently as there had been a LOT of downtime with my (free) host&amp;hellip;again&amp;hellip;I decided I was just going to leave them and delete my account. Didn&amp;rsquo;t I set up Apache at home? So I figured I would give it a go. I set up the site, forwarded my ports, and had everything working. Then, I started reading about how this can be dangerous, DOS/DDOS attacks and other things of the like.</description>
+    </item>
+    <item>
+      <title>error page</title>
+      <link>https://jrobb.org/blog/error-page/</link>
+      <pubDate>Tue, 20 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/error-page/</guid>
+      <description>If you see this page, then whatever you are trying to access is not currently available. You can try to find it here, or by using the search on the left hand site, or just [drop me a line](http://factorq.net/contact/&amp;quot; target=&amp;quot;_self).&#xA;Thanks,&#xA;Jon&#xA;tags: #&#xA;Published Date: Wed, 21 Jul 2010 02:37:01 +0000&#xA;Original URL | Original guid | PostID= 370&#xA;original filename: 129</description>
+    </item>
+    <item>
+      <title>set up ssh  encrypted socks tunnel</title>
+      <link>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</link>
+      <pubDate>Mon, 19 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</guid>
+      <description>So I had started this a long time ago, and forgotten all about it as I really didn&amp;rsquo;t have a use for it. Now that I have the ability to [tether](http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&amp;quot; target=&amp;quot;_blank), and I have my eeePC working again, combined with attending LUGs&amp;ndash;now I have the use for a secure tunnel.&#xA;In case you aren&amp;rsquo;t aware (I wasn&amp;rsquo;t), passwords and logins are sent in PLAIN TEXT&amp;ndash;yes, I said plain text. Nuts, huh?</description>
+    </item>
+    <item>
+      <title>Wordpress GPL drama...</title>
+      <link>https://jrobb.org/blog/wordpress-gpl-drama.../</link>
+      <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/wordpress-gpl-drama.../</guid>
+      <description>After an argument broke out on twitter between [wordpress](http://wordpress.org&amp;quot; target=&amp;quot;_blank) co-founder Matt Mullenweg and Chris Pearson who created the popular wordpress theme [Thesis](http://www.pearsonified.com/themes&amp;quot; target=&amp;quot;_blank), an interview was put in place by Mixergy to talk to both of these guys and get their views on the matter.&#xA;Matt feels that since Wordpress is licensed th the [GPL](http://www.gnu.org/licenses/gpl.html&amp;quot; target=&amp;quot;_blank), all themes would be considered derivative works, and therefore should also be licensed under the GPL</description>
+    </item>
+    <item>
+      <title>some recent distro hoppage</title>
+      <link>https://jrobb.org/blog/some-recent-distro-hoppage/</link>
+      <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-recent-distro-hoppage/</guid>
+      <description>&lt;p&gt;I did have [Jolicloud](&lt;a href=&#34;http://www.jolicloud.com/%22&#34;&gt;http://www.jolicloud.com/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) on my eeePC (900A), and it was fine for a while.  Actually, it was a pretty neat distro.  However when you try to install things using apt-get like a normal distro instead of through the &amp;ldquo;app cloud&amp;rdquo;, some things stop working and it goes downhil.  This, combined with me itching to hop a couple of distros let me to switch.&lt;/p&gt;&#xA;&lt;p&gt;So I started out using [UNetBootin](&lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;amp;source=web&amp;amp;amp;cd=1&amp;amp;amp;ved=0CBsQFjAA&amp;amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg%22&#34;&gt;http://www.google.com/url?sa=t&amp;amp;amp;source=web&amp;amp;amp;cd=1&amp;amp;amp;ved=0CBsQFjAA&amp;amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) to create a Live USB stick for [Fedora 13](&lt;a href=&#34;http://distrowatch.com/fedora%22&#34;&gt;http://distrowatch.com/fedora&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) (LXDE), and installed on the EEE.  The eee is actually pretty well supported with Fedora, including the wireless (on the 900 model that I have, the 1100+ may be a different story).  This was okay, except that it was not optimized for the small screen, and some of the GUI prompts actually hung off of the screen.  Not to mention I was missing some &amp;ldquo;tap and click&amp;rdquo; functionality of the trackpad thing.  Total time installed&amp;hellip;. about 4 hours.&lt;/p&gt;&#xA;&lt;p&gt;From this point on&amp;hellip;I had a bit of trouble.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tethering on the Moto Droid with EasyTether</title>
+      <link>https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/</link>
+      <pubDate>Wed, 14 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/</guid>
+      <description>This is really great, and extremely easy. I have [NYBill](http://identi.ca/NYBill&amp;quot; target=&amp;quot;_blank) to thank for finding out about this.&#xA;There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&amp;quot; target=&amp;quot;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).&#xA;EasyTether is in the Android Market (as well as an EasyTether Lite, which can&amp;rsquo;t connect to https, among other things).&#xA;Once you install and run the app, it can download the driver file which is a .</description>
+    </item>
+    <item>
+      <title>Thoughts on Free and Open Source Software as it relates to me right now</title>
+      <link>https://jrobb.org/blog/thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now/</link>
+      <pubDate>Mon, 12 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now/</guid>
+      <description>&lt;p&gt;Free/Libre and Open Source Software (FOSS, or FLOSS, or F/LOSS) should be &amp;ldquo;liberally &lt;!-- raw HTML omitted --&gt;licensed&lt;!-- raw HTML omitted --&gt; to grant the right of users to use, study, change, and improve its design through the availability of its [source code](&lt;a href=&#34;http://en.wikipedia.org/wiki/Source_code%22&#34;&gt;http://en.wikipedia.org/wiki/Source_code&amp;quot;&lt;/a&gt; target=&amp;quot;_blank)&amp;rdquo;  (&lt;a href=&#34;http://en.wikipedia.org/wiki/Free_and_open_source_software&#34;&gt;Wikipedia&lt;/a&gt;).  [Here](&lt;a href=&#34;http://linuxoutlaws.com/explanation/foss%22&#34;&gt;http://linuxoutlaws.com/explanation/foss&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) is another description from the Linux Outlaws page.&lt;/p&gt;&#xA;&lt;p&gt;The whole idea behind this, I believe, is the availablility and portability of the source code, as well as the freedom for users to modify and distribute the code as they see fit.  All well and good, I think&amp;ndash;definitely not a bad thing, and this is something I can support.&lt;/p&gt;&#xA;&lt;p&gt;The conundrum that I have is that for the past 4 or so years I have been programming almost exclusively in MS Visual Basic (classic, 6), with just a touch in C for micro controllers.  Only recently have we started the [conversion to PureBasic](&lt;a href=&#34;http://factorq.net/2010/02/06/switching-code/%22&#34;&gt;http://factorq.net/2010/02/06/switching-code/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank), which allows for us to compile cross-platform.  So what I am wondering is this: if I create some project using this language and free the source code with something like a GPLv3 license, would this even be valid since the compiler itself is not FOSS which could restrict distribution or other end-user freedoms and things of that sort? Would that be like the Mono projects?&lt;/p&gt;&#xA;&lt;p&gt;If that would not &amp;ldquo;count&amp;rdquo;, or in the more likely case, if it would be shunned by the FOSS community I would rather not even waste my time.  In that event, I would much rather get out all of my old C++ books and browse some source code to brush up/re-learn what I have forgotten.  Or maybe learn Java, or Python, or&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;This would be a much slower process, but if it is the &amp;ldquo;right way&amp;rdquo; then that is what I would have to do.   It isn&amp;rsquo;t like I even have a very good idea for a project anyway, just some [passing thoughts ](&lt;a href=&#34;http://factorq.net/2010/07/03/project-or-masters/%22&#34;&gt;http://factorq.net/2010/07/03/project-or-masters/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank)as arguments against going back to school&amp;ndash; So there is plenty of time for me to caught up, I am just impatient.&lt;/p&gt;&#xA;&lt;p&gt;What is the consensus here?  Is it wrong by the FOSS standards to use a non-open source compiler, for an otherwise open and free project?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identi.ca Client HeyBuddy</title>
+      <link>https://jrobb.org/blog/identi.ca-client-heybuddy/</link>
+      <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/identi.ca-client-heybuddy/</guid>
+      <description>I&amp;rsquo;ve installed and been using [HeyBuddy](http://www.jezra.net/projects/heybuddy&amp;quot; target=&amp;quot;_blank) as a client for identi.ca. If you don&amp;rsquo;t know what identi.ca is&amp;hellip;it&amp;rsquo;s basically an [open source](http://linuxoutlaws.com/explanation/foss&amp;quot; target=&amp;quot;_blank) [Twitter](http://twitter.com&amp;quot; target=&amp;quot;_blank), with more/better features.&#xA;This thing is great, keeps me from having to use [mustard](http://identi.ca/group/mustard&amp;quot; target=&amp;quot;_blank) on my droid, or from keeping the webpage open. [Status.net](http://status.net&amp;quot; target=&amp;quot;_blank) also has a desktop client, but I do not like it as well. Besides Heybuddy is &amp;ldquo;supposedly lightweight,&amp;rdquo; which is always great.</description>
+    </item>
+    <item>
+      <title>arch_schwag 20100707</title>
+      <link>https://jrobb.org/blog/arch_schwag-20100707/</link>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/arch_schwag-20100707/</guid>
+      <description>arch schwag&#xA;tags: #&#xA;Published Date: Thu, 08 Jul 2010 02:23:01 +0000&#xA;Original URL | Original guid | PostID= 341&#xA;original filename: 122</description>
+    </item>
+    <item>
+      <title>Backups a followup</title>
+      <link>https://jrobb.org/blog/backups-a-followup/</link>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/backups-a-followup/</guid>
+      <description>Sometime back I made a post about how I backup my data. A recent thread on the crunchbang forums brought this back to mind, so I figured I should probably document my update here as well.&#xA;Nn my desktop I have 2 HDDs that are in a softRAID array (only /home is on the array). and then I have a daiyly cron script which does an rsync to backup my /home to an external eSATA HDD.</description>
+    </item>
+    <item>
+      <title>jrob.co.cc back up...sort of</title>
+      <link>https://jrobb.org/blog/jrob.co.cc-back-up...sort-of/</link>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/jrob.co.cc-back-up...sort-of/</guid>
+      <description>So The old host is back up. I am not really hosting any files there anymore, so it more or less just points here.&#xA;I host a few things on there that warrant keeping it, but nothing high priority so it does not really matter if it goes down again. Oh, and the MySQL db&amp;rsquo;s are all broken, so I had to disable anything that tried to connect. Lame!&#xA;http://jrob.co.cc</description>
+    </item>
+    <item>
+      <title>Project or Masters</title>
+      <link>https://jrobb.org/blog/project-or-masters/</link>
+      <pubDate>Sat, 03 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/project-or-masters/</guid>
+      <description>I had been planning to back to school to get my masters degree in Computer Science (or maybe Information Systems)&amp;ndash;Work would pay for the schooling as long as I made at least a B, and all of that would be well and good. However, it would take me 5 or 6 years to complete the program, and it would take up a lot of time.&#xA;I am now trying to decide if I would rather do that, or just undertake creating some project program or something on Linux for open source (or maybe for Android).</description>
+    </item>
+    <item>
+      <title>Favorite Distros</title>
+      <link>https://jrobb.org/blog/favorite-distros/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/favorite-distros/</guid>
+      <description>These are my favorite Linux distributions. They are definitely subject to change!&#xA;tags: #&#xA;Published Date: Thu, 01 Jul 2010 02:24:24 +0000&#xA;Original URL | Original guid | PostID= 317&#xA;original filename: 118</description>
+    </item>
+    <item>
+      <title>My top 5 Linux Distributions and runners up</title>
+      <link>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running [ArchLinux](&lt;a href=&#34;http://archlinux.org&#34;&gt;http://archlinux.org&lt;/a&gt;&amp;quot; target=&amp;quot;_blank) on my desktop for a couple of years now, but these days I am getting on that computer less and less.  Little enough that I worry that my infrequency of system updates may cause some breakage.  To-date, I have not had any problems, but it could happen.&lt;/p&gt;&#xA;&lt;p&gt;This desktop hosts pictures, and runs ssh, samba, and cups primarily.  So, I was considering hopping to another distro that would possibly be more stable and run for longer periods without a need for manual updates.  After some discussion on [identi.ca](&lt;a href=&#34;http://identi.ca&#34;&gt;http://identi.ca&lt;/a&gt;&amp;quot; target=&amp;quot;_blank), I think I will be fine staying with Arch, though&amp;ndash;I believe I can still manage to update once a month or so. :-)&lt;/p&gt;&#xA;&lt;p&gt;I figure I will go ahead and re-detail my top 5 favorite Linux distros while I&amp;rsquo;m thinking about it, though. These are in order of my personal preference of use from past distro-hopping adventures:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>a couple of links</title>
+      <link>https://jrobb.org/blog/a-couple-of-links/</link>
+      <pubDate>Thu, 24 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/a-couple-of-links/</guid>
+      <description>[Ubuntu One Review: is it ready for your data?](http://www.raiden.net/articles/review_is_ubuntu_one_ready_for_your_data_/&amp;quot; target=&amp;quot;_blank) [A simple lesson from Apple](http://mybroadband.co.za/news/columns/13144-simple-lesson-from-Apple.html&amp;quot; target=&amp;quot;_blank)&#xA;tags: #tech&#xA;Published Date: Thu, 24 Jun 2010 11:36:12 +0000&#xA;Original URL | Original guid | PostID= 306&#xA;original filename: 116</description>
+    </item>
+    <item>
+      <title>Vuvuzela filter Yes</title>
+      <link>https://jrobb.org/blog/vuvuzela-filter-yes/</link>
+      <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/vuvuzela-filter-yes/</guid>
+      <description>From[ DistroWatch Weekly](http://distrowatch.com/weekly.php?issue=20100621#news&amp;quot; target=&amp;quot;_blank):&#xA;gst-launch-0.10 autoaudiosrc ! audioconvert ! audiochebband mode=band-reject lower-frequency=223 upper-frequency=243 type=2 ripple=50 ! audiochebband mode=band-reject lower-frequency=456 upper-frequency=476 type=2 ripple=50 ! audiochebband mode=band-reject lower-frequency=922 upper-frequency=942 type=2 ripple=50 ! audiochebband mode=band-reject lower-frequency=1854 upper-frequency=1874 type=2 ripple=50 ! audioconvert ! autoaudiosink&#xA;We haven&amp;rsquo;t tried this solution so use at your own risk! Now, does anybody have a solution to filter out the poor performances of some of the star-studded teams that play at the tournament?</description>
+    </item>
+    <item>
+      <title>Some political BS that is currently ongoing</title>
+      <link>https://jrobb.org/blog/some-political-bs-that-is-currently-ongoing/</link>
+      <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-political-bs-that-is-currently-ongoing/</guid>
+      <description>A letter from the Campaign for Liberty about preserving our freedom of speech: [Stop the DISCLOSE Act!](http://www.campaignforliberty.com/blog.php?view=36255&amp;quot; target=&amp;quot;_blank) And [Why you should oppose the DISCLOSE Act](http://www.campaignforliberty.com/blog.php?view=36301&amp;quot; target=&amp;quot;_blank) Also, check out [Another Attempt to take over the web!](http://www.campaignforliberty.com/blog.php?view=36327&amp;quot; target=&amp;quot;_blank)&#xA;tags: #politico&#xA;Published Date: Tue, 22 Jun 2010 20:54:32 +0000&#xA;Original URL | Original guid | PostID= 300&#xA;original filename: 114</description>
+    </item>
+    <item>
+      <title>Mobile is the future</title>
+      <link>https://jrobb.org/blog/mobile-is-the-future/</link>
+      <pubDate>Sun, 20 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/mobile-is-the-future/</guid>
+      <description>&lt;p&gt;As I was sitting here at home listening to the Linux adventure show podcast, I was just thinking about how mobilized everything is becoming.  The iPad is ridiculously popular, as are the android tablets and ipad clones.  Not to even mention the smartphone markets&amp;ndash;  I&amp;rsquo;m even writing this post on my iPhone!&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; And the majority of my post was deleted&amp;hellip; Thanks wordpress app&lt;/p&gt;&#xA;&lt;p&gt;Editing with the continuation, which is going to be different since this is several hours later, and I am outside enjoying some vino and a habana.&lt;/p&gt;&#xA;&lt;p&gt;There was a quote I saw on &lt;a href=&#34;http://identi.ca/&#34;&gt;identi.ca&lt;/a&gt; the other day, something like: &amp;ldquo;the year of the Linux desktop will be the year after the desktop dies&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>custom_dns</title>
+      <link>https://jrobb.org/blog/custom_dns/</link>
+      <pubDate>Sat, 19 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/custom_dns/</guid>
+      <description>MX 5 ALT1.ASPMX.L.GOOGLE.COM.&#xA;MX 5 ALT2.ASPMX.L.GOOGLE.COM.&#xA;MX 1 ASPMX.L.GOOGLE.COM.&#xA;MX 10 ASPMX2.GOOGLEMAIL.COM.&#xA;MX 10 ASPMX3.GOOGLEMAIL.COM.&#xA;TXT v=spf1 include:aspmx.googlemail.com ~all&#xA;CNAME googleffffffffcf7c3286 google.com.&#xA;CNAME mail ghs.google.com.&#xA;tags: #&#xA;Published Date: Sat, 19 Jun 2010 10:57:27 +0000&#xA;Original URL | Original guid | PostID= 282&#xA;original filename: 112</description>
+    </item>
+    <item>
+      <title>Update free servers aren039t worth it</title>
+      <link>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</link>
+      <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</guid>
+      <description>on the old site which I just transferred from (again), the MySQL db&amp;rsquo;s are all jacked up and non-working,so I am back here to stay.&#xA;I&amp;rsquo;ve changed about the Code Page, gave it a little more structure. I have yet to try to recover the lost posts from the other host. I imagine it is going to be quite the hassle.&#xA;In fact, they may not even be recoverable, if the databases were wiped out!</description>
+    </item>
+    <item>
+      <title>Back to this domain</title>
+      <link>https://jrobb.org/blog/back-to-this-domain/</link>
+      <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/back-to-this-domain/</guid>
+      <description>so the free server kept crashing due to &amp;ldquo;upgrades&amp;rdquo; which will make the service &amp;ldquo;better&amp;rdquo;&amp;ndash;so far it has only crashed more often.&#xA;factorq.net domain is now back up and running! I will have to revamp the code section a bit and bring it up to date and all that. Also I&amp;rsquo;ll have to see if I can get a hold of the posts I had made in between the previous post and this one that had been made on my own server.</description>
+    </item>
+    <item>
+      <title>forums</title>
+      <link>https://jrobb.org/blog/forums/</link>
+      <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/forums/</guid>
+      <description>When they are reinstated, the URL will probably once again be http://fqforums.co.cc&#xA;They still exist, I guess, at http://fqnet.proboards.com/ but I do not check or maintain them these days. The site isn&amp;rsquo;t popular enough to justify it!&#xA;tags: #&#xA;Published Date: Wed, 16 Jun 2010 16:53:43 +0000&#xA;Original URL | Original guid | PostID= 262&#xA;original filename: 108</description>
+    </item>
+    <item>
+      <title>programs</title>
+      <link>https://jrobb.org/blog/programs/</link>
+      <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/programs/</guid>
+      <description>tags: #&#xA;Published Date: Wed, 16 Jun 2010 17:03:30 +0000&#xA;Original URL | Original guid | PostID= 270&#xA;original filename: 109</description>
+    </item>
+    <item>
+      <title>snippets</title>
+      <link>https://jrobb.org/blog/snippets/</link>
+      <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/snippets/</guid>
+      <description>tags: #&#xA;Published Date: Wed, 16 Jun 2010 17:05:44 +0000&#xA;Original URL | Original guid | PostID= 273&#xA;original filename: 110</description>
+    </item>
+    <item>
+      <title>New server</title>
+      <link>https://jrobb.org/blog/new-server/</link>
+      <pubDate>Thu, 04 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/new-server/</guid>
+      <description>So I think I am moving off of the wordpress domain and onto a new (well&amp;hellip;old) server.&#xA;Maybe, anyway! I haven&amp;rsquo;t yet decided. www.factorq.net&#xA;tags: #site info&#xA;Published Date: Fri, 05 Mar 2010 03:11:46 +0000&#xA;Original URL | Original guid | PostID= 252&#xA;original filename: 106</description>
+    </item>
+    <item>
+      <title>I got bored... so Creating a www server</title>
+      <link>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</link>
+      <pubDate>Wed, 03 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</guid>
+      <description>Over the weekend I had some time and then decided to do something I had always wanted to do: create an http server. I was using my desktop, which runs [Arch](http://archlinux.org&amp;quot; target=&amp;quot;_blank) of course, and went through several of [these links](http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=56&amp;amp;amp;page=1&amp;quot; target=&amp;quot;_blank) and set my desktop up with Apache, PHP, and MySQL. Also, I installed vsftp as an FTP server.&#xA;I even signed up with DynDNS so that my dynamic IP can be updated to a (sub)domain and etc etc.</description>
+    </item>
+    <item>
+      <title>Some web browser wars and the US reneges on 039leave Internet alone039 policy</title>
+      <link>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</link>
+      <pubDate>Sat, 27 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</guid>
+      <description>I wrote a [little something](http://factorq.net/2010/02/20/browsers-etc/&amp;quot; target=&amp;quot;_blank) about browsers not too long ago, but this is in quite a bit more details and compares several different browsers:&#xA;[Review: Linux browsers, Part 1](http://www.raiden.net/articles/review_linux_browsers_part_1/&amp;quot; target=&amp;quot;_blank) - Arora, Chromium, Dillo, Epiphany, Firefox and Galeon. In part 2, we&amp;rsquo;ll look at HV3, Kazehakaze, Midori, and Opera&#xA;[Review: Linux browsers, Part 2](http://www.raiden.net/articles/review_linux_browsers_part_2/&amp;quot; target=&amp;quot;_blank) - HV3, Kazehakaze, Midori, Opera and compare test results.&#xA;I think he has inspired me to try out some of these other browsers(on my laptop, Firefox actually runs fine on my desktop, and I do prefer it&amp;hellip;for now)&amp;ndash;I am especially interested in Epiphany, Midori and Opera.</description>
+    </item>
+    <item>
+      <title>Just a few interesting points</title>
+      <link>https://jrobb.org/blog/just-a-few-interesting-points/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/just-a-few-interesting-points/</guid>
+      <description>I&amp;rsquo;m glad I am not the only one that feels this way about Google:&#xA;[Anti-Google Sentiment Reaches a Tipping Point](http://www.daniweb.com/news/story262879.html&amp;quot; target=&amp;quot;_blank) Since [my last topic](http://factorq.net/2010/02/22/making-backups/&amp;quot; target=&amp;quot;_blank) was backups, and today is Backup Awareness day, here is another post about: [http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt](http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt&amp;quot; target=&amp;quot;_blank) This would be interesting to read from the beginning: [&amp;ldquo;Building an all-text Linux workstation&amp;rdquo;](http://lcorg.blogspot.com/2010/01/building-all-text-linux-workstation.html&amp;quot; target=&amp;quot;_blank), current part is part 11. I went back to find part 8 and then gave up, part 1 is back in time somewhere!</description>
+    </item>
+    <item>
+      <title>Making Backups</title>
+      <link>https://jrobb.org/blog/making-backups/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/making-backups/</guid>
+      <description>&lt;p&gt;Backups can be very important, no one wants to lose any of their data&amp;ndash;&lt;!-- raw HTML omitted --&gt;especially&lt;!-- raw HTML omitted --&gt; if it has happened to you before.&lt;/p&gt;&#xA;&lt;p&gt;I have previously [setup my x64 desktop PC with softRAID](&lt;a href=&#34;http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/%22&#34;&gt;http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank), so everything I have in my /home folder is mirrored across 2 drives.  However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.&lt;/p&gt;&#xA;&lt;p&gt;It started when I read [some of this stuff](&lt;a href=&#34;http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=50%22&#34;&gt;http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=50&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) about backups and solutions, so I decided I should probably do something similar.  The one from distrowatch really pushed me a long though, as the [Q&amp;amp;A thing](&lt;a href=&#34;http://distrowatch.com/weekly.php?issue=20100208#qa%22&#34;&gt;http://distrowatch.com/weekly.php?issue=20100208#qa&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) really made sense.&lt;/p&gt;&#xA;&lt;p&gt;To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux.org/index.php/Backup_Programs](&lt;a href=&#34;http://wiki.archlinux.org/index.php/Backup_Programs%22&#34;&gt;http://wiki.archlinux.org/index.php/Backup_Programs&amp;quot;&lt;/a&gt; target=&amp;quot;_blank).  I chose to try a few of them, I didn&amp;rsquo;t like arch-backup, backerupper didn&amp;rsquo;t really work the way I liked.  A few more just didn&amp;rsquo;t work for me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Browsers etc.</title>
+      <link>https://jrobb.org/blog/browsers-etc./</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/browsers-etc./</guid>
+      <description>I had used[ firefox](http://www.mozilla.com/firefox/&amp;quot; target=&amp;quot;_blank) for a long time, and then recently started using [chrome](http://www.google.com/chrome&amp;quot; target=&amp;quot;_blank) / [chromium](http://code.google.com/chromium/&amp;quot; target=&amp;quot;_blank). It is nice in that it is faster, and load times are good. however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn&amp;rsquo;t even an option in my opinion.</description>
+    </item>
+    <item>
+      <title>some stuffs</title>
+      <link>https://jrobb.org/blog/some-stuffs/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-stuffs/</guid>
+      <description>[FreeBSD and the GPL](http://www.itpro.co.uk/620659/freebsd-and-the-gpl&amp;quot; target=&amp;quot;_blank) -interesting article, although it gets a bit long. I liked BSD when I tried it, however I was ust much more comfortable with Linux&amp;ndash;if I had used and grown with BSD, I&amp;rsquo;m sure I could get comfortable with it, too.&#xA;[Setting up a Linux server on a Windows network](http://www.itpro.co.uk/87709/setting-up-a-linux-server-on-a-windows-network&amp;quot; target=&amp;quot;_blank) - hmmm&amp;hellip;&#xA;[Jolicloud: The Operating System Download for Netbook Youve Been Looking For](http://www.makeuseof.com/tag/jolicloud-operating-system-download-for-netbook/&amp;quot; target=&amp;quot;_blank) - Jolicloud is great!</description>
+    </item>
+    <item>
+      <title>Congressman Ron Paul on Healthcare video</title>
+      <link>https://jrobb.org/blog/congressman-ron-paul-on-healthcare-video/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/congressman-ron-paul-on-healthcare-video/</guid>
+      <description>[youtube=http://www.youtube.com/watch?v=foXQbmZxWYY&amp;amp;hl=en&amp;amp;fs=1&amp;amp;]&#xA;Click &amp;ldquo;Read More&amp;rdquo; to read a letter from RP (and another from John Tate) on this subject&#xA;As both a defender of Liberty and a Medical Doctor, Im very concerned about the plans the Obama Administration and many in Congress have to increase the governments role in healthcare.&#xA;Medical decisions being made by government bureaucrats, loss of privacy of medical data, and our ability to keep our own insurance and doctors are all up for grabs once Congress starts moving on these government takeover and rationing schemes.</description>
+    </item>
+    <item>
+      <title>a Message from Ron Paul about Socialized Health Care</title>
+      <link>https://jrobb.org/blog/a-message-from-ron-paul-about-socialized-health-care/</link>
+      <pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/a-message-from-ron-paul-about-socialized-health-care/</guid>
+      <description>Another email from the C4L&#xA;As both a defender of Liberty and a Medical Doctor, Im very concerned about the plans the Obama Administration and many in Congress have to increase the governments role in healthcare.&#xA;Medical decisions being made by government bureaucrats, loss of privacy of medical data, and our ability to keep our own insurance and doctors are all up for grabs once Congress starts moving on these government takeover and rationing schemes.</description>
+    </item>
+    <item>
+      <title>&#34;Old&#34; fQ back up...sort of</title>
+      <link>https://jrobb.org/blog/quotoldquot-fq-back-up...sort-of/</link>
+      <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/quotoldquot-fq-back-up...sort-of/</guid>
+      <description>I got my web host to get everything back together. I set up the domains and whatnot and now it&amp;rsquo;s back going again. I say &amp;ldquo;old&amp;rdquo; because it is really not all that old. Except for the &amp;ldquo;archive&amp;rdquo; part.&#xA;These URLs point to &amp;ldquo;Old&amp;rdquo; fQ: old.factorq.net oldfq.co.cc oldfactorq.co.cc (not yet active) itsatravesty.com (only active through sometime in August) itsatravesty.co.cc&#xA;These URLs still point to this (the main site): factorq.net factorq.co.cc</description>
+    </item>
+    <item>
+      <title>I dislike Cheney and apparently the CIA director questions him too</title>
+      <link>https://jrobb.org/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</link>
+      <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</guid>
+      <description>There are a few problems with this.&#xA;#1. Cheney thinks we need to torture people to get anything done. This is erroneous, mainly because torturing others only incites them to more violence. Also, if we are going to be the &amp;ldquo;policeman of the world,&amp;rdquo; then we have to operate at a higher standard than everyone else in the world&amp;ndash;especially primitive third world countries, it should be obvious we should not stoop to their level.</description>
+    </item>
+    <item>
+      <title>Some more info about the site crash</title>
+      <link>https://jrobb.org/blog/some-more-info-about-the-site-crash/</link>
+      <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-more-info-about-the-site-crash/</guid>
+      <description>So, apparently there is a backup of the website. However the (free) webhost has to re-create my account and set everything back up.&#xA;I really can&amp;rsquo;t complain, I mean&amp;hellip;it is a FREE host. However, lately the outages have been really common, and then now this complete deletion of my account. pretty crazy.&#xA;I think that I will stick with this (blogger), being it is still free, and the uptime is MUCH better.</description>
+    </item>
+    <item>
+      <title>People are not smart enough to make their own decisions...</title>
+      <link>https://jrobb.org/blog/people-are-not-smart-enough-to-make-their-own-decisions.../</link>
+      <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/people-are-not-smart-enough-to-make-their-own-decisions.../</guid>
+      <description>so the government has to do it for us.&#xA;Senate approves FDA reg of tobacco&#xA;At least this guy got a reduced sentence, being he was obeying state law to the letter. Federal law has to control as much as possible, in order to justify its existence. 366 day sentence for pot dispensary owner&#xA;tags: #news&#xA;Published Date: Fri, 12 Jun 2009 11:22:00 +0000&#xA;Original URL | Original guid | PostID= 13</description>
+    </item>
+    <item>
+      <title>Ron Paul039s Audit the Fed Bill Passes 218 Cosponsors</title>
+      <link>https://jrobb.org/blog/ron-paul039s-audit-the-fed-bill-passes-218-cosponsors/</link>
+      <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/ron-paul039s-audit-the-fed-bill-passes-218-cosponsors/</guid>
+      <description>Dear Friend of Liberty,&#xA;We wanted to make sure you were the first to know that your hard work and dedication has resulted in Ron Paul&amp;rsquo;s Audit the Fed bill, HR 1207, gaining the support of a majority of the House of Representatives!&#xA;Just moments ago, Dr. Paul&amp;rsquo;s congressional office issued a press release announcing that HR 1207 had received its 218th cosponsor, and that the list has now grown to 222!</description>
+    </item>
+    <item>
+      <title>How I got started</title>
+      <link>https://jrobb.org/blog/how-i-got-started/</link>
+      <pubDate>Sat, 23 Dec 2006 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/how-i-got-started/</guid>
+      <description>I started out creating websites for myself and friends on geocities and other hosts that were similar back in the day (late 90s). Gradually I learned and came across new technologies, data formats, and programming languages.&#xA;Back in the summer of 2000, I had just graduated high school, the Internet was in what I consider its &amp;ldquo;prime&amp;rdquo;, and I was running way too many websites. They were all mostly silly or pointless, and I wanted to drop them all as I thought that did not make sense and was a waste of time.</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://jrobb.org/blog/my-first-post/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-first-post/</guid>
+      <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
+    </item>
+  </channel>
+</rss>

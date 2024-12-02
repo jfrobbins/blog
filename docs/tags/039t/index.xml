@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>039t on jrobb.org</title>
+    <link>https://jrobb.org/tags/039t/</link>
+    <description>Recent content in 039t on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/039t/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update free servers aren039t worth it</title>
+      <link>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</link>
+      <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</guid>
+      <description>on the old site which I just transferred from (again), the MySQL db&amp;rsquo;s are all jacked up and non-working,so I am back here to stay.&#xA;I&amp;rsquo;ve changed about the Code Page, gave it a little more structure. I have yet to try to recover the lost posts from the other host. I imagine it is going to be quite the hassle.&#xA;In fact, they may not even be recoverable, if the databases were wiped out!</description>
+    </item>
+  </channel>
+</rss>

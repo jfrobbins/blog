@@ -1,59 +1,76 @@
 import os
-import re
 import yaml
+import argparse
+from datetime import datetime
 
-def convert_to_hugo(input_dir, output_dir):
-    for root, _, files in os.walk(input_dir):
+def convert_post(input_path, output_path):
+    with open(input_path, 'r') as file:
+        lines = file.readlines()
+    
+    # Initialize front matter with default values
+    front_matter = {
+        'draft': False,
+        'date': None,
+        'modified': None,
+        'title': None,
+        'category': None,
+        'tags': [],
+        'slug': None,
+        'authors': None
+    }
+    
+    # Process each line of the file
+    content = []
+    in_frontmatter = True
+    for line in lines:
+        if in_frontmatter:
+            if line.strip() == "":
+                in_frontmatter = False  # End of front matter
+            else:
+                key, value = line.strip().split(':', 1)
+                key = key.strip().lower()
+                value = value.strip()
+                if key in ['date', 'modified']:
+                    try:
+                        dt = datetime.strptime(value, "%Y-%m-%d")
+                        front_matter[key] = dt.isoformat()
+                    except ValueError:
+                        print(f"Could not parse date '{value}' in file {input_path}. Using original format.")
+                        front_matter[key] = value
+                elif key == 'tags':
+                    front_matter[key] = [item.strip() for item in value.split(',')]
+                else:
+                    front_matter[key] = value
+        else:
+            content.append(line)
+    
+    # Ensure the output directory structure exists
+    output_dir = os.path.dirname(output_path)
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Write the new file
+    with open(output_path, 'w') as file:
+        file.write("---\n")
+        yaml.dump(front_matter, file, default_flow_style=False, allow_unicode=True)
+        file.write("---\n")
+        file.writelines(content)
+
+def main():
+    parser = argparse.ArgumentParser(description="Convert Pelican posts to Hugo format.")
+    parser.add_argument('-i', '--input', type=str, required=True, help='Input directory containing Pelican posts')
+    parser.add_argument('-o', '--output', type=str, required=True, help='Output directory for converted posts')
+    args = parser.parse_args()
+
+    for root, _, files in os.walk(args.input):
         for file in files:
             if file.endswith('.md'):
                 input_path = os.path.join(root, file)
-                relative_path = os.path.relpath(input_path, input_dir)
-                output_path = os.path.join(output_dir, relative_path)
+                # Construct the output path relative to the input directory
+                relative_path = os.path.relpath(input_path, args.input)
+                output_path = os.path.join(args.output, relative_path)
+                convert_post(input_path, output_path)
 
-                # Create the directory structure in the output directory
-                os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-                with open(input_path, 'r', encoding='utf-8') as infile:
-                    content = infile.read()
-                
-                # Split the content into frontmatter and body
-                frontmatter, body = content.split('---', 2)[1:]
-
-                # Parse YAML frontmatter
-                try:
-                    frontmatter_data = yaml.safe_load(frontmatter)
-                except yaml.YAMLError as e:
-                    print(f"Error parsing YAML in {input_path}: {e}")
-                    continue
-
-                # Convert Pelican's category to Hugo's section if needed
-                if 'category' in frontmatter_data:
-                    frontmatter_data['section'] = frontmatter_data.pop('category')
-
-                # Adjust date format if needed (Hugo expects YYYY-MM-DD)
-                if 'date' in frontmatter_data:
-                    date = frontmatter_data['date']
-                    if not isinstance(date, str) or not re.match(r'\d{4}-\d{2}-\d{2}', date):
-                        # Assuming date is in datetime format, convert to string
-                        frontmatter_data['date'] = date.strftime('%Y-%m-%d')
-
-                # Add any Hugo specific fields if required
-                # For example, Hugo uses 'tags' instead of 'tags', but this is already in YAML format
-                # If you need to add any Hugo-specific fields, add them here
-
-                # Reconstruct the frontmatter in Hugo format
-                hugo_frontmatter = '+++\n'
-                for key, value in frontmatter_data.items():
-                    hugo_frontmatter += f"{key} = \"{value}\"\n"
-                hugo_frontmatter += "+++\n\n"
-
-                # Write the new file
-                with open(output_path, 'w', encoding='utf-8') as outfile:
-                    outfile.write(hugo_frontmatter + body)
-
-                print(f"Converted: {input_path} -> {output_path}")
+    print("Conversion complete!")
 
 if __name__ == "__main__":
-    input_directory = "path/to/your/pelican/content"  # Change this to your Pelican content directory
-    output_directory = "path/to/your/hugo/content"   # Change this to where you want Hugo content to go
-    convert_to_hugo(input_directory, output_directory)
+    main()

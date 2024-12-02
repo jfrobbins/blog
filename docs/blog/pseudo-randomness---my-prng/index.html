@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>pseudo randomness   my PRNG // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="pseudo randomness   my PRNG">
+  <meta name="twitter:description" content="My wife sells stuff on Etsy, and occasionally does some giveaway type things. She’s been using random.org, which is a great TRUE random generator site–however, many of their better services are not free.
+I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the “winner” of the giveaway.">
+
+    <meta property="og:url" content="https://jrobb.org/blog/pseudo-randomness---my-prng/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="pseudo randomness   my PRNG">
+  <meta property="og:description" content="My wife sells stuff on Etsy, and occasionally does some giveaway type things. She’s been using random.org, which is a great TRUE random generator site–however, many of their better services are not free.
+I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the “winner” of the giveaway.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2011-02-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2011-02-05T00:00:00+00:00">
+    <meta property="article:tag" content="Jbs">
+    <meta property="article:tag" content="Random">
+    <meta property="article:tag" content="PRNG">
+    <meta property="article:tag" content="PHP">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="https://avatars.githubusercontent.com/u/850844?v=4" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/posts/">Blog</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/about-hugo/">About Hugo</a>
+      </nav>
+      <p>???</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">pseudo randomness   my PRNG</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Feb 5, 2011
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          3 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="https://jrobb.org/tags/jbs/">Jbs</a>
+              <a class="tag" href="https://jrobb.org/tags/random/">Random</a>
+              <a class="tag" href="https://jrobb.org/tags/prng/">PRNG</a>
+              <a class="tag" href="https://jrobb.org/tags/php/">PHP</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>My wife <a href="http://www.etsy.com/people/NestofManyColors">sells stuff on Etsy</a>, and occasionally does some giveaway type things.
+She&rsquo;s been using <a href="http://random.org">random.org</a>, which is a great TRUE random generator site&ndash;however, many of their better services are not free.</p>
+<p>I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do:  mainly, enter a list of names and return one who would be the &ldquo;winner&rdquo; of the giveaway.
+I set up a page to do this at <a href="http://jrobb.org/random/">jrobb.org/random</a>, and went to town making some things.<br>
+This is all pretty simple, but it is a lot of fun to do and I can always try to make it as random as possible. :)</p>
+<p>I wanted to have a pretty good seed, so I reused some of the code from the <a href="http://jrobb.org/blog/?article=159">jezra captcha routine</a> stuff.  I am also using the <a href="http://en.wikipedia.org/wiki/Mersenne_twister">Mersenne Twister</a>, which generates MUCH better random numbers with mt_rand() than the normal PHP rand().
+[code]</p>
+<p>function mtrand_seed() {
+//try to create a more random seed
+$n = ((double)microtime()*1000000);
+mt_srand($n);//initial seed
+$ip_address = VISITORS_IP; //get the visitors IP address
+$appended_ip = $ip_address + date(&ldquo;zB&rdquo;); //append the numeric day of the year + 	Swatch Internet time to the ip_address
+$salt = genRandomString(); //add some random salt to the appended_ip
+$salted_string = $appended_ip+$salt;
+$md5_string = md5($salted_string) ; //get the md5sum of the salted string
+$first_int = getFirstInt($md5_string); //get the first and last integer of the md5_string
+$last_int = getLastInt($md5_string);</p>
+<p>$n = ((double)microtime()*1000000);
+if($first_int&gt;$last_int)
+{
+$n = $first_int -$last_int + $n ;
+} else {
+$n = $last_int - $first_int + $n ;
+}
+return $n;</p>
+<p>mt_srand($n);
+}</p>
+<p>[/code]</p>
+<p>This seems to work rather well, but I might wind up changing it around a bit as far as how the first_int/last_int are used to manipulate the seed.</p>
+<p>Then I read <a href="http://www.boallen.com/random-numbers.html">this post</a> which talks about random usage and image generation, and patterns that can appear from using a pseudorandom generator (mostly with the rand() function).
+<a href="http://cod.ifies.com/2008/05/php-rand01-on-windows-openssl-rand-on.html">This one</a> is also pretty cool and worth a read IMO).
+I wanted to give this a try, and I made a generator for this as well.</p>
+<!-- raw HTML omitted -->
+<p>No immediately evident pattern, which is good.  I&rsquo;m sure there is a pattern at some level though.</p>
+<p>I  made a colored version too:</p>
+<!-- raw HTML omitted -->
+<p>It is definitely a lot slower to generate than the B&amp;W version.</p>
+<p>I&rsquo;ll keep improving this generator, and adding new random stuff as it comes to me or as I want to fiddle with it.<br>
+Plus I&rsquo;m sure my wife will have suggestions once she uses it some.</p>
+<p>Oh, and naturally the source code for all of this random stuff is available on that page under the CC or whatever.  I&rsquo;m just not liable for&hellip;anything. ;-)</p>
+<p>Tags: #random #PRNG #PHP</p>
+<p>original filename: 163</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

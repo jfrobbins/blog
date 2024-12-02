@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on jrobb.org</title>
+    <link>https://jrobb.org/tags/google/</link>
+    <description>Recent content in Google on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Just a few interesting points</title>
+      <link>https://jrobb.org/blog/just-a-few-interesting-points/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/just-a-few-interesting-points/</guid>
+      <description>I&amp;rsquo;m glad I am not the only one that feels this way about Google:&#xA;[Anti-Google Sentiment Reaches a Tipping Point](http://www.daniweb.com/news/story262879.html&amp;quot; target=&amp;quot;_blank) Since [my last topic](http://factorq.net/2010/02/22/making-backups/&amp;quot; target=&amp;quot;_blank) was backups, and today is Backup Awareness day, here is another post about: [http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt](http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt&amp;quot; target=&amp;quot;_blank) This would be interesting to read from the beginning: [&amp;ldquo;Building an all-text Linux workstation&amp;rdquo;](http://lcorg.blogspot.com/2010/01/building-all-text-linux-workstation.html&amp;quot; target=&amp;quot;_blank), current part is part 11. I went back to find part 8 and then gave up, part 1 is back in time somewhere!</description>
+    </item>
+    <item>
+      <title>Browsers etc.</title>
+      <link>https://jrobb.org/blog/browsers-etc./</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/browsers-etc./</guid>
+      <description>I had used[ firefox](http://www.mozilla.com/firefox/&amp;quot; target=&amp;quot;_blank) for a long time, and then recently started using [chrome](http://www.google.com/chrome&amp;quot; target=&amp;quot;_blank) / [chromium](http://code.google.com/chromium/&amp;quot; target=&amp;quot;_blank). It is nice in that it is faster, and load times are good. however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn&amp;rsquo;t even an option in my opinion.</description>
+    </item>
+  </channel>
+</rss>

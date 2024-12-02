@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on jrobb.org</title>
+    <link>https://jrobb.org/tags/arch/</link>
+    <description>Recent content in Arch on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Jul 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>set up ssh  encrypted socks tunnel</title>
+      <link>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</link>
+      <pubDate>Mon, 19 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</guid>
+      <description>So I had started this a long time ago, and forgotten all about it as I really didn&amp;rsquo;t have a use for it. Now that I have the ability to [tether](http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&amp;quot; target=&amp;quot;_blank), and I have my eeePC working again, combined with attending LUGs&amp;ndash;now I have the use for a secure tunnel.&#xA;In case you aren&amp;rsquo;t aware (I wasn&amp;rsquo;t), passwords and logins are sent in PLAIN TEXT&amp;ndash;yes, I said plain text. Nuts, huh?</description>
+    </item>
+    <item>
+      <title>Making Backups</title>
+      <link>https://jrobb.org/blog/making-backups/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/making-backups/</guid>
+      <description>&lt;p&gt;Backups can be very important, no one wants to lose any of their data&amp;ndash;&lt;!-- raw HTML omitted --&gt;especially&lt;!-- raw HTML omitted --&gt; if it has happened to you before.&lt;/p&gt;&#xA;&lt;p&gt;I have previously [setup my x64 desktop PC with softRAID](&lt;a href=&#34;http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/%22&#34;&gt;http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank), so everything I have in my /home folder is mirrored across 2 drives.  However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.&lt;/p&gt;&#xA;&lt;p&gt;It started when I read [some of this stuff](&lt;a href=&#34;http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=50%22&#34;&gt;http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=50&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) about backups and solutions, so I decided I should probably do something similar.  The one from distrowatch really pushed me a long though, as the [Q&amp;amp;A thing](&lt;a href=&#34;http://distrowatch.com/weekly.php?issue=20100208#qa%22&#34;&gt;http://distrowatch.com/weekly.php?issue=20100208#qa&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) really made sense.&lt;/p&gt;&#xA;&lt;p&gt;To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux.org/index.php/Backup_Programs](&lt;a href=&#34;http://wiki.archlinux.org/index.php/Backup_Programs%22&#34;&gt;http://wiki.archlinux.org/index.php/Backup_Programs&amp;quot;&lt;/a&gt; target=&amp;quot;_blank).  I chose to try a few of them, I didn&amp;rsquo;t like arch-backup, backerupper didn&amp;rsquo;t really work the way I liked.  A few more just didn&amp;rsquo;t work for me.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

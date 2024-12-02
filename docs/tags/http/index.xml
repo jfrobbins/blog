@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http on jrobb.org</title>
+    <link>https://jrobb.org/tags/http/</link>
+    <description>Recent content in Http on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I got bored... so Creating a www server</title>
+      <link>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</link>
+      <pubDate>Wed, 03 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</guid>
+      <description>Over the weekend I had some time and then decided to do something I had always wanted to do: create an http server. I was using my desktop, which runs [Arch](http://archlinux.org&amp;quot; target=&amp;quot;_blank) of course, and went through several of [these links](http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=56&amp;amp;amp;page=1&amp;quot; target=&amp;quot;_blank) and set my desktop up with Apache, PHP, and MySQL. Also, I installed vsftp as an FTP server.&#xA;I even signed up with DynDNS so that my dynamic IP can be updated to a (sub)domain and etc etc.</description>
+    </item>
+  </channel>
+</rss>

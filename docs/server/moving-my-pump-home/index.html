@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>moving my pump home // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="moving my pump home">
+  <meta name="twitter:description" content="I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit – I was seeding many linux distributions, and with the fat pipes on the vps it just happened. I’ll have to be more careful in the future.
+Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least, and I decided to go ahead and move my pump from the vps onto one of my home servers.">
+
+    <meta property="og:url" content="https://jrobb.org/server/moving-my-pump-home/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="moving my pump home">
+  <meta property="og:description" content="I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit – I was seeding many linux distributions, and with the fat pipes on the vps it just happened. I’ll have to be more careful in the future.
+Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least, and I decided to go ahead and move my pump from the vps onto one of my home servers.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="server">
+    <meta property="article:published_time" content="2014-09-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2014-09-01T00:00:00+00:00">
+    <meta property="article:tag" content="Server">
+    <meta property="article:tag" content="Pumpio">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="https://avatars.githubusercontent.com/u/850844?v=4" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/posts/">Blog</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/about-hugo/">About Hugo</a>
+      </nav>
+      <p>???</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">moving my pump home</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Sep 1, 2014
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          5 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="https://jrobb.org/tags/server/">Server</a>
+              <a class="tag" href="https://jrobb.org/tags/pumpio/">Pumpio</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit
+&ndash; I was seeding many linux distributions, and with the fat pipes on the vps it just happened.
+I&rsquo;ll have to be more careful in the future.</p>
+<p>Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least,
+and I decided to go ahead and move my <a href="http://pump.io">pump</a> from the vps onto one of my home servers.</p>
+<p>Since pump.io is intended to be run in a standalone type fashion bound directly to port 80/443 and I have other services running
+(web, etc), I had to setup my pump server behind a proxy.</p>
+<p>I&rsquo;m using <a href="http://nginx.com/">nginx</a>, which is awesome.<br>
+And luckily <a href="http://www.sjoberg.fi/blog/pumpio.html">sazius</a> and <a href="http://whird.jpope.org/pump/">jpope</a> have done the whole proxy setup thing before so this is old hat.</p>
+<p>I wanted to document what I did so that I remember if I have to do this again. Plus this is an easy way to view my configs.
+Here&rsquo;s a <a href="http://nginx.com/blog/websocket-nginx/">link</a> or <a href="http://nginx.org/en/docs/http/websocket.html">two</a> about websocket proxying.</p>
+<h2 id="setup">setup</h2>
+<p>Here are the versions of things that I&rsquo;m currently using:</p>
+<ul>
+<li><a href="http://www.nodejs.org/">nodejs</a> v0.10.25 (from the ubuntu LTS repos)</li>
+<li>npm v1.3.10</li>
+<li>mongod v2.4.9</li>
+<li>nginx 1.4.6</li>
+<li>pump.io something around v0.3.0 and like jpope, I&rsquo;m using a free ssl cert from <a href="https://www.startssl.com/">startSSL</a></li>
+</ul>
+<h2 id="db">db</h2>
+<p>jpope uses redis db and seems ok with it, however I&rsquo;ve used it before and <a href="%7Bfilename%7D/blog/2013-12-07-raspi-pump-the-end.markdown">ran into some
+problems</a> as redis keeps the entire db in memory.
+Not that mongodb is flawless, there&rsquo;s also a <a href="%7Bfilename%7D/blog/2014-03-13-mongodb-problem-with-x86.markdown">problem with 32-bit</a>, but that is
+easily
+solved.
+So, I installed mongodb from the repos and left it at its defaults.</p>
+<h2 id="pumpio">pumpio</h2>
+<p>bunyan and forever are some node tools that are <em>very</em> useful with keeping things running and debugging.</p>
+<pre><code># npm install -g bunyan
+# npm install -g forever
+</code></pre>
+<p>forever restarts and keeps a process running if it crashes.
+bunyan makes the log files look pretty.</p>
+<pre><code>{
+	&quot;driver&quot;:  &quot;mongodb&quot;,
+	&quot;params&quot;:  {&quot;dbpath&quot;: &quot;/srv/pump.io/db/&quot;},
+	&quot;secret&quot;:  &quot;erhmagerditsasercrert&quot;,
+	&quot;noweb&quot;:  false,
+	&quot;site&quot;:  &quot;io.jrobb.org&quot;,
+	&quot;owner&quot;:  &quot;Jon Robbins&quot;,
+	&quot;ownerURL&quot;:  &quot;http://jrobb.org/&quot;,
+	&quot;port&quot;:  4443,
+	&quot;urlPort&quot;:443,
+	&quot;bounce&quot;: false,
+	&quot;hostname&quot;:  &quot;io.jrobb.org&quot;,
+	&quot;address&quot;:  &quot;127.0.0.1&quot;,
+	&quot;nologger&quot;:  false,
+	&quot;serverUser&quot;:  &quot;pumpio&quot;,
+	&quot;key&quot;:  &quot;/path/to/ssl.key&quot;,
+	&quot;cert&quot;:  &quot;/path/to/ssl.crt&quot;,
+	&quot;uploaddir&quot;: &quot;/srv/pump.io/uploads&quot;,
+	&quot;debugClient&quot;: false,
+	&quot;compress&quot;: true,
+	&quot;firehose&quot;: &quot;ofirehose.com&quot;,
+	&quot;noCDN&quot;:false,
+	&quot;requireEmail&quot;: false,
+	&quot;disableRegistration&quot;: true,
+	&quot;canUpload&quot;: true,
+	&quot;sockjs&quot;: true
+}
+</code></pre>
+<p>looks like jpope added his user like this:</p>
+<pre><code># useradd -s /bin/bash -d /srv/http/pump.jpope.org
+</code></pre>
+<p>whereas I did this:</p>
+<pre><code># useradd -M pumpio
+</code></pre>
+<p>then chowned my /srv/pump.io dir to that &lsquo;pump.io user.</p>
+<p>his way might be better.</p>
+<p>I start my pump by running this simple bash script so I don&rsquo;t have to remember the syntax:</p>
+<pre><code> #!/bin/bash
+ #/srv/pump.io/startpump.sh
+ sudo forever start -al /srv/pump.io/logs/pump.log /srv/pump.io/bin/pump
+</code></pre>
+<p>To stop the pump, simply:</p>
+<pre><code>sudo forever stopall
+</code></pre>
+<p>or you could <code>forever list</code> and <code>forever stop 0</code> (or whatever index it is).</p>
+<h2 id="nginx">nginx</h2>
+<p>As I mentioned, I&rsquo;m using nginx which seems to be the way to go.</p>
+<pre><code>##########################################################
+# /etc/nginx/conf.d/io.jrobb.org.conf
+
+upstream pumpbackend {
+  server 127.0.0.1:4443 max_fails=3 fail_timeout=30s;
+  server 127.0.0.1:4443 max_fails=3 fail_timeout=60s;
+  server 127.0.0.1:4443 max_fails=3 fail_timeout=90s;
+}
+server {
+  listen 80;
+  server_name io.jrobb.org;
+  rewrite ^ https://io.jrobb.org$request_uri?;
+}
+
+map $http_upgrade $connection_upgrade {
+	default upgrade;
+	''      close;
+	}
+
+server {
+  listen 443 ssl;
+  server_name io.jrobb.org;
+
+  access_log  /var/log/nginx/pump.access.log;
+  error_log  /var/log/nginx/pump.error.log debug;
+
+#  # this is the important chunked encoding stuff
+#  #only for nginx &lt;= 1.3.9 http://wiki.nginx.org/HttpChunkinModule
+#  chunkin on;
+#  error_page 411 = @my_411_error;
+#  location @my_411_error {
+#    chunkin_resume;
+#  }
+
+  ssl_stapling on;
+  ssl_trusted_certificate /etc/nginx/ssl/sub.class1.server.ca.pem;
+  ssl_certificate      /srv/pump.io/ssl/ssl.io.jrobb.org.unified.crt;
+  ssl_certificate_key  /srv/pump.io/ssl/ssl.io.jrobb.org.key;
+
+  include shared/global.conf;
+  client_max_body_size 6m;
+
+  keepalive_timeout 75 75;
+  gzip_vary off;
+
+  location / {
+	proxy_pass https://pumpbackend;
+	proxy_http_version 1.1;
+	proxy_redirect off;
+	proxy_set_header Upgrade $http_upgrade;
+	proxy_set_header Connection $connection_upgrade;
+	proxy_set_header Host $http_host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_buffers 16 32k;
+  }
+}
+</code></pre>
+<p>in sazius&rsquo; post, he mentions the chunkin settings, but that doesn&rsquo;t appear to be necessary in nginx versions &gt; 1.3.9</p>
+<pre><code>##########################################################
+# /etc/nginx/shared/global.conf
+
+location = /favicon.ico {
+	try_files $uri = 204;
+	log_not_found off;
+	access_log off;
+	expires max;
+  }
+
+  location = /robots.txt {
+	allow all;
+	log_not_found off;
+	access_log off;
+  }
+
+  location ~ /\.ht {
+	deny all;
+	access_log off;
+	log_not_found off;
+  }
+
+  location ~* ^.+\.(bzr|git|log)$ {
+	access_log off;
+	log_not_found off;
+	return 444;
+  }
+
+  location ~* ~$ {
+	access_log off;
+	log_not_found off;
+	return 444;
+  }
+
+  error_page 500 502 503 504 /50x.html;
+  location = /50x.html {
+	root /usr/share/nginx/html;
+	internal;
+  }
+  error_page 404 /404.html;
+  location = /404.html {
+	root /usr/share/nginx/html;
+	internal;
+  }
+  error_page 403 /403.html;
+  location = /403.html {
+	root /usr/share/nginx/html;
+	internal;
+  }
+</code></pre>
+<h2 id="running">running</h2>
+<p>That gets everything up and running (or should).  Check the nginx access and error logs for the pump entries.
+Also, to check the pump log using bunyan I just run this file (and edit the level to detect errors vs info):</p>
+<pre><code>#!/bin/bash
+#/srv/pump.io/viewlog.sh
+#tail -f logs/pump.log | bunyan -l 30
+tail -f logs/pump.log | bunyan -l 40
+</code></pre>
+<p>Level 30 is info, and level 40 are errors only.  20 is probably debug. No flag is everything, I believe.</p>
+<p>I&rsquo;m seeing a few &ldquo;proxy failed&rdquo; errors in my logs, but that seems to be normal.
+Everything is still working as it was before (on the vps!).</p>
+<p>A note about the transfer, I had backups of my db, config files and everything.
+It would not be possible to transfer a host without the same secret key and db (or at least the information that was in the db).</p>
+<h2 id="backups">backups</h2>
+<p>For those interested, here&rsquo;s the script I run in a cronjob once or twice a week:</p>
+<pre><code>#!/bin/bash
+#~/scripts/vpsbackup-daily-root.sh
+
+DATE=$(date +&quot;%Y%m%d&quot;)
+BAKDIR='/my/backups/dir'
+TMPDIR=$BAKDIR/DAILY
+TARFLAGS='czvf'
+EXT='tgz'
+#TARFLAGS='cJvf'
+#EXT='tar.xz'
+
+BIGEXT='tgz' #total wrapper
+FNAME='daily'
+PREVIOUS='previous'
+
+#if ! (($(date +&quot;%d&quot;) % 2)); then
+#	FNAME=&quot;daily&quot;
+#else
+#	FNAME=&quot;daily&quot;
+#fi
+
+
+#stop the pump to not interfere with backups
+cd /srv/pump.io
+forever stopall &amp;
+wait
+
+mkdir $TMPDIR
+cd $TMPDIR
+
+touch $DATE.date
+
+#copy come config file backups:
+cp /etc/nginx/sites-available/default ./etc-nginx-sites-available-default
+cp -r /etc/nginx/conf.d ./
+cp /etc/pump.io.json ./etc-pump.io.json
+cp /home/jon/scripts ./
+
+#targzip whole dirs:
+tar -$TARFLAGS $DATE-srv.$EXT /srv/* --exclude=/srv/minecraft/map/*
+tar -$TARFLAGS $DATE-varlib-mongo.$EXT /var/lib/mongodb/*
+tar -$TARFLAGS $DATE-home-scripts.$EXT /home/jon/scripts
+
+#tarball it all up:
+cd ..
+
+#save the previous file (keep 2 backups)
+mv $FNAME.$BIGEXT $PREVIOUS.$BIGEXT
+
+tar -czvf $FNAME.$BIGEXT $TMPDIR
+rm -rf $TMPDIR
+
+chown jon:jon $FNAME.tgz
+
+#start the pump back up
+cd /srv/pump.io
+echo '' &gt; /srv/pump.io/logs/pump.log   #clear the log
+
+
+forever start -al /srv/pump.io/logs/pump.log /srv/pump.io/bin/pump
+</code></pre>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

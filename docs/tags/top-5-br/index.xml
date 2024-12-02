@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top-5 &lt;Br&gt; on jrobb.org</title>
+    <link>https://jrobb.org/tags/top-5-br/</link>
+    <description>Recent content in Top-5 &lt;Br&gt; on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/top-5-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My top 5 Linux Distributions and runners up</title>
+      <link>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running [ArchLinux](&lt;a href=&#34;http://archlinux.org&#34;&gt;http://archlinux.org&lt;/a&gt;&amp;quot; target=&amp;quot;_blank) on my desktop for a couple of years now, but these days I am getting on that computer less and less.  Little enough that I worry that my infrequency of system updates may cause some breakage.  To-date, I have not had any problems, but it could happen.&lt;/p&gt;&#xA;&lt;p&gt;This desktop hosts pictures, and runs ssh, samba, and cups primarily.  So, I was considering hopping to another distro that would possibly be more stable and run for longer periods without a need for manual updates.  After some discussion on [identi.ca](&lt;a href=&#34;http://identi.ca&#34;&gt;http://identi.ca&lt;/a&gt;&amp;quot; target=&amp;quot;_blank), I think I will be fine staying with Arch, though&amp;ndash;I believe I can still manage to update once a month or so. :-)&lt;/p&gt;&#xA;&lt;p&gt;I figure I will go ahead and re-detail my top 5 favorite Linux distros while I&amp;rsquo;m thinking about it, though. These are in order of my personal preference of use from past distro-hopping adventures:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

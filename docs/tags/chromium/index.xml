@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chromium on jrobb.org</title>
+    <link>https://jrobb.org/tags/chromium/</link>
+    <description>Recent content in Chromium on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/chromium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Chromium on Fedora 14</title>
+      <link>https://jrobb.org/blog/installing-chromium-on-fedora-14/</link>
+      <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/installing-chromium-on-fedora-14/</guid>
+      <description>This is very easy&amp;hellip;actually I think it is too easy to even blog about&amp;hellip; but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.&#xA;[code] #filename: fedora-chromium.repo&#xA;Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0&#xA;[fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 [/code]&#xA;After that, ran a &amp;ldquo;yum update&amp;rdquo; and &amp;ldquo;yum install chromium&amp;rdquo;, and that was it!</description>
+    </item>
+    <item>
+      <title>Some web browser wars and the US reneges on 039leave Internet alone039 policy</title>
+      <link>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</link>
+      <pubDate>Sat, 27 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</guid>
+      <description>I wrote a [little something](http://factorq.net/2010/02/20/browsers-etc/&amp;quot; target=&amp;quot;_blank) about browsers not too long ago, but this is in quite a bit more details and compares several different browsers:&#xA;[Review: Linux browsers, Part 1](http://www.raiden.net/articles/review_linux_browsers_part_1/&amp;quot; target=&amp;quot;_blank) - Arora, Chromium, Dillo, Epiphany, Firefox and Galeon. In part 2, we&amp;rsquo;ll look at HV3, Kazehakaze, Midori, and Opera&#xA;[Review: Linux browsers, Part 2](http://www.raiden.net/articles/review_linux_browsers_part_2/&amp;quot; target=&amp;quot;_blank) - HV3, Kazehakaze, Midori, Opera and compare test results.&#xA;I think he has inspired me to try out some of these other browsers(on my laptop, Firefox actually runs fine on my desktop, and I do prefer it&amp;hellip;for now)&amp;ndash;I am especially interested in Epiphany, Midori and Opera.</description>
+    </item>
+    <item>
+      <title>Browsers etc.</title>
+      <link>https://jrobb.org/blog/browsers-etc./</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/browsers-etc./</guid>
+      <description>I had used[ firefox](http://www.mozilla.com/firefox/&amp;quot; target=&amp;quot;_blank) for a long time, and then recently started using [chrome](http://www.google.com/chrome&amp;quot; target=&amp;quot;_blank) / [chromium](http://code.google.com/chromium/&amp;quot; target=&amp;quot;_blank). It is nice in that it is faster, and load times are good. however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn&amp;rsquo;t even an option in my opinion.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on jrobb.org</title>
+    <link>https://jrobb.org/tags/cloud/</link>
+    <description>Recent content in Cloud on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Dec 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More backups this time in the &#34;cloud&#34;</title>
+      <link>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</link>
+      <pubDate>Sat, 04 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</guid>
+      <description>My wife was very concerned about the viability of our photos and things in the event of a house fire, or theft, or some other horrible event. I have an existing backup solution in-home, which would suffice for a drive failure or anything like that. What we have been lacking is an off-site backup, and after looking around at several options, I settled on JungleDisk. This service offers automated backups, directory syncing, and the ability to encrypt the disk and files.</description>
+    </item>
+  </channel>
+</rss>

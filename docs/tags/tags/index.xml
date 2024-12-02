@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on jrobb.org</title>
+    <link>https://jrobb.org/tags/tags/</link>
+    <description>Recent content in Tags on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Captcha and Tagger thing</title>
+      <link>https://jrobb.org/blog/captcha-and-tagger-thing/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/captcha-and-tagger-thing/</guid>
+      <description>So I wanted to enable the commentation on my blog, but hl&amp;ndash; does not incorporate any spam control by default.&#xA;Luckily, however, @jezra has made a post on this very same subject in the past.&#xA;Using his code adapted into my php stuffs, it appears to work perfectly!&#xA;I did go back as Jezra suggested and convert it to use a SESSION variable, I also made it change the problem more often.</description>
+    </item>
+  </channel>
+</rss>

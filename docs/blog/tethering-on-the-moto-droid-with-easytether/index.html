@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Tethering on the Moto Droid with EasyTether // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tethering on the Moto Droid with EasyTether">
+  <meta name="twitter:description" content="This is really great, and extremely easy. I have [NYBill](http://identi.ca/NYBill&#34; target=&#34;_blank) to thank for finding out about this.
+There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&#34; target=&#34;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
+EasyTether is in the Android Market (as well as an EasyTether Lite, which can’t connect to https, among other things).
+Once you install and run the app, it can download the driver file which is a .">
+
+    <meta property="og:url" content="https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="Tethering on the Moto Droid with EasyTether">
+  <meta property="og:description" content="This is really great, and extremely easy. I have [NYBill](http://identi.ca/NYBill&#34; target=&#34;_blank) to thank for finding out about this.
+There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&#34; target=&#34;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
+EasyTether is in the Android Market (as well as an EasyTether Lite, which can’t connect to https, among other things).
+Once you install and run the app, it can download the driver file which is a .">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2010-07-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2010-07-14T00:00:00+00:00">
+    <meta property="article:tag" content="Jbs">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Android">
+    <meta property="article:tag" content="Droid">
+    <meta property="article:tag" content="Easytether">
+    <meta property="article:tag" content="Tether ">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="https://avatars.githubusercontent.com/u/850844?v=4" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/posts/">Blog</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/about-hugo/">About Hugo</a>
+      </nav>
+      <p>???</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Tethering on the Moto Droid with EasyTether</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Jul 14, 2010
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          2 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="https://jrobb.org/tags/jbs/">Jbs</a>
+              <a class="tag" href="https://jrobb.org/tags/linux/">Linux</a>
+              <a class="tag" href="https://jrobb.org/tags/android/">Android</a>
+              <a class="tag" href="https://jrobb.org/tags/droid/">Droid</a>
+              <a class="tag" href="https://jrobb.org/tags/easytether/">Easytether</a>
+              <a class="tag" href="https://jrobb.org/tags/tether-br/">Tether &lt;Br&gt;</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>This is really great, and extremely easy.  I have [NYBill](<a href="http://identi.ca/NYBill%22">http://identi.ca/NYBill&quot;</a> target=&quot;_blank) to thank for finding out about this.</p>
+<p>There is a tutorial from [here](<a href="http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives%22">http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&quot;</a> target=&quot;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).</p>
+<p>EasyTether is in the Android Market  (as well as an EasyTether Lite, which can&rsquo;t connect to https, among other things).</p>
+<p>Once you install and run the app, it can download the driver file which is a .deb package.  There are also windows drivers, but I don&rsquo;t know anything about those&hellip;</p>
+<p>Anyway, connect to usb, and enable the usb so that the phone is mountable. copy or install the .deb from the phone.</p>
+<p>After installation, UnMount the phone (leaving the USB connected) and start EasyTether on the Droid.</p>
+<p>On the PC, open a terminal and type</p>
+<!-- raw HTML omitted -->
+<p>This returns an ID of the device.  Capture this ID and paste it into the ##### in the command below:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>This will connect the droid, as well as give you a command which you need to type into another terminal to configure the connection.  This command needs to be entered into a separate terminal window, which can be closed after this command is executed.  *The first window needs to stay open!</p>
+<!-- raw HTML omitted -->
+<p>The second terminal window can now be closed.  The first window needs to be left open for the entire session, and when you wish to disconnect, this can be done by pressing CTRL-C in that first terminal window to exit.</p>
+<p><!-- raw HTML omitted -->Update:<!-- raw HTML omitted -->
+In order to make my life easier, I made a couple of entries into my ~/.bashrc file for these commands:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>(as of this writing, this method still works with Android 2.2)</p>
+<!-- raw HTML omitted -->
+<p>e</p>
+<!-- raw HTML omitted -->
+<p>tags: #linux</p>
+<p>Tags:  #android #droid #easytether #tether</p>
+<p>Published Date: Wed, 14 Jul 2010 15:32:50 +0000</p>
+<p><a href="http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/">Original URL</a> | <a href="http://factorq.net/?p=352">Original guid</a> | PostID= 352</p>
+<p>original filename: 125</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on jrobb.org</title>
+    <link>https://jrobb.org/tags/code/</link>
+    <description>Recent content in Code on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Feb 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control synopsis git vs fossil</title>
+      <link>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</link>
+      <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve mentioned recently that I &lt;a href=&#34;?article=161&#34;&gt;started using Git&lt;/a&gt; for my version control needs.&lt;br&gt;&#xA;This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.&lt;/p&gt;&#xA;&lt;p&gt;Now at work in my department we only have two software guys: another guy and myself.&lt;br&gt;&#xA;We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things.&#xA;On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on.  If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes.  Hardly efficient, but it has worked okay up until this point.  Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.&lt;/p&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://git-scm.com/&#34;&gt;git&lt;/a&gt;, and love it.  Steve (the other guy) has heard of &lt;a href=&#34;http://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki&#34;&gt;fossil&lt;/a&gt;, and wanted me to evaluate these two main contenders.  While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.&lt;/p&gt;&#xA;&lt;p&gt;Go ahead and skip it if you aren&amp;rsquo;t already interested :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Got it to work...the code display thing</title>
+      <link>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</guid>
+      <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
+    </item>
+    <item>
+      <title>my project site is fancy</title>
+      <link>https://jrobb.org/blog/my-project-site-is-fancy/</link>
+      <pubDate>Tue, 17 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/my-project-site-is-fancy/</guid>
+      <description>much more so than this wordpress stuff&amp;hellip;.&#xA;haha! So, I guess I consider this blog (factorq.net) my &amp;ldquo;personal blog&amp;rdquo; of any variety of opinionation and open source and other ramblings. My other website, jrob.co.cc (now jrobb.org), I suppose is my site dedicated to projects I work on and develop.&#xA;At work, I have several programs that I have developed, mostly all under the umbrella of one large program&amp;ndash;all written in VB6, unfortunately.</description>
+    </item>
+    <item>
+      <title>Thoughts on Free and Open Source Software as it relates to me right now</title>
+      <link>https://jrobb.org/blog/thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now/</link>
+      <pubDate>Mon, 12 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now/</guid>
+      <description>&lt;p&gt;Free/Libre and Open Source Software (FOSS, or FLOSS, or F/LOSS) should be &amp;ldquo;liberally &lt;!-- raw HTML omitted --&gt;licensed&lt;!-- raw HTML omitted --&gt; to grant the right of users to use, study, change, and improve its design through the availability of its [source code](&lt;a href=&#34;http://en.wikipedia.org/wiki/Source_code%22&#34;&gt;http://en.wikipedia.org/wiki/Source_code&amp;quot;&lt;/a&gt; target=&amp;quot;_blank)&amp;rdquo;  (&lt;a href=&#34;http://en.wikipedia.org/wiki/Free_and_open_source_software&#34;&gt;Wikipedia&lt;/a&gt;).  [Here](&lt;a href=&#34;http://linuxoutlaws.com/explanation/foss%22&#34;&gt;http://linuxoutlaws.com/explanation/foss&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) is another description from the Linux Outlaws page.&lt;/p&gt;&#xA;&lt;p&gt;The whole idea behind this, I believe, is the availablility and portability of the source code, as well as the freedom for users to modify and distribute the code as they see fit.  All well and good, I think&amp;ndash;definitely not a bad thing, and this is something I can support.&lt;/p&gt;&#xA;&lt;p&gt;The conundrum that I have is that for the past 4 or so years I have been programming almost exclusively in MS Visual Basic (classic, 6), with just a touch in C for micro controllers.  Only recently have we started the [conversion to PureBasic](&lt;a href=&#34;http://factorq.net/2010/02/06/switching-code/%22&#34;&gt;http://factorq.net/2010/02/06/switching-code/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank), which allows for us to compile cross-platform.  So what I am wondering is this: if I create some project using this language and free the source code with something like a GPLv3 license, would this even be valid since the compiler itself is not FOSS which could restrict distribution or other end-user freedoms and things of that sort? Would that be like the Mono projects?&lt;/p&gt;&#xA;&lt;p&gt;If that would not &amp;ldquo;count&amp;rdquo;, or in the more likely case, if it would be shunned by the FOSS community I would rather not even waste my time.  In that event, I would much rather get out all of my old C++ books and browse some source code to brush up/re-learn what I have forgotten.  Or maybe learn Java, or Python, or&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;This would be a much slower process, but if it is the &amp;ldquo;right way&amp;rdquo; then that is what I would have to do.   It isn&amp;rsquo;t like I even have a very good idea for a project anyway, just some [passing thoughts ](&lt;a href=&#34;http://factorq.net/2010/07/03/project-or-masters/%22&#34;&gt;http://factorq.net/2010/07/03/project-or-masters/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank)as arguments against going back to school&amp;ndash; So there is plenty of time for me to caught up, I am just impatient.&lt;/p&gt;&#xA;&lt;p&gt;What is the consensus here?  Is it wrong by the FOSS standards to use a non-open source compiler, for an otherwise open and free project?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project or Masters</title>
+      <link>https://jrobb.org/blog/project-or-masters/</link>
+      <pubDate>Sat, 03 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/project-or-masters/</guid>
+      <description>I had been planning to back to school to get my masters degree in Computer Science (or maybe Information Systems)&amp;ndash;Work would pay for the schooling as long as I made at least a B, and all of that would be well and good. However, it would take me 5 or 6 years to complete the program, and it would take up a lot of time.&#xA;I am now trying to decide if I would rather do that, or just undertake creating some project program or something on Linux for open source (or maybe for Android).</description>
+    </item>
+  </channel>
+</rss>
