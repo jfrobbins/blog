@@ -5,15 +5,15 @@ title = 'jrobb.org'
 theme = "hugo-theme-m10c"
 publishDir = "docs"
 
-
-
-author = "Jon Robbins"
-description = "???"
-avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
-# menu_item_separator = "-"
-# favicon = /favicon.ico"
-
 # https://themes.gohugo.io/themes/hugo-theme-m10c/
+
+[params]
+  author = "Jon Robbins"
+  description = "???"
+  avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
+  # menu_item_separator = "-"
+  # favicon = /favicon.ico"
+
 
 [[params.social]]
   icon = "brand-github"
