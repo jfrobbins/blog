@@ -1,5 +1,5 @@
-baseURL = "https://jfrobbins.github.io/blog" # For user/organization pages
-# baseURL = 'https://jrobb.org/'
+#baseURL = "https://jfrobbins.github.io/blog" # For user/organization pages
+baseURL = 'https://jrobb.org/'
 languageCode = 'en-us'
 title = 'jrobb.org'
 theme = "hugo-theme-m10c"
