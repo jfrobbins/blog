@@ -6,15 +6,8 @@
     <description>Recent content on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2024 08:07:33 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>20241202 My First Post</title>
-      <link>https://jrobb.org/posts/20241202-my-first-post/</link>
-      <pubDate>Mon, 02 Dec 2024 08:07:33 -0500</pubDate>
-      <guid>https://jrobb.org/posts/20241202-my-first-post/</guid>
-      <description>this is a test, just a test.&#xA;test test test OK.</description>
-    </item>
     <item>
       <title>Bitmessage</title>
       <link>https://jrobb.org/crypto/bitmessage/</link>
@@ -128,7 +121,7 @@
       <description>As I mentioned in my fq blog post, 2010 is coming to an end. Also, today is my son&amp;rsquo;s birthday! He turned 2 years old today, and for the next week or so, he and my daughter are the same age (then she turns 3, of course).&#xA;I&amp;rsquo;m updating this blog from my chair, on my laptop, trying to catch up on LinuxOutlaws podcasts which I am listening to on my Droid phone (I am still at least 10 episodes behind).</description>
     </item>
     <item>
-      <title>2010 is coming to a close  Happy New Year</title>
+      <title>2010 is coming to a close - Happy New Year</title>
       <link>https://jrobb.org/blog/2010-is-coming-to-a-close--happy-new-year/</link>
       <pubDate>Thu, 30 Dec 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/2010-is-coming-to-a-close--happy-new-year/</guid>
@@ -143,13 +136,13 @@
     </item>
     <item>
       <title>More backups this time in the &#34;cloud&#34;</title>
-      <link>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</link>
+      <link>https://jrobb.org/blog/more-backups-this-time-in-the-cloud/</link>
       <pubDate>Sat, 04 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</guid>
+      <guid>https://jrobb.org/blog/more-backups-this-time-in-the-cloud/</guid>
       <description>My wife was very concerned about the viability of our photos and things in the event of a house fire, or theft, or some other horrible event. I have an existing backup solution in-home, which would suffice for a drive failure or anything like that. What we have been lacking is an off-site backup, and after looking around at several options, I settled on JungleDisk. This service offers automated backups, directory syncing, and the ability to encrypt the disk and files.</description>
     </item>
     <item>
-      <title>Just a little test with a new toy</title>
+      <title>Just a little test with a new toy - m1911</title>
       <link>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</link>
       <pubDate>Mon, 08 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</guid>
@@ -226,11 +219,11 @@
       <description>I&amp;rsquo;ve put my bike up for sale&amp;hellip;the ad/info/pictures are here: [jrob.co.cc/forsale/2005sv650/](http://jrob.co.cc/forsale/2005sv650/&amp;quot; target=&amp;quot;_blank). Ideally this will sell so I can use the funds to fix my jeep in a more timely manner. Although I did have a pretty sweet deal worked out for a Dana 60 front and Dana 70u rear, it didn&amp;rsquo;t really appear that would work out&amp;ndash;the front was PSD, and I need DSD (without significantly more work/money). So, it looks like I am going to be going with a Dana 44 front / Ford 9&amp;quot; rear as long as we can work something out with pricing.</description>
     </item>
     <item>
-      <title>Interesting Reads and How To039s</title>
-      <link>https://jrobb.org/blog/interesting-reads-and-how-to039s/</link>
+      <title>Interesting Reads and How To</title>
+      <link>https://jrobb.org/blog/interesting-reads-and-how-to/</link>
       <pubDate>Wed, 04 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/interesting-reads-and-how-to039s/</guid>
-      <description>tags: #&#xA;Published Date: Wed, 04 Aug 2010 11:12:31 +0000&#xA;Original URL | Original guid | PostID= 402&#xA;original filename: 141</description>
+      <guid>https://jrobb.org/blog/interesting-reads-and-how-to/</guid>
+      <description>Published Date: Wed, 04 Aug 2010 11:12:31 +0000&#xA;Original URL | Original guid | PostID= 402&#xA;original filename: 141</description>
     </item>
     <item>
       <title>2010.07.31 URE ghetto rig</title>
@@ -335,7 +328,7 @@
       <link>https://jrobb.org/blog/some-recent-distro-hoppage/</link>
       <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/some-recent-distro-hoppage/</guid>
-      <description>&lt;p&gt;I did have [Jolicloud](&lt;a href=&#34;http://www.jolicloud.com/%22&#34;&gt;http://www.jolicloud.com/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) on my eeePC (900A), and it was fine for a while.  Actually, it was a pretty neat distro.  However when you try to install things using apt-get like a normal distro instead of through the &amp;ldquo;app cloud&amp;rdquo;, some things stop working and it goes downhil.  This, combined with me itching to hop a couple of distros let me to switch.&lt;/p&gt;&#xA;&lt;p&gt;So I started out using [UNetBootin](&lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;amp;source=web&amp;amp;amp;cd=1&amp;amp;amp;ved=0CBsQFjAA&amp;amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg%22&#34;&gt;http://www.google.com/url?sa=t&amp;amp;amp;source=web&amp;amp;amp;cd=1&amp;amp;amp;ved=0CBsQFjAA&amp;amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) to create a Live USB stick for [Fedora 13](&lt;a href=&#34;http://distrowatch.com/fedora%22&#34;&gt;http://distrowatch.com/fedora&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) (LXDE), and installed on the EEE.  The eee is actually pretty well supported with Fedora, including the wireless (on the 900 model that I have, the 1100+ may be a different story).  This was okay, except that it was not optimized for the small screen, and some of the GUI prompts actually hung off of the screen.  Not to mention I was missing some &amp;ldquo;tap and click&amp;rdquo; functionality of the trackpad thing.  Total time installed&amp;hellip;. about 4 hours.&lt;/p&gt;&#xA;&lt;p&gt;From this point on&amp;hellip;I had a bit of trouble.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I did have &lt;a href=&#34;http://www.jolicloud.com/&#34;&gt;Jolicloud&lt;/a&gt; on my eeePC (900A), and it was fine for a while.  Actually, it was a pretty neat distro.  However when you try to install things using apt-get like a normal distro instead of through the &amp;ldquo;app cloud&amp;rdquo;, some things stop working and it goes downhil.  This, combined with me itching to hop a couple of distros let me to switch.&lt;/p&gt;&#xA;&lt;p&gt;So I started out using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CBsQFjAA&amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg&#34;&gt;UNetBootin&lt;/a&gt; to create a Live USB stick for &lt;a href=&#34;http://distrowatch.com/fedora&#34;&gt;Fedora 13&lt;/a&gt; (LXDE), and installed on the EEE.  The eee is actually pretty well supported with Fedora, including the wireless (on the 900 model that I have, the 1100+ may be a different story).  This was okay, except that it was not optimized for the small screen, and some of the GUI prompts actually hung off of the screen.  Not to mention I was missing some &amp;ldquo;tap and click&amp;rdquo; functionality of the trackpad thing.  Total time installed&amp;hellip;. about 4 hours.&lt;/p&gt;&#xA;&lt;p&gt;From this point on&amp;hellip;I had a bit of trouble.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tethering on the Moto Droid with EasyTether</title>
@@ -398,7 +391,7 @@
       <link>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</link>
       <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been running [ArchLinux](&lt;a href=&#34;http://archlinux.org&#34;&gt;http://archlinux.org&lt;/a&gt;&amp;quot; target=&amp;quot;_blank) on my desktop for a couple of years now, but these days I am getting on that computer less and less.  Little enough that I worry that my infrequency of system updates may cause some breakage.  To-date, I have not had any problems, but it could happen.&lt;/p&gt;&#xA;&lt;p&gt;This desktop hosts pictures, and runs ssh, samba, and cups primarily.  So, I was considering hopping to another distro that would possibly be more stable and run for longer periods without a need for manual updates.  After some discussion on [identi.ca](&lt;a href=&#34;http://identi.ca&#34;&gt;http://identi.ca&lt;/a&gt;&amp;quot; target=&amp;quot;_blank), I think I will be fine staying with Arch, though&amp;ndash;I believe I can still manage to update once a month or so. :-)&lt;/p&gt;&#xA;&lt;p&gt;I figure I will go ahead and re-detail my top 5 favorite Linux distros while I&amp;rsquo;m thinking about it, though. These are in order of my personal preference of use from past distro-hopping adventures:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been running &lt;a href=&#34;http://archlinux.org&#34;&gt;ArchLinux&lt;/a&gt; on my desktop for a couple of years now, but these days I am getting on that computer less and less.  Little enough that I worry that my infrequency of system updates may cause some breakage.  To-date, I have not had any problems, but it could happen.&lt;/p&gt;&#xA;&lt;p&gt;This desktop hosts pictures, and runs ssh, samba, and cups primarily.  So, I was considering hopping to another distro that would possibly be more stable and run for longer periods without a need for manual updates.  After some discussion on &lt;a href=&#34;http://identi.ca&#34;&gt;identi.ca&lt;/a&gt;, I think I will be fine staying with Arch, though&amp;ndash;I believe I can still manage to update once a month or so. :-)&lt;/p&gt;&#xA;&lt;p&gt;I figure I will go ahead and re-detail my top 5 favorite Linux distros while I&amp;rsquo;m thinking about it, though. These are in order of my personal preference of use from past distro-hopping adventures:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>a couple of links</title>
@@ -468,7 +461,7 @@
       <link>https://jrobb.org/blog/snippets/</link>
       <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/snippets/</guid>
-      <description>tags: #&#xA;Published Date: Wed, 16 Jun 2010 17:05:44 +0000&#xA;Original URL | Original guid | PostID= 273&#xA;original filename: 110</description>
+      <description>Code Snippets: I hope these can be useful to you, feel free to share.&#xA;[Output HTML from 2D array](http://www.purebasic.fr/english/viewtopic.php?f=12&amp;amp;amp;t=41768&amp;quot; target=&amp;quot;_blank) [&amp;lsquo;ByRef&amp;rsquo; Strings in PureBasic](http://www.purebasic.fr/english/viewtopic.php?f=13&amp;amp;amp;t=36831&amp;amp;amp;p=326845#p326845&amp;quot; target=&amp;quot;_blank) Published Date: Wed, 16 Jun 2010 17:05:44 +0000&#xA;Original URL | Original guid | PostID= 273&#xA;original filename: 110</description>
     </item>
     <item>
       <title>New server</title>
@@ -485,10 +478,10 @@
       <description>Over the weekend I had some time and then decided to do something I had always wanted to do: create an http server. I was using my desktop, which runs [Arch](http://archlinux.org&amp;quot; target=&amp;quot;_blank) of course, and went through several of [these links](http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;amp;action=display&amp;amp;amp;thread=56&amp;amp;amp;page=1&amp;quot; target=&amp;quot;_blank) and set my desktop up with Apache, PHP, and MySQL. Also, I installed vsftp as an FTP server.&#xA;I even signed up with DynDNS so that my dynamic IP can be updated to a (sub)domain and etc etc.</description>
     </item>
     <item>
-      <title>Some web browser wars and the US reneges on 039leave Internet alone039 policy</title>
-      <link>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</link>
+      <title>Some web browser wars and the US reneges on &#34;leave Internet alone&#34; policy</title>
+      <link>https://jrobb.org/blog/some-web-browser-wars-and-leave-internet-alone/</link>
       <pubDate>Sat, 27 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</guid>
+      <guid>https://jrobb.org/blog/some-web-browser-wars-and-leave-internet-alone/</guid>
       <description>I wrote a [little something](http://factorq.net/2010/02/20/browsers-etc/&amp;quot; target=&amp;quot;_blank) about browsers not too long ago, but this is in quite a bit more details and compares several different browsers:&#xA;[Review: Linux browsers, Part 1](http://www.raiden.net/articles/review_linux_browsers_part_1/&amp;quot; target=&amp;quot;_blank) - Arora, Chromium, Dillo, Epiphany, Firefox and Galeon. In part 2, we&amp;rsquo;ll look at HV3, Kazehakaze, Midori, and Opera&#xA;[Review: Linux browsers, Part 2](http://www.raiden.net/articles/review_linux_browsers_part_2/&amp;quot; target=&amp;quot;_blank) - HV3, Kazehakaze, Midori, Opera and compare test results.&#xA;I think he has inspired me to try out some of these other browsers(on my laptop, Firefox actually runs fine on my desktop, and I do prefer it&amp;hellip;for now)&amp;ndash;I am especially interested in Epiphany, Midori and Opera.</description>
     </item>
     <item>
@@ -496,7 +489,7 @@
       <link>https://jrobb.org/blog/just-a-few-interesting-points/</link>
       <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/just-a-few-interesting-points/</guid>
-      <description>I&amp;rsquo;m glad I am not the only one that feels this way about Google:&#xA;[Anti-Google Sentiment Reaches a Tipping Point](http://www.daniweb.com/news/story262879.html&amp;quot; target=&amp;quot;_blank) Since [my last topic](http://factorq.net/2010/02/22/making-backups/&amp;quot; target=&amp;quot;_blank) was backups, and today is Backup Awareness day, here is another post about: [http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt](http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt&amp;quot; target=&amp;quot;_blank) This would be interesting to read from the beginning: [&amp;ldquo;Building an all-text Linux workstation&amp;rdquo;](http://lcorg.blogspot.com/2010/01/building-all-text-linux-workstation.html&amp;quot; target=&amp;quot;_blank), current part is part 11. I went back to find part 8 and then gave up, part 1 is back in time somewhere!</description>
+      <description>I&amp;rsquo;m glad I am not the only one that feels this way about Google:&#xA;Anti-Google Sentiment Reaches a Tipping Point Since my last topic was backups, and today is Backup Awareness day, here is another post about: http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt This would be interesting to read from the beginning: &amp;ldquo;Building an all-text Linux workstation&amp;rdquo;, current part is part 11. I went back to find part 8 and then gave up, part 1 is back in time somewhere!</description>
     </item>
     <item>
       <title>Making Backups</title>
@@ -563,9 +556,9 @@
     </item>
     <item>
       <title>Ron Paul039s Audit the Fed Bill Passes 218 Cosponsors</title>
-      <link>https://jrobb.org/blog/ron-paul039s-audit-the-fed-bill-passes-218-cosponsors/</link>
+      <link>https://jrobb.org/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</link>
       <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/ron-paul039s-audit-the-fed-bill-passes-218-cosponsors/</guid>
+      <guid>https://jrobb.org/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</guid>
       <description>Dear Friend of Liberty,&#xA;We wanted to make sure you were the first to know that your hard work and dedication has resulted in Ron Paul&amp;rsquo;s Audit the Fed bill, HR 1207, gaining the support of a majority of the House of Representatives!&#xA;Just moments ago, Dr. Paul&amp;rsquo;s congressional office issued a press release announcing that HR 1207 had received its 218th cosponsor, and that the list has now grown to 222!</description>
     </item>
     <item>

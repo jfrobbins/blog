@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jrobb.org/posts/20241202-my-first-post/</loc>
-    <lastmod>2024-12-02T08:07:33-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-02T08:07:33-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-02T08:07:33-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/crypto/bitmessage/</loc>
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,6 +9,9 @@
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/crypto/</loc>
+    <lastmod>2015-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/</loc>
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/</loc>
@@ -191,34 +185,16 @@
     <loc>https://jrobb.org/blog/2010-is-coming-to-a-close--happy-new-year/</loc>
     <lastmod>2010-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/life-br/</loc>
-    <lastmod>2010-12-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/2010-christmas/</loc>
     <lastmod>2010-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/backup/</loc>
+    <loc>https://jrobb.org/tags/backups/</loc>
     <lastmod>2010-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/cloud/</loc>
+    <loc>https://jrobb.org/blog/more-backups-this-time-in-the-cloud/</loc>
     <lastmod>2010-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/linux-br/</loc>
-    <lastmod>2010-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/blog/more-backups-this-time-in-the-quotcloudquot/</loc>
-    <lastmod>2010-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/.45-acp/</loc>
-    <lastmod>2010-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/ammo-test/</loc>
-    <lastmod>2010-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</loc>
-    <lastmod>2010-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/m1911-br/</loc>
     <lastmod>2010-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/general-update/</loc>
@@ -227,22 +203,13 @@
     <loc>https://jrobb.org/tags/jeep/</loc>
     <lastmod>2010-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/anastasia/</loc>
-    <lastmod>2010-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/bike-repair/</loc>
-    <lastmod>2010-10-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/checking-in/</loc>
-    <lastmod>2010-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/wheels-br/</loc>
     <lastmod>2010-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/accident/</loc>
     <lastmod>2010-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/motorcycle-br/</loc>
+    <loc>https://jrobb.org/tags/motorcycle/</loc>
     <lastmod>2010-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/wrecked-my-bike-yesterday/</loc>
@@ -266,37 +233,16 @@
     <loc>https://jrobb.org/blog/jeep-rebuild-dana-60-time/</loc>
     <lastmod>2010-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/yj-br/</loc>
-    <lastmod>2010-09-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/jeep-teardown-part-ii--the-rear/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/jeep-stuff/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/suspension-br/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/the-jeep-teardown-begins/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/upgrades-br/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/wpid-img_20100821_122403.jpg/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/development/</loc>
-    <lastmod>2010-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/lightweight/</loc>
-    <lastmod>2010-08-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/my-project-site-is-fancy/</loc>
-    <lastmod>2010-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/software-br/</loc>
     <lastmod>2010-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/bash/</loc>
@@ -308,16 +254,7 @@
     <loc>https://jrobb.org/blog/bike-jeep-image-scripting/</loc>
     <lastmod>2010-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/motorcycle/</loc>
-    <lastmod>2010-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/outlaws-br/</loc>
-    <lastmod>2010-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/039s/</loc>
-    <lastmod>2010-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/blog/interesting-reads-and-how-to039s/</loc>
+    <loc>https://jrobb.org/blog/interesting-reads-and-how-to/</loc>
     <lastmod>2010-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/2010.07.31-ure-ghetto-rig/</loc>
@@ -359,29 +296,11 @@
     <loc>https://jrobb.org/blog/error-page/</loc>
     <lastmod>2010-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/arch/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/encrypted/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/encrypted_socks_tunnel/</loc>
+    <loc>https://jrobb.org/tags/encryption/</loc>
     <lastmod>2010-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</loc>
     <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/ssh/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tether/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tunnel-br/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/drama/</loc>
-    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/foss/</loc>
     <lastmod>2010-07-16T00:00:00+00:00</lastmod>
@@ -389,20 +308,8 @@
     <loc>https://jrobb.org/tags/gpl/</loc>
     <lastmod>2010-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/pearson/</loc>
-    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/thesis/</loc>
-    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/wordpress-br/</loc>
-    <lastmod>2010-07-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/wordpress-gpl-drama.../</loc>
     <lastmod>2010-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/crunchbang/</loc>
-    <lastmod>2010-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/some-recent-distro-hoppage/</loc>
     <lastmod>2010-07-15T00:00:00+00:00</lastmod>
@@ -410,13 +317,7 @@
     <loc>https://jrobb.org/tags/android/</loc>
     <lastmod>2010-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/droid/</loc>
-    <lastmod>2010-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/easytether/</loc>
-    <lastmod>2010-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tether-br/</loc>
+    <loc>https://jrobb.org/tags/tether/</loc>
     <lastmod>2010-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/</loc>
@@ -425,13 +326,10 @@
     <loc>https://jrobb.org/blog/thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now/</loc>
     <lastmod>2010-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/heybuddy/</loc>
-    <lastmod>2010-07-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/identi.ca-client-heybuddy/</loc>
     <lastmod>2010-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/identica-br/</loc>
+    <loc>https://jrobb.org/tags/statusnet/</loc>
     <lastmod>2010-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/arch_schwag-20100707/</loc>
@@ -458,9 +356,6 @@
     <loc>https://jrobb.org/tags/this/</loc>
     <lastmod>2010-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/identica/</loc>
-    <lastmod>2010-07-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/project-or-masters/</loc>
     <lastmod>2010-07-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -468,9 +363,6 @@
     <lastmod>2010-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/my-top-5-linux-distributions-and-runners-up/</loc>
-    <lastmod>2010-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/top-5-br/</loc>
     <lastmod>2010-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/a-couple-of-links/</loc>
@@ -497,12 +389,6 @@
     <loc>https://jrobb.org/blog/mobile-is-the-future/</loc>
     <lastmod>2010-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/smartphones/</loc>
-    <lastmod>2010-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tech-br/</loc>
-    <lastmod>2010-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/custom_dns/</loc>
     <lastmod>2010-06-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -518,9 +404,6 @@
     <loc>https://jrobb.org/blog/forums/</loc>
     <lastmod>2010-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/p326845/</loc>
-    <lastmod>2010-06-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/programs/</loc>
     <lastmod>2010-06-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -530,79 +413,19 @@
     <loc>https://jrobb.org/blog/new-server/</loc>
     <lastmod>2010-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/apache/</loc>
-    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/ftp/</loc>
-    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/http/</loc>
-    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</loc>
     <lastmod>2010-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/mysql/</loc>
-    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/www-br/</loc>
-    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/039leave/</loc>
+    <loc>https://jrobb.org/blog/some-web-browser-wars-and-leave-internet-alone/</loc>
     <lastmod>2010-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/browser/</loc>
-    <lastmod>2010-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/internet/</loc>
-    <lastmod>2010-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/blog/some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy/</loc>
-    <lastmod>2010-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/backups/</loc>
-    <lastmod>2010-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/e2010-02-24t20_31_15txt/</loc>
-    <lastmod>2010-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/e2010-02-24t20_31_15txta/</loc>
-    <lastmod>2010-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/google/</loc>
-    <lastmod>2010-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/just-a-few-interesting-points/</loc>
     <lastmod>2010-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/data/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/first/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/incremental/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/making-backups/</loc>
     <lastmod>2010-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/qa/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/raid/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/rdup/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/rsync-br/</loc>
-    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/browsers-etc./</loc>
-    <lastmod>2010-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/ie-br/</loc>
     <lastmod>2010-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/bsd/</loc>
@@ -612,9 +435,6 @@
     <lastmod>2010-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/some-stuffs/</loc>
-    <lastmod>2010-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/windows-br/</loc>
     <lastmod>2010-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/congressman-ron-paul-on-healthcare-video/</loc>
@@ -635,7 +455,7 @@
     <loc>https://jrobb.org/blog/people-are-not-smart-enough-to-make-their-own-decisions.../</loc>
     <lastmod>2009-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/blog/ron-paul039s-audit-the-fed-bill-passes-218-cosponsors/</loc>
+    <loc>https://jrobb.org/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</loc>
     <lastmod>2009-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/about/</loc>
