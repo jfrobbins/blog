@@ -12,8 +12,6 @@ tags:
 - bsd
 - gpl
 - jolicloud
-- linux
-- windows <br>
 title: some stuffs
 ---
 

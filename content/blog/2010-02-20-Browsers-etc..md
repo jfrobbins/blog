@@ -6,14 +6,7 @@ draft: false
 modified: '2010-02-20T00:00:00'
 slug: browsers-etc.
 tags:
-- jbs
-- Random
-- browser
-- chrome
-- chromium
-- firefox
-- google
-- IE <br>
+- random
 title: Browsers etc.
 ---
 

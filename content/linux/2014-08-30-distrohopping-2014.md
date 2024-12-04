@@ -5,9 +5,7 @@ date: '2014-08-30T00:00:00'
 draft: false
 modified: '2014-08-30T00:00:00'
 slug: distrohopping-2014
-tags:
-- linux
-- distrohop
+tags: ["linux", "distrohop"]
 title: Distrohopping 2014
 ---
 There are so many good [distributions](http://distrowatch.com/dwres.php?resource=major), it is hard to settle on just one.

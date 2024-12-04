@@ -4,13 +4,10 @@ category: archive
 date: '2010-12-04T00:00:00'
 draft: false
 modified: '2010-12-04T00:00:00'
-slug: more-backups-this-time-in-the-quotcloudquot
+slug: more-backups-this-time-in-the-cloud
 tags:
 - jbs
-- linux
-- backup
-- cloud
-- linux <br>
+- backups
 title: More backups this time in the "cloud"
 ---
 
@@ -20,13 +17,7 @@ My wife was very concerned about the viability of our photos and things in the e
 
  This online service starts at $3 per month, and then after the first 5GB,it is $0.15 per GB.  Not very bad, however we have TONS of data to back up--probably 50GB, pictures that date back to 2006 and earlier.  Because of this, I think what I will do is burn all of the older data to DVD (or possibly blu ray), and store these discs off-site, and then use JungleDisk to only backup the current year.  Once the year is completed, I will burn it to disc, and then start online backup on the following year.  So we will see how this works out, I guess!
 
- 
 
-
-
-tags: #linux 
-
-Tags:  #backup #cloud #linux 
 
 
 Published Date: Sat, 04 Dec 2010 12:28:57 +0000 

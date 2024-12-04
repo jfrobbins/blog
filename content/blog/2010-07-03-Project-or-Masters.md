@@ -7,10 +7,6 @@ modified: '2010-07-03T00:00:00'
 slug: project-or-masters
 tags:
 - jbs
-- code
-- foss
-- identica
-- linux <br>
 title: Project or Masters
 ---
 
@@ -24,13 +20,7 @@ I had been planning to back to school to get my masters degree in Computer Scien
 
  I think I will start reading up on the identi.ca API and see what needs to be done, then can work something out!
 
- 
 
-
-
-tags: #code 
-
-Tags:  #foss #identica #linux 
 
 
 Published Date: Sat, 03 Jul 2010 11:37:04 +0000 

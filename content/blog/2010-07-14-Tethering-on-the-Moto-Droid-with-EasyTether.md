@@ -9,9 +9,7 @@ tags:
 - jbs
 - linux
 - android
-- droid
-- easytether
-- tether <br>
+- tether
 title: Tethering on the Moto Droid with EasyTether
 ---
 

@@ -8,9 +8,6 @@ slug: the-jeep-teardown-begins
 tags:
 - jbs
 - jeep
-- jeep
-- jeep-stuff
-- upgrades <br>
 title: The Jeep teardown begins
 ---
 

@@ -9,7 +9,7 @@ tags:
 - jbs
 - life
 - accident
-- motorcycle <br>
+- motorcycle
 title: Wrecked my bike yesterday
 ---
 

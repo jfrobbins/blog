@@ -8,8 +8,6 @@ slug: jeep-teardown-part-ii--the-rear
 tags:
 - jbs
 - jeep
-- jeep
-- suspension <br>
 title: Jeep teardown Part II  the rear
 ---
 

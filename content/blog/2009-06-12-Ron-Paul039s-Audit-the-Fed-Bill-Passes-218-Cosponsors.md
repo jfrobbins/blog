@@ -4,10 +4,9 @@ category: archive
 date: '2009-06-12T00:00:00'
 draft: false
 modified: '2009-06-12T00:00:00'
-slug: ron-paul039s-audit-the-fed-bill-passes-218-cosponsors
+slug: ron-pauls-audit-the-fed-bill-passes-218-cosponsors
 tags:
 - jbs
-- 039s
 - politico
 title: Ron Paul039s Audit the Fed Bill Passes 218 Cosponsors
 ---

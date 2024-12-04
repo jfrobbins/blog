@@ -8,14 +8,7 @@ slug: i-got-bored...-so-creating-a-www-server
 tags:
 - jbs
 - linux
-- apache
-- ftp
-- http
-- linux
-- mysql
-- php
 - server
-- www <br>
 title: I got bored... so Creating a www server
 ---
 

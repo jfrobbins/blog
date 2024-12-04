@@ -4,17 +4,10 @@ category: archive
 date: '2010-02-27T00:00:00'
 draft: false
 modified: '2010-02-27T00:00:00'
-slug: some-web-browser-wars-and-the-us-reneges-on-039leave-internet-alone039-policy
+slug: some-web-browser-wars-and-leave-internet-alone
 tags:
 - jbs
-- 039leave
-- linux
-- browser
-- chromium
-- firefox
-- internet
-- linux <br>
-title: Some web browser wars and the US reneges on 039leave Internet alone039 policy
+title: Some web browser wars and the US reneges on "leave Internet alone" policy
 ---
 
 I wrote a [little something](http://factorq.net/2010/02/20/browsers-etc/" target="_blank) about browsers not too long ago, but this is in quite a bit more details and compares several different browsers:

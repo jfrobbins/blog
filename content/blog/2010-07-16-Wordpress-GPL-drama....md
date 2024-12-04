@@ -8,11 +8,7 @@ slug: wordpress-gpl-drama...
 tags:
 - jbs
 - FOSS
-- drama
 - gpl
-- pearson
-- thesis
-- wordpress <br>
 title: Wordpress GPL drama...
 ---
 

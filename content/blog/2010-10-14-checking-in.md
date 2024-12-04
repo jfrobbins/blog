@@ -8,9 +8,7 @@ slug: checking-in
 tags:
 - jbs
 - jeep
-- anastasia
-- bike-repair
-- wheels <br>
+- random
 title: checking in
 ---
 

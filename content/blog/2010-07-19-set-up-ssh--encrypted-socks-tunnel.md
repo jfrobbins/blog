@@ -7,14 +7,7 @@ modified: '2010-07-19T00:00:00'
 slug: set-up-ssh--encrypted-socks-tunnel
 tags:
 - jbs
-- Encrypted_Socks_Tunnel
-- linux
-- arch
-- encrypted
-- linux
-- ssh
-- tether
-- tunnel <br>
+- encryption
 title: set up ssh  encrypted socks tunnel
 ---
 

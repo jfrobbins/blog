@@ -7,11 +7,6 @@ modified: '2010-08-17T00:00:00'
 slug: my-project-site-is-fancy
 tags:
 - jbs
-- code
-- blog
-- development
-- lightweight
-- software <br>
 title: my project site is fancy
 ---
 

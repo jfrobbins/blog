@@ -8,8 +8,7 @@ slug: 2010-is-coming-to-a-close--happy-new-year
 tags:
 - jbs
 - life
-- life <br>
-title: 2010 is coming to a close  Happy New Year
+title: 2010 is coming to a close - Happy New Year
 ---
 
 2010 has really flown by for me and our family.  As always, the year has been packed full of events--way too many to document fully, but I can sure try to sum upthe highlights here.

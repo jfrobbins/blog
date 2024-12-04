@@ -7,17 +7,7 @@ modified: '2010-02-22T00:00:00'
 slug: making-backups
 tags:
 - jbs
-- qa
-- first
-- incremental
-- linux
-- arch
-- backup
-- data
-- linux
-- raid
-- rdup
-- rsync <br>
+- backups
 title: Making Backups
 ---
 

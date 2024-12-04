@@ -13,7 +13,6 @@ tags:
 - jeep
 - linux
 - motorcycle
-- outlaws <br>
 title: bike jeep image scripting
 ---
 

@@ -8,9 +8,6 @@ slug: jeep-rebuild-dana-60-time
 tags:
 - jbs
 - jeep
-- d60
-- jeep
-- yj <br>
 title: Jeep Rebuild Dana 60 Time
 ---
 

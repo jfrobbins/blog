@@ -7,11 +7,8 @@ modified: '2010-11-08T00:00:00'
 slug: just-a-little-test-with-a-new-toy
 tags:
 - jbs
-- Random
-- .45-acp
-- ammo-test
-- m1911 <br>
-title: Just a little test with a new toy
+- random
+title: Just a little test with a new toy - m1911
 ---
 
 After waiting for quite a while, the other day I finally got my first 1911.  It is a Rock Island Armory 5" Tactical model, sweet.  A little bit of history:  The [M1911A1](http://en.wikipedia.org/wiki/M1911_pistol" target="_blank) was designed by [John M Browning](http://en.wikipedia.org/wiki/John_Browning" target="_blank) and was the standard issue sidearm for the US military forces from 1911 to 1985 (and is still used by some US forces).  This model saw action in WWI, WWII, Korean War, and Vietnam War.

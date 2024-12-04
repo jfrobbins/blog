@@ -10,8 +10,6 @@ tags:
 - tech
 - linux
 - mobile
-- smartphones
-- tech <br>
 title: Mobile is the future
 ---
 
