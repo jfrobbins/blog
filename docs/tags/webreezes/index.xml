@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webreezes on jrobb.org</title>
-    <link>https://jrobb.org/tags/webreezes/</link>
+    <link>http://localhost:1313/tags/webreezes/</link>
     <description>Recent content in Webreezes on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/webreezes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/webreezes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WeBreezes</title>
-      <link>https://jrobb.org/blog/webreezes/</link>
+      <link>http://localhost:1313/blog/webreezes/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/webreezes/</guid>
+      <guid>http://localhost:1313/blog/webreezes/</guid>
       <description>A long time ago I had a friend who called himself my &amp;ldquo;arch-nemesis.&amp;rdquo; Well, I suppose we were better friends in our younger days, but at some point along the way his weirdness kind of took over. We were still friends&amp;hellip;just also pseudo-enemies, haha. Yeah, it doesn&amp;rsquo;t really make any sense.&#xA;Anyway, this friend&amp;rsquo;s name was Ryan (later changed to Frederic). He is actually the person who introduced me to #linux, in the form of #RedHat version 4 or something&amp;ndash;it was still a while before they changed the name to &amp;ldquo;fedora.</description>
     </item>
   </channel>

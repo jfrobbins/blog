@@ -15,12 +15,13 @@ publishDir = "docs"
   # favicon = /favicon.ico"
 
 [[params.social]]
+  icon = "https://joinmastodon.org/logos/logo-purple.svg"
   medium = "Mastodon"
   link = "https://mastodon.social/@jrobb"
 
 [[params.social]]
   medium = "X"
-  icon = "x"
+  icon = "twitter"
   link = "https://twitter.com/jrobbnc"
 
 [[params.social]]

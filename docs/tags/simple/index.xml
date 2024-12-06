@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simple on jrobb.org</title>
-    <link>https://jrobb.org/tags/simple/</link>
+    <link>http://localhost:1313/tags/simple/</link>
     <description>Recent content in Simple on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/simple/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/simple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backups a followup</title>
-      <link>https://jrobb.org/blog/backups-a-followup/</link>
+      <link>http://localhost:1313/blog/backups-a-followup/</link>
       <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/backups-a-followup/</guid>
+      <guid>http://localhost:1313/blog/backups-a-followup/</guid>
       <description>Sometime back I made a post about how I backup my data. A recent thread on the crunchbang forums brought this back to mind, so I figured I should probably document my update here as well.&#xA;Nn my desktop I have 2 HDDs that are in a softRAID array (only /home is on the array). and then I have a daiyly cron script which does an rsync to backup my /home to an external eSATA HDD.</description>
     </item>
   </channel>

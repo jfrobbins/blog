@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on jrobb.org</title>
-    <link>https://jrobb.org/tags/about/</link>
+    <link>http://localhost:1313/tags/about/</link>
     <description>Recent content in About on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Dec 2006 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I got started</title>
-      <link>https://jrobb.org/blog/how-i-got-started/</link>
+      <link>http://localhost:1313/blog/how-i-got-started/</link>
       <pubDate>Sat, 23 Dec 2006 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/how-i-got-started/</guid>
+      <guid>http://localhost:1313/blog/how-i-got-started/</guid>
       <description>I started out creating websites for myself and friends on geocities and other hosts that were similar back in the day (late 90s). Gradually I learned and came across new technologies, data formats, and programming languages.&#xA;Back in the summer of 2000, I had just graduated high school, the Internet was in what I consider its &amp;ldquo;prime&amp;rdquo;, and I was running way too many websites. They were all mostly silly or pointless, and I wanted to drop them all as I thought that did not make sense and was a waste of time.</description>
     </item>
   </channel>

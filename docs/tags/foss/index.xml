@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FOSS on jrobb.org</title>
-    <link>https://jrobb.org/tags/foss/</link>
+    <link>http://localhost:1313/tags/foss/</link>
     <description>Recent content in FOSS on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress GPL drama...</title>
-      <link>https://jrobb.org/blog/wordpress-gpl-drama.../</link>
+      <link>http://localhost:1313/blog/wordpress-gpl-drama.../</link>
       <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/wordpress-gpl-drama.../</guid>
+      <guid>http://localhost:1313/blog/wordpress-gpl-drama.../</guid>
       <description>After an argument broke out on twitter between [wordpress](http://wordpress.org&amp;quot; target=&amp;quot;_blank) co-founder Matt Mullenweg and Chris Pearson who created the popular wordpress theme [Thesis](http://www.pearsonified.com/themes&amp;quot; target=&amp;quot;_blank), an interview was put in place by Mixergy to talk to both of these guys and get their views on the matter.&#xA;Matt feels that since Wordpress is licensed th the [GPL](http://www.gnu.org/licenses/gpl.html&amp;quot; target=&amp;quot;_blank), all themes would be considered derivative works, and therefore should also be licensed under the GPL</description>
     </item>
   </channel>

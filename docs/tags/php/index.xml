@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PHP on jrobb.org</title>
-    <link>https://jrobb.org/tags/php/</link>
+    <link>http://localhost:1313/tags/php/</link>
     <description>Recent content in PHP on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Feb 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pseudo randomness   my PRNG</title>
-      <link>https://jrobb.org/blog/pseudo-randomness---my-prng/</link>
+      <link>http://localhost:1313/blog/pseudo-randomness---my-prng/</link>
       <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/pseudo-randomness---my-prng/</guid>
+      <guid>http://localhost:1313/blog/pseudo-randomness---my-prng/</guid>
       <description>My wife sells stuff on Etsy, and occasionally does some giveaway type things. She&amp;rsquo;s been using random.org, which is a great TRUE random generator site&amp;ndash;however, many of their better services are not free.&#xA;I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the &amp;ldquo;winner&amp;rdquo; of the giveaway.</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Politico on jrobb.org</title>
-    <link>https://jrobb.org/tags/politico/</link>
+    <link>http://localhost:1313/tags/politico/</link>
     <description>Recent content in Politico on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/politico/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/politico/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some political BS that is currently ongoing</title>
-      <link>https://jrobb.org/blog/some-political-bs-that-is-currently-ongoing/</link>
+      <link>http://localhost:1313/blog/some-political-bs-that-is-currently-ongoing/</link>
       <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/some-political-bs-that-is-currently-ongoing/</guid>
+      <guid>http://localhost:1313/blog/some-political-bs-that-is-currently-ongoing/</guid>
       <description>A letter from the Campaign for Liberty about preserving our freedom of speech: [Stop the DISCLOSE Act!](http://www.campaignforliberty.com/blog.php?view=36255&amp;quot; target=&amp;quot;_blank) And [Why you should oppose the DISCLOSE Act](http://www.campaignforliberty.com/blog.php?view=36301&amp;quot; target=&amp;quot;_blank) Also, check out [Another Attempt to take over the web!](http://www.campaignforliberty.com/blog.php?view=36327&amp;quot; target=&amp;quot;_blank)&#xA;tags: #politico&#xA;Published Date: Tue, 22 Jun 2010 20:54:32 +0000&#xA;Original URL | Original guid | PostID= 300&#xA;original filename: 114</description>
     </item>
     <item>
       <title>a Message from Ron Paul about Socialized Health Care</title>
-      <link>https://jrobb.org/blog/a-message-from-ron-paul-about-socialized-health-care/</link>
+      <link>http://localhost:1313/blog/a-message-from-ron-paul-about-socialized-health-care/</link>
       <pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/a-message-from-ron-paul-about-socialized-health-care/</guid>
+      <guid>http://localhost:1313/blog/a-message-from-ron-paul-about-socialized-health-care/</guid>
       <description>Another email from the C4L&#xA;As both a defender of Liberty and a Medical Doctor, Im very concerned about the plans the Obama Administration and many in Congress have to increase the governments role in healthcare.&#xA;Medical decisions being made by government bureaucrats, loss of privacy of medical data, and our ability to keep our own insurance and doctors are all up for grabs once Congress starts moving on these government takeover and rationing schemes.</description>
     </item>
     <item>
       <title>I dislike Cheney and apparently the CIA director questions him too</title>
-      <link>https://jrobb.org/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</link>
+      <link>http://localhost:1313/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</guid>
+      <guid>http://localhost:1313/blog/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</guid>
       <description>There are a few problems with this.&#xA;#1. Cheney thinks we need to torture people to get anything done. This is erroneous, mainly because torturing others only incites them to more violence. Also, if we are going to be the &amp;ldquo;policeman of the world,&amp;rdquo; then we have to operate at a higher standard than everyone else in the world&amp;ndash;especially primitive third world countries, it should be obvious we should not stoop to their level.</description>
     </item>
     <item>
       <title>Ron Paul039s Audit the Fed Bill Passes 218 Cosponsors</title>
-      <link>https://jrobb.org/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</link>
+      <link>http://localhost:1313/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</link>
       <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</guid>
+      <guid>http://localhost:1313/blog/ron-pauls-audit-the-fed-bill-passes-218-cosponsors/</guid>
       <description>Dear Friend of Liberty,&#xA;We wanted to make sure you were the first to know that your hard work and dedication has resulted in Ron Paul&amp;rsquo;s Audit the Fed bill, HR 1207, gaining the support of a majority of the House of Representatives!&#xA;Just moments ago, Dr. Paul&amp;rsquo;s congressional office issued a press release announcing that HR 1207 had received its 218th cosponsor, and that the list has now grown to 222!</description>
     </item>
   </channel>
