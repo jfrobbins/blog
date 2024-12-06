@@ -1,10 +1,8 @@
 ---
-title = 'Old and out of date contact Info'
-draft = false
+title: 'Old and out of date contact Info'
 date: 2014-07-27 10:48
 draft: false
 modified: 2016-04-30 05:38
-slug: contact
 tags:
 - contact
 ---
