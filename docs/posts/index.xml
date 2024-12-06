@@ -6,7 +6,14 @@
     <description>Recent content in Posts on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 07:31:31 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20241204 Back 2 Bloggin</title>
+      <link>https://jrobb.org/posts/20241206-back-2-bloggin/</link>
+      <pubDate>Fri, 06 Dec 2024 07:31:31 -0500</pubDate>
+      <guid>https://jrobb.org/posts/20241206-back-2-bloggin/</guid>
+      <description>Well, I&amp;rsquo;ve resurrected this blog for better or worse. In the past, this blog has been many things over the years &amp;ndash; Octopress/Pelican/Jekyl/JBS, and before that Wordpress, and before that another homegrown system.&#xA;I&amp;rsquo;m actually not too sure how much content has come through, but it seems pretty old. Also I&amp;rsquo;ve realized that 1) my posts have not been great, and 2) I didn&amp;rsquo;t do the best job over the years of keeping things formatted.</description>
+    </item>
   </channel>
 </rss>
