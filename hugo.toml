@@ -9,7 +9,7 @@ publishDir = "docs"
 
 [params]
   author = "Jon Robbins"
-  description = "???"
+  description = "Just my random thoughts"
   avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
   menu_item_separator = "<br>"
   # favicon = /favicon.ico"
@@ -40,5 +40,5 @@ publishDir = "docs"
 [[menu.main]]
   identifier = "about"
   name = "About Hugo"
-  url = "/about-hugo/"
-  weight = 4
+  url = "https://gohugo.io/"
+  weight = 99
