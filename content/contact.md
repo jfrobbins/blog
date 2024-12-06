@@ -1,15 +1,18 @@
 ---
 authors: Jon Robbins
-category: site
 date: 2014-07-27 10:48
 draft: false
-modified: 2016-04-30 05:38
-slug: contact
-summary: How to contact me
+modified: 2024-12-06 07:50
 tags:
 - contact
 title: Contact
+menu: 
+  main:
+    weight: 50
 ---
+
+# How to contact me
+
 ###Social Networking (in order of use):
 - x: [@jrobbnc](https://x.com/jrobbnc)
 - mastodon: [@jrobb@mastodon.social](https://mastodon.social/@jrobb)
