@@ -16,10 +16,10 @@
       <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
     </item>
     <item>
-      <title>20241204 Back 2 Bloggin</title>
-      <link>https://jrobb.org/posts/20241206-back-2-bloggin/</link>
+      <title>Back 2 Bloggin</title>
+      <link>https://jrobb.org/posts/back-2-bloggin/</link>
       <pubDate>Fri, 06 Dec 2024 07:31:31 -0500</pubDate>
-      <guid>https://jrobb.org/posts/20241206-back-2-bloggin/</guid>
+      <guid>https://jrobb.org/posts/back-2-bloggin/</guid>
       <description>Well, I&amp;rsquo;ve resurrected this blog for better or worse. In the past, this blog has been many things over the years &amp;ndash; Octopress/Pelican/Jekyl/JBS, and before that Wordpress, and before that another homegrown system.&#xA;I&amp;rsquo;m actually not too sure how much content has come through, but it seems pretty old. Also I&amp;rsquo;ve realized that 1) my posts have not been great, and 2) I didn&amp;rsquo;t do the best job over the years of keeping things formatted.</description>
     </item>
     <item>
