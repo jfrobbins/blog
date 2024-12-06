@@ -1,7 +1,7 @@
 +++
 title = '20241204 Back 2 Bloggin'
 date = 2024-12-06T07:31:31-05:00
-draft = true
+draft = false
 +++
 
 Well, I've resurrected this blog for better or worse. 
@@ -32,6 +32,9 @@ As another _main_ goal, I want to document more things for my kids, so they can 
 
 Hopefully I'm better about doing that, and can stick to it this time!
 
+I've updated the [contact](/contact/) page as well, since the [old one](/contact-old-and-out-of-date/) was _really_ old and out of date.
+
+I'm back!
 
 
 ## convert-pelican-posts-to-hugo-md.py
