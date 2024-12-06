@@ -13,7 +13,7 @@ menu:
 
 # How to contact me
 
-###Social Networking (in order of use):
+### Social Networking (in order of use):
 - x: [@jrobbnc](https://x.com/jrobbnc)
 - mastodon: [@jrobb@mastodon.social](https://mastodon.social/@jrobb)
 
