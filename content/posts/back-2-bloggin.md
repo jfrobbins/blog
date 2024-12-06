@@ -1,5 +1,5 @@
 +++
-title = '20241204 Back 2 Bloggin'
+title = 'Back 2 Bloggin'
 date = 2024-12-06T07:31:31-05:00
 draft = false
 +++
