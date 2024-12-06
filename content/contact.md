@@ -21,7 +21,7 @@ menu:
 - Signal: `jon.57`
 
 
-### email: :
+### E-mail: :
 I recommend you use [gpg](http://www.gnupg.org) to send email privately.
 
 You can reach me at `jon` followed by `r`.  At `pm.me`.
