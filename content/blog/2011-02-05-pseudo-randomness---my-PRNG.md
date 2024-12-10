@@ -21,8 +21,9 @@ I set up a page to do this at [jrobb.org/random](http://jrobb.org/random/), and 
 This is all pretty simple, but it is a lot of fun to do and I can always try to make it as random as possible. :)
 
 I wanted to have a pretty good seed, so I reused some of the code from the [jezra captcha routine](http://jrobb.org/blog/?article=159) stuff.  I am also using the [Mersenne Twister](http://en.wikipedia.org/wiki/Mersenne_twister), which generates MUCH better random numbers with mt_rand() than the normal PHP rand().
-[code]
 
+
+```
 function mtrand_seed() {
 //try to create a more random seed
 $n = ((double)microtime()*1000000);
@@ -47,8 +48,7 @@ return $n;
 mt_srand($n);
 }
 
-[/code]
-
+```
 
 This seems to work rather well, but I might wind up changing it around a bit as far as how the first_int/last_int are used to manipulate the seed.
 
