@@ -1,20 +1,24 @@
 import os
 import argparse
 import re
+from pathlib import Path
 
 def fix_markdown_links(text):
     # Fix broken link format
-    text = re.sub(r'("  target="blank)', '', text)
+    text = re.sub(r'\s*"?\s*target\s*=\s*"?\s*blank"?\s*', '', text, flags=re.IGNORECASE)
     
     # Convert HTML links to Markdown format
-    text = re.sub(r'<a href="([^"]+)"[^>]*>([^<]+)</a>', r'[\2](\1)', text)
+    text = re.sub(r'<a\s+href="([^"]+)"[^>]*>([^<]+)</a>', r'[\2](\1)', text, flags=re.IGNORECASE)
     
     return text
 
 def process_files(start_path):
+    files_processed = 0
+    files_changed = 0
     for root, _, files in os.walk(start_path):
         for file in files:
             if file.endswith('.md'):
+                files_processed += 1
                 file_path = os.path.join(root, file)
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
@@ -22,26 +26,37 @@ def process_files(start_path):
                 # Apply fixes to the content
                 modified_content = fix_markdown_links(content)
                 
+                print(f"Changed {files_changed} out of {files_processed} files")
+                
                 # Write back the modified content if there were changes
                 if content != modified_content:
+                    files_changed += 1
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(modified_content)
                     print(f"Modified file: {file_path}")
 
+    return files_processed, files_changed
+
 def main():
     parser = argparse.ArgumentParser(description="Fix Markdown links in files.")
-    parser.add_argument('start_path', help='The directory to start from')
+    parser.add_argument('start_path', type=Path, help='The directory to start from (can be relative or absolute)')
     args = parser.parse_args()
     
-    if not os.path.isdir(args.start_path):
-        print(f"Error: {args.start_path} is not a valid directory.")
+    # Convert to absolute path for clarity in error messages
+    start_path = args.start_path.expanduser().resolve()
+    
+    if not start_path.is_dir():
+        print(f"Error: {args.start_path} does not exist or is not a directory.")
         return
     
-    process_files(args.start_path)
+    files_processed, files_changed = process_files(str(start_path))
+    print(f"Total files processed: {files_processed}")
+    print(f"Total files changed: {files_changed}")
     print("Processing completed.")
 
 if __name__ == "__main__":
     main()
+
 
 """
 # Unlicense Statement
@@ -71,4 +86,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
 """
-
