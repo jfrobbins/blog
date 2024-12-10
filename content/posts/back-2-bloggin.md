@@ -40,6 +40,7 @@ I'm back!
 ## convert-pelican-posts-to-hugo-md.py
 
 I linked to the conversion script github gist above, but I'll paste the source here as well -- we never know what sites will be around in another 10 years.
+Also, [here](code/convert-pelican-to-hugo-md.py) is a link to the source file.
 
 ```
 import os
