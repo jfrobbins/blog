@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statusnet on jrobb.org</title>
-    <link>http://localhost:1313/tags/statusnet/</link>
+    <link>https://jrobb.org/tags/statusnet/</link>
     <description>Recent content in Statusnet on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/statusnet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/statusnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identi.ca Client HeyBuddy</title>
-      <link>http://localhost:1313/blog/identi.ca-client-heybuddy/</link>
+      <link>https://jrobb.org/blog/identi.ca-client-heybuddy/</link>
       <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/identi.ca-client-heybuddy/</guid>
+      <guid>https://jrobb.org/blog/identi.ca-client-heybuddy/</guid>
       <description>I&amp;rsquo;ve installed and been using [HeyBuddy](http://www.jezra.net/projects/heybuddy&amp;quot; target=&amp;quot;_blank) as a client for identi.ca. If you don&amp;rsquo;t know what identi.ca is&amp;hellip;it&amp;rsquo;s basically an [open source](http://linuxoutlaws.com/explanation/foss&amp;quot; target=&amp;quot;_blank) [Twitter](http://twitter.com&amp;quot; target=&amp;quot;_blank), with more/better features.&#xA;This thing is great, keeps me from having to use [mustard](http://identi.ca/group/mustard&amp;quot; target=&amp;quot;_blank) on my droid, or from keeping the webpage open. [Status.net](http://status.net&amp;quot; target=&amp;quot;_blank) also has a desktop client, but I do not like it as well. Besides Heybuddy is &amp;ldquo;supposedly lightweight,&amp;rdquo; which is always great.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on jrobb.org</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://jrobb.org/projects/</link>
     <description>Recent content in Projects on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shortenizer (link shortener)</title>
-      <link>http://localhost:1313/projects/shortenizer-link-shortener/</link>
+      <link>https://jrobb.org/projects/shortenizer-link-shortener/</link>
       <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/shortenizer-link-shortener/</guid>
+      <guid>https://jrobb.org/projects/shortenizer-link-shortener/</guid>
       <description>After recently beginning to use navierstokes to broadcast my social media message across networks (usually originating from my pump.io ), it became very apparent to me that the 140 character limit on networks such as twitter and GNU Social is just archaic and very inconvenient.&#xA;I helped out and made some simple test code to post to ur1.ca and scrape the html to get the shortened link, but I thought I could do something else for myself as a fun project.</description>
     </item>
   </channel>

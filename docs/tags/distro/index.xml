@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distro on jrobb.org</title>
-    <link>http://localhost:1313/tags/distro/</link>
+    <link>https://jrobb.org/tags/distro/</link>
     <description>Recent content in Distro on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/distro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/distro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux vs BSD and an urge to hop</title>
-      <link>http://localhost:1313/blog/linux-vs-bsd-and-an-urge-to-hop/</link>
+      <link>https://jrobb.org/blog/linux-vs-bsd-and-an-urge-to-hop/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/linux-vs-bsd-and-an-urge-to-hop/</guid>
+      <guid>https://jrobb.org/blog/linux-vs-bsd-and-an-urge-to-hop/</guid>
       <description>So, my interest was peaked in BSD for some reason&amp;hellip;I think maybe I saw a release ([GhostBSD](http://www.ghostbsd.org/&amp;quot; target=&amp;quot;_blank) perhaps), and I realized that I don&amp;rsquo;t really know much about it. I have briefly used [PC-BSD](http://www.pcbsd.org/&amp;quot; target=&amp;quot;_blank) (which is based on [FreeBSD](http://www.freebsd.org/&amp;quot; target=&amp;quot;_blank)) before while I was distro-hopping, but I did not get very extensive use out of it.&#xA;I started searching for information about BSD and how it relates to (GNU/)Linux, which basically led me to this post: [http://www.</description>
     </item>
   </channel>

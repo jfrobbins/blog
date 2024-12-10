@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on jrobb.org</title>
-    <link>http://localhost:1313/tags/mobile/</link>
+    <link>https://jrobb.org/tags/mobile/</link>
     <description>Recent content in Mobile on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mobile is the future</title>
-      <link>http://localhost:1313/blog/mobile-is-the-future/</link>
+      <link>https://jrobb.org/blog/mobile-is-the-future/</link>
       <pubDate>Sun, 20 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/mobile-is-the-future/</guid>
+      <guid>https://jrobb.org/blog/mobile-is-the-future/</guid>
       <description>&lt;p&gt;As I was sitting here at home listening to the Linux adventure show podcast, I was just thinking about how mobilized everything is becoming.  The iPad is ridiculously popular, as are the android tablets and ipad clones.  Not to even mention the smartphone markets&amp;ndash;  I&amp;rsquo;m even writing this post on my iPhone!&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; And the majority of my post was deleted&amp;hellip; Thanks wordpress app&lt;/p&gt;&#xA;&lt;p&gt;Editing with the continuation, which is going to be different since this is several hours later, and I am outside enjoying some vino and a habana.&lt;/p&gt;&#xA;&lt;p&gt;There was a quote I saw on &lt;a href=&#34;http://identi.ca/&#34;&gt;identi.ca&lt;/a&gt; the other day, something like: &amp;ldquo;the year of the Linux desktop will be the year after the desktop dies&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>

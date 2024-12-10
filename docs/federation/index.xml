@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Federations on jrobb.org</title>
-    <link>http://localhost:1313/federation/</link>
+    <link>https://jrobb.org/federation/</link>
     <description>Recent content in Federations on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/federation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/federation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to Federated Social Networks</title>
-      <link>http://localhost:1313/federation/intro-to-federated-social-networks/</link>
+      <link>https://jrobb.org/federation/intro-to-federated-social-networks/</link>
       <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/federation/intro-to-federated-social-networks/</guid>
+      <guid>https://jrobb.org/federation/intro-to-federated-social-networks/</guid>
       <description>Not very long ago there was an opportunity at the local LUG to volunteer to do lightning talks on some subject, and as a lightning talk is easier than a full-blown talk I decided to sign up and evangalize a bit on federated social networking.&#xA;I guess this subject is only tangentially related to Linux, but related enough to be interesting. The main point of federation is that it is encouraged for as many people as possible to run their own nodes&amp;ndash; this spreads the network around and makes it function well even if some portions of the network do get down (or are shut down).</description>
     </item>
   </channel>

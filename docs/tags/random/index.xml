@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random on jrobb.org</title>
-    <link>http://localhost:1313/tags/random/</link>
+    <link>https://jrobb.org/tags/random/</link>
     <description>Recent content in Random on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Feb 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/random/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pseudo randomness   my PRNG</title>
-      <link>http://localhost:1313/blog/pseudo-randomness---my-prng/</link>
+      <link>https://jrobb.org/blog/pseudo-randomness---my-prng/</link>
       <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/pseudo-randomness---my-prng/</guid>
+      <guid>https://jrobb.org/blog/pseudo-randomness---my-prng/</guid>
       <description>My wife sells stuff on Etsy, and occasionally does some giveaway type things. She&amp;rsquo;s been using random.org, which is a great TRUE random generator site&amp;ndash;however, many of their better services are not free.&#xA;I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the &amp;ldquo;winner&amp;rdquo; of the giveaway.</description>
     </item>
     <item>
       <title>Just a little test with a new toy - m1911</title>
-      <link>http://localhost:1313/blog/just-a-little-test-with-a-new-toy/</link>
+      <link>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</link>
       <pubDate>Mon, 08 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/just-a-little-test-with-a-new-toy/</guid>
+      <guid>https://jrobb.org/blog/just-a-little-test-with-a-new-toy/</guid>
       <description>&lt;p&gt;After waiting for quite a while, the other day I finally got my first 1911.  It is a Rock Island Armory 5&amp;quot; Tactical model, sweet.  A little bit of history:  The [M1911A1](&lt;a href=&#34;http://en.wikipedia.org/wiki/M1911_pistol%22&#34;&gt;http://en.wikipedia.org/wiki/M1911_pistol&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) was designed by [John M Browning](&lt;a href=&#34;http://en.wikipedia.org/wiki/John_Browning%22&#34;&gt;http://en.wikipedia.org/wiki/John_Browning&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) and was the standard issue sidearm for the US military forces from 1911 to 1985 (and is still used by some US forces).  This model saw action in WWI, WWII, Korean War, and Vietnam War.&lt;/p&gt;&#xA;&lt;p&gt;So anyway, I wanted to go break this thing in, and see what it can do.  I had some empty jugs laying around (2 milk, and one OJ), and decided to take these along.&lt;/p&gt;&#xA;&lt;p&gt;After going through a box of 50 FMJ + one or two more magazines, I decided to try out the JHPs.  As anyone knows, JHPs (or Jacketed Hollow Points) are the way to go for defensive rounds, in order to attempt to prevent overpenetration and transfer as much inertia as possible.  The problem is, some guns do not like to feed them&amp;ndash;and 1911s are known to be particularly&amp;hellip;particular.&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Test 1:&lt;!-- raw HTML omitted --&gt;&#xA;I lined up 1 OJ jug, 1 Milk Jug, and 1 pumpkin in a row on a fallen tree.  I loaded 1 Winchester White Box 230gr JHP round, and fired directly into the line.  The idea is to see how far it will penetrate, and (if we can find it) how much the JHP bullet will expand.  I crouched down to try to get a level shot, approximately 15 ft away from the target.&lt;/p&gt;</description>
     </item>
     <item>
       <title>checking in</title>
-      <link>http://localhost:1313/blog/checking-in/</link>
+      <link>https://jrobb.org/blog/checking-in/</link>
       <pubDate>Thu, 14 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/checking-in/</guid>
+      <guid>https://jrobb.org/blog/checking-in/</guid>
       <description>Not too much has been going on lately. Well&amp;hellip;we had a kid! On October 2nd: our third, a girl named Anastasia. So we have been busy with that. I have done a little with the jeep&amp;hellip;but not much: Mostly I am still just amassing parts still. I am also trying to decide between running a 220v line in the house and getting a bigger welder, vs getting a generator vs getting a welder/generator combo.</description>
     </item>
     <item>
       <title>Browsers etc.</title>
-      <link>http://localhost:1313/blog/browsers-etc./</link>
+      <link>https://jrobb.org/blog/browsers-etc./</link>
       <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/browsers-etc./</guid>
+      <guid>https://jrobb.org/blog/browsers-etc./</guid>
       <description>I had used[ firefox](http://www.mozilla.com/firefox/&amp;quot; target=&amp;quot;_blank) for a long time, and then recently started using [chrome](http://www.google.com/chrome&amp;quot; target=&amp;quot;_blank) / [chromium](http://code.google.com/chromium/&amp;quot; target=&amp;quot;_blank). It is nice in that it is faster, and load times are good. however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn&amp;rsquo;t even an option in my opinion.</description>
     </item>
   </channel>

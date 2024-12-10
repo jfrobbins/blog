@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firefox on jrobb.org</title>
-    <link>http://localhost:1313/tags/firefox/</link>
+    <link>https://jrobb.org/tags/firefox/</link>
     <description>Recent content in Firefox on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Chromium on Fedora 14</title>
-      <link>http://localhost:1313/blog/installing-chromium-on-fedora-14/</link>
+      <link>https://jrobb.org/blog/installing-chromium-on-fedora-14/</link>
       <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/installing-chromium-on-fedora-14/</guid>
+      <guid>https://jrobb.org/blog/installing-chromium-on-fedora-14/</guid>
       <description>This is very easy&amp;hellip;actually I think it is too easy to even blog about&amp;hellip; but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.&#xA;[code] #filename: fedora-chromium.repo&#xA;Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0&#xA;[fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 [/code]&#xA;After that, ran a &amp;ldquo;yum update&amp;rdquo; and &amp;ldquo;yum install chromium&amp;rdquo;, and that was it!</description>
     </item>
   </channel>

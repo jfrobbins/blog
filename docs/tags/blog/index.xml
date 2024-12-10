@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on jrobb.org</title>
-    <link>http://localhost:1313/tags/blog/</link>
+    <link>https://jrobb.org/tags/blog/</link>
     <description>Recent content in Blog on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Got it to work...the code display thing</title>
-      <link>http://localhost:1313/blog/got-it-to-work...the-code-display-thing/</link>
+      <link>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/got-it-to-work...the-code-display-thing/</guid>
+      <guid>https://jrobb.org/blog/got-it-to-work...the-code-display-thing/</guid>
       <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
     </item>
     <item>
       <title>Captcha and Tagger thing</title>
-      <link>http://localhost:1313/blog/captcha-and-tagger-thing/</link>
+      <link>https://jrobb.org/blog/captcha-and-tagger-thing/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/captcha-and-tagger-thing/</guid>
+      <guid>https://jrobb.org/blog/captcha-and-tagger-thing/</guid>
       <description>So I wanted to enable the commentation on my blog, but hl&amp;ndash; does not incorporate any spam control by default.&#xA;Luckily, however, @jezra has made a post on this very same subject in the past.&#xA;Using his code adapted into my php stuffs, it appears to work perfectly!&#xA;I did go back as Jezra suggested and convert it to use a SESSION variable, I also made it change the problem more often.</description>
     </item>
   </channel>
