@@ -18,7 +18,7 @@ title: Installing Chromium on Fedora 14
 This is very easy...actually I think it is too easy to even blog about... but anyway.
 I just went here: [repos.fedorapeople.org/repos/spot/chromium](http://repos.fedorapeople.org/repos/spot/chromium/ ) and then added the repos file to my /etc/yum.repos.d/ directory.
 
-[code]
+```
 #filename: fedora-chromium.repo
 # Place this file in your /etc/yum.repos.d/ directory
 [fedora-chromium]
@@ -32,7 +32,7 @@ name=Chromium web browser and deps - Source
 baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/
 enabled=0
 gpgcheck=0
-[/code]
+```
 
 
 After that, ran a "yum update" and "yum install chromium", and that was it!
