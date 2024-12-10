@@ -106,31 +106,31 @@ She&rsquo;s been using <a href="http://random.org">random.org</a>, which is a gr
 <p>I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do:  mainly, enter a list of names and return one who would be the &ldquo;winner&rdquo; of the giveaway.
 I set up a page to do this at <a href="http://jrobb.org/random/">jrobb.org/random</a>, and went to town making some things.<br>
 This is all pretty simple, but it is a lot of fun to do and I can always try to make it as random as possible. :)</p>
-<p>I wanted to have a pretty good seed, so I reused some of the code from the <a href="http://jrobb.org/blog/?article=159">jezra captcha routine</a> stuff.  I am also using the <a href="http://en.wikipedia.org/wiki/Mersenne_twister">Mersenne Twister</a>, which generates MUCH better random numbers with mt_rand() than the normal PHP rand().
-[code]</p>
-<p>function mtrand_seed() {
+<p>I wanted to have a pretty good seed, so I reused some of the code from the <a href="http://jrobb.org/blog/?article=159">jezra captcha routine</a> stuff.  I am also using the <a href="http://en.wikipedia.org/wiki/Mersenne_twister">Mersenne Twister</a>, which generates MUCH better random numbers with mt_rand() than the normal PHP rand().</p>
+<pre tabindex="0"><code>function mtrand_seed() {
 //try to create a more random seed
 $n = ((double)microtime()*1000000);
 mt_srand($n);//initial seed
 $ip_address = VISITORS_IP; //get the visitors IP address
-$appended_ip = $ip_address + date(&ldquo;zB&rdquo;); //append the numeric day of the year + 	Swatch Internet time to the ip_address
+$appended_ip = $ip_address + date(&#34;zB&#34;); //append the numeric day of the year + 	Swatch Internet time to the ip_address
 $salt = genRandomString(); //add some random salt to the appended_ip
 $salted_string = $appended_ip+$salt;
 $md5_string = md5($salted_string) ; //get the md5sum of the salted string
 $first_int = getFirstInt($md5_string); //get the first and last integer of the md5_string
-$last_int = getLastInt($md5_string);</p>
-<p>$n = ((double)microtime()*1000000);
+$last_int = getLastInt($md5_string);
+
+$n = ((double)microtime()*1000000);
 if($first_int&gt;$last_int)
 {
 $n = $first_int -$last_int + $n ;
 } else {
 $n = $last_int - $first_int + $n ;
 }
-return $n;</p>
-<p>mt_srand($n);
-}</p>
-<p>[/code]</p>
-<p>This seems to work rather well, but I might wind up changing it around a bit as far as how the first_int/last_int are used to manipulate the seed.</p>
+return $n;
+
+mt_srand($n);
+}
+</code></pre><p>This seems to work rather well, but I might wind up changing it around a bit as far as how the first_int/last_int are used to manipulate the seed.</p>
 <p>Then I read <a href="http://www.boallen.com/random-numbers.html">this post</a> which talks about random usage and image generation, and patterns that can appear from using a pseudorandom generator (mostly with the rand() function).
 <a href="http://cod.ifies.com/2008/05/php-rand01-on-windows-openssl-rand-on.html">This one</a> is also pretty cool and worth a read IMO).
 I wanted to give this a try, and I made a generator for this as well.</p>
