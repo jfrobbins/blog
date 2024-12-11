@@ -2,8 +2,7 @@
 title = 'Boglehead Investing'
 date = 2024-12-10T19:58:37-05:00
 draft = false
-tags:
-- finance
+tags: ["finance"]
 +++
 
 I've been meaning to do this particular post for a while. 
