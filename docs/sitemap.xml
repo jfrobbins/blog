@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/posts/finance/boglehead-investing/</loc>
+    <lastmod>2024-12-10T19:58:37-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-06T08:34:57-05:00</lastmod>
+    <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-06T08:34:57-05:00</lastmod>
+    <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/transcode-mp4-videos-to-x265-and-lower-bitrate/</loc>
     <lastmod>2024-12-06T08:34:57-05:00</lastmod>
