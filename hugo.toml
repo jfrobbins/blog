@@ -37,11 +37,11 @@ publishDir = "docs"
 
 [[params.social]]
   icon = "brand-mastodon"
-  medium = "Mastodon"
+  name = "Mastodon"
   url = "https://mastodon.social/@jrobb"
 
 [[params.social]]
-  medium = "X"
+  name = "X"
   icon = "brand-x"
   url = "https://twitter.com/jrobbnc"
 
