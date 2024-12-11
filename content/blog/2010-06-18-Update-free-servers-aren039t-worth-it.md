@@ -4,12 +4,11 @@ category: archive
 date: '2010-06-18T00:00:00'
 draft: false
 modified: '2010-06-18T00:00:00'
-slug: update-free-servers-aren039t-worth-it
+slug: update-free-servers-are-not-worth-it
 tags:
 - jbs
-- 039t
 - site
-title: Update free servers aren039t worth it
+title: Update free servers are not worth it
 ---
 
 on the old site which I just transferred from (again), the MySQL db's are all jacked up and non-working,so I am back here to stay.

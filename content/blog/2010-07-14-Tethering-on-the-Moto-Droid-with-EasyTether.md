@@ -7,9 +7,7 @@ modified: '2010-07-14T00:00:00'
 slug: tethering-on-the-moto-droid-with-easytether
 tags:
 - jbs
-- linux
-- android
-- tether
+- random
 title: Tethering on the Moto Droid with EasyTether
 ---
 

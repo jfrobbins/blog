@@ -8,8 +8,7 @@ slug: pseudo-randomness---my-prng
 tags:
 - jbs
 - random
-- PRNG
-- PHP
+- code
 title: pseudo randomness   my PRNG
 ---
 

@@ -8,10 +8,6 @@ slug: 1-ton-axle-rebuild--front-dana-60-part-1-hubs
 tags:
 - jbs
 - jeep
-- 1-ton
-- d60
-- dana-60
-- jeep <br>
 title: 1 Ton Axle Rebuild  Front Dana 60 part 1 hubs
 ---
 

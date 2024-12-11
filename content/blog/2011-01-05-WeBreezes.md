@@ -8,7 +8,6 @@ slug: webreezes
 tags:
 - jbs
 - linux
-- RedHat
 - webreezes
 - archnemesis
 title: WeBreezes

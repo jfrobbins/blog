@@ -7,11 +7,7 @@ modified: '2011-01-31T00:00:00'
 slug: installing-chromium-on-fedora-14
 tags:
 - jbs
-- filename
-- chromium
-- chrome
-- firefox
-- fedora
+- linux
 title: Installing Chromium on Fedora 14
 ---
 

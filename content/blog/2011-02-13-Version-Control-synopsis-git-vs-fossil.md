@@ -10,9 +10,7 @@ tags:
 - git
 - fossil
 - scm
-- version-control
 - work
-- code
 title: Version Control synopsis git vs fossil
 ---
 

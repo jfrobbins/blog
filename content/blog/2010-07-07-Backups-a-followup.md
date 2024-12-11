@@ -8,7 +8,7 @@ slug: backups-a-followup
 tags:
 - jbs
 - backups
-title: Backups: a followup
+title: A followup on backups
 ---
 
 Sometime back I made [a post](http://factorq.net/2010/02/22/making-backups/) about how I backup my data.  A [recent thread](http://crunchbanglinux.org/forums/topic/8486/backup-crunchbang/) on the crunchbang forums brought this back to mind, so I figured I should probably document my update here as well.

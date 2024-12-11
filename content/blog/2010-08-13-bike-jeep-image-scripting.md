@@ -7,12 +7,7 @@ modified: '2010-08-13T00:00:00'
 slug: bike-jeep-image-scripting
 tags:
 - jbs
-- jeep
-- bash
-- bike
-- jeep
-- linux
-- motorcycle
+- random
 title: bike jeep image scripting
 ---
 

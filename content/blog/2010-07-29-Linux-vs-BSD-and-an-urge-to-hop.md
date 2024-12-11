@@ -7,7 +7,8 @@ modified: '2010-07-29T00:00:00'
 slug: linux-vs-bsd-and-an-urge-to-hop
 tags:
 - jbs
-- distro
+- linux
+- bsd
 title: Linux vs BSD and an urge to hop
 ---
 
