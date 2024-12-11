@@ -11,7 +11,7 @@ tags:
 title: Just a little test with a new toy - m1911
 ---
 
-After waiting for quite a while, the other day I finally got my first 1911.  It is a Rock Island Armory 5" Tactical model, sweet.  A little bit of history:  The [M1911A1](http://en.wikipedia.org/wiki/M1911_pistol" target="_blank) was designed by [John M Browning](http://en.wikipedia.org/wiki/John_Browning" target="_blank) and was the standard issue sidearm for the US military forces from 1911 to 1985 (and is still used by some US forces).  This model saw action in WWI, WWII, Korean War, and Vietnam War.
+After waiting for quite a while, the other day I finally got my first 1911.  It is a Rock Island Armory 5" Tactical model, sweet.  A little bit of history:  The [M1911A1](http://en.wikipedia.org/wiki/M1911_pistol) was designed by [John M Browning](http://en.wikipedia.org/wiki/John_Browning) and was the standard issue sidearm for the US military forces from 1911 to 1985 (and is still used by some US forces).  This model saw action in WWI, WWII, Korean War, and Vietnam War.
 
  So anyway, I wanted to go break this thing in, and see what it can do.  I had some empty jugs laying around (2 milk, and one OJ), and decided to take these along.
 

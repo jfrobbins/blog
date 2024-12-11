@@ -14,9 +14,9 @@ I had been planning to back to school to get my masters degree in Computer Scien
 
  I am now trying to decide if I would rather do that, or just undertake creating some project program or something on Linux for open source (or maybe for Android).  I've wanted to be more involved in FOSS for a long time, and if I did start this project it would be me "giving back" something.  But I'm not incredibly creative...I would be terrible at making a podcast and things of that sort, and I am not a very good blogger (yes, I realize this).  I do have some sort of ability to do some programming, and a desire to learn in that area so I guess that is where I am heading.
 
- Now, the obvious problem with such a project....I have NO IDEA what i is I would like to do. I could create my own distribution, but I don't see much added value for that. Just a lot of work!  But I have always wanted to try [Linux From Scratch](http://www.linuxfromscratch.org/" target="_blank).
+ Now, the obvious problem with such a project....I have NO IDEA what i is I would like to do. I could create my own distribution, but I don't see much added value for that. Just a lot of work!  But I have always wanted to try [Linux From Scratch](http://www.linuxfromscratch.org/).
 
- Or I could make some kind of [identi.ca](http://identi.ca" target="_blank) client: mobile like [mustard](http://mustard.macno.org/" target="_blank) or maybe something desktop like [HeyBuddy](http://mustard.macno.org/planet/identica" target="_blank).    Or maybe I could start out with some kind of project like this, and then see where I go from there.  I am definitely not thinking that whatever I do will take off and be tremendously popular or anything, but I guess it could happen.
+ Or I could make some kind of [identi.ca](http://identi.ca) client: mobile like [mustard](http://mustard.macno.org/) or maybe something desktop like [HeyBuddy](http://mustard.macno.org/planet/identica).    Or maybe I could start out with some kind of project like this, and then see where I go from there.  I am definitely not thinking that whatever I do will take off and be tremendously popular or anything, but I guess it could happen.
 
  I think I will start reading up on the identi.ca API and see what needs to be done, then can work something out!
 

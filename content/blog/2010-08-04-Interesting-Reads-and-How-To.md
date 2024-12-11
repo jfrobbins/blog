@@ -10,10 +10,9 @@ tags:
 title: Interesting Reads and How To
 ---
 
-<ul>
-<li>[How do I join a Linux machine to a Windows Domain?](http://blogs.techrepublic.com.com/window-on-windows/?p=2855)</li>
-<li>[How to get Windows and Linux to cooperate on the network](http://www.itworld.com/windows/116225/how-get-windows-and-linux-cooperate-network)</li>
-</ul>
+
+- [How do I join a Linux machine to a Windows Domain?](http://blogs.techrepublic.com.com/window-on-windows/?p=2855)
+- [How to get Windows and Linux to cooperate on the network](http://www.itworld.com/windows/116225/how-get-windows-and-linux-cooperate-network)
 
 
 Published Date: Wed, 04 Aug 2010 11:12:31 +0000 

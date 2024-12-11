@@ -11,11 +11,12 @@ tags:
 title: a couple of links
 ---
 
-[Ubuntu One Review: is it ready for your data?](http://www.raiden.net/articles/review_is_ubuntu_one_ready_for_your_data_/" target="_blank)
-[A simple lesson from Apple](http://mybroadband.co.za/news/columns/13144-simple-lesson-from-Apple.html" target="_blank)
-<pre>
-<span style="font-weight:normal;">[100 Mbps LTE demonstrated in Johannesburg](http://mybroadband.co.za/news/cellular/13281-100-Mbps-LTE-demonstrated-Johannesburg.html" target="_blank) - 4G modulation scheme that is very impressive, similar to WiMAX.</span>
-</pre>
+[Ubuntu One Review: is it ready for your data?](http://www.raiden.net/articles/review_is_ubuntu_one_ready_for_your_data_/)
+[A simple lesson from Apple](http://mybroadband.co.za/news/columns/13144-simple-lesson-from-Apple.html)
+
+
+[100 Mbps LTE demonstrated in Johannesburg](http://mybroadband.co.za/news/cellular/13281-100-Mbps-LTE-demonstrated-Johannesburg.html) - 4G modulation scheme that is very impressive, similar to WiMAX.
+
 
 
 

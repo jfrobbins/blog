@@ -35,9 +35,8 @@ As I was sitting here at home listening to the Linux adventure show podcast, I w
 
  A couple of related topics which raise some good points on privacy are here:
 
- []() href="http://blog.eracc.com/2010/06/21/linux-the-cloud-tablets-desktop-pcs-and-control/">The Cloud, Tablets, Desktop PCs and Control
-
- </a>[Confessions of a cloud skeptic](http://www.infoworld.com/d/data-explosion/confessions-cloud-skeptic-724)
+- [The Cloud, Tablets, Desktop PCs and Control](http://blog.eracc.com/2010/06/21/linux-the-cloud-tablets-desktop-pcs-and-control/)
+- [Confessions of a cloud skeptic](http://www.infoworld.com/d/data-explosion/confessions-cloud-skeptic-724)
 
 
 

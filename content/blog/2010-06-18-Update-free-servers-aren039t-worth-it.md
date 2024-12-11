@@ -18,7 +18,7 @@ on the old site which I just transferred from (again), the MySQL db's are all ja
 
  In fact, they may not even be recoverable, if the databases were wiped out!  doh!
 
- While [X10hosting.com](http://X10hosting.com" target="_blank) did provide a good service at a great price, they were always overloaded, and as such always making upgrades.  this caused a LOT of downtime.  Finally, I'm just tired of it.
+ While [X10hosting.com](http://X10hosting.com) did provide a good service at a great price, they were always overloaded, and as such always making upgrades.  this caused a LOT of downtime.  Finally, I'm just tired of it.
 
  Wish me some data recovery luck!
 

@@ -19,10 +19,11 @@ Now I can post the bulk of the captcha code that I mentioned in my [last post](?
 
 Terrible name, by the way: "jbs"--if anyone can think of something better, please let me know!
 
-<b>Captcha stuff</b>
+**Captcha stuff**
 
 This is PHP, but could probably be used with whatever you want to convert it to:
-[code]
+
+```
 function createCaptcha() {
 // creates captcha problem and stores along with answer in SESSION vars
 //Thanks to @jezra for this:  http://www.jezra.net/blog/creating_a_CAPTCHA
@@ -51,7 +52,7 @@ $_SESSION['canswer'.$problem] = $answer;
 $_SESSION['cproblem'] = $problem;  //set the problem, so can retrieve the answer later
 return $problem;
 }
-[/code]
+```
 
 Looks like this doesn't show up in the rss feed at all...I'll have to fix that in v0.2.1! (edit: fixed now!)
 

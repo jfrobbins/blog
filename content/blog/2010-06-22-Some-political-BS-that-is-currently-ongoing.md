@@ -11,9 +11,9 @@ tags:
 title: Some political BS that is currently ongoing
 ---
 
-A letter from the Campaign for Liberty about preserving our freedom of speech:  [Stop the DISCLOSE Act!](http://www.campaignforliberty.com/blog.php?view=36255" target="_blank)
-And [Why you should oppose the DISCLOSE Act](http://www.campaignforliberty.com/blog.php?view=36301" target="_blank)
-Also, check out [Another Attempt to take over the web!](http://www.campaignforliberty.com/blog.php?view=36327" target="_blank)
+A letter from the Campaign for Liberty about preserving our freedom of speech:  [Stop the DISCLOSE Act!](http://www.campaignforliberty.com/blog.php?view=36255)
+And [Why you should oppose the DISCLOSE Act](http://www.campaignforliberty.com/blog.php?view=36301)
+Also, check out [Another Attempt to take over the web!](http://www.campaignforliberty.com/blog.php?view=36327)
 
 
 

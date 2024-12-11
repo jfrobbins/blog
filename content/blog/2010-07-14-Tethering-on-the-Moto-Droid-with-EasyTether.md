@@ -13,9 +13,9 @@ tags:
 title: Tethering on the Moto Droid with EasyTether
 ---
 
-This is really great, and extremely easy.  I have [NYBill](http://identi.ca/NYBill" target="_blank) to thank for finding out about this.
+This is really great, and extremely easy.  I have [NYBill](http://identi.ca/NYBill) to thank for finding out about this.
 
- There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives" target="_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
+ There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
 
  EasyTether is in the Android Market  (as well as an EasyTether Lite, which can't connect to https, among other things).
 
@@ -41,19 +41,19 @@ The second terminal window can now be closed.  The first window needs to be left
  <strong>Update:</strong>
 In order to make my life easier, I made a couple of entries into my ~/.bashrc file for these commands:
 
- <pre>alias tetherinit="easytether enumerate | easytether connect"
+```
+alias tetherinit="easytether enumerate | easytether connect"
+alias tetherstart="sudo dhclient easytether0"
 
- alias tetherstart="sudo dhclient easytether0"
-
- </pre>
+```
 (as of this writing, this method still works with Android 2.2)
 
- <div id="_mcePaste" style="position:absolute;left:-10000px;top:160px;width:1px;height:1px;overflow:hidden;">
+```
 easytether connect ################
 
- e
+e
 
- </div>
+```
 
 
 
