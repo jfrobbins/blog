@@ -2,18 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distrohop on jrobb.org</title>
-    <link>https://jrobb.org/tags/distrohop/</link>
+    <link>http://localhost:1313/tags/distrohop/</link>
     <description>Recent content in Distrohop on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/distrohop/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Distrohopping 2014</title>
-      <link>https://jrobb.org/linux/distrohopping-2014/</link>
-      <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/linux/distrohopping-2014/</guid>
-      <description>There are so many good distributions, it is hard to settle on just one. For me, anyway.&#xA;In the past when I&amp;rsquo;ve started hopping, I&amp;rsquo;ve almost always wound up using Fedora or some debian-based distro like Linux Mint. Then I go back and forth.&#xA;I&amp;rsquo;ve been using LM for quite some time now (Debian Edition on 2 PCs, LM17 on 2 PCs) and plus Ubuntu desktop on one laptop and Ubuntu Server on my VPS and home server.</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/distrohop/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

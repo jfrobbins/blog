@@ -16,6 +16,13 @@
       <description>My wife was very concerned about the viability of our photos and things in the event of a house fire, or theft, or some other horrible event. I have an existing backup solution in-home, which would suffice for a drive failure or anything like that. What we have been lacking is an off-site backup, and after looking around at several options, I settled on JungleDisk. This service offers automated backups, directory syncing, and the ability to encrypt the disk and files.</description>
     </item>
     <item>
+      <title>A followup on backups</title>
+      <link>https://jrobb.org/blog/backups-a-followup/</link>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/blog/backups-a-followup/</guid>
+      <description>Sometime back I made a post about how I backup my data. A recent thread on the crunchbang forums brought this back to mind, so I figured I should probably document my update here as well.&#xA;Nn my desktop I have 2 HDDs that are in a softRAID array (only /home is on the array). and then I have a daiyly cron script which does an rsync to backup my /home to an external eSATA HDD.</description>
+    </item>
+    <item>
       <title>Just a few interesting points</title>
       <link>https://jrobb.org/blog/just-a-few-interesting-points/</link>
       <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>

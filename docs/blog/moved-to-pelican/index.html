@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>pseudo randomness   my PRNG // jrobb.org</title>
+    <title>moved to pelican // jrobb.org</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.129.0">
@@ -17,23 +17,23 @@
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="pseudo randomness   my PRNG">
-  <meta name="twitter:description" content="My wife sells stuff on Etsy, and occasionally does some giveaway type things. She’s been using random.org, which is a great TRUE random generator site–however, many of their better services are not free.
-I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the “winner” of the giveaway.">
+  <meta name="twitter:title" content="moved to pelican">
+  <meta name="twitter:description" content="I’ve recently decided to move from octopress to pelican, mostly because I’m much more familiar with Python than with Ruby. This is good because if I want to hack the source a bit, I can do that much easier.
+Otherwise, they are very similar – they both run and generate static html from source files (in my case, markdown).
+I created this python script to convert all of my existing posts into a pelican-friendly format.">
 
-    <meta property="og:url" content="https://jrobb.org/blog/pseudo-randomness---my-prng/">
+    <meta property="og:url" content="https://jrobb.org/blog/moved-to-pelican/">
   <meta property="og:site_name" content="jrobb.org">
-  <meta property="og:title" content="pseudo randomness   my PRNG">
-  <meta property="og:description" content="My wife sells stuff on Etsy, and occasionally does some giveaway type things. She’s been using random.org, which is a great TRUE random generator site–however, many of their better services are not free.
-I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do: mainly, enter a list of names and return one who would be the “winner” of the giveaway.">
+  <meta property="og:title" content="moved to pelican">
+  <meta property="og:description" content="I’ve recently decided to move from octopress to pelican, mostly because I’m much more familiar with Python than with Ruby. This is good because if I want to hack the source a bit, I can do that much easier.
+Otherwise, they are very similar – they both run and generate static html from source files (in my case, markdown).
+I created this python script to convert all of my existing posts into a pelican-friendly format.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2011-02-05T00:00:00+00:00">
-    <meta property="article:modified_time" content="2011-02-05T00:00:00+00:00">
-    <meta property="article:tag" content="Jbs">
-    <meta property="article:tag" content="Random">
-    <meta property="article:tag" content="Code">
+    <meta property="article:published_time" content="2014-08-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2014-08-07T00:00:00+00:00">
+    <meta property="article:tag" content="Site">
 
 
   </head>
@@ -74,68 +74,34 @@ I then took it upon myself to set up a pretty decent Pseudo-random generator tha
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">pseudo randomness   my PRNG</h1>
+      <h1 class ="post-title">moved to pelican</h1>
       <div class="post-meta">
         <div>
           <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          Feb 5, 2011
+          Aug 7, 2014
         </div>
         <div>
           <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          3 min read
+          1 min read
         </div>
         <div>
           <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
-              <a class="tag" href="https://jrobb.org/tags/jbs/">Jbs</a>
-              <a class="tag" href="https://jrobb.org/tags/random/">Random</a>
-              <a class="tag" href="https://jrobb.org/tags/code/">Code</a>
+              <a class="tag" href="https://jrobb.org/tags/site/">Site</a>
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>My wife <a href="http://www.etsy.com/people/NestofManyColors">sells stuff on Etsy</a>, and occasionally does some giveaway type things.
-She&rsquo;s been using <a href="http://random.org">random.org</a>, which is a great TRUE random generator site&ndash;however, many of their better services are not free.</p>
-<p>I then took it upon myself to set up a pretty decent Pseudo-random generator that can do the things that she needs to do:  mainly, enter a list of names and return one who would be the &ldquo;winner&rdquo; of the giveaway.
-I set up a page to do this at <a href="http://jrobb.org/random/">jrobb.org/random</a>, and went to town making some things.<br>
-This is all pretty simple, but it is a lot of fun to do and I can always try to make it as random as possible. :)</p>
-<p>I wanted to have a pretty good seed, so I reused some of the code from the <a href="http://jrobb.org/blog/?article=159">jezra captcha routine</a> stuff.  I am also using the <a href="http://en.wikipedia.org/wiki/Mersenne_twister">Mersenne Twister</a>, which generates MUCH better random numbers with mt_rand() than the normal PHP rand().</p>
-<pre tabindex="0"><code>function mtrand_seed() {
-//try to create a more random seed
-$n = ((double)microtime()*1000000);
-mt_srand($n);//initial seed
-$ip_address = VISITORS_IP; //get the visitors IP address
-$appended_ip = $ip_address + date(&#34;zB&#34;); //append the numeric day of the year + 	Swatch Internet time to the ip_address
-$salt = genRandomString(); //add some random salt to the appended_ip
-$salted_string = $appended_ip+$salt;
-$md5_string = md5($salted_string) ; //get the md5sum of the salted string
-$first_int = getFirstInt($md5_string); //get the first and last integer of the md5_string
-$last_int = getLastInt($md5_string);
-
-$n = ((double)microtime()*1000000);
-if($first_int&gt;$last_int)
-{
-$n = $first_int -$last_int + $n ;
-} else {
-$n = $last_int - $first_int + $n ;
-}
-return $n;
-
-mt_srand($n);
-}
-</code></pre><p>This seems to work rather well, but I might wind up changing it around a bit as far as how the first_int/last_int are used to manipulate the seed.</p>
-<p>Then I read <a href="http://www.boallen.com/random-numbers.html">this post</a> which talks about random usage and image generation, and patterns that can appear from using a pseudorandom generator (mostly with the rand() function).
-<a href="http://cod.ifies.com/2008/05/php-rand01-on-windows-openssl-rand-on.html">This one</a> is also pretty cool and worth a read IMO).
-I wanted to give this a try, and I made a generator for this as well.</p>
-<!-- raw HTML omitted -->
-<p>No immediately evident pattern, which is good.  I&rsquo;m sure there is a pattern at some level though.</p>
-<p>I  made a colored version too:</p>
-<!-- raw HTML omitted -->
-<p>It is definitely a lot slower to generate than the B&amp;W version.</p>
-<p>I&rsquo;ll keep improving this generator, and adding new random stuff as it comes to me or as I want to fiddle with it.<br>
-Plus I&rsquo;m sure my wife will have suggestions once she uses it some.</p>
-<p>Oh, and naturally the source code for all of this random stuff is available on that page under the CC or whatever.  I&rsquo;m just not liable for&hellip;anything. ;-)</p>
-<p>Tags: #random #PRNG #PHP</p>
-<p>original filename: 163</p>
+      <p>I&rsquo;ve recently decided to move from <a href="http://octopress.org/">octopress</a> to <a href="http://blog.getpelican.com/">pelican</a>,
+mostly because I&rsquo;m much more familiar with <a href="https://www.python.org/">Python</a> than with Ruby.
+This is good because if I want to hack the source a bit, I can do that much easier.</p>
+<p>Otherwise, they are very similar &ndash; they both run and generate static html from source files (in my case, markdown).</p>
+<p>I created <a href="https://gist.github.com/jfrobbins/b586b3a29fed71cb212b">this python script</a> to convert all of my existing posts into a pelican-friendly format.
+While I was at it, I made a few small changes so that corrections could be made in some places from improper conversions of the past
+(I have gone from wordpress-&gt;hl&mdash;&gt;jbs-&gt;octopress-&gt;pelican).</p>
+<p>Overall I think it went well.  This post is actually my first for this new system.
+I hardly ever blog anymore, mostly I stick to <a href="https://io.jrobb.org">pump.io</a> but a blog is good to have for information sharing and documentation.</p>
+<p>I still have some work to do with the <a href="http://pelicanthemes.com/">themes</a> and finding one I like.</p>
+<p>Anyway, first post. Time to get to work.</p>
 
     </div>
     <div class="post-footer">

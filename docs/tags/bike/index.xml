@@ -2,18 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bike on jrobb.org</title>
-    <link>https://jrobb.org/tags/bike/</link>
+    <link>http://localhost:1313/tags/bike/</link>
     <description>Recent content in Bike on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/bike/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bike jeep image scripting</title>
-      <link>https://jrobb.org/blog/bike-jeep-image-scripting/</link>
-      <pubDate>Fri, 13 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/bike-jeep-image-scripting/</guid>
-      <description>I&amp;rsquo;ve put my bike up for sale&amp;hellip;the ad/info/pictures are here: [jrob.co.cc/forsale/2005sv650/](http://jrob.co.cc/forsale/2005sv650/&amp;quot; target=&amp;quot;_blank). Ideally this will sell so I can use the funds to fix my jeep in a more timely manner. Although I did have a pretty sweet deal worked out for a Dana 60 front and Dana 70u rear, it didn&amp;rsquo;t really appear that would work out&amp;ndash;the front was PSD, and I need DSD (without significantly more work/money). So, it looks like I am going to be going with a Dana 44 front / Ford 9&amp;quot; rear as long as we can work something out with pricing.</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/bike/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

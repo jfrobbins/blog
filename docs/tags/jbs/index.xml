@@ -303,7 +303,7 @@
       <description>I&amp;rsquo;ve installed and been using HeyBuddy as a client for identi.ca. If you don&amp;rsquo;t know what identi.ca is&amp;hellip;it&amp;rsquo;s basically an open source Twitter, with more/better features.&#xA;This thing is great, keeps me from having to use mustard on my droid, or from keeping the webpage open. Status.net also has a desktop client, but I do not like it as well. Besides Heybuddy is &amp;ldquo;supposedly lightweight,&amp;rdquo; which is always great.&#xA;Check it out if you get the chance.</description>
     </item>
     <item>
-      <title>Backups a followup</title>
+      <title>A followup on backups</title>
       <link>https://jrobb.org/blog/backups-a-followup/</link>
       <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/backups-a-followup/</guid>
@@ -373,10 +373,10 @@
       <description>MX 5 ALT1.ASPMX.L.GOOGLE.COM.&#xA;MX 5 ALT2.ASPMX.L.GOOGLE.COM.&#xA;MX 1 ASPMX.L.GOOGLE.COM.&#xA;MX 10 ASPMX2.GOOGLEMAIL.COM.&#xA;MX 10 ASPMX3.GOOGLEMAIL.COM.&#xA;TXT v=spf1 include:aspmx.googlemail.com ~all&#xA;CNAME googleffffffffcf7c3286 google.com.&#xA;CNAME mail ghs.google.com.&#xA;tags: #&#xA;Published Date: Sat, 19 Jun 2010 10:57:27 +0000&#xA;Original URL | Original guid | PostID= 282&#xA;original filename: 112</description>
     </item>
     <item>
-      <title>Update free servers aren039t worth it</title>
-      <link>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</link>
+      <title>Update free servers are not worth it</title>
+      <link>https://jrobb.org/blog/update-free-servers-are-not-worth-it/</link>
       <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</guid>
+      <guid>https://jrobb.org/blog/update-free-servers-are-not-worth-it/</guid>
       <description>on the old site which I just transferred from (again), the MySQL db&amp;rsquo;s are all jacked up and non-working,so I am back here to stay.&#xA;I&amp;rsquo;ve changed about the Code Page, gave it a little more structure. I have yet to try to recover the lost posts from the other host. I imagine it is going to be quite the hassle.&#xA;In fact, they may not even be recoverable, if the databases were wiped out!</description>
     </item>
     <item>

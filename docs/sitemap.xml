@@ -41,16 +41,13 @@
     <loc>https://jrobb.org/server/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/distrohop/</loc>
+    <loc>https://jrobb.org/blog/</loc>
     <lastmod>2014-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/linux/distrohopping-2014/</loc>
+    <loc>https://jrobb.org/blog/distrohopping-2014/</loc>
     <lastmod>2014-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/linux/</loc>
-    <lastmod>2014-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/linux/</loc>
     <lastmod>2014-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/projects/</loc>
@@ -74,16 +71,13 @@
     <loc>https://jrobb.org/tags/social/</loc>
     <lastmod>2014-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/site/moved-to-pelican/</loc>
+    <loc>https://jrobb.org/blog/moved-to-pelican/</loc>
     <lastmod>2014-08-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/site/</loc>
     <lastmod>2014-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/site/</loc>
-    <lastmod>2014-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/blog/</loc>
+    <loc>https://jrobb.org/tags/encryption/</loc>
     <lastmod>2011-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/jbs/</loc>
@@ -91,15 +85,6 @@
   </url><url>
     <loc>https://jrobb.org/blog/ssh-box/</loc>
     <lastmod>2011-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/sshbox/</loc>
-    <lastmod>2011-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tunnel/</loc>
-    <lastmod>2011-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/code/</loc>
-    <lastmod>2011-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/fossil/</loc>
     <lastmod>2011-02-13T00:00:00+00:00</lastmod>
@@ -113,16 +98,10 @@
     <loc>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</loc>
     <lastmod>2011-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/version-control/</loc>
-    <lastmod>2011-02-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/work/</loc>
     <lastmod>2011-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/php/</loc>
-    <lastmod>2011-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/prng/</loc>
+    <loc>https://jrobb.org/tags/code/</loc>
     <lastmod>2011-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/pseudo-randomness---my-prng/</loc>
@@ -130,21 +109,6 @@
   </url><url>
     <loc>https://jrobb.org/tags/random/</loc>
     <lastmod>2011-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/chrome/</loc>
-    <lastmod>2011-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/chromium/</loc>
-    <lastmod>2011-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/fedora/</loc>
-    <lastmod>2011-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/filename/</loc>
-    <lastmod>2011-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/firefox/</loc>
-    <lastmod>2011-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/installing-chromium-on-fedora-14/</loc>
     <lastmod>2011-01-31T00:00:00+00:00</lastmod>
@@ -168,9 +132,6 @@
     <lastmod>2011-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/archnemesis/</loc>
-    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/redhat/</loc>
     <lastmod>2011-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/webreezes/</loc>
@@ -230,18 +191,6 @@
     <loc>https://jrobb.org/blog/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</loc>
     <lastmod>2010-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/1-ton/</loc>
-    <lastmod>2010-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/d60/</loc>
-    <lastmod>2010-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/dana-60/</loc>
-    <lastmod>2010-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/jeep-br/</loc>
-    <lastmod>2010-09-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/jeep-rebuild-dana-60-time/</loc>
     <lastmod>2010-09-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -256,12 +205,6 @@
   </url><url>
     <loc>https://jrobb.org/blog/my-project-site-is-fancy/</loc>
     <lastmod>2010-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/bash/</loc>
-    <lastmod>2010-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/bike/</loc>
-    <lastmod>2010-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/bike-jeep-image-scripting/</loc>
     <lastmod>2010-08-13T00:00:00+00:00</lastmod>
@@ -293,7 +236,7 @@
     <loc>https://jrobb.org/blog/jeep-escapades...and-damages/</loc>
     <lastmod>2010-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/distro/</loc>
+    <loc>https://jrobb.org/tags/bsd/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/linux-vs-bsd-and-an-urge-to-hop/</loc>
@@ -304,9 +247,6 @@
   </url><url>
     <loc>https://jrobb.org/blog/jrob.co.cc-is-back-on-the-air/</loc>
     <lastmod>2010-07-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/encryption/</loc>
-    <lastmod>2010-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</loc>
     <lastmod>2010-07-19T00:00:00+00:00</lastmod>
@@ -323,12 +263,6 @@
     <loc>https://jrobb.org/blog/some-recent-distro-hoppage/</loc>
     <lastmod>2010-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/android/</loc>
-    <lastmod>2010-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/tether/</loc>
-    <lastmod>2010-07-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/</loc>
     <lastmod>2010-07-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -344,22 +278,7 @@
     <loc>https://jrobb.org/blog/backups-a-followup/</loc>
     <lastmod>2010-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/binbash/</loc>
-    <lastmod>2010-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/blog/jrob.co.cc-back-up...sort-of/</loc>
-    <lastmod>2010-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/run/</loc>
-    <lastmod>2010-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/simple/</loc>
-    <lastmod>2010-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/simple_home_backup_scriptsh/</loc>
-    <lastmod>2010-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/this/</loc>
     <lastmod>2010-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/project-or-masters/</loc>
@@ -398,10 +317,7 @@
     <loc>https://jrobb.org/blog/custom_dns/</loc>
     <lastmod>2010-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/039t/</loc>
-    <lastmod>2010-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</loc>
+    <loc>https://jrobb.org/blog/update-free-servers-are-not-worth-it/</loc>
     <lastmod>2010-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/back-to-this-domain/</loc>
@@ -434,7 +350,7 @@
     <loc>https://jrobb.org/blog/browsers-etc./</loc>
     <lastmod>2010-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/bsd/</loc>
+    <loc>https://jrobb.org/tags/bash/</loc>
     <lastmod>2010-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/jolicloud/</loc>

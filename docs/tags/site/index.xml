@@ -10,9 +10,9 @@
     <atom:link href="https://jrobb.org/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>moved to pelican</title>
-      <link>https://jrobb.org/site/moved-to-pelican/</link>
+      <link>https://jrobb.org/blog/moved-to-pelican/</link>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/site/moved-to-pelican/</guid>
+      <guid>https://jrobb.org/blog/moved-to-pelican/</guid>
       <description>I&amp;rsquo;ve recently decided to move from octopress to pelican, mostly because I&amp;rsquo;m much more familiar with Python than with Ruby. This is good because if I want to hack the source a bit, I can do that much easier.&#xA;Otherwise, they are very similar &amp;ndash; they both run and generate static html from source files (in my case, markdown).&#xA;I created this python script to convert all of my existing posts into a pelican-friendly format.</description>
     </item>
     <item>
@@ -51,10 +51,10 @@
       <description>So The old host is back up. I am not really hosting any files there anymore, so it more or less just points here.&#xA;I host a few things on there that warrant keeping it, but nothing high priority so it does not really matter if it goes down again. Oh, and the MySQL db&amp;rsquo;s are all broken, so I had to disable anything that tried to connect. Lame!&#xA;http://jrob.co.cc</description>
     </item>
     <item>
-      <title>Update free servers aren039t worth it</title>
-      <link>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</link>
+      <title>Update free servers are not worth it</title>
+      <link>https://jrobb.org/blog/update-free-servers-are-not-worth-it/</link>
       <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/update-free-servers-aren039t-worth-it/</guid>
+      <guid>https://jrobb.org/blog/update-free-servers-are-not-worth-it/</guid>
       <description>on the old site which I just transferred from (again), the MySQL db&amp;rsquo;s are all jacked up and non-working,so I am back here to stay.&#xA;I&amp;rsquo;ve changed about the Code Page, gave it a little more structure. I have yet to try to recover the lost posts from the other host. I imagine it is going to be quite the hassle.&#xA;In fact, they may not even be recoverable, if the databases were wiped out!</description>
     </item>
     <item>
