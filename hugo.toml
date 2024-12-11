@@ -14,6 +14,32 @@ publishDir = "docs"
   menu_item_separator = "<br>"
   # favicon = /favicon.ico"
 
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "Mastodon"
+  url = "https://mastodon.social/@jrobb"
+  weight = 2
+
+[[menu.main]]
+  identifier = "about"
+  name = "About Hugo"
+  url = "https://gohugo.io/"
+  weight = 99
+
+
+
 [[params.social]]
   icon = "https://joinmastodon.org/logos/logo-purple.svg"
   medium = "Mastodon"
@@ -28,26 +54,3 @@ publishDir = "docs"
   icon = "brand-github"
   name = "My Github"
   url = "https://github.com/jfrobbins"
-
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-#[[menu.main]]
-#  name = "Blog"
-#  url = "/posts/"
-#  weight = 2
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 3
-
-[[menu.main]]
-  identifier = "about"
-  name = "About Hugo"
-  url = "https://gohugo.io/"
-  weight = 99
