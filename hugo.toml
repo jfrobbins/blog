@@ -27,10 +27,10 @@ publishDir = "docs"
   url = "/tags/"
   weight = 3
 
-[[menu.main]]
-  name = "Mastodon"
-  url = "https://mastodon.social/@jrobb"
-  weight = 2
+#[[menu.main]]
+#  name = "Mastodon"
+#  url = "https://mastodon.social/@jrobb"
+#  weight = 2
 
 [[menu.main]]
   identifier = "about"
@@ -41,13 +41,13 @@ publishDir = "docs"
 
 
 [[params.social]]
-  icon = "https://joinmastodon.org/logos/logo-purple.svg"
+  icon = "fab fa-mastodon"
   medium = "Mastodon"
   link = "https://mastodon.social/@jrobb"
 
 [[params.social]]
   medium = "X"
-  icon = "twitter"
+  icon = "fab fa-x-twitter"
   link = "https://twitter.com/jrobbnc"
 
 [[params.social]]
