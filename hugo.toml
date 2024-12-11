@@ -43,7 +43,7 @@ publishDir = "docs"
 [[params.social]]
   name = "X"
   icon = "brand-x"
-  url = "https://twitter.com/jrobbnc"
+  url = "https://x.com/jrobbnc"
 
 [[params.social]]
   icon = "brand-github"
