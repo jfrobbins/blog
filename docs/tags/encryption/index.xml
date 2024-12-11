@@ -13,7 +13,7 @@
       <link>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</link>
       <pubDate>Mon, 19 Jul 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/</guid>
-      <description>So I had started this a long time ago, and forgotten all about it as I really didn&amp;rsquo;t have a use for it. Now that I have the ability to [tether](http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&amp;quot; target=&amp;quot;_blank), and I have my eeePC working again, combined with attending LUGs&amp;ndash;now I have the use for a secure tunnel.&#xA;In case you aren&amp;rsquo;t aware (I wasn&amp;rsquo;t), passwords and logins are sent in PLAIN TEXT&amp;ndash;yes, I said plain text. Nuts, huh?</description>
+      <description>So I had started this a long time ago, and forgotten all about it as I really didn&amp;rsquo;t have a use for it. Now that I have the ability to tether, and I have my eeePC working again, combined with attending LUGs&amp;ndash;now I have the use for a secure tunnel.&#xA;In case you aren&amp;rsquo;t aware (I wasn&amp;rsquo;t), passwords and logins are sent in PLAIN TEXT&amp;ndash;yes, I said plain text. Nuts, huh?</description>
     </item>
   </channel>
 </rss>

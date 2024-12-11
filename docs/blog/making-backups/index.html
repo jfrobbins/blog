@@ -19,17 +19,17 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Making Backups">
   <meta name="twitter:description" content="Backups can be very important, no one wants to lose any of their data–especially if it has happened to you before.
-I have previously [setup my x64 desktop PC with softRAID](http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/&#34; target=&#34;_blank), so everything I have in my /home folder is mirrored across 2 drives. However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.
-It started when I read [some of this stuff](http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;action=display&amp;amp;thread=50&#34; target=&#34;_blank) about backups and solutions, so I decided I should probably do something similar. The one from distrowatch really pushed me a long though, as the [Q&amp;A thing](http://distrowatch.com/weekly.php?issue=20100208#qa&#34; target=&#34;_blank) really made sense.
-To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux.org/index.php/Backup_Programs](http://wiki.archlinux.org/index.php/Backup_Programs&#34; target=&#34;_blank). I chose to try a few of them, I didn’t like arch-backup, backerupper didn’t really work the way I liked. A few more just didn’t work for me.">
+I have previously setup my x64 desktop PC with softRAID, so everything I have in my /home folder is mirrored across 2 drives. However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.
+It started when I read some of this stuff about backups and solutions, so I decided I should probably do something similar. The one from distrowatch really pushed me a long though, as the Q&amp;A thing really made sense.
+To start off, I began by reading the ArchWiki backup tools page: wiki.archlinux.org/index.php/Backup_Programs. I chose to try a few of them, I didn’t like arch-backup, backerupper didn’t really work the way I liked. A few more just didn’t work for me.">
 
     <meta property="og:url" content="https://jrobb.org/blog/making-backups/">
   <meta property="og:site_name" content="jrobb.org">
   <meta property="og:title" content="Making Backups">
   <meta property="og:description" content="Backups can be very important, no one wants to lose any of their data–especially if it has happened to you before.
-I have previously [setup my x64 desktop PC with softRAID](http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/&#34; target=&#34;_blank), so everything I have in my /home folder is mirrored across 2 drives. However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.
-It started when I read [some of this stuff](http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;action=display&amp;amp;thread=50&#34; target=&#34;_blank) about backups and solutions, so I decided I should probably do something similar. The one from distrowatch really pushed me a long though, as the [Q&amp;A thing](http://distrowatch.com/weekly.php?issue=20100208#qa&#34; target=&#34;_blank) really made sense.
-To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux.org/index.php/Backup_Programs](http://wiki.archlinux.org/index.php/Backup_Programs&#34; target=&#34;_blank). I chose to try a few of them, I didn’t like arch-backup, backerupper didn’t really work the way I liked. A few more just didn’t work for me.">
+I have previously setup my x64 desktop PC with softRAID, so everything I have in my /home folder is mirrored across 2 drives. However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.
+It started when I read some of this stuff about backups and solutions, so I decided I should probably do something similar. The one from distrowatch really pushed me a long though, as the Q&amp;A thing really made sense.
+To start off, I began by reading the ArchWiki backup tools page: wiki.archlinux.org/index.php/Backup_Programs. I chose to try a few of them, I didn’t like arch-backup, backerupper didn’t really work the way I liked. A few more just didn’t work for me.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -102,16 +102,20 @@ To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux
     </header>
     <div class="post-content">
       <p>Backups can be very important, no one wants to lose any of their data&ndash;<!-- raw HTML omitted -->especially<!-- raw HTML omitted --> if it has happened to you before.</p>
-<p>I have previously [setup my x64 desktop PC with softRAID](<a href="http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/%22">http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/&quot;</a> target=&quot;_blank), so everything I have in my /home folder is mirrored across 2 drives.  However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.</p>
-<p>It started when I read [some of this stuff](<a href="http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;action=display&amp;amp;thread=50%22">http://fqnet.proboards.com/index.cgi?board=nix&amp;amp;action=display&amp;amp;thread=50&quot;</a> target=&quot;_blank) about backups and solutions, so I decided I should probably do something similar.  The one from distrowatch really pushed me a long though, as the [Q&amp;A thing](<a href="http://distrowatch.com/weekly.php?issue=20100208#qa%22">http://distrowatch.com/weekly.php?issue=20100208#qa&quot;</a> target=&quot;_blank) really made sense.</p>
-<p>To start off, I began by reading the ArchWiki backup tools page: [wiki.archlinux.org/index.php/Backup_Programs](<a href="http://wiki.archlinux.org/index.php/Backup_Programs%22">http://wiki.archlinux.org/index.php/Backup_Programs&quot;</a> target=&quot;_blank).  I chose to try a few of them, I didn&rsquo;t like arch-backup, backerupper didn&rsquo;t really work the way I liked.  A few more just didn&rsquo;t work for me.</p>
-<p>I used [rdup](<a href="http://www.miek.nl/projects/rdup/index.html%22">http://www.miek.nl/projects/rdup/index.html&quot;</a> target=&quot;_blank) (continuation of hdup, or at least made by the same developer), which worked well, but not really for the large amount of data that I am backing up.  It is a VERY flexible tool (that actualy doesn&rsquo;t back anything up at all!), so I tried a few different methods from creating a large .tar.gz file (26GB!), to incrementaly hardlinked backups, but I didn&rsquo;t care too much for it.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>In the end, I decided to go back to the tried and true, age-old: [rsync](<a href="http://samba.anu.edu.au/rsync/%22">http://samba.anu.edu.au/rsync/&quot;</a> target=&quot;_blank).  I recently put something together at work to mirror a drive I use for my software application at another locaton, and I used rsync (by using [cygwin](<a href="http://www.cygwin.com/%22">http://www.cygwin.com/&quot;</a> target=&quot;_blank) to emulate a unix shell to run it on windows&hellip;but that&rsquo;s another story).  So I use rsync to run incremental backups, and I run this nightly (with a cron entry). With these flags, if nothing is updated or changed, nothing changes.  Otherwise it copies only the changes.  It works great for me!</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>As a side note, my backup media is a USB external hard drive.</p>
+<p>I have previously <a href="http://factorq.net/2009/09/30/my-adventure-installing-linux-on-softraid1-part-4/">setup my x64 desktop PC with softRAID</a>, so everything I have in my /home folder is mirrored across 2 drives.  However, I am not sure if I am overly paranoid, or maybe I just like to be extra secure because now I have implemented an additional backup measure.</p>
+<p>It started when I read <a href="http://fqnet.proboards.com/index.cgi?board=nix&amp;action=display&amp;thread=50">some of this stuff</a> about backups and solutions, so I decided I should probably do something similar.  The one from distrowatch really pushed me a long though, as the <a href="http://distrowatch.com/weekly.php?issue=20100208#qa">Q&amp;A thing</a> really made sense.</p>
+<p>To start off, I began by reading the ArchWiki backup tools page: <a href="http://wiki.archlinux.org/index.php/Backup_Programs">wiki.archlinux.org/index.php/Backup_Programs</a>.  I chose to try a few of them, I didn&rsquo;t like arch-backup, backerupper didn&rsquo;t really work the way I liked.  A few more just didn&rsquo;t work for me.</p>
+<p>I used <a href="http://www.miek.nl/projects/rdup/index.html">rdup</a> (continuation of hdup, or at least made by the same developer), which worked well, but not really for the large amount of data that I am backing up.  It is a VERY flexible tool (that actualy doesn&rsquo;t back anything up at all!), so I tried a few different methods from creating a large .tar.gz file (26GB!), to incrementaly hardlinked backups, but I didn&rsquo;t care too much for it.</p>
+<pre tabindex="0"><code>#first method, creating a tarball
+
+rdup ~/.rdup-backup-list $SOURCEDIR | rdup-tr -Otar | gzip -c -f &amp;gt; $DESTDIR
+
+#incremental style backup
+
+rdup-simple -zvmn ~/ $DESTDIR
+</code></pre><p>In the end, I decided to go back to the tried and true, age-old: <a href="http://samba.anu.edu.au/rsync/">rsync</a>.  I recently put something together at work to mirror a drive I use for my software application at another locaton, and I used rsync (by using <a href="http://www.cygwin.com/">cygwin</a> to emulate a unix shell to run it on windows&hellip;but that&rsquo;s another story).  So I use rsync to run incremental backups, and I run this nightly (with a cron entry). With these flags, if nothing is updated or changed, nothing changes.  Otherwise it copies only the changes.  It works great for me!</p>
+<pre tabindex="0"><code>rsync -avzutmo --delete ~/ $DESTDIR
+</code></pre><p>As a side note, my backup media is a USB external hard drive.</p>
 <p>tags: #linux</p>
 <p>Tags:  #arch #backup #data #linux #raid #rdup #rsync</p>
 <p>Published Date: Mon, 22 Feb 2010 12:51:48 +0000</p>

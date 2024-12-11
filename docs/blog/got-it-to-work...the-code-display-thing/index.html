@@ -106,37 +106,37 @@ Terrible name, by the way: “jbs”–if anyone can think of something better, 
       <p>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site:  <a href="http://jbs.jrobb.org">jbs.jrobb.org</a>.
 Now I can post the bulk of the captcha code that I mentioned in my <a href="?article=159">last post</a>.  For the full thing, just download the &ldquo;jbs&rdquo; software and check it out.</p>
 <p>Terrible name, by the way: &ldquo;jbs&rdquo;&ndash;if anyone can think of something better, please let me know!</p>
-<p><!-- raw HTML omitted -->Captcha stuff<!-- raw HTML omitted --></p>
-<p>This is PHP, but could probably be used with whatever you want to convert it to:
-[code]
-function createCaptcha() {
+<p><strong>Captcha stuff</strong></p>
+<p>This is PHP, but could probably be used with whatever you want to convert it to:</p>
+<pre tabindex="0"><code>function createCaptcha() {
 // creates captcha problem and stores along with answer in SESSION vars
-//Thanks to @jezra for this:  <a href="http://www.jezra.net/blog/creating_a_CAPTCHA">http://www.jezra.net/blog/creating_a_CAPTCHA</a></p>
-<p>$ip_address = VISITORS_IP; //get the visitors IP address
-$appended_ip = $ip_address + date(&ldquo;zB&rdquo;); //append the numeric day of the year + Swatch Internet time to the ip_address
-$salt = &ldquo;go away spammers&rdquo;; //add some salt to the appended_ip
+//Thanks to @jezra for this:  http://www.jezra.net/blog/creating_a_CAPTCHA
+
+$ip_address = VISITORS_IP; //get the visitors IP address
+$appended_ip = $ip_address + date(&#34;zB&#34;); //append the numeric day of the year + Swatch Internet time to the ip_address
+$salt = &#34;go away spammers&#34;; //add some salt to the appended_ip
 $salted_string = $appended_ip+$salt;
 $md5_string = md5($salted_string) ; //get the md5sum of the salted string
 $first_int = getFirstInt($md5_string); //get the first and last integer of the md5_string
 $last_int = getLastInt($md5_string);
-//if the first int is greater than the last
+//if the first int is greater than the last 
 if($first_int&gt;$last_int)
 {
 //this is a subtraction problem
-$problem = $first_int . &quot; minus &quot; . $last_int;
+$problem = $first_int . &#34; minus &#34; . $last_int;
 $answer = $first_int-$last_int;
 }else{
 //this is an addition problem
-$problem = $first_int . &quot; plus &quot; . $last_int;
+$problem = $first_int . &#34; plus &#34; . $last_int;
 $answer = $first_int+$last_int;
-}</p>
-<p>//set answer with session var
-$_SESSION[&lsquo;canswer&rsquo;.$problem] = $answer;<br>
-$_SESSION[&lsquo;cproblem&rsquo;] = $problem;  //set the problem, so can retrieve the answer later
+}
+
+//set answer with session var
+$_SESSION[&#39;canswer&#39;.$problem] = $answer;  
+$_SESSION[&#39;cproblem&#39;] = $problem;  //set the problem, so can retrieve the answer later
 return $problem;
 }
-[/code]</p>
-<p>Looks like this doesn&rsquo;t show up in the rss feed at all&hellip;I&rsquo;ll have to fix that in v0.2.1! (edit: fixed now!)</p>
+</code></pre><p>Looks like this doesn&rsquo;t show up in the rss feed at all&hellip;I&rsquo;ll have to fix that in v0.2.1! (edit: fixed now!)</p>
 <p>Tags: #site #blog #code #captcha</p>
 <p>original filename: 160</p>
 

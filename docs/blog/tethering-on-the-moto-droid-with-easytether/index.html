@@ -18,16 +18,16 @@
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tethering on the Moto Droid with EasyTether">
-  <meta name="twitter:description" content="This is really great, and extremely easy. I have [NYBill](http://identi.ca/NYBill&#34; target=&#34;_blank) to thank for finding out about this.
-There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&#34; target=&#34;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
+  <meta name="twitter:description" content="This is really great, and extremely easy. I have NYBill to thank for finding out about this.
+There is a tutorial from here, However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
 EasyTether is in the Android Market (as well as an EasyTether Lite, which can’t connect to https, among other things).
 Once you install and run the app, it can download the driver file which is a .">
 
     <meta property="og:url" content="https://jrobb.org/blog/tethering-on-the-moto-droid-with-easytether/">
   <meta property="og:site_name" content="jrobb.org">
   <meta property="og:title" content="Tethering on the Moto Droid with EasyTether">
-  <meta property="og:description" content="This is really great, and extremely easy. I have [NYBill](http://identi.ca/NYBill&#34; target=&#34;_blank) to thank for finding out about this.
-There is a tutorial from [here](http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&#34; target=&#34;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
+  <meta property="og:description" content="This is really great, and extremely easy. I have NYBill to thank for finding out about this.
+There is a tutorial from here, However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).
 EasyTether is in the Android Market (as well as an EasyTether Lite, which can’t connect to https, among other things).
 Once you install and run the app, it can download the driver file which is a .">
   <meta property="og:locale" content="en_us">
@@ -105,8 +105,8 @@ Once you install and run the app, it can download the driver file which is a .">
       </div>
     </header>
     <div class="post-content">
-      <p>This is really great, and extremely easy.  I have [NYBill](<a href="http://identi.ca/NYBill%22">http://identi.ca/NYBill&quot;</a> target=&quot;_blank) to thank for finding out about this.</p>
-<p>There is a tutorial from [here](<a href="http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives%22">http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives&quot;</a> target=&quot;_blank), However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).</p>
+      <p>This is really great, and extremely easy.  I have <a href="http://identi.ca/NYBill">NYBill</a> to thank for finding out about this.</p>
+<p>There is a tutorial from <a href="http://www.debiantutorials.org/ezsurfer-blog/356-tether-a-droid-alternatives">here</a>, However, in case that goes away I will list the steps here (in the very likely event I forget how to connect).</p>
 <p>EasyTether is in the Android Market  (as well as an EasyTether Lite, which can&rsquo;t connect to https, among other things).</p>
 <p>Once you install and run the app, it can download the driver file which is a .deb package.  There are also windows drivers, but I don&rsquo;t know anything about those&hellip;</p>
 <p>Anyway, connect to usb, and enable the usb so that the phone is mountable. copy or install the .deb from the phone.</p>
@@ -121,13 +121,13 @@ Once you install and run the app, it can download the driver file which is a .">
 <p>The second terminal window can now be closed.  The first window needs to be left open for the entire session, and when you wish to disconnect, this can be done by pressing CTRL-C in that first terminal window to exit.</p>
 <p><!-- raw HTML omitted -->Update:<!-- raw HTML omitted -->
 In order to make my life easier, I made a couple of entries into my ~/.bashrc file for these commands:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>(as of this writing, this method still works with Android 2.2)</p>
-<!-- raw HTML omitted -->
-<p>e</p>
-<!-- raw HTML omitted -->
-<p>tags: #linux</p>
+<pre tabindex="0"><code>alias tetherinit=&#34;easytether enumerate | easytether connect&#34;
+alias tetherstart=&#34;sudo dhclient easytether0&#34;
+</code></pre><p>(as of this writing, this method still works with Android 2.2)</p>
+<pre tabindex="0"><code>easytether connect ################
+
+e
+</code></pre><p>tags: #linux</p>
 <p>Tags:  #android #droid #easytether #tether</p>
 <p>Published Date: Wed, 14 Jul 2010 15:32:50 +0000</p>
 <p><a href="http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/">Original URL</a> | <a href="http://factorq.net/?p=352">Original guid</a> | PostID= 352</p>

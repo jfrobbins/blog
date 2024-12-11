@@ -18,13 +18,13 @@
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="set up ssh  encrypted socks tunnel">
-  <meta name="twitter:description" content="So I had started this a long time ago, and forgotten all about it as I really didn’t have a use for it. Now that I have the ability to [tether](http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&#34; target=&#34;_blank), and I have my eeePC working again, combined with attending LUGs–now I have the use for a secure tunnel.
+  <meta name="twitter:description" content="So I had started this a long time ago, and forgotten all about it as I really didn’t have a use for it. Now that I have the ability to tether, and I have my eeePC working again, combined with attending LUGs–now I have the use for a secure tunnel.
 In case you aren’t aware (I wasn’t), passwords and logins are sent in PLAIN TEXT–yes, I said plain text. Nuts, huh?">
 
     <meta property="og:url" content="https://jrobb.org/blog/set-up-ssh--encrypted-socks-tunnel/">
   <meta property="og:site_name" content="jrobb.org">
   <meta property="og:title" content="set up ssh  encrypted socks tunnel">
-  <meta property="og:description" content="So I had started this a long time ago, and forgotten all about it as I really didn’t have a use for it. Now that I have the ability to [tether](http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&#34; target=&#34;_blank), and I have my eeePC working again, combined with attending LUGs–now I have the use for a secure tunnel.
+  <meta property="og:description" content="So I had started this a long time ago, and forgotten all about it as I really didn’t have a use for it. Now that I have the ability to tether, and I have my eeePC working again, combined with attending LUGs–now I have the use for a secure tunnel.
 In case you aren’t aware (I wasn’t), passwords and logins are sent in PLAIN TEXT–yes, I said plain text. Nuts, huh?">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -87,7 +87,7 @@ In case you aren’t aware (I wasn’t), passwords and logins are sent in PLAIN 
         </div>
         <div>
           <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          1 min read
+          2 min read
         </div>
         <div>
           <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
@@ -97,13 +97,19 @@ In case you aren’t aware (I wasn’t), passwords and logins are sent in PLAIN 
       </div>
     </header>
     <div class="post-content">
-      <p>So I had started this a long time ago, and forgotten all about it as I really didn&rsquo;t have a use for it.  Now that I have the ability to [tether](<a href="http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/%22">http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/&quot;</a> target=&quot;_blank), and I have my eeePC working again, combined with attending LUGs&ndash;now I have the use for a secure tunnel.</p>
+      <p>So I had started this a long time ago, and forgotten all about it as I really didn&rsquo;t have a use for it.  Now that I have the ability to <a href="http://factorq.net/2010/07/14/tethering-on-the-moto-droid-with-easytether/">tether</a>, and I have my eeePC working again, combined with attending LUGs&ndash;now I have the use for a secure tunnel.</p>
 <p>In case you aren&rsquo;t aware (I wasn&rsquo;t), passwords and logins are sent in PLAIN TEXT&ndash;yes, I said plain text.  Nuts, huh?  Anyway, so when you are not on a known or somewhat secure network, this could be dangerous.</p>
-<p>Setting up SSH is very easy to do, and it comes in very handy.  ArchLinux has a [terrific wiki entry](<a href="http://wiki.archlinux.org/index.php/SSH%22">http://wiki.archlinux.org/index.php/SSH&quot;</a> target=&quot;_blank), as usual, which speedifies things quite a bit.  It is very straightforward, and I can certainly not do better here.</p>
-<p>There is also a section for [creating an encrypted SOCKS tunnel](<a href="http://wiki.archlinux.org/index.php/SSH#Encrypted_Socks_Tunnel%22">http://wiki.archlinux.org/index.php/SSH#Encrypted_Socks_Tunnel&quot;</a> target=&quot;_blank).  Once the SSH on the client and SSHd on the host have been configured, creating the tunnel is a breeze.  You just run a command:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Setting up SSH is very easy to do, and it comes in very handy.  ArchLinux has a <a href="http://wiki.archlinux.org/index.php/SSH">terrific wiki entry</a>, as usual, which speedifies things quite a bit.  It is very straightforward, and I can certainly not do better here.</p>
+<p>There is also a section for <a href="http://wiki.archlinux.org/index.php/SSH#Encrypted_Socks_Tunnel">creating an encrypted SOCKS tunnel</a>.  Once the SSH on the client and SSHd on the host have been configured, creating the tunnel is a breeze.  You just run a command:</p>
+<pre tabindex="0"><code>$ ssh -ND 4711 user@host
+</code></pre><p>and then configure your web browser:<!-- raw HTML omitted --></p>
+<ul>
+<li>For Firefox: <em>Edit  Preferences  Advanced  Network  Connection  Setting</em> :</li>
+</ul>
+<p>Check the <em>&ldquo;Manual proxy configuration&rdquo;</em> radio button, and enter &ldquo;localhost&rdquo; in the <em>&ldquo;SOCKS host&rdquo;</em> text field, and then enter your port number in the next text field (I used 4711 above).<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Make sure you select SOCKS4 as the protocol to use. This procedure will not work for SOCKS5.</p>
+<p>I created a bash alias &ldquo;sshtunnel&rdquo; as menoned in the wiki so I have less to type.</p>
+<p>Also worth mentioning, is that since my IP is dynamic, and my ssh host computer is behind a router, I have to have some kind of way to broadcast my REAL ip externally.  So, I wen on over to <a href="http://DynDNS.com">DynDNS.com</a> and set up a free account for a subdmain. Then I just configured my router to forward my ssh port, as well as tell it to update DynDNS with my real IP address when it changes (It has been a built-in feature with my current Netgear as well as my past LinkSys routers).</p>
+<p>Very simple, over all.  And it can definitely come in handy.   I have <a href="http://identi.ca/NYBill">@NYBill </a>to thank again, he reminded me I needed to finish setting this up.</p>
 <p>tags: #linux</p>
 <p>Tags:  #arch #encrypted #linux #ssh #tether #tunnel</p>
 <p>Published Date: Tue, 20 Jul 2010 02:59:13 +0000</p>

@@ -19,19 +19,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Installing Chromium on Fedora 14">
   <meta name="twitter:description" content="This is very easy…actually I think it is too easy to even blog about… but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.
-[code] #filename: fedora-chromium.repo
-Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0
-[fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 [/code]
-After that, ran a “yum update” and “yum install chromium”, and that was it!">
+#filename: fedora-chromium.repo # Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0 [fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 After that, ran a “yum update” and “yum install chromium”, and that was it!">
 
     <meta property="og:url" content="https://jrobb.org/blog/installing-chromium-on-fedora-14/">
   <meta property="og:site_name" content="jrobb.org">
   <meta property="og:title" content="Installing Chromium on Fedora 14">
   <meta property="og:description" content="This is very easy…actually I think it is too easy to even blog about… but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.
-[code] #filename: fedora-chromium.repo
-Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0
-[fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 [/code]
-After that, ran a “yum update” and “yum install chromium”, and that was it!">
+#filename: fedora-chromium.repo # Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0 [fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 After that, ran a “yum update” and “yum install chromium”, and that was it!">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -113,21 +107,20 @@ After that, ran a “yum update” and “yum install chromium”, and that was 
     <div class="post-content">
       <p>This is very easy&hellip;actually I think it is too easy to even blog about&hellip; but anyway.
 I just went here: <a href="http://repos.fedorapeople.org/repos/spot/chromium/">repos.fedorapeople.org/repos/spot/chromium</a> and then added the repos file to my /etc/yum.repos.d/ directory.</p>
-<p>[code]
-#filename: fedora-chromium.repo</p>
-<h1 id="place-this-file-in-your-etcyumreposd-directory">Place this file in your /etc/yum.repos.d/ directory</h1>
-<p>[fedora-chromium]
+<pre tabindex="0"><code>#filename: fedora-chromium.repo
+# Place this file in your /etc/yum.repos.d/ directory
+[fedora-chromium]
 name=Chromium web browser and deps
 baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/
 enabled=1
-gpgcheck=0</p>
-<p>[fedora-chromium-source]
+gpgcheck=0
+
+[fedora-chromium-source]
 name=Chromium web browser and deps - Source
 baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/
 enabled=0
 gpgcheck=0
-[/code]</p>
-<p>After that, ran a &ldquo;yum update&rdquo; and &ldquo;yum install chromium&rdquo;, and that was it!
+</code></pre><p>After that, ran a &ldquo;yum update&rdquo; and &ldquo;yum install chromium&rdquo;, and that was it!
 easy as pie.  now, it&rsquo;s not <a href="http://www.srware.net/en/software_srware_iron.php">Iron</a>, but still it is faster than firefox.<br>
 The downside is that google knows all, I guess.</p>
 <p>I never thought I would see the day I would be using some other browser besides firefox, but I guess that day has come.
