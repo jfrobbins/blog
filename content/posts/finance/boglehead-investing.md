@@ -132,6 +132,9 @@ Even if you save and invest just a small amount, due to compounding gains you'll
 
 
 
+
+-----
+
 # Some reading recommendations
 
 These books encapsulate Bogle's investment philosophy, his critique of the financial industry, and his insights into ethical investing and personal success.
