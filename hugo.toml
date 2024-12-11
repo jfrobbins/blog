@@ -41,13 +41,13 @@ publishDir = "docs"
 
 
 [[params.social]]
-  icon = "fab fa-mastodon"
+  icon = "simple-icons:mastodon"
   medium = "Mastodon"
   link = "https://mastodon.social/@jrobb"
 
 [[params.social]]
   medium = "X"
-  icon = "fab fa-x-twitter"
+  icon = "simple-icons:x"
   link = "https://twitter.com/jrobbnc"
 
 [[params.social]]
