@@ -7,13 +7,8 @@ modified: '2010-07-07T00:00:00'
 slug: backups-a-followup
 tags:
 - jbs
-- binbash
-- simple_home_backup_scriptsh
-- this
-- simple
-- run
-- linux
-title: Backups a followup
+- backups
+title: Backups: a followup
 ---
 
 Sometime back I made [a post](http://factorq.net/2010/02/22/making-backups/) about how I backup my data.  A [recent thread](http://crunchbanglinux.org/forums/topic/8486/backup-crunchbang/) on the crunchbang forums brought this back to mind, so I figured I should probably document my update here as well.
@@ -26,9 +21,8 @@ Sometime back I made [a post](http://factorq.net/2010/02/22/making-backups/) abo
 
  here it is:
 
- <pre>
-<blockquote>
-<pre><code>#!/bin/bash
+```
+#!/bin/bash
 
  #simple_home_backup_script.sh
 
@@ -36,20 +30,19 @@ Sometime back I made [a post](http://factorq.net/2010/02/22/making-backups/) abo
 
  #simple, but works:
 
- rsync -avzutmo --delete ~/Docs ~/Photos ~/vbox ~/wallpaper $DESTDIR</code></pre>
-</blockquote>
-<code>and my crontab entry:</code>
-<blockquote>
-<pre><code>#run incremental backup daily
+ rsync -avzutmo --delete ~/Docs ~/Photos ~/vbox ~/wallpaper $DESTDIR
+ ```
+ 
+and my crontab entry:
 
- 0 1 * * * /home/me/scripts/simple_home_backup_script.sh</code></pre>
-</blockquote>
-<code>I could actually make the backup run more often, since it is pretty fast, but it's not that important.  the RAID should catch most of everything, the rsync is just a backup for the backup :-)</code>
-<code>
-</code></pre>
+```
+#run incremental backup daily
 
+ 0 1 * * * /home/me/scripts/simple_home_backup_script.sh
+```
 
-
+I could actually make the backup run more often, since it is pretty fast, but it's not that important.  
+the RAID should catch most of everything, the rsync is just a backup for the backup :-)
 
 tags: #linux 
 
