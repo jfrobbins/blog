@@ -2,12 +2,15 @@
 title = 'Boglehead Investing'
 date = 2024-12-10T19:58:37-05:00
 draft = false
+tags:
+- finance
 +++
 
 I've been meaning to do this particular post for a while. 
 As a matter of fact, this is the main reason I've resurrected this website to begin with -- I wanted to document this for my kids, and for whoever else it is valuable for.
 
 I've found myself outlining this a few times, so why not put it on the internet? :-)
+Besides, it's easy.
 
 # What is a "Boglehead"?
 
@@ -65,14 +68,20 @@ Instead of playing that whole game... buy the haystack!
 
 # My General Investing Strategy
 
-First, before I go into any of this -- maximize your tax-advantaged accounts totally before starting some kind of post-tax investment fund (excepting some emergency fund, which should be cash or some money market fund).
-This would be your 401k, IRAs (Roth and/or Traditional), etc.
+This whole Boglehead thing is mostly "set it and forget it", though you can customize it to whatever you feel that you need.
+
+First, before I go into any of this -- you should maximize your tax-advantaged accounts totally before starting some kind of post-tax investment fund (excepting some emergency fund, which should be cash or some money market fund).
+Those tax-advantaged accounts would be your 401k, IRAs (Roth and/or Traditional), etc.
 
 Once you can max those out, it'd be fine to start another investment account that is taxable.
 
 Within the tax-advantaged accounts, you should be able to apply this same strategy or something very similar, depending on the options you have available.
 If you can't find the exact funds I mention below, you should be able to find something similar, and you should almost certainly have access to some index funds and you can always compare the expense ratio to ensure it is reasonably low (`< 0.30 %`).
 
+As a guideline, something like:
+- 70% US stocks
+- 20% International stocks
+- 10% Bonds
 
 ## Funds
 Here is what I invest in with my taxable investment account:
