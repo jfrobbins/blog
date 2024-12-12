@@ -83,7 +83,7 @@ As a guideline, something like:
 - 10% Bonds
 
 ## Funds
-Here is what I invest in with my taxable investment account:
+Here is what I invest in with my taxable investment account (I use [Fidelity](https://fidelity.com), but Scottrade/Robinhood/Vanguard/etc all have the same types of funds):
 
 - `FDLXX` / Fidelity Treasury Only Money Market Fund
   - I use this as a high-yield savings account! 
