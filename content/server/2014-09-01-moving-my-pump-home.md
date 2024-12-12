@@ -306,10 +306,10 @@ For those interested, here's the script I run in a cronjob once or twice a week:
 
 
 
-![PiPump](images/rasPiPump.jpg)
+![PiPump](/images/rasPiPump.jpg)
 
 
 # HPR podcast - hacker public radio
 
 NYBill and I recorded this episode:
-- [nybill_jrobb-pipump.ogg](audio/nybill_jrobb-pipump.ogg)
+- [nybill_jrobb-pipump.ogg](/audio/nybill_jrobb-pipump.ogg)
