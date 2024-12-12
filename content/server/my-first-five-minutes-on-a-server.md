@@ -189,3 +189,6 @@ Here is the post in its entirety ([made with a little help from grok](https://x.
 > **Update**
 > 
 > There's a great discussion happening over at Hacker News. Thanks for all the good ideas and helpful advice! As our infrastructure grows, I definitely plan on checking out Puppet or Chef - they sound like great tools for simplifying multi-server infrastructure management. If you're on Linode like us, the above can be accomplished via StackScripts as well.
+
+# mirror
+[github gist of the article](https://gist.github.com/jfrobbins/7300697ec882a681d77fd1384b3d5570)
