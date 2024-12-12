@@ -19,18 +19,20 @@ this spreads the network around and makes it function well even if some portions
 
 I'm not a very good speaker, especially when I am not familiar with the audience. And this was my second time visiting the LUG in 3 years or so.
 
-[Here is the presentation](http://pub.jrobb.org/triadlug/20140722_social_networking/20140722_social_networking.odp) that I used, and [here](http://pub.jrobb.org/triadlug/20140722_social_networking/20140722_social_networking_images.tgz) is a tgz of the diagram images I created (SVG and PNG).
-[link to images on MediaGoblin](https://media.jrobb.org/u/jrobb/collection/social-networks/)
+- [Here is the presentation](/slides/20140722_social_networking_LUG/20140722_social_networking.odp) that I used, and
+- [here](/slides/20140722_social_networking_LUG/images/jrobb_federation_images.7z) is a 7zip of the diagram images I created (SVG and PNG).
 
-centralized network:
-<img src="http://pub.jrobb.org/triadlug/20140722_social_networking/20140722_social_networking_images/centralized_network.svg" width=50%>
+# centralized network:
+![centralized network](/slides/20140722_social_networking_LUG/images/centralized_network.png)
 
-distributed network:
-<img src="http://pub.jrobb.org/triadlug/20140722_social_networking/20140722_social_networking_images/distributed_network.svg" width=50%>
+# distributed network:
+![distributed network](/slides/20140722_social_networking_LUG/images/distributed_network.png)
 
-federated network:
-<img src="http://pub.jrobb.org/triadlug/20140722_social_networking/20140722_social_networking_images/federated_network.svg" width=50%>
+# federated network:
+![federated network](/slides/20140722_social_networking_LUG/images/federated_network.png)
 
+# federated and distributed network:
+![federated & distributed network](/slides/20140722_social_networking_LUG/images/centralized_federated_distributed_networks.png)
 
 other info:
 - [getting started with pump.io](http://polari.us/dokuwiki/doku.php?id=gettingstartedwithpumpio)
