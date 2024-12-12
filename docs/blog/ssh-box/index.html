@@ -81,7 +81,7 @@ So a while back I received an eeePC 900a from a friend who owed me $25.">
         </div>
         <div>
           <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          2 min read
+          3 min read
         </div>
         <div>
           <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
@@ -94,13 +94,20 @@ So a while back I received an eeePC 900a from a friend who owed me $25.">
       <p>Work has been very crazy for the past few weeks, so I haven&rsquo;t had much of a chance to update this.  Unfortunately I haven&rsquo;t even had a chance to even play <a href="http://www.minecraft.net/">Minecraft</a>. Although I did manage to log in and convert my local worlds to the new format, but that&rsquo;s about the extent of it.</p>
 <p>So a while back I received an eeePC 900a from a friend who owed me $25.  This thing was completely dismanteled, and in an unknown working condition&ndash;and the screen is cracked.
 I started a <a href="http://forums.linuxoutlaws.com/viewtopic.php?f=3&amp;t=3379">thread on the LinuxOutlaws forum</a> about what to do with it, and I thought having an SSH box would be a great idea.</p>
-<!-- raw HTML omitted -->
+<p><img src="https://lh4.googleusercontent.com/_d4xnJM_h7n4/TUQ5axYMM0I/AAAAAAAAAk8/u_WlU43PERA/s640/IMG_20110129_104857.jpg" alt="broken eeePC 900a"></p>
 <p>I decided to install <a href="http://debian.org">Debian</a>/testing, however because of the screen being cracked and the video on the external monitor being offset horribly, I couldn&rsquo;t manage to get into the bios to turn on &ldquo;boot from USB.&rdquo;
 I had to use my USB CDROM drive and an actual disc.  It&rsquo;s an older disc that I have, but you can turn on mirrors and it installs from the network instead of the disc and still be up to date.</p>
-<!-- raw HTML omitted -->
+<p><img src="https://lh5.googleusercontent.com/_d4xnJM_h7n4/TUQ5bMcwsII/AAAAAAAAAlA/IXTDriCKWa8/s640/IMG_20110129_104841.jpg" alt="broken eeePC 900a setup"></p>
 <p>In the install, the wireless was configured perfectly, and came right up. I installed the base system and laptop tools, and skipped out on the GUI desktop environment and x etc&ndash;I wasn&rsquo;t going to be needing them.
 Once it was all set up in that regard, I set up the programs that I would be using predominantly on this remote machine:</p>
-<!-- raw HTML omitted -->
+<ul>
+<li><a href="http://identicurse.net/">Identicurse</a> - a CLI <a href="http://identi.ca">identi.ca</a> client that I use frequently</li>
+<li><a href="http://www.gnu.org/software/screen/">GNU Screen</a> - this is probably the most awesome thing I have seen for using only CLI. it allows multiple &ldquo;screens&rdquo; which can all be doing different things and the active screen can be switched between them.  Running applications keep running, even if screen is exited.  very cool.</li>
+<li><a href="http://www.washington.edu/alpine/">Alppi</a> - CLI email client (I have it hooked to my Gmail, <a href="https://www.cs.virginia.edu/~csadmin/wiki/index.php/Setting_up_Pine_(Alpine)_for_IMAP_Gmail">see here</a>)</li>
+<li><a href="http://www.irssi.org/">irssi</a> - CLI IRC client. I don&rsquo;t use IRC often, but when I do this is it.</li>
+<li><a href="http://www.elinks.cz/">elinks</a> - text WWW browser</li>
+<li><a href="http://www.torproject.org/">Tor Project</a> - Tor, for anonymity and such. I don&rsquo;t use this often because it goes rather slow, and I just wanted to see if I could set it up and get it working.</li>
+</ul>
 <p>Those are pretty much the only applications that I use on here, but I may add more as I get into it.<br>
 I&rsquo;ve subsequently had problems with the wireless connecting, it was rather flaky, so I just moved the eeePC next to my router and plugged in a cable.  Then I installed my SSH keys and forwarded the port on my router and it has been good to go!</p>
 <p>I can log in from just about anywhere, as well as set up my <a href="http://jrobb.org/blog/index.php?article=128">tunnel</a>.</p>
@@ -108,6 +115,7 @@ I&rsquo;ve subsequently had problems with the wireless connecting, it was rather
 <p>but let me tell you, with no Xorg or anything with a GUI this thing <!-- raw HTML omitted -->flies<!-- raw HTML omitted -->.  I have not been disappointed.</p>
 <p>My next step:  hook up an external USB drive, and then back files up to it.  Or maybe even set up my own git or fossil repo (or mercurial, which I have been looking into).</p>
 <p>Lots of fun stuff can be done :)</p>
+<p><img src="/images/irssi_setup.png" alt="irssi"></p>
 <p>Tags: #sshbox #tunnel</p>
 <p>original filename: 165</p>
 
