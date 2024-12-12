@@ -68,6 +68,7 @@ Instead of playing that whole game... buy the haystack!
 # My General Investing Strategy
 
 This whole Boglehead thing is mostly "set it and forget it", though you can customize it to whatever you feel that you need.
+For my tax-advantaged accounts (IRAs/401k) I have my accounts set to automatically invest a set amount each payday into the particular funds mentioned below. Then I don't even have to think about it!
 
 First, before I go into any of this -- you should maximize your tax-advantaged accounts totally before starting some kind of post-tax investment fund (excepting some emergency fund, which should be cash or some money market fund).
 Those tax-advantaged accounts would be your 401k, IRAs (Roth and/or Traditional), etc.
