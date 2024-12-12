@@ -6,8 +6,29 @@
     <description>Recent content in Tags on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 19:58:37 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 15:53:08 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Server</title>
+      <link>https://jrobb.org/tags/server/</link>
+      <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
+      <guid>https://jrobb.org/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crypto</title>
+      <link>https://jrobb.org/tags/crypto/</link>
+      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
+      <guid>https://jrobb.org/tags/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpg</title>
+      <link>https://jrobb.org/tags/gpg/</link>
+      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
+      <guid>https://jrobb.org/tags/gpg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Finance</title>
       <link>https://jrobb.org/tags/finance/</link>
@@ -16,24 +37,10 @@
       <description></description>
     </item>
     <item>
-      <title>Crypto</title>
-      <link>https://jrobb.org/tags/crypto/</link>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/crypto/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pumpio</title>
       <link>https://jrobb.org/tags/pumpio/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/pumpio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Server</title>
-      <link>https://jrobb.org/tags/server/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/server/</guid>
       <description></description>
     </item>
     <item>

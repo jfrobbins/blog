@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/</loc>
+    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/server/my-first-five-minutes-on-a-server/</loc>
+    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/server/</loc>
+    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/server/</loc>
+    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/crypto/</loc>
+    <lastmod>2024-12-12T15:50:29-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/crypto/</loc>
+    <lastmod>2024-12-12T15:50:29-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/gpg/</loc>
+    <lastmod>2024-12-12T15:50:29-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/crypto/gpg-cheat-sheet/</loc>
+    <lastmod>2024-12-12T15:50:29-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/posts/finance/boglehead-investing/</loc>
     <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/finance/</loc>
     <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-10T19:58:37-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-10T19:58:37-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/transcode-mp4-videos-to-x265-and-lower-bitrate/</loc>
@@ -26,22 +47,10 @@
     <loc>https://jrobb.org/crypto/bitmessage/</loc>
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/crypto/</loc>
-    <lastmod>2015-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/crypto/</loc>
-    <lastmod>2015-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/server/moving-my-pump-home/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/pumpio/</loc>
-    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/server/</loc>
-    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/server/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/</loc>

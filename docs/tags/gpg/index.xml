@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpg on jrobb.org</title>
+    <link>https://jrobb.org/tags/gpg/</link>
+    <description>Recent content in Gpg on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2024 15:50:29 -0500</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/gpg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPG Cheat Sheet</title>
+      <link>https://jrobb.org/crypto/gpg-cheat-sheet/</link>
+      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
+      <guid>https://jrobb.org/crypto/gpg-cheat-sheet/</guid>
+      <description>GPG Cheat Sheet I found this somewhere:</description>
+    </item>
+  </channel>
+</rss>

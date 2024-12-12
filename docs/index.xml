@@ -6,8 +6,22 @@
     <description>Recent content on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 19:58:37 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 15:53:08 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Five Minutes on a Server</title>
+      <link>https://jrobb.org/server/my-first-five-minutes-on-a-server/</link>
+      <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
+      <guid>https://jrobb.org/server/my-first-five-minutes-on-a-server/</guid>
+      <description>I originally grabbed this a long time ago from plusbryan.com, but now it appears to be down&amp;hellip; so I&amp;rsquo;m glad I saved it.&#xA;my_first_5mins_on_a_server.pdf Thanks, PlusBryan, whoever you are &amp;ndash; this has saved me a lot of time over the years!&#xA;Here is the post in its entirety (made with a little help from grok):&#xA;My First 5 Minutes On A Server; Or, Essential Security for Linux Servers Server security doesn&amp;rsquo;t need to be complicated.</description>
+    </item>
+    <item>
+      <title>GPG Cheat Sheet</title>
+      <link>https://jrobb.org/crypto/gpg-cheat-sheet/</link>
+      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
+      <guid>https://jrobb.org/crypto/gpg-cheat-sheet/</guid>
+      <description>GPG Cheat Sheet I found this somewhere:</description>
+    </item>
     <item>
       <title>Boglehead Investing</title>
       <link>https://jrobb.org/posts/finance/boglehead-investing/</link>
