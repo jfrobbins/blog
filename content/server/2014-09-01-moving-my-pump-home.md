@@ -305,3 +305,5 @@ For those interested, here's the script I run in a cronjob once or twice a week:
 	forever start -al /srv/pump.io/logs/pump.log /srv/pump.io/bin/pump
 
 
+
+![PiPump](images/rasPiPump.jpg)
