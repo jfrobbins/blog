@@ -1,8 +1,8 @@
 +++
 title = 'No Free Lunch'
 date = 2024-12-12T20:54:18-05:00
-draft = true
-tags = ["quote"]
+draft = false
+tags = ["quotes"]
 +++
 
 {{< quote author="Sehat Sutardja" >}}

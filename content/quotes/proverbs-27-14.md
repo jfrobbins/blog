@@ -1,8 +1,8 @@
 +++
 title = 'Proverbs 27:14'
 date = 2024-12-12T20:53:20-05:00
-draft = true
-tags = ["quote"]
+draft = false
+tags = ["quotes"]
 +++
 
 {{< quote author="Proverbs 27:14" >}}
