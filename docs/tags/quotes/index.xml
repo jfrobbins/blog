@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quotes on jrobb.org</title>
+    <link>https://jrobb.org/tags/quotes/</link>
+    <description>Recent content in Quotes on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2024 20:54:18 -0500</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Free Lunch</title>
+      <link>https://jrobb.org/quotes/no-free-lunch/</link>
+      <pubDate>Thu, 12 Dec 2024 20:54:18 -0500</pubDate>
+      <guid>https://jrobb.org/quotes/no-free-lunch/</guid>
+      <description>There is no free lunch. Sehat Sutardja</description>
+    </item>
+    <item>
+      <title>Proverbs 27:14</title>
+      <link>https://jrobb.org/quotes/proverbs-27-14/</link>
+      <pubDate>Thu, 12 Dec 2024 20:53:20 -0500</pubDate>
+      <guid>https://jrobb.org/quotes/proverbs-27-14/</guid>
+      <description>He who blesses his friend with a loud voice, rising early in the morning, It will be counted a curse to him. Proverbs 27:14</description>
+    </item>
+  </channel>
+</rss>
