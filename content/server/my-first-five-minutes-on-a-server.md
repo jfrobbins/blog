@@ -6,6 +6,8 @@ tags = ["server"]
 +++
 
 
+I've been going through some of my backups and came across this post that I (used to) use all the time.
+
 I originally grabbed this a long time ago from [plusbryan.com](https://plusbryan.com), but now it appears to be down... so I'm glad I saved it.
 - [my_first_5mins_on_a_server.pdf](/docs/my_first_5mins_on_a_server.pdf)
 
