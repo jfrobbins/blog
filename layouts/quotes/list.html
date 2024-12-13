@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>Quotes</h1>
+  {{ range .Pages }}
+    <article>
+      <blockquote>
+        {{ .Content }}
+      </blockquote>
+      <p><cite>{{ .Params.author }}</cite></p>
+    </article>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,6 @@
+{{ $quotes := where .Site.Pages "Section" "quotes" }}
+{{ $randomQuote := index $quotes (shuffle (seq 1 (len $quotes)) | first 1) }}
+<blockquote>
+  {{ $randomQuote.Content }}
+</blockquote>
+<p><cite>{{ $randomQuote.Params.author }}</cite></p>
