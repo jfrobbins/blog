@@ -19,7 +19,8 @@ this spreads the network around and makes it function well even if some portions
 
 I'm not a very good speaker, especially when I am not familiar with the audience. And this was my second time visiting the LUG in 3 years or so.
 
-- [Here is the presentation](/slides/20140722_social_networking_LUG/20140722_social_networking.odp) that I used, and
+- [Here is the LibreOffice ODP presentation](/slides/20140722_social_networking_LUG/20140722_social_networking.odp) that I used, and
+- [here are the slides as pdf](/slides/20140722_social_networking_LUG/20140722_social_networking.pdf), and 
 - [here](/slides/20140722_social_networking_LUG/images/jrobb_federation_images.7z) is a 7zip of the diagram images I created (SVG and PNG).
 
 # centralized network:
