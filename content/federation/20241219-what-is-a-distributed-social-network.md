@@ -8,6 +8,8 @@ draft = true
 
 Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let's talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I'm a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let's journey through the landscape of distributed social networks, where I'm reminiscent of the old identi.ca days, and where your digital life doesn't have to be just another commodity.
 
+![Centralized vs. Decentralized vs. Distributed](images/centralized-vs-decentralized-vs-distributed.jpg)
+
 ## The World of Centralization
 
 When we think of social media, most of us picture behemoths like Twitter (now X) and the ever-present eye of Meta's platforms like Facebook. These are **centralized networks**, where all your data, every tweet or post, streams through servers owned and operated by one company. 
@@ -30,6 +32,8 @@ Imagine if one day, the corporation decides your data isn't worth keeping, and p
 ## The Rise of Distributed Networks
 
 Now, let's shift gears to the **decentralized or federated networks**, where the control is distributed among many rather than the few. Here's where we find platforms like Mastodon, Bluesky, and Diaspora, each echoing the ethos of freedom, privacy, and user control:
+
+![Decentralized vs. Distributed](images/decentralized-vs-distributed-2.jpg)
 
 - **Mastodon** is like a constellation of servers where each "instance" can set its own rules, fostering unique communities. Think of it as choosing your favorite Linux distro - you get to decide where your data lives.
   
@@ -56,8 +60,8 @@ Now, let's shift gears to the **decentralized or federated networks**, where the
 
 Imagine a world where your social connections aren't bound to one platform. That's the promise of **interoperability**. Here's how it plays out:
 
-- **Standards**: Each network uses protocols like ActivityPub (Mastodon), AT Protocol (Bluesky), or the Diaspora Protocol. These are the digital handshakes allowing servers to talk to each other.
-  
+- **Standards**: Each network uses protocols like ActivityPub (Mastodon), AT Protocol (Bluesky), or the Diaspora Protocol. These are the digital handshakes allowing servers to talk to each other. Importantly, due to the nature of these protocols, nodes from different networks can communicate as long as they are compatible or use the same protocol. This means that, in the future, we could see a much broader capability for these types of networks, effectively breaking down the siloed approach we're all too familiar with.
+
 - **Pros**: 
   - **Freedom of Movement**: Switch servers or platforms without losing your friends or posts.
   - **Wider Network**: More potential connections, enhancing the social experience.
@@ -69,6 +73,8 @@ Imagine a world where your social connections aren't bound to one platform. That
   - **Performance**: Communication across servers can sometimes be slower than within a centralized system.
 
 **Open APIs** are crucial here, acting as gateways for third-party developers to add features or even integrate with other services, promoting a richer, more open ecosystem.
+
+![Decentralized vs. Distributed](images/decentralized-vs-distributed.png)
 
 ## A Deeper Dive into Mastodon
 
@@ -118,7 +124,6 @@ Diaspora feels like a throwback to a time when social networks were about connec
 
 Explore more at [Diaspora's official site](https://diasporafoundation.org/).
 
-
 ## Wrapping It Up: Why This Matters
 
 In a world where our digital lives are increasingly controlled by corporate entities with their own agendas, distributed networks offer a beacon of hope. They're not just platforms; they're movements towards reclaiming our digital rights, privacy, and freedom. They embody the spirit of Linux and FOSS, where users aren't just consumers but participants, creators, and stewards of their digital spaces.
@@ -131,7 +136,7 @@ So, I urge you to explore these alternatives:
 - Keep an eye on Bluesky's developments at [blueskyweb.org](https://blueskyweb.org/).
 - Rediscover community with Diaspora at [diasporafoundation.org](https://diasporafoundation.org/).
 
-Maybe you'll find that the grass is indeed greener on this side of the digital fence, where your data isn't the product, where privacy isn't a luxury, and where community isn't just a marketing term. Here's to hoping more of us will choose freedom over convenience, community over corporation, and in doing so, reshape the very fabric of our online interactions. 
+Maybe you'll find that the grass is indeed greener on this side of the digital fence, where your data isn't the product, where privacy isn't a luxury, and where community isn't just a marketing term. Here's to hoping more of us will choose freedom over convenience.
 
 ### Sources and Further Reading
 
