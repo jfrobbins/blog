@@ -6,7 +6,7 @@ draft = true
 
 # What is a Distributed Social Network Anyway?
 
-Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let's talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I'm a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let's journey through the landscape of distributed social networks, where the spirit of the old identi.ca days lives on, and where your digital life doesn't have to be just another commodity.
+Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let's talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I'm a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let's journey through the landscape of distributed social networks, where I'm reminiscent of the old identi.ca days, and where your digital life doesn't have to be just another commodity.
 
 ## The World of Centralization
 
@@ -81,7 +81,7 @@ Mastodon has always felt like coming home for me, resonating with the FOSS philo
 
 **How to Join the Mastodon Community**:
 
-1. **Choose Your Instance**: Look for one that matches your interests or values. Sites like joinmastodon.org can help.
+1. **Choose Your Instance**: Look for one that matches your interests or values. Sites like [joinmastodon.org](https://joinmastodon.org/) can help.
 2. **Sign Up**: It's straightforward; just like setting up a new Linux user account.
 3. **Engage**: Follow, post, and interact within and beyond your instance, embracing the federated nature of the network.
 
@@ -101,6 +101,8 @@ Bluesky began with a vision to decentralize social media, spearheaded by none ot
   - **Community Moderation**: Users can influence what content they see through tools like Ozone.
   - **Identity**: Use your own domain as your handle, enhancing personal control over your online identity.
 
+Check out [Bluesky's official site](https://blueskyweb.org/) for the latest on their journey.
+
 ## Diaspora: The Nostalgic Return to Community
 
 Diaspora feels like a throwback to a time when social networks were about connecting people, not just data:
@@ -114,10 +116,18 @@ Diaspora feels like a throwback to a time when social networks were about connec
 - It embodies the ethos of privacy and control that's core to the FOSS movement.
 - It's a testament to what social networking can be when it's not about profit but about people.
 
+Explore more at [Diaspora's official site](https://diasporafoundation.org/).
+
 ## Wrapping It Up: Why This Matters
 
 In a world where our digital lives are increasingly controlled by corporate entities with their own agendas, distributed networks offer a beacon of hope. They're not just platforms; they're movements towards reclaiming our digital rights, privacy, and freedom. They embody the spirit of Linux and FOSS, where users aren't just consumers but participants, creators, and stewards of their digital spaces.
 
 If you're like me, yearning for a return to a more open, user-controlled internet, these platforms are your allies. Mastodon, with its vibrant communities; Bluesky, with its promise of a decentralized future; and Diaspora, with its nostalgic nod to simpler times - each offers a way out of the corporate social media maze.
 
-So, I urge you to explore these alternatives. Maybe you'll find that the grass is indeed greener on this side of the digital fence, where your data isn't the product, where privacy isn't a luxury, and where community isn't just a marketing term. Here's to hoping more of us will choose freedom over convenience, community over corporation, and in doing so, reshape the very fabric of our online interactions. Let's make the internet a place where we're not just users but part of something much greater - a truly free, open, and interconnected digital society.
+So, I urge you to explore these alternatives:
+
+- Dive into the Mastodon universe at [joinmastodon.org](https://joinmastodon.org/).
+- Keep an eye on Bluesky's developments at [blueskyweb.org](https://blueskyweb.org/).
+- Rediscover community with Diaspora at [diasporafoundation.org](https://diasporafoundation.org/).
+
+Maybe you'll find that the grass is indeed greener on this side of the digital fence, where your data isn't the product, where privacy isn't a luxury, and where community isn't just a marketing term. Here's to hoping more of us will choose freedom over convenience, community over corporation, and in doing so, reshape the very fabric of our online interactions. Let's make the internet a place where we're not just users but part of something much greater - a truly free, open, and interconnected digital society.
