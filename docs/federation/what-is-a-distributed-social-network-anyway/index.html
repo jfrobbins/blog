@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>What Is a Distributed Social Network Anyway? // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="What Is a Distributed Social Network Anyway?">
+  <meta name="twitter:description" content="What is a Distributed Social Network Anyway? Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let’s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I’m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let’s journey through the landscape of distributed social networks, where I’m reminiscent of the old identi.">
+
+    <meta property="og:url" content="https://jrobb.org/federation/what-is-a-distributed-social-network-anyway/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="What Is a Distributed Social Network Anyway?">
+  <meta property="og:description" content="What is a Distributed Social Network Anyway? Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let’s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I’m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let’s journey through the landscape of distributed social networks, where I’m reminiscent of the old identi.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="federation">
+    <meta property="article:published_time" content="2024-12-19T18:32:54-05:00">
+    <meta property="article:modified_time" content="2024-12-19T18:32:54-05:00">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="https://avatars.githubusercontent.com/u/850844?v=4" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/contact/">Contact</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/quotes/">Quotes</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="https://gohugo.io/">About Hugo</a>
+      </nav>
+      <p>Just my random thoughts</p>
+      <div class="app-header-social">
+        
+          <a href="https://mastodon.social/@jrobb" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-mastodon" viewBox="0 0 24 24" fill="currentColor"><title>Mastodon</title><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+          </a>
+        
+          <a href="https://x.com/jrobbnc" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-x" viewBox="0 0 24 24" fill="currentColor"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+          </a>
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">What Is a Distributed Social Network Anyway?</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Dec 19, 2024
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          10 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="what-is-a-distributed-social-network-anyway">What is a Distributed Social Network Anyway?</h1>
+<p>Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let&rsquo;s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I&rsquo;m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let&rsquo;s journey through the landscape of distributed social networks, where I&rsquo;m reminiscent of the old identi.ca days, and where your digital life doesn&rsquo;t have to be just another commodity.</p>
+<p><img src="images/centralized-vs-decentralized-vs-distributed.jpg" alt="Centralized vs. Decentralized vs. Distributed"></p>
+<h2 id="the-world-of-centralization">The World of Centralization</h2>
+<p>When we think of social media, most of us picture behemoths like Twitter (now X) and the ever-present eye of Meta&rsquo;s platforms like Facebook. These are <strong>centralized networks</strong>, where all your data, every tweet or post, streams through servers owned and operated by one company.</p>
+<p><strong>Advantages</strong> of this model include:</p>
+<ul>
+<li><strong>Uniformity</strong>: One app, one set of rules, one user experience.</li>
+<li><strong>Centralized Control</strong>: Quick response to security issues, content moderation, and platform updates.</li>
+<li><strong>Scalability</strong>: Easier to manage and expand, given it&rsquo;s all under one roof.</li>
+</ul>
+<p>But oh, the <strong>disadvantages</strong>:</p>
+<ul>
+<li><strong>Censorship</strong>: One entity deciding what&rsquo;s seen or not seen, often swayed by political or commercial interests.</li>
+<li><strong>Privacy Invasion</strong>: Your data is their goldmine, used for ads or sold to third parties.</li>
+<li><strong>Dependence</strong>: Your digital life hangs by the thread of a company&rsquo;s financial health or strategic pivot.</li>
+<li><strong>Ads Galore</strong>: These platforms are often ad-heavy, cluttering your feed and skewing your experience.</li>
+</ul>
+<p>Imagine if one day, the corporation decides your data isn&rsquo;t worth keeping, and poof - your digital memories vanish. That&rsquo;s the reality of centralization.</p>
+<h2 id="the-rise-of-distributed-networks">The Rise of Distributed Networks</h2>
+<p>Now, let&rsquo;s shift gears to the <strong>decentralized or federated networks</strong>, where the control is distributed among many rather than the few. Here&rsquo;s where we find platforms like Mastodon, Bluesky, and Diaspora, each echoing the ethos of freedom, privacy, and user control:</p>
+<p><img src="images/decentralized-vs-distributed-2.jpg" alt="Decentralized vs. Distributed"></p>
+<ul>
+<li>
+<p><strong>Mastodon</strong> is like a constellation of servers where each &ldquo;instance&rdquo; can set its own rules, fostering unique communities. Think of it as choosing your favorite Linux distro - you get to decide where your data lives.</p>
+</li>
+<li>
+<p><strong>Bluesky</strong> was born from Twitter&rsquo;s dream of decentralization but still walks the line between central and distributed. It&rsquo;s working on the AT Protocol, aiming for a future where you can take your social graph wherever you go.</p>
+</li>
+<li>
+<p><strong>Diaspora</strong> evokes a sense of nostalgia for me, reminiscent of identi.ca&rsquo;s community-driven spirit. With &lsquo;pods&rsquo;, it lets you be in charge of your data, much like running your own Linux server.</p>
+</li>
+</ul>
+<h3 id="the-pros-of-going-distributed">The Pros of Going Distributed:</h3>
+<ul>
+<li><strong>Censorship Resistance</strong>: There&rsquo;s no single point of failure or control for censoring content.</li>
+<li><strong>Empowerment</strong>: You can run your own server, controlling your digital footprint.</li>
+<li><strong>Privacy</strong>: Your data isn&rsquo;t centralized, reducing the risk of mass surveillance or data breaches.</li>
+<li><strong>Community Governance</strong>: Each server can reflect the values of its users, much like open-source projects.</li>
+<li><strong>Innovation</strong>: With open-source at its core, these networks encourage developer creativity and community contributions.</li>
+</ul>
+<h3 id="but-there-are-cons-too">But There Are Cons Too:</h3>
+<ul>
+<li><strong>Technical Know-How</strong>: Running your own node isn&rsquo;t for the faint-hearted; it requires some Linux-like tech savvy.</li>
+<li><strong>Fragmentation</strong>: Finding friends across different servers can be challenging, akin to navigating different Linux forums.</li>
+<li><strong>Adoption</strong>: These networks don&rsquo;t yet boast the user base of their centralized counterparts, which can feel lonely if you&rsquo;re the only one from your real-world circle.</li>
+<li><strong>Quality of Service</strong>: Varies depending on who&rsquo;s running the server, much like the diverse performance of Linux distributions.</li>
+</ul>
+<h2 id="the-magic-of-interoperability">The Magic of Interoperability</h2>
+<p>Imagine a world where your social connections aren&rsquo;t bound to one platform. That&rsquo;s the promise of <strong>interoperability</strong>. Here&rsquo;s how it plays out:</p>
+<ul>
+<li>
+<p><strong>Standards</strong>: Each network uses protocols like ActivityPub (Mastodon), AT Protocol (Bluesky), or the Diaspora Protocol. These are the digital handshakes allowing servers to talk to each other. Importantly, due to the nature of these protocols, nodes from different networks can communicate as long as they are compatible or use the same protocol. This means that, in the future, we could see a much broader capability for these types of networks, effectively breaking down the siloed approach we&rsquo;re all too familiar with.</p>
+</li>
+<li>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li><strong>Freedom of Movement</strong>: Switch servers or platforms without losing your friends or posts.</li>
+<li><strong>Wider Network</strong>: More potential connections, enhancing the social experience.</li>
+<li><strong>Innovation</strong>: Developers can build on these open standards, much like contributing to an open-source project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li><strong>Complexity</strong>: Making all these different systems communicate can be like debugging a Linux kernel.</li>
+<li><strong>Potential for Abuse</strong>: Open systems can be exploited if not well-secured.</li>
+<li><strong>Performance</strong>: Communication across servers can sometimes be slower than within a centralized system.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Open APIs</strong> are crucial here, acting as gateways for third-party developers to add features or even integrate with other services, promoting a richer, more open ecosystem.</p>
+<p><img src="images/decentralized-vs-distributed.png" alt="Decentralized vs. Distributed"></p>
+<h2 id="why-should-i-want-to-use-a-distributed-network">Why Should I Want to Use a Distributed Network?</h2>
+<p>The allure of distributed networks goes beyond mere tech jargon; it touches on fundamental values like privacy, autonomy, and community:</p>
+<ul>
+<li>
+<p><strong>Privacy and Data Control</strong>: In distributed networks, you have control over your data. No more worrying about how your information is used or sold. Your data stays with you or on servers you trust, not in the hands of a corporation.</p>
+</li>
+<li>
+<p><strong>Resilience Against Censorship</strong>: With no central authority to control content, you&rsquo;re less likely to encounter censorship or arbitrary content removal. This fosters a freer expression of ideas and a more diverse conversation.</p>
+</li>
+<li>
+<p><strong>Community and Personalization</strong>: You can choose or even create environments that reflect your values or interests. This isn&rsquo;t just about where you post; it&rsquo;s about the kind of community you want to be part of.</p>
+</li>
+<li>
+<p><strong>Innovation and Openness</strong>: The open-source nature of many distributed networks means they&rsquo;re constantly evolving through community input. You can participate in the development, not just consume the service.</p>
+</li>
+<li>
+<p><strong>Security</strong>: By spreading data across multiple servers, the risk of a single point of failure or attack is significantly reduced. This can lead to more secure communication and storage of your data.</p>
+</li>
+<li>
+<p><strong>Future-proofing</strong>: As we&rsquo;ve seen with platforms like identi.ca, centralized networks can disappear or change dramatically. Distributed networks offer a more sustainable approach where your digital life isn&rsquo;t tied to one company&rsquo;s fate.</p>
+</li>
+<li>
+<p><strong>Interoperability</strong>: The potential for networks to talk to each other means your social graph isn&rsquo;t locked into one platform. This can lead to a more interconnected and less isolated digital experience.</p>
+</li>
+</ul>
+<p>If you value your privacy, want to reduce your digital footprint, or simply seek a platform where you&rsquo;re not just a number but part of a community, distributed networks offer a compelling alternative to the status quo.</p>
+<h2 id="a-deeper-dive-into-mastodon">A Deeper Dive into Mastodon</h2>
+<p>Mastodon has always felt like coming home for me, resonating with the FOSS philosophy:</p>
+<ul>
+<li><strong>Privacy</strong>: No ads, no data mining. Your privacy is the norm, not the exception.</li>
+<li><strong>User Control</strong>: You pick your server, your community, your rules - much like choosing your Linux environment.</li>
+<li><strong>Decentralized Moderation</strong>: Each instance has its own ethos, allowing for diversity in community management.</li>
+<li><strong>Open Source</strong>: The code is transparent, encouraging community involvement and enhancement.</li>
+</ul>
+<p><strong>How to Join the Mastodon Community</strong>:</p>
+<ol>
+<li><strong>Choose Your Instance</strong>: Look for one that matches your interests or values. Sites like <a href="https://joinmastodon.org/">joinmastodon.org</a> can help.</li>
+<li><strong>Sign Up</strong>: It&rsquo;s straightforward; just like setting up a new Linux user account.</li>
+<li><strong>Engage</strong>: Follow, post, and interact within and beyond your instance, embracing the federated nature of the network.</li>
+</ol>
+<p>Mastodon is really my social network of choice these days.</p>
+<h2 id="bluesky-a-sky-full-of-possibilities">Bluesky: A Sky Full of Possibilities</h2>
+<p>Bluesky began with a vision to decentralize social media, spearheaded by none other than Twitter&rsquo;s co-founder Jack Dorsey. Here&rsquo;s the scoop:</p>
+<ul>
+<li>
+<p><strong>AT Protocol</strong>: This is the heart of Bluesky&rsquo;s decentralization efforts, aiming for:</p>
+<ul>
+<li><strong>Portability</strong>: Move your data and identity across platforms.</li>
+<li><strong>Modularity</strong>: Choose your feed algorithm, like picking your favorite Linux desktop environment.</li>
+<li><strong>Security</strong>: Focus on privacy with features like potential end-to-end encryption for DMs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Current Reality</strong>: Bluesky&rsquo;s journey to true decentralization is ongoing. As of now, it operates more like a centralized network, with full interoperability with other platforms still in the blueprint stage.</p>
+</li>
+<li>
+<p><strong>Features</strong>:</p>
+<ul>
+<li><strong>Custom Feeds</strong>: Tailor your timeline to your taste.</li>
+<li><strong>Community Moderation</strong>: Users can influence what content they see through tools like Ozone.</li>
+<li><strong>Identity</strong>: Use your own domain as your handle, enhancing personal control over your online identity.</li>
+</ul>
+</li>
+</ul>
+<p>Check out <a href="https://blueskyweb.org/">Bluesky&rsquo;s official site</a> for the latest on their journey.</p>
+<h2 id="diaspora-the-nostalgic-return-to-community">Diaspora: The Nostalgic Return to Community</h2>
+<p>Diaspora feels like a throwback to a time when social networks were about connecting people, not just data:</p>
+<ul>
+<li><strong>Pods</strong>: These are your personal servers or communities, where privacy and control are paramount.</li>
+<li><strong>User-Centric</strong>: You decide where your data lives, much like running your own Linux server.</li>
+<li><strong>Federation</strong>: While part of a larger network, each pod maintains its individuality, like different Linux distributions.</li>
+</ul>
+<p><strong>Why Diaspora Captures My Heart</strong>:</p>
+<ul>
+<li>It embodies the ethos of privacy and control that&rsquo;s core to the FOSS movement.</li>
+<li>It&rsquo;s a testament to what social networking can be when it&rsquo;s not about profit but about people.</li>
+</ul>
+<p>Explore more at <a href="https://diasporafoundation.org/">Diaspora&rsquo;s official site</a>.</p>
+<h2 id="wrapping-it-up-why-this-matters">Wrapping It Up: Why This Matters</h2>
+<p>In a world where our digital lives are increasingly controlled by corporate entities with their own agendas, distributed networks offer a beacon of hope. They&rsquo;re not just platforms; they&rsquo;re movements towards reclaiming our digital rights, privacy, and freedom. They embody the spirit of Linux and FOSS, where users aren&rsquo;t just consumers but participants, creators, and stewards of their digital spaces.</p>
+<p>If you&rsquo;re like me, yearning for a return to a more open, user-controlled internet, these platforms are your allies. Mastodon, with its vibrant communities; Bluesky, with its promise of a decentralized future; and Diaspora, with its nostalgic nod to simpler times - each offers a way out of the corporate social media maze.</p>
+<p>So, I urge you to explore these alternatives:</p>
+<ul>
+<li>Dive into the Mastodon universe at <a href="https://joinmastodon.org/">joinmastodon.org</a>.</li>
+<li>Keep an eye on Bluesky&rsquo;s developments at <a href="https://blueskyweb.org/">blueskyweb.org</a>.</li>
+<li>Rediscover community with Diaspora at <a href="https://diasporafoundation.org/">diasporafoundation.org</a>.</li>
+</ul>
+<p>Maybe you&rsquo;ll find that the grass is indeed greener on this side of the digital fence, where your data isn&rsquo;t the product, where privacy isn&rsquo;t a luxury, and where community isn&rsquo;t just a marketing term. Here&rsquo;s to hoping more of us will choose freedom over convenience, community over corporation, and in doing so, reshape the very fabric of our online interactions.</p>
+<h3 id="sources-and-further-reading">Sources and Further Reading</h3>
+<p>For those keen on exploring the broader landscape of decentralized networks and the philosophy behind them, here are some resources to enlighten your journey:</p>
+<ul>
+<li>
+<p><strong><a href="https://joinmastodon.org/">Join Mastodon</a></strong> - An entry point to explore and join the Mastodon network, reflecting the user-controlled ethos discussed here.</p>
+</li>
+<li>
+<p><strong><a href="https://blueskyweb.org/">Bluesky Web</a></strong> - Stay updated on Bluesky&rsquo;s efforts to innovate social media with a focus on user control over data.</p>
+</li>
+<li>
+<p><strong><a href="https://diasporafoundation.org/">Diaspora Foundation</a></strong> - Learn more about Diaspora, a platform that echoes the community spirit of early social networks.</p>
+</li>
+</ul>
+<p>Additional readings that delve into the concepts of decentralization and user empowerment:</p>
+<ul>
+<li>
+<p><strong><a href="https://www.windley.com/archives/2015/01/re-imagining_decentralized_and_distributed.shtml">Re-Imagining Decentralized and Distributed</a></strong> by Phil Windley - Offers insights into decentralization beyond social media, highlighting the broader implications for digital autonomy.</p>
+</li>
+<li>
+<p><strong><a href="https://metal-libre.org/2014/03/comunicacion-libre-y-descentralizada.html">Comunicación Libre y Descentralizada</a></strong> - An article emphasizing free and decentralized communication, aligning with the privacy and freedom themes of this post.</p>
+</li>
+<li>
+<p><strong><a href="https://www.windley.com/archives/2012/06/personal_channels.shtml">Personal Channels</a></strong> by Phil Windley - Discusses how individuals can manage their own data streams, which is at the heart of what distributed networks aim to achieve.</p>
+</li>
+<li>
+<p><strong><a href="https://link.springer.com">Decentralized Networks as a Tool for Fighting Disinformation and Censorship</a></strong> - Provides an academic perspective on how decentralized networks can address digital challenges.</p>
+</li>
+<li>
+<p><strong><a href="https://cointelegraph.com">Cointelegraph on Decentralized Social Networks</a></strong> - Discusses the evolving landscape of decentralized social media and its implications.</p>
+</li>
+<li>
+<p><strong><a href="https://en.m.wikipedia.org">List of Social Networking Services - Wikipedia</a></strong> - A comprehensive list for understanding the variety of social platforms, including decentralized ones.</p>
+</li>
+<li>
+<p><strong><a href="https://en.wikipedia.org">Distributed Social Networking Protocol - Wikipedia</a></strong> - Details on DSNP, shedding light on the technical aspects of decentralization.</p>
+</li>
+<li>
+<p><strong><a href="https://freedomhouse.org">Freedom on the Net by Freedom House</a></strong> - An annual report on internet freedom, relevant to discussions on privacy and censorship in social media.</p>
+</li>
+</ul>
+<p>These sources provide a wealth of knowledge for anyone looking to understand or contribute to the evolution of a more open, connected, and user-empowered internet. If you&rsquo;re passionate about reclaiming control over your digital life, these readings are a great start to your journey towards digital freedom.</p>
+<h2 id="note-on-ai-help">Note on AI help</h2>
+<p>I used <a href="https://grok.x.com">xAI&rsquo;s Grok</a> to help construct this post and put all of the information together. You can find the prompts/content/conversation <a href="https://x.com/i/grok/share/mVDCdqWfDzwtZ59F5t1vJ3FTQ">here</a>.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
