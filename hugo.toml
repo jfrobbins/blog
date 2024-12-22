@@ -10,9 +10,10 @@ publishDir = "docs"
 [params]
   author = "Jon Robbins"
   description = "Just my random thoughts"
-  avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
+#  avatar = "https://avatars.githubusercontent.com/u/850844?v=4"
+  avatar = "/images/avatars/rm/grok-me-rm-style-2.jpg"
   menu_item_separator = "<br>"
-  # favicon = /favicon.ico"
+#  favicon = /favicon.ico"
 
 
 
