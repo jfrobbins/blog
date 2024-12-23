@@ -6,13 +6,20 @@
     <description>Recent content on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2024 10:50:56 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 07:56:58 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Git Cheat Sheet</title>
+      <link>https://jrobb.org/guides/git-cheat-sheet/</link>
+      <pubDate>Mon, 23 Dec 2024 07:56:58 -0500</pubDate>
+      <guid>https://jrobb.org/guides/git-cheat-sheet/</guid>
+      <description>from https://education.github.com/git-cheat-sheet-education.pdf:&#xA;This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+    </item>
+    <item>
       <title>Making a Favicon</title>
-      <link>https://jrobb.org/posts/20241222-making-a-favicon/</link>
+      <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
-      <guid>https://jrobb.org/posts/20241222-making-a-favicon/</guid>
+      <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
       <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:</description>
     </item>
     <item>
@@ -24,9 +31,9 @@
     </item>
     <item>
       <title>What Is a Distributed Social Network Anyway?</title>
-      <link>https://jrobb.org/federation/what-is-a-distributed-social-network-anyway/</link>
+      <link>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/federation/what-is-a-distributed-social-network-anyway/</guid>
+      <guid>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</guid>
       <description>What is a Distributed Social Network Anyway? Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let&amp;rsquo;s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I&amp;rsquo;m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let&amp;rsquo;s journey through the landscape of distributed social networks, where I&amp;rsquo;m reminiscent of the old identi.</description>
     </item>
     <item>
@@ -45,23 +52,23 @@
     </item>
     <item>
       <title>Free Software Privacy</title>
-      <link>https://jrobb.org/privacy/free-software-privacy/</link>
+      <link>https://jrobb.org/posts/privacy/free-software-privacy/</link>
       <pubDate>Thu, 12 Dec 2024 16:04:30 -0500</pubDate>
-      <guid>https://jrobb.org/privacy/free-software-privacy/</guid>
+      <guid>https://jrobb.org/posts/privacy/free-software-privacy/</guid>
       <description>privacy is impossible without free software I have this image from the FSF that I love: https://static.fsf.org/nosvn/posters/privacy-free-software-sign.pdf https://www.fsf.org/bulletin/2020/spring/privacy-encryption </description>
     </item>
     <item>
       <title>My First Five Minutes on a Server</title>
-      <link>https://jrobb.org/server/my-first-five-minutes-on-a-server/</link>
+      <link>https://jrobb.org/posts/server/my-first-five-minutes-on-a-server/</link>
       <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
-      <guid>https://jrobb.org/server/my-first-five-minutes-on-a-server/</guid>
+      <guid>https://jrobb.org/posts/server/my-first-five-minutes-on-a-server/</guid>
       <description>I&amp;rsquo;ve been going through some of my backups and came across this post that I (used to) use all the time.&#xA;I originally grabbed this a long time ago from plusbryan.com, but now it appears to be down&amp;hellip; so I&amp;rsquo;m glad I saved it.&#xA;my_first_5mins_on_a_server.pdf Thanks, PlusBryan, whoever you are &amp;ndash; this has saved me a lot of time over the years!&#xA;Here is the post in its entirety (made with a little help from grok):</description>
     </item>
     <item>
       <title>GPG Cheat Sheet</title>
-      <link>https://jrobb.org/crypto/gpg-cheat-sheet/</link>
+      <link>https://jrobb.org/posts/crypto/gpg-cheat-sheet/</link>
       <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/crypto/gpg-cheat-sheet/</guid>
+      <guid>https://jrobb.org/posts/crypto/gpg-cheat-sheet/</guid>
       <description>GPG Cheat Sheet I found this somewhere:</description>
     </item>
     <item>
@@ -73,9 +80,9 @@
     </item>
     <item>
       <title>Transcode Mp4 Videos to X265 and Lower Bitrate</title>
-      <link>https://jrobb.org/posts/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
+      <link>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
       <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
-      <guid>https://jrobb.org/posts/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
+      <guid>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
       <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
     </item>
     <item>
@@ -87,16 +94,16 @@
     </item>
     <item>
       <title>Bitmessage</title>
-      <link>https://jrobb.org/crypto/bitmessage/</link>
+      <link>https://jrobb.org/posts/crypto/bitmessage/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/crypto/bitmessage/</guid>
+      <guid>https://jrobb.org/posts/crypto/bitmessage/</guid>
       <description>Lately I&amp;rsquo;ve started finding Bitmessage interesting again. I used it a little early on, but haven&amp;rsquo;t in a year or so.&#xA;After recovering my address, I&amp;rsquo;ve been back on the network and I&amp;rsquo;m remembering that I really like the idea of it&amp;ndash;mostly the simplicity! Compared to GPG, this is no contest that almost anyone could use this. Some people feel that GPG is damn near unusable, and while I don&amp;rsquo;t really agree, according to the guy in that talk I (and probably you) are considered the &amp;ldquo;technological elite.</description>
     </item>
     <item>
       <title>moving my pump home</title>
-      <link>https://jrobb.org/server/moving-my-pump-home/</link>
+      <link>https://jrobb.org/posts/server/moving-my-pump-home/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/server/moving-my-pump-home/</guid>
+      <guid>https://jrobb.org/posts/server/moving-my-pump-home/</guid>
       <description>I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit &amp;ndash; I was seeding many linux distributions, and with the fat pipes on the vps it just happened. I&amp;rsquo;ll have to be more careful in the future.&#xA;Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least, and I decided to go ahead and move my pump from the vps onto one of my home servers.</description>
     </item>
     <item>
@@ -115,9 +122,9 @@
     </item>
     <item>
       <title>Intro to Federated Social Networks</title>
-      <link>https://jrobb.org/federation/intro-to-federated-social-networks/</link>
+      <link>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</link>
       <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/federation/intro-to-federated-social-networks/</guid>
+      <guid>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</guid>
       <description>Not very long ago there was an opportunity at the local LUG to volunteer to do lightning talks on some subject, and as a lightning talk is easier than a full-blown talk I decided to sign up and evangalize a bit on federated social networking.&#xA;I guess this subject is only tangentially related to Linux, but related enough to be interesting. The main point of federation is that it is encouraged for as many people as possible to run their own nodes&amp;ndash; this spreads the network around and makes it function well even if some portions of the network do get down (or are shut down).</description>
     </item>
     <item>

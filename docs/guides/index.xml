@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on jrobb.org</title>
+    <link>https://jrobb.org/guides/</link>
+    <description>Recent content in Guides on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2024 07:56:58 -0500</lastBuildDate>
+    <atom:link href="https://jrobb.org/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Cheat Sheet</title>
+      <link>https://jrobb.org/guides/git-cheat-sheet/</link>
+      <pubDate>Mon, 23 Dec 2024 07:56:58 -0500</pubDate>
+      <guid>https://jrobb.org/guides/git-cheat-sheet/</guid>
+      <description>from https://education.github.com/git-cheat-sheet-education.pdf:&#xA;This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+    </item>
+    <item>
+      <title>Making a Favicon</title>
+      <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
+      <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
+      <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
+      <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:</description>
+    </item>
+    <item>
+      <title>Transcode Mp4 Videos to X265 and Lower Bitrate</title>
+      <link>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
+      <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
+      <guid>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
+      <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
+    </item>
+  </channel>
+</rss>

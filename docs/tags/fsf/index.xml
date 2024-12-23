@@ -10,9 +10,9 @@
     <atom:link href="https://jrobb.org/tags/fsf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free Software Privacy</title>
-      <link>https://jrobb.org/privacy/free-software-privacy/</link>
+      <link>https://jrobb.org/posts/privacy/free-software-privacy/</link>
       <pubDate>Thu, 12 Dec 2024 16:04:30 -0500</pubDate>
-      <guid>https://jrobb.org/privacy/free-software-privacy/</guid>
+      <guid>https://jrobb.org/posts/privacy/free-software-privacy/</guid>
       <description>privacy is impossible without free software I have this image from the FSF that I love: https://static.fsf.org/nosvn/posters/privacy-free-software-sign.pdf https://www.fsf.org/bulletin/2020/spring/privacy-encryption </description>
     </item>
   </channel>

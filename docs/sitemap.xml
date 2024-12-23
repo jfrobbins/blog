@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/guides/git-cheat-sheet/</loc>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/guides/</loc>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-22T10:50:56-05:00</lastmod>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/posts/20241222-making-a-favicon/</loc>
-    <lastmod>2024-12-22T10:50:56-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/</loc>
+    <loc>https://jrobb.org/guides/20241222-making-a-favicon/</loc>
     <lastmod>2024-12-22T10:50:56-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/server/</loc>
@@ -32,13 +35,13 @@
     <loc>https://jrobb.org/tags/federation/</loc>
     <lastmod>2024-12-19T18:32:54-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/federation/</loc>
+    <loc>https://jrobb.org/posts/</loc>
     <lastmod>2024-12-19T18:32:54-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/social/</loc>
     <lastmod>2024-12-19T18:32:54-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/federation/what-is-a-distributed-social-network-anyway/</loc>
+    <loc>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</loc>
     <lastmod>2024-12-19T18:32:54-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/quotes/no-free-lunch/</loc>
@@ -53,34 +56,25 @@
     <loc>https://jrobb.org/quotes/proverbs-27-14/</loc>
     <lastmod>2024-12-12T20:53:20-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/privacy/free-software-privacy/</loc>
+    <loc>https://jrobb.org/posts/privacy/free-software-privacy/</loc>
     <lastmod>2024-12-12T16:04:30-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/fsf/</loc>
     <lastmod>2024-12-12T16:04:30-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/privacy/</loc>
-    <lastmod>2024-12-12T16:04:30-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/privacy/</loc>
     <lastmod>2024-12-12T16:04:30-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/server/my-first-five-minutes-on-a-server/</loc>
-    <lastmod>2024-12-12T15:53:08-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/server/</loc>
+    <loc>https://jrobb.org/posts/server/my-first-five-minutes-on-a-server/</loc>
     <lastmod>2024-12-12T15:53:08-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/crypto/</loc>
     <lastmod>2024-12-12T15:50:29-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/crypto/</loc>
-    <lastmod>2024-12-12T15:50:29-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/gpg/</loc>
     <lastmod>2024-12-12T15:50:29-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/crypto/gpg-cheat-sheet/</loc>
+    <loc>https://jrobb.org/posts/crypto/gpg-cheat-sheet/</loc>
     <lastmod>2024-12-12T15:50:29-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/finance/boglehead-investing/</loc>
@@ -89,16 +83,16 @@
     <loc>https://jrobb.org/tags/finance/</loc>
     <lastmod>2024-12-10T19:58:37-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/posts/transcode-mp4-videos-to-x265-and-lower-bitrate/</loc>
+    <loc>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</loc>
     <lastmod>2024-12-06T08:34:57-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/back-2-bloggin/</loc>
     <lastmod>2024-12-06T07:31:31-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/crypto/bitmessage/</loc>
+    <loc>https://jrobb.org/posts/crypto/bitmessage/</loc>
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/server/moving-my-pump-home/</loc>
+    <loc>https://jrobb.org/posts/server/moving-my-pump-home/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/pumpio/</loc>
@@ -122,7 +116,7 @@
     <loc>https://jrobb.org/projects/shortenizer-link-shortener/</loc>
     <lastmod>2014-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/federation/intro-to-federated-social-networks/</loc>
+    <loc>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</loc>
     <lastmod>2014-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/blog/moved-to-pelican/</loc>
