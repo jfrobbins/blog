@@ -10,16 +10,16 @@
     <atom:link href="https://jrobb.org/tags/newyear/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WP posts successfully copied and first post of the new year</title>
-      <link>https://jrobb.org/blog/wp-posts-successfully-copied-and-first-post-of-the-new-year/</link>
+      <link>https://jrobb.org/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</link>
       <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/wp-posts-successfully-copied-and-first-post-of-the-new-year/</guid>
+      <guid>https://jrobb.org/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</guid>
       <description>So, I wrote a quick script to parse through the Wordpress XML dump file and extract all of the posts into an hlscript/hl&amp;ndash; HTML type format. This turned out to be VERY easy, and pretty quick to do. I&amp;rsquo;ve now already imported all of these posts into this blog, and now I will move the factorq.net domain over here whenever I have time. My goal is to have jrobb.org and factorq.</description>
     </item>
     <item>
       <title>New Years Eve</title>
-      <link>https://jrobb.org/blog/new-years-eve/</link>
+      <link>https://jrobb.org/posts/archive/new-years-eve/</link>
       <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/new-years-eve/</guid>
+      <guid>https://jrobb.org/posts/archive/new-years-eve/</guid>
       <description>As I mentioned in my fq blog post, 2010 is coming to an end. Also, today is my son&amp;rsquo;s birthday! He turned 2 years old today, and for the next week or so, he and my daughter are the same age (then she turns 3, of course).&#xA;I&amp;rsquo;m updating this blog from my chair, on my laptop, trying to catch up on LinuxOutlaws podcasts which I am listening to on my Droid phone (I am still at least 10 episodes behind).</description>
     </item>
   </channel>

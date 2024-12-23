@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>I got bored... so Creating a www server</title>
-      <link>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</link>
+      <link>https://jrobb.org/posts/archive/i-got-bored...-so-creating-a-www-server/</link>
       <pubDate>Wed, 03 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/i-got-bored...-so-creating-a-www-server/</guid>
+      <guid>https://jrobb.org/posts/archive/i-got-bored...-so-creating-a-www-server/</guid>
       <description>Over the weekend I had some time and then decided to do something I had always wanted to do: create an http server. I was using my desktop, which runs Arch of course, and went through several of these links and set my desktop up with Apache, PHP, and MySQL. Also, I installed vsftp as an FTP server.&#xA;I even signed up with DynDNS so that my dynamic IP can be updated to a (sub)domain and etc etc.</description>
     </item>
   </channel>

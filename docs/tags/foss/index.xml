@@ -10,9 +10,9 @@
     <atom:link href="https://jrobb.org/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress GPL drama...</title>
-      <link>https://jrobb.org/blog/wordpress-gpl-drama.../</link>
+      <link>https://jrobb.org/posts/archive/wordpress-gpl-drama.../</link>
       <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/wordpress-gpl-drama.../</guid>
+      <guid>https://jrobb.org/posts/archive/wordpress-gpl-drama.../</guid>
       <description>After an argument broke out on twitter between wordpress co-founder Matt Mullenweg and Chris Pearson who created the popular wordpress theme Thesis, an interview was put in place by Mixergy to talk to both of these guys and get their views on the matter.&#xA;Matt feels that since Wordpress is licensed th the GPL, all themes would be considered derivative works, and therefore should also be licensed under the GPL</description>
     </item>
   </channel>

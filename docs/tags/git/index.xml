@@ -10,16 +10,16 @@
     <atom:link href="https://jrobb.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Version Control synopsis git vs fossil</title>
-      <link>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</link>
+      <link>https://jrobb.org/posts/archive/version-control-synopsis-git-vs-fossil/</link>
       <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/version-control-synopsis-git-vs-fossil/</guid>
+      <guid>https://jrobb.org/posts/archive/version-control-synopsis-git-vs-fossil/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve mentioned recently that I &lt;a href=&#34;?article=161&#34;&gt;started using Git&lt;/a&gt; for my version control needs.&lt;br&gt;&#xA;This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.&lt;/p&gt;&#xA;&lt;p&gt;Now at work in my department we only have two software guys: another guy and myself.&lt;br&gt;&#xA;We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things.&#xA;On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on.  If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes.  Hardly efficient, but it has worked okay up until this point.  Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.&lt;/p&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://git-scm.com/&#34;&gt;git&lt;/a&gt;, and love it.  Steve (the other guy) has heard of &lt;a href=&#34;http://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki&#34;&gt;fossil&lt;/a&gt;, and wanted me to evaluate these two main contenders.  While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.&lt;/p&gt;&#xA;&lt;p&gt;Go ahead and skip it if you aren&amp;rsquo;t already interested :-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gitting started</title>
-      <link>https://jrobb.org/blog/gitting-started/</link>
+      <link>https://jrobb.org/posts/archive/gitting-started/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/blog/gitting-started/</guid>
+      <guid>https://jrobb.org/posts/archive/gitting-started/</guid>
       <description>It is a bit embarassing for me to admit this, but I having been using Linux for 10ish years now, and I have never used Git until very recently. Sacrilege, I know! Other version control systems I have also stayed away from&amp;ndash;except for launchpad/bazaar, which I used I think 3 commands but never really got into it.&#xA;When I started hacking into my blog software, I started realizing that some sort of version control would definitely come in handy even though it is just rather simple PHP.</description>
     </item>
   </channel>

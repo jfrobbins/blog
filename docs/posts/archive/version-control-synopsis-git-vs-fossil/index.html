@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Version Control synopsis git vs fossil // jrobb.org</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jon Robbins" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+  
+
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Version Control synopsis git vs fossil">
+  <meta name="twitter:description" content="I’ve mentioned recently that I started using Git for my version control needs.
+This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.
+Now at work in my department we only have two software guys: another guy and myself.
+We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things. On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on. If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes. Hardly efficient, but it has worked okay up until this point. Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.
+I have been using git, and love it. Steve (the other guy) has heard of fossil, and wanted me to evaluate these two main contenders. While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.
+Go ahead and skip it if you aren’t already interested :-)">
+
+    <meta property="og:url" content="https://jrobb.org/posts/archive/version-control-synopsis-git-vs-fossil/">
+  <meta property="og:site_name" content="jrobb.org">
+  <meta property="og:title" content="Version Control synopsis git vs fossil">
+  <meta property="og:description" content="I’ve mentioned recently that I started using Git for my version control needs.
+This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.
+Now at work in my department we only have two software guys: another guy and myself.
+We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things. On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on. If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes. Hardly efficient, but it has worked okay up until this point. Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.
+I have been using git, and love it. Steve (the other guy) has heard of fossil, and wanted me to evaluate these two main contenders. While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.
+Go ahead and skip it if you aren’t already interested :-)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-02-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2011-02-13T00:00:00+00:00">
+    <meta property="article:tag" content="Jbs">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Fossil">
+    <meta property="article:tag" content="Scm">
+    <meta property="article:tag" content="Work">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrobb.org/"><img class="app-header-avatar" src="/images/avatars/rm/grok-me-rm-style-2.jpg" alt="Jon Robbins" /></a>
+      <span class="app-header-title">jrobb.org</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/contact/">Contact</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="/tags/quotes/">Quotes</a>
+            <br>
+          
+          <a class="app-header-menu-item" href="https://gohugo.io/">About Hugo</a>
+      </nav>
+      <p>Just my random thoughts</p>
+      <div class="app-header-social">
+        
+          <a href="https://mastodon.social/@jrobb" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-mastodon" viewBox="0 0 24 24" fill="currentColor"><title>Mastodon</title><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+          </a>
+        
+          <a href="https://x.com/jrobbnc" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-x" viewBox="0 0 24 24" fill="currentColor"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+          </a>
+        
+          <a href="https://github.com/jfrobbins" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Version Control synopsis git vs fossil</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Feb 13, 2011
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          4 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="https://jrobb.org/tags/jbs/">Jbs</a>
+              <a class="tag" href="https://jrobb.org/tags/git/">Git</a>
+              <a class="tag" href="https://jrobb.org/tags/fossil/">Fossil</a>
+              <a class="tag" href="https://jrobb.org/tags/scm/">Scm</a>
+              <a class="tag" href="https://jrobb.org/tags/work/">Work</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>I&rsquo;ve mentioned recently that I <a href="?article=161">started using Git</a> for my version control needs.<br>
+This has worked out well for me, both on my personal projects at home (mostly this blog stuff), and at work.</p>
+<p>Now at work in my department we only have two software guys: another guy and myself.<br>
+We both have a few independent projects, and then we have one main one where we overlap on bug fixes and things.
+On this project, the other guy is the lead. Anyway, we had talked about version control for a while because of the sheer amount of bug fixes and additions that have been going on.  If I make changes for a fix, or implement a new test procedure or anything, what I currently have to do is send the changes in some kind of text format to him and then he manually implements the changes.  Hardly efficient, but it has worked okay up until this point.  Now this whole project is so big and complex it has become very tedious and time consuming to do it this way.</p>
+<p>I have been using <a href="http://git-scm.com/">git</a>, and love it.  Steve (the other guy) has heard of <a href="http://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki">fossil</a>, and wanted me to evaluate these two main contenders.  While I did this testing, I took LOTS of notes, and this post will basically show what I came up with.</p>
+<p>Go ahead and skip it if you aren&rsquo;t already interested :-)</p>
+<p>First, I am going to go ahead and say that these two version control systems are very similar but also very different. They handle things slightly differently, but ultimately accomplish the same goal.</p>
+<p>Fossil aims to be simple to install and use, while being compact and efficient. It has a built-in web server as a UI, and is contained in a single binary executable.  Revisioning info stuff is stored in a SQLite database.</p>
+<p>Git is much bigger and complex, requires an actual install and uses many more commands. The windows version comes with a GUI (not too impressive to me since I like the console, but Steve likes the idea of a GUI).  Revisioning info stuff is stored in what can be referred to as a &ldquo;pile of files.&rdquo;</p>
+<p>Many of the commands between the two are the same, although some of them have different characteristics.  I will mostly cover the glaring differences here, and my final conclusions.  Maybe I will upload my mass amounts of notes later on as well.</p>
+<p><!-- raw HTML omitted -->edit:<!-- raw HTML omitted --> I have uploaded my notes, in their respective repo formats. They contain only text files of my notes as I went along using the two systems and comparing them, as well as simple merge tests and such: <a href="/xfer/code/test/fossil_test.tar.gz">fossil_test.tar.gz</a> and <a href="/xfer/code/test/git_test.tar.gz">git_test.tar.gz</a></p>
+<p><!-- raw HTML omitted -->git<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->fossil<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->In conclusion<!-- raw HTML omitted -->, they are both fine programs that works as they are supposed to, however I still prefer git. It operates in an expected manner and &ldquo;just makes sense&rdquo; to me.  Fossil, I think is okay as long as autosync is ON&ndash;when it is off, I think it would be difficult to keep track of revision changes since it does not notify if trunk/HEAD is actually newer than what you are pushing.  Also it is incredibly irritating that it is so difficult (if possible at all) to delete unwanted branches.  This is discouraging for those who like to make new branches rather than working in trunk, or just a number of specified branches ( like to create branches and then just delete them after I merge them in or if they don&rsquo;t work out).</p>
+<p>I have given my synopsis to him, however I&rsquo;m not sure yet which steve will choose. Either way will be better than manually entering all of these changes!</p>
+<p>taggage: #git #fossil #scm #version-control #work #code</p>
+<p>Also, I&rsquo;ll add that in Windows (our work environment), I have found it much easier to use <a href="http://sourceforge.net/projects/console/">Console2</a> instead of the default windows shell. I also point it either to a <a href="http://www.cygwin.com/">Cygwin</a> or <a href="http://www.mingw.org/">mingw</a> bash.  Git comes with a mingw shell.  This makes it much more &ldquo;at home,&rdquo; and enables the use of standard linux bash shell commands.  And Console2 is resizeable, unlike the standard windows prompt window!</p>
+<p>original filename: 164</p>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
