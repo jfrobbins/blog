@@ -6,8 +6,15 @@
     <description>Recent content in Git on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Feb 2011 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 07:56:58 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Cheat Sheet</title>
+      <link>https://jrobb.org/guides/git-cheat-sheet/</link>
+      <pubDate>Mon, 23 Dec 2024 07:56:58 -0500</pubDate>
+      <guid>https://jrobb.org/guides/git-cheat-sheet/</guid>
+      <description>from https://education.github.com/git-cheat-sheet-education.pdf:&#xA;This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+    </item>
     <item>
       <title>Version Control synopsis git vs fossil</title>
       <link>https://jrobb.org/posts/archive/version-control-synopsis-git-vs-fossil/</link>

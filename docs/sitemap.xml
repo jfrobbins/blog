@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/tags/git/</loc>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/guides/git-cheat-sheet/</loc>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/guides/</loc>
     <lastmod>2024-12-23T07:56:58-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/guides/</loc>
@@ -11,13 +17,13 @@
     <loc>https://jrobb.org/</loc>
     <lastmod>2024-12-23T07:56:58-05:00</lastmod>
   </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/guides/20241222-making-a-favicon/</loc>
     <lastmod>2024-12-22T10:50:56-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/server/</loc>
-    <lastmod>2024-12-22T10:50:56-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-22T10:50:56-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/www/</loc>
@@ -132,9 +138,6 @@
     <lastmod>2011-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/fossil/</loc>
-    <lastmod>2011-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/git/</loc>
     <lastmod>2011-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/scm/</loc>
