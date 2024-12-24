@@ -10,6 +10,19 @@ tags = ["www","guides"]
 In today's web environment, having a favicon that looks good across various devices and screen resolutions is crucial. 
 Here's a simple guide on how to create a multi-size `favicon.ico` file from a single 128x128 pixel image, using GIMP for resizing and `icoutils` on Ubuntu Linux for the final ICO creation.
 
+## Step 0: Creating an Image
+You have to have a starting point, something to actually make an icon from.
+
+I didn't really have anything to use, so I [asked Grok](https://x.com/i/grok/share/5nlRPlZUikzFBIrvZWnMwmC8o) to create some images for me.
+As usual, this doesn't go perfectly, but I ended up with one I chose to use:
+
+![favicon starting image](/images/favicon/favicon.jpg)
+
+In the steps below, we'll resize the image several times into the optimal sizes, and then combine them all into one `favicon.ico` file.
+
+Firstly, I sized it down to `128x128`:
+![favicon 128x128](/images/favicon/favicon_128.png)
+
 ## Step 1: Preparing Your Image
 
 ### Using GIMP to Resize Your Image
@@ -24,6 +37,12 @@ Here's a simple guide on how to create a multi-size `favicon.ico` file from a si
      - Click `Scale`.
      - Save each resized version:
        - Use `File > Export As...` to save as PNG. Name them accordingly like `favicon_16.png`, `favicon_32.png`, etc.
+       
+The various size icons:
+- ![favicon 64x64](/images/favicon/favicon_64.png)
+- ![favicon 48x48](/images/favicon/favicon_48.png)
+- ![favicon 32x32](/images/favicon/favicon_32.png)
+- ![favicon 16x16](/images/favicon/favicon_16.png)
 
 ## Step 2: Creating the ICO File with icoutils
 
@@ -56,6 +75,17 @@ You can check the contents of your .ico file to ensure all sizes are included:
 bash
 
 icotool -l favicon.ico
+```
+
+Here is my output:
+
+```
+$ icotool -l favicon.ico 
+--icon --index=1 --width=16 --height=16 --bit-depth=8 --palette-size=256
+--icon --index=2 --width=32 --height=32 --bit-depth=24 --palette-size=0
+--icon --index=3 --width=48 --height=48 --bit-depth=24 --palette-size=0
+--icon --index=4 --width=64 --height=64 --bit-depth=24 --palette-size=0
+--icon --index=5 --width=128 --height=128 --bit-depth=24 --palette-size=0
 ```
 
 ## Step 3: Implementing the Favicon on Your Site
