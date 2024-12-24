@@ -2,7 +2,7 @@
 title = 'GPG Cheat Sheet'
 date = 2024-12-12T15:50:29-05:00
 draft = false
-tags = ["crypto","gpg"]
+tags = ["crypto","gpg", "guides"]
 +++
 
 

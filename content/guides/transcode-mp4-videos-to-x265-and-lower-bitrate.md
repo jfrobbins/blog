@@ -2,6 +2,7 @@
 title = 'Transcode Mp4 Videos to X265 and Lower Bitrate'
 date = 2024-12-06T08:34:57-05:00
 draft = false
+tags = ["guides", "media"]
 +++
 
 Yesterday at work I needed to send some video files, however they were _huge_. 
