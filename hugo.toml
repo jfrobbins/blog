@@ -42,13 +42,18 @@ publishDir = "docs"
   name = "Recipes"
   url = "/tags/recipes/"
   weight = 30
+  
+  
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
 
 [[menu.main]]
-  identifier = "about"
-  name = "About Hugo"
-  url = "https://gohugo.io/"
-  weight = 99
-
+  name = "Contact"
+  url = "/contact/"
+  weight = 50
+ 
 
 
 [[params.social]]
