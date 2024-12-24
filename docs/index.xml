@@ -6,8 +6,22 @@
     <description>Recent content on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2024 07:56:58 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2024 08:22:14 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://jrobb.org/about/</link>
+      <pubDate>Tue, 24 Dec 2024 08:22:14 -0500</pubDate>
+      <guid>https://jrobb.org/about/</guid>
+      <description>About Me //TODO//</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://jrobb.org/contact/</link>
+      <pubDate>Tue, 24 Dec 2024 08:22:14 -0500</pubDate>
+      <guid>https://jrobb.org/contact/</guid>
+      <description>How to contact me Social Networking (in order of use): x: @jrobbnc mastodon: @jrobb@mastodon.social Messaging: Signal: jon.57 E-mail: : I recommend you use gpg to send email privately.&#xA;You can reach me at jon followed by r. At pm.me.&#xA;My pubkey is below:&#xA;-----BEGIN PGP PUBLIC KEY BLOCK----- xjMEY2VQfhYJKwYBBAHaRw8BAQdAVFDaqVRR4Z55LNeoNG92VmeeKl0M2pOM kMLsB7M7ofzNF2pvbnJAcG0ubWUgPGpvbnJAcG0ubWU+wowEEBYKAD4FAmNl UH4ECwkHCAkQrbWnsLu2ikgDFQgKBBYAAgECGQECGwMCHgEWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAkioA/309Etr/iA8NUPCGa0apJyTB2r6TM4QSEhm4 qqUWmLhoAQD4uPHQAvXI1HriwD1hhOdQBED6mdqVroRUDF09LhrOBc44BGNl UH4SCisGAQQBl1UBBQEBB0DqS6xUnpV0rPSmqg3Sm58nOrIWAwhzPgTFueny T+Z4CwMBCAfCeAQYFggAKgUCY2VQfgkQrbWnsLu2ikgCGwwWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAxAkBAO3emqSj3UJHrha2OxBqJ6JiwYtCZDSrNSr7 iKH4CwoWAQCgEe1xzJvdIvmWgXNBW67G17yFCN6QqnWDg3LGv4T1DA== =5uxt -----END PGP PUBLIC KEY BLOCK----- </description>
+    </item>
     <item>
       <title>Git Cheat Sheet</title>
       <link>https://jrobb.org/guides/git-cheat-sheet/</link>
@@ -644,13 +658,6 @@
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/posts/archive/my-first-post/</guid>
       <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://jrobb.org/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/contact/</guid>
-      <description>How to contact me Social Networking (in order of use): x: @jrobbnc mastodon: @jrobb@mastodon.social Messaging: Signal: jon.57 E-mail: : I recommend you use gpg to send email privately.&#xA;You can reach me at jon followed by r. At pm.me.&#xA;My pubkey is below:&#xA;-----BEGIN PGP PUBLIC KEY BLOCK----- xjMEY2VQfhYJKwYBBAHaRw8BAQdAVFDaqVRR4Z55LNeoNG92VmeeKl0M2pOM kMLsB7M7ofzNF2pvbnJAcG0ubWUgPGpvbnJAcG0ubWU+wowEEBYKAD4FAmNl UH4ECwkHCAkQrbWnsLu2ikgDFQgKBBYAAgECGQECGwMCHgEWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAkioA/309Etr/iA8NUPCGa0apJyTB2r6TM4QSEhm4 qqUWmLhoAQD4uPHQAvXI1HriwD1hhOdQBED6mdqVroRUDF09LhrOBc44BGNl UH4SCisGAQQBl1UBBQEBB0DqS6xUnpV0rPSmqg3Sm58nOrIWAwhzPgTFueny T+Z4CwMBCAfCeAQYFggAKgUCY2VQfgkQrbWnsLu2ikgCGwwWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAxAkBAO3emqSj3UJHrha2OxBqJ6JiwYtCZDSrNSr7 iKH4CwoWAQCgEe1xzJvdIvmWgXNBW67G17yFCN6QqnWDg3LGv4T1DA== =5uxt -----END PGP PUBLIC KEY BLOCK----- </description>
     </item>
     <item>
       <title>Old and out of date contact Info</title>
