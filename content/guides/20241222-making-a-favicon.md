@@ -14,14 +14,11 @@ Here's a simple guide on how to create a multi-size `favicon.ico` file from a si
 You have to have a starting point, something to actually make an icon from.
 
 I didn't really have anything to use, so I [asked Grok](https://x.com/i/grok/share/5nlRPlZUikzFBIrvZWnMwmC8o) to create some images for me.
-As usual, this doesn't go perfectly, but I ended up with one I chose to use:
+As usual, this doesn't go perfectly, but I ended up with one I chose to use after I sized it down to `128x128`:
 
-![favicon starting image](/images/favicon/favicon.jpg)
+- ![favicon 128x128](/images/favicon/favicon_128.png)
 
 In the steps below, we'll resize the image several times into the optimal sizes, and then combine them all into one `favicon.ico` file.
-
-Firstly, I sized it down to `128x128`:
-![favicon 128x128](/images/favicon/favicon_128.png)
 
 ## Step 1: Preparing Your Image
 
