@@ -1,15 +1,9 @@
----
-authors: Jon Robbins
-date: 2014-07-27 10:48
-draft: false
-modified: 2024-12-06 07:50
-tags:
-- contact
-title: Contact
-menu: 
-  main:
-    weight: 50
----
++++
+title = 'Contact'
+date = 2024-12-24T08:22:14-05:00
+draft = false
+tags = ["contact"]
++++
 
 # How to contact me
 
