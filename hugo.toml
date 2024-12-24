@@ -32,6 +32,16 @@ publishDir = "docs"
   name = "Quotes"
   url = "/tags/quotes/"
   weight = 50 
+  
+[[menu.main]]
+  name = "Guides"
+  url = "/tags/guides/"
+  weight = 55 
+
+[[menu.main]]
+  name = "Recipes"
+  url = "/tags/recipes/"
+  weight = 60
 
 [[menu.main]]
   identifier = "about"
