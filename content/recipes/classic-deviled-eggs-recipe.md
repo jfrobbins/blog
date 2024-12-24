@@ -2,7 +2,7 @@
 title = 'Classic Deviled Eggs Recipe'
 date = 2024-12-22T09:19:26-05:00
 draft = false
-tags = ["recipe"]
+tags = ["recipes"]
 +++
 
 # Classic Deviled Eggs
