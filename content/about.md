@@ -5,6 +5,11 @@ draft = false
 tags = ["about"]
 +++
 
+# Contact
+You can contact me by the methods on the [Contact Page](/contact/).
+
+# About Me
+
 Hello! I'm a husband and father who deeply values family, privacy, and freedom. Here’s a little bit about me:
 
 - **Family First**: My love for my family is boundless, and they are my greatest joy.
