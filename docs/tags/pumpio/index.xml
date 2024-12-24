@@ -10,9 +10,9 @@
     <atom:link href="https://jrobb.org/tags/pumpio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>moving my pump home</title>
-      <link>https://jrobb.org/posts/server/moving-my-pump-home/</link>
+      <link>https://jrobb.org/posts/archive/server/moving-my-pump-home/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/server/moving-my-pump-home/</guid>
+      <guid>https://jrobb.org/posts/archive/server/moving-my-pump-home/</guid>
       <description>I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit &amp;ndash; I was seeding many linux distributions, and with the fat pipes on the vps it just happened. I&amp;rsquo;ll have to be more careful in the future.&#xA;Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least, and I decided to go ahead and move my pump from the vps onto one of my home servers.</description>
     </item>
   </channel>

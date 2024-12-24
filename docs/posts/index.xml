@@ -23,27 +23,6 @@
       <description>privacy is impossible without free software I have this image from the FSF that I love: https://static.fsf.org/nosvn/posters/privacy-free-software-sign.pdf https://www.fsf.org/bulletin/2020/spring/privacy-encryption </description>
     </item>
     <item>
-      <title>My First Five Minutes on a Server</title>
-      <link>https://jrobb.org/posts/server/my-first-five-minutes-on-a-server/</link>
-      <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
-      <guid>https://jrobb.org/posts/server/my-first-five-minutes-on-a-server/</guid>
-      <description>I&amp;rsquo;ve been going through some of my backups and came across this post that I (used to) use all the time.&#xA;I originally grabbed this a long time ago from plusbryan.com, but now it appears to be down&amp;hellip; so I&amp;rsquo;m glad I saved it.&#xA;my_first_5mins_on_a_server.pdf Thanks, PlusBryan, whoever you are &amp;ndash; this has saved me a lot of time over the years!&#xA;Here is the post in its entirety (made with a little help from grok):</description>
-    </item>
-    <item>
-      <title>GPG Cheat Sheet</title>
-      <link>https://jrobb.org/posts/crypto/gpg-cheat-sheet/</link>
-      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/posts/crypto/gpg-cheat-sheet/</guid>
-      <description>GPG Cheat Sheet I found this somewhere:</description>
-    </item>
-    <item>
-      <title>Boglehead Investing</title>
-      <link>https://jrobb.org/posts/finance/boglehead-investing/</link>
-      <pubDate>Tue, 10 Dec 2024 19:58:37 -0500</pubDate>
-      <guid>https://jrobb.org/posts/finance/boglehead-investing/</guid>
-      <description>I&amp;rsquo;ve been meaning to do this particular post for a while. As a matter of fact, this is the main reason I&amp;rsquo;ve resurrected this website to begin with &amp;ndash; I wanted to document this for my kids, and for whoever else it is valuable for.&#xA;I&amp;rsquo;ve found myself outlining this a few times, so why not put it on the internet? :-) Besides, it&amp;rsquo;s easy.&#xA;What is a &amp;ldquo;Boglehead&amp;rdquo;? A Boglehead is someone who follows the investment advice and strategy of John C Bogle.</description>
-    </item>
-    <item>
       <title>Back 2 Bloggin</title>
       <link>https://jrobb.org/posts/back-2-bloggin/</link>
       <pubDate>Fri, 06 Dec 2024 07:31:31 -0500</pubDate>
@@ -52,16 +31,16 @@
     </item>
     <item>
       <title>Bitmessage</title>
-      <link>https://jrobb.org/posts/crypto/bitmessage/</link>
+      <link>https://jrobb.org/posts/archive/crypto/bitmessage/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/crypto/bitmessage/</guid>
+      <guid>https://jrobb.org/posts/archive/crypto/bitmessage/</guid>
       <description>Lately I&amp;rsquo;ve started finding Bitmessage interesting again. I used it a little early on, but haven&amp;rsquo;t in a year or so.&#xA;After recovering my address, I&amp;rsquo;ve been back on the network and I&amp;rsquo;m remembering that I really like the idea of it&amp;ndash;mostly the simplicity! Compared to GPG, this is no contest that almost anyone could use this. Some people feel that GPG is damn near unusable, and while I don&amp;rsquo;t really agree, according to the guy in that talk I (and probably you) are considered the &amp;ldquo;technological elite.</description>
     </item>
     <item>
       <title>moving my pump home</title>
-      <link>https://jrobb.org/posts/server/moving-my-pump-home/</link>
+      <link>https://jrobb.org/posts/archive/server/moving-my-pump-home/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/server/moving-my-pump-home/</guid>
+      <guid>https://jrobb.org/posts/archive/server/moving-my-pump-home/</guid>
       <description>I was suspended from my vps again sometime yesterday due to going over my 3TB monthly bandwidth limit &amp;ndash; I was seeding many linux distributions, and with the fat pipes on the vps it just happened. I&amp;rsquo;ll have to be more careful in the future.&#xA;Anyway, this was a good opportunity for me to stop depending on the vps for my social networking at least, and I decided to go ahead and move my pump from the vps onto one of my home servers.</description>
     </item>
     <item>
