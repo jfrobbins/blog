@@ -38,10 +38,10 @@ publishDir = "docs"
   url = "/tags/guides/"
   weight = 20 
 
-[[menu.main]]
-  name = "Recipes"
-  url = "/tags/recipes/"
-  weight = 30
+#[[menu.main]]
+#  name = "Recipes"
+#  url = "/tags/recipes/"
+#  weight = 30
   
   
 [[menu.main]]
@@ -49,10 +49,10 @@ publishDir = "docs"
   url = "/about/"
   weight = 40
 
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 50
+#[[menu.main]]
+#  name = "Contact"
+#  url = "/contact/"
+#  weight = 50
  
 
 
