@@ -13,7 +13,7 @@
       <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
       <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
-      <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:</description>
+      <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.</description>
     </item>
   </channel>
 </rss>

@@ -19,13 +19,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Making a Favicon">
   <meta name="twitter:description" content="Creating a Multi-Resolution Favicon for Your Website In today’s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here’s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.
-Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:">
+Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.">
 
     <meta property="og:url" content="https://jrobb.org/guides/20241222-making-a-favicon/">
   <meta property="og:site_name" content="jrobb.org">
   <meta property="og:title" content="Making a Favicon">
   <meta property="og:description" content="Creating a Multi-Resolution Favicon for Your Website In today’s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here’s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.
-Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:">
+Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="guides">
@@ -84,7 +84,7 @@ Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:">
         </div>
         <div>
           <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          2 min read
+          3 min read
         </div>
         <div>
           <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
@@ -97,6 +97,14 @@ Step 1: Preparing Your Image Using GIMP to Resize Your Image Open Your Image:">
       <h1 id="creating-a-multi-resolution-favicon-for-your-website">Creating a Multi-Resolution Favicon for Your Website</h1>
 <p>In today&rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial.
 Here&rsquo;s a simple guide on how to create a multi-size <code>favicon.ico</code> file from a single 128x128 pixel image, using GIMP for resizing and <code>icoutils</code> on Ubuntu Linux for the final ICO creation.</p>
+<h2 id="step-0-creating-an-image">Step 0: Creating an Image</h2>
+<p>You have to have a starting point, something to actually make an icon from.</p>
+<p>I didn&rsquo;t really have anything to use, so I <a href="https://x.com/i/grok/share/5nlRPlZUikzFBIrvZWnMwmC8o">asked Grok</a> to create some images for me.
+As usual, this doesn&rsquo;t go perfectly, but I ended up with one I chose to use:</p>
+<p><img src="/images/favicon/favicon.jpg" alt="favicon starting image"></p>
+<p>In the steps below, we&rsquo;ll resize the image several times into the optimal sizes, and then combine them all into one <code>favicon.ico</code> file.</p>
+<p>Firstly, I sized it down to <code>128x128</code>:
+<img src="/images/favicon/favicon_128.png" alt="favicon 128x128"></p>
 <h2 id="step-1-preparing-your-image">Step 1: Preparing Your Image</h2>
 <h3 id="using-gimp-to-resize-your-image">Using GIMP to Resize Your Image</h3>
 <ol>
@@ -124,6 +132,13 @@ Here&rsquo;s a simple guide on how to create a multi-size <code>favicon.ico</cod
 </ul>
 </li>
 </ol>
+<p>The various size icons:</p>
+<ul>
+<li><img src="/images/favicon/favicon_64.png" alt="favicon 64x64"></li>
+<li><img src="/images/favicon/favicon_48.png" alt="favicon 48x48"></li>
+<li><img src="/images/favicon/favicon_32.png" alt="favicon 32x32"></li>
+<li><img src="/images/favicon/favicon_16.png" alt="favicon 16x16"></li>
+</ul>
 <h2 id="step-2-creating-the-ico-file-with-icoutils">Step 2: Creating the ICO File with icoutils</h2>
 <h3 id="install-icoutils-on-ubuntu">Install icoutils on Ubuntu</h3>
 <p>Before proceeding, make sure you have <code>icoutils</code> installed:</p>
@@ -143,6 +158,13 @@ icotool -c -o favicon.ico favicon_16.png favicon_32.png favicon_48.png favicon_6
 <pre tabindex="0"><code>bash
 
 icotool -l favicon.ico
+</code></pre><p>Here is my output:</p>
+<pre tabindex="0"><code>$ icotool -l favicon.ico 
+--icon --index=1 --width=16 --height=16 --bit-depth=8 --palette-size=256
+--icon --index=2 --width=32 --height=32 --bit-depth=24 --palette-size=0
+--icon --index=3 --width=48 --height=48 --bit-depth=24 --palette-size=0
+--icon --index=4 --width=64 --height=64 --bit-depth=24 --palette-size=0
+--icon --index=5 --width=128 --height=128 --bit-depth=24 --palette-size=0
 </code></pre><h2 id="step-3-implementing-the-favicon-on-your-site">Step 3: Implementing the Favicon on Your Site</h2>
 <ul>
 <li>Place the File: Move your <code>favicon.ico</code> to the root directory of your website.</li>
