@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/recipes/breakfast-egg-casserole/</loc>
+    <lastmod>2024-12-25T10:16:23-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/</loc>
+    <lastmod>2024-12-25T10:16:23-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/recipes/</loc>
+    <lastmod>2024-12-25T10:16:23-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/</loc>
+    <lastmod>2024-12-25T10:16:23-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-25T10:16:23-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/tags/about/</loc>
     <lastmod>2024-12-24T08:22:14-05:00</lastmod>
   </url><url>
@@ -12,12 +27,6 @@
     <lastmod>2024-12-24T08:22:14-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/contact/</loc>
-    <lastmod>2024-12-24T08:22:14-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-24T08:22:14-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-24T08:22:14-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/git/</loc>
@@ -39,12 +48,6 @@
     <lastmod>2024-12-22T10:50:56-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/classic-deviled-eggs-recipe/</loc>
-    <lastmod>2024-12-22T09:19:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/recipes/</loc>
-    <lastmod>2024-12-22T09:19:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/recipes/</loc>
     <lastmod>2024-12-22T09:19:26-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/federation/</loc>
