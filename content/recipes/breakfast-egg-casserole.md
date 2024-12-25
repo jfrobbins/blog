@@ -8,8 +8,7 @@ tags = ["recipes"]
 # Breakfast Casserole With Sausage and Peppers
 I received this recipe from a friend, and it sounds good.
 
-Source: 
-- [https://www.bonappetit.com/recipe/breakfast-casserole](https://www.bonappetit.com/recipe/breakfast-casserole)
+[Source: bonappetit.com](https://www.bonappetit.com/recipe/breakfast-casserole)
 
 ## Ingredients:
 - **1 pound hot and/or sweet Italian sausage, casings removed**
