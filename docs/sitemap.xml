@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/recipes/apple-pie/</loc>
+    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-25T10:28:03-05:00</lastmod>
+    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/recipes/</loc>
-    <lastmod>2024-12-25T10:28:03-05:00</lastmod>
+    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/</loc>
-    <lastmod>2024-12-25T10:28:03-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/recipes/slow-cooker-thai-chicken-soup/</loc>
-    <lastmod>2024-12-25T10:28:03-05:00</lastmod>
+    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/slow-cooker-thai-chicken-soup/</loc>
     <lastmod>2024-12-25T10:28:03-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/breakfast-egg-casserole/</loc>
