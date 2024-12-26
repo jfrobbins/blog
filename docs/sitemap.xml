@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jrobb.org/posts/boona-tandem-showerhead/</loc>
-    <lastmod>2024-12-26T08:01:26-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/</loc>
     <lastmod>2024-12-26T08:01:26-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-26T08:01:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/renovation/</loc>
-    <lastmod>2024-12-26T08:01:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-26T08:01:26-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/encryption/</loc>
@@ -33,6 +24,9 @@
     <lastmod>2024-12-26T07:40:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/proton/</loc>
+    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-26T07:40:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/privacy/proton-encrypted-services/</loc>
