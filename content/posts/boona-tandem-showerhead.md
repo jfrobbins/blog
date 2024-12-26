@@ -1,7 +1,7 @@
 +++
 title = 'Boona Tandem Showerhead'
 date = 2024-12-26T08:01:26-05:00
-draft = false
+draft = true
 tags = ["renovation"]
 +++
 
@@ -10,6 +10,8 @@ tags = ["renovation"]
 ## Introduction
 
 When I first heard about the [Boona Tandem Shower Head](https://boona.com/products/tandem), it was through a meme about its Shark Tank appearance. Intrigued by the concept, I decided to give it a shot when I saw it on sale. Here's how it changed our daily shower routine.
+
+![burns](/random/memes/burns-shower.gif)
 
 ## Why We Love It
 
@@ -50,6 +52,8 @@ This is not an ad, and I don't get paid anything for mentioning this at all -- I
 The Boona Tandem Shower Head has genuinely transformed our shower routine into something special. If you're considering a bathroom upgrade but dread the thought of renovation, this might be the answer. It's not just about the shower; it's about the moments it creates.
 
 Worth checking out.
+
+{{< img src="/images/posts/boona.jpg" size="300x" alt="Boona Tandem Shower Head" >}}
 
 **References:**
 - [Boona Website](https://boona.com/)
