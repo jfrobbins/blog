@@ -6,8 +6,22 @@
     <description>Recent content on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2024 22:18:01 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 22:35:59 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Create mp4 from Images</title>
+      <link>https://jrobb.org/guides/create-mp4-from-images/</link>
+      <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
+      <guid>https://jrobb.org/guides/create-mp4-from-images/</guid>
+      <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp3 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
+    </item>
+    <item>
+      <title>Clean Boot Partition for Upgrade</title>
+      <link>https://jrobb.org/guides/clean-boot-partition-for-upgrade/</link>
+      <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
+      <guid>https://jrobb.org/guides/clean-boot-partition-for-upgrade/</guid>
+      <description>Every time my laptop upgrades, I need to clear /boot so the kernels can update. I put this into a gist so I can easily find it and do it again since I can never remember what to do (lol).&#xA;Clean up /boot Source link: https://askubuntu.com/questions/345588/what-is-the-safest-way-to-clean-up-boot-partition First check your kernel version, so you won&amp;rsquo;t delete the in-use kernel image, running:&#xA;uname -r&#xA;Now run this command for a list of installed kernels:</description>
+    </item>
     <item>
       <title>The 10 Dolph Commandments</title>
       <link>https://jrobb.org/quotes/dolph-10-commandments/</link>

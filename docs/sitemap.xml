@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/guides/create-mp4-from-images/</loc>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/guides/clean-boot-partition-for-upgrade/</loc>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/guides/</loc>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/guides/</loc>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-25T22:18:01-05:00</lastmod>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-25T22:35:59-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/quotes/</loc>
     <lastmod>2024-12-25T22:18:01-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/quotes/</loc>
-    <lastmod>2024-12-25T22:18:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-25T22:18:01-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/quotes/dolph-10-commandments/</loc>
@@ -48,12 +60,6 @@
     <lastmod>2024-12-23T07:56:58-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/guides/git-cheat-sheet/</loc>
-    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/guides/</loc>
-    <lastmod>2024-12-23T07:56:58-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/guides/</loc>
     <lastmod>2024-12-23T07:56:58-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/guides/20241222-making-a-favicon/</loc>
