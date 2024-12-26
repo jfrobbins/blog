@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jrobb.org/recipes/apple-pie/</loc>
-    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/</loc>
+    <lastmod>2024-12-25T22:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/</loc>
+    <lastmod>2024-12-25T22:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/apple-pie/</loc>
     <lastmod>2024-12-25T10:38:04-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/recipes/</loc>
@@ -57,9 +60,6 @@
     <lastmod>2024-12-22T09:19:26-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/federation/</loc>
-    <lastmod>2024-12-19T18:32:54-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/</loc>
     <lastmod>2024-12-19T18:32:54-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/social/</loc>
