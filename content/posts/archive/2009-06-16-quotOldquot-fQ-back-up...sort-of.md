@@ -4,7 +4,7 @@ category: archive
 date: '2009-06-16T00:00:00'
 draft: false
 modified: '2009-06-16T00:00:00'
-slug: quotoldquot-fq-back-up...sort-of
+slug: fq-back-up-sort-of
 tags:
 - jbs
 - site

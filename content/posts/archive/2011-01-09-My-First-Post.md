@@ -1,14 +1,14 @@
 ---
 authors: Jon Robbins
 category: archive
-date: '2006-01-01T00:00:00'
+date: '2011-01-09T00:00:00'
 draft: false
-modified: '2006-01-01T00:00:00'
-slug: my-first-post
+date: '2011-01-09T00:00:00'
+slug: my-first-post-again
 tags:
 - jbs
 - site
-title: My First Post
+title: My First Post ... again
 ---
 
 This is not truly a first post here, I am actually editing this on January 9, 2011.  
