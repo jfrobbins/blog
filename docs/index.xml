@@ -13,7 +13,7 @@
       <link>https://jrobb.org/guides/create-mp4-from-images/</link>
       <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
       <guid>https://jrobb.org/guides/create-mp4-from-images/</guid>
-      <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp3 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
+      <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp4 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
     </item>
     <item>
       <title>Clean Boot Partition for Upgrade</title>
