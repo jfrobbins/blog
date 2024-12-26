@@ -12,7 +12,7 @@ This is mostly sourced from the url here:
 Which I then put into [this gist](https://gist.github.com/jfrobbins/49e2b53b155bfb77aa426859134d3ff6).
 And now this post.
 
-# Create mp3 from Images
+# Create mp4 from Images
 
 
 `-pattern_type glob`
