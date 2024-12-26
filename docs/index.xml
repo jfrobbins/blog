@@ -150,9 +150,9 @@
     </item>
     <item>
       <title>shortenizer (link shortener)</title>
-      <link>https://jrobb.org/projects/shortenizer-link-shortener/</link>
+      <link>https://jrobb.org/posts/archive/projects/shortenizer-link-shortener/</link>
       <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/projects/shortenizer-link-shortener/</guid>
+      <guid>https://jrobb.org/posts/archive/projects/shortenizer-link-shortener/</guid>
       <description>After recently beginning to use navierstokes to broadcast my social media message across networks (usually originating from my pump.io ), it became very apparent to me that the 140 character limit on networks such as twitter and GNU Social is just archaic and very inconvenient.&#xA;I helped out and made some simple test code to post to ur1.ca and scrape the html to get the shortened link, but I thought I could do something else for myself as a fun project.</description>
     </item>
     <item>
@@ -210,6 +210,13 @@
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/posts/archive/got-it-to-work...the-code-display-thing/</guid>
       <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
+    </item>
+    <item>
+      <title>My First Post ... again</title>
+      <link>https://jrobb.org/posts/archive/my-first-post-again/</link>
+      <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/posts/archive/my-first-post-again/</guid>
+      <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
     </item>
     <item>
       <title>Captcha and Tagger thing</title>
@@ -633,9 +640,9 @@
     </item>
     <item>
       <title>&#34;Old&#34; fQ back up...sort of</title>
-      <link>https://jrobb.org/posts/archive/quotoldquot-fq-back-up...sort-of/</link>
+      <link>https://jrobb.org/posts/archive/fq-back-up-sort-of/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/quotoldquot-fq-back-up...sort-of/</guid>
+      <guid>https://jrobb.org/posts/archive/fq-back-up-sort-of/</guid>
       <description>I got my web host to get everything back together. I set up the domains and whatnot and now it&amp;rsquo;s back going again. I say &amp;ldquo;old&amp;rdquo; because it is really not all that old. Except for the &amp;ldquo;archive&amp;rdquo; part.&#xA;These URLs point to &amp;ldquo;Old&amp;rdquo; fQ: old.factorq.net oldfq.co.cc oldfactorq.co.cc (not yet active) itsatravesty.com (only active through sometime in August) itsatravesty.co.cc&#xA;These URLs still point to this (the main site): factorq.net factorq.co.cc</description>
     </item>
     <item>
@@ -672,13 +679,6 @@
       <pubDate>Sat, 23 Dec 2006 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/posts/archive/how-i-got-started/</guid>
       <description>I started out creating websites for myself and friends on geocities and other hosts that were similar back in the day (late 90s). Gradually I learned and came across new technologies, data formats, and programming languages.&#xA;Back in the summer of 2000, I had just graduated high school, the Internet was in what I consider its &amp;ldquo;prime&amp;rdquo;, and I was running way too many websites. They were all mostly silly or pointless, and I wanted to drop them all as I thought that did not make sense and was a waste of time.</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://jrobb.org/posts/archive/my-first-post/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/my-first-post/</guid>
-      <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
     </item>
     <item>
       <title>Old and out of date contact Info</title>

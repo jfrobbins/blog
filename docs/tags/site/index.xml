@@ -23,6 +23,13 @@
       <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
     </item>
     <item>
+      <title>My First Post ... again</title>
+      <link>https://jrobb.org/posts/archive/my-first-post-again/</link>
+      <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/posts/archive/my-first-post-again/</guid>
+      <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
+    </item>
+    <item>
       <title>Captcha and Tagger thing</title>
       <link>https://jrobb.org/posts/archive/captcha-and-tagger-thing/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
@@ -73,9 +80,9 @@
     </item>
     <item>
       <title>&#34;Old&#34; fQ back up...sort of</title>
-      <link>https://jrobb.org/posts/archive/quotoldquot-fq-back-up...sort-of/</link>
+      <link>https://jrobb.org/posts/archive/fq-back-up-sort-of/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/quotoldquot-fq-back-up...sort-of/</guid>
+      <guid>https://jrobb.org/posts/archive/fq-back-up-sort-of/</guid>
       <description>I got my web host to get everything back together. I set up the domains and whatnot and now it&amp;rsquo;s back going again. I say &amp;ldquo;old&amp;rdquo; because it is really not all that old. Except for the &amp;ldquo;archive&amp;rdquo; part.&#xA;These URLs point to &amp;ldquo;Old&amp;rdquo; fQ: old.factorq.net oldfq.co.cc oldfactorq.co.cc (not yet active) itsatravesty.com (only active through sometime in August) itsatravesty.co.cc&#xA;These URLs still point to this (the main site): factorq.net factorq.co.cc</description>
     </item>
     <item>
@@ -84,13 +91,6 @@
       <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/posts/archive/some-more-info-about-the-site-crash/</guid>
       <description>So, apparently there is a backup of the website. However the (free) webhost has to re-create my account and set everything back up.&#xA;I really can&amp;rsquo;t complain, I mean&amp;hellip;it is a FREE host. However, lately the outages have been really common, and then now this complete deletion of my account. pretty crazy.&#xA;I think that I will stick with this (blogger), being it is still free, and the uptime is MUCH better.</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://jrobb.org/posts/archive/my-first-post/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/my-first-post/</guid>
-      <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
     </item>
   </channel>
 </rss>

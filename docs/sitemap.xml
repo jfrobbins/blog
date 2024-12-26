@@ -137,10 +137,7 @@
     <loc>https://jrobb.org/tags/projects/</loc>
     <lastmod>2014-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/projects/</loc>
-    <lastmod>2014-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/projects/shortenizer-link-shortener/</loc>
+    <loc>https://jrobb.org/posts/archive/projects/shortenizer-link-shortener/</loc>
     <lastmod>2014-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</loc>
@@ -196,6 +193,9 @@
   </url><url>
     <loc>https://jrobb.org/posts/archive/got-it-to-work...the-code-display-thing/</loc>
     <lastmod>2011-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/archive/my-first-post-again/</loc>
+    <lastmod>2011-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/archive/captcha-and-tagger-thing/</loc>
     <lastmod>2011-01-08T00:00:00+00:00</lastmod>
@@ -437,7 +437,7 @@
     <loc>https://jrobb.org/posts/archive/a-message-from-ron-paul-about-socialized-health-care/</loc>
     <lastmod>2009-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/posts/archive/quotoldquot-fq-back-up...sort-of/</loc>
+    <loc>https://jrobb.org/posts/archive/fq-back-up-sort-of/</loc>
     <lastmod>2009-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/archive/i-dislike-cheney-and-apparently-the-cia-director-questions-him-too/</loc>
@@ -454,9 +454,6 @@
   </url><url>
     <loc>https://jrobb.org/posts/archive/how-i-got-started/</loc>
     <lastmod>2006-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/archive/my-first-post/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/categories/</loc>
   </url><url>
