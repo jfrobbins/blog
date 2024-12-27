@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>Dadstuff</title>
+      <link>https://jrobb.org/tags/dadstuff/</link>
+      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
+      <guid>https://jrobb.org/tags/dadstuff/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Encryption</title>
       <link>https://jrobb.org/tags/encryption/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
@@ -37,10 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Password Manager</title>
-      <link>https://jrobb.org/tags/password-manager/</link>
+      <title>Passwords</title>
+      <link>https://jrobb.org/tags/passwords/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/password-manager/</guid>
+      <guid>https://jrobb.org/tags/passwords/</guid>
       <description></description>
     </item>
     <item>
@@ -370,6 +377,13 @@
       <link>https://jrobb.org/tags/jolicloud/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/jolicloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Licensing</title>
+      <link>https://jrobb.org/tags/licensing/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/tags/licensing/</guid>
       <description></description>
     </item>
   </channel>
