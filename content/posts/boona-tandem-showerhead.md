@@ -1,7 +1,7 @@
 +++
 title = 'Boona Tandem Showerhead'
-date = 2024-12-26T08:01:26-05:00
-draft = true
+date = 2024-12-27T07:14:26-05:00
+draft = false
 tags = ["renovation"]
 +++
 
@@ -9,7 +9,7 @@ tags = ["renovation"]
 
 ## Introduction
 
-When I first heard about the [Boona Tandem Shower Head](https://boona.com/products/tandem), it was through a meme about its Shark Tank appearance. Intrigued by the concept, I decided to give it a shot when I saw it on sale. Here's how it changed our daily shower routine.
+When I first heard about the [Boona Tandem Shower Head](https://boona.com/products/tandem), it was through a meme about its Shark Tank appearance. Intrigued by the concept, I decided to give it a shot when I saw it on sale (around $230, vs the usual $250). Here's how it changed our daily shower routine.
 
 ![burns](/random/memes/burns-shower.gif)
 
@@ -19,13 +19,13 @@ When I first heard about the [Boona Tandem Shower Head](https://boona.com/produc
 
 **Dual Shower Heads:** This is a game changer for us. My wife and I can now shower together without the usual water dance. Both heads have adjustable settings so you can get that perfect shower feel, whether you want a gentle rain or a more invigorating spray.
 
-**Saves Water and Time:** Not only does it cut down our water bill since we're showering together more often, but it also gives us a moment to catch up on our days. It's like a little daily date.
+**Saves Water and Time:** Not only does it cut down our water bill since we're showering together more often, but it also gives us a much-needed moment to catch up on our days. It's like a little daily date to reconnect.
 
 **Quality and Design:** You can tell this thing is well-made. Even with both heads on, the water pressure doesn't disappoint. However, I made a small mistake with the color - I thought my hardware was antique bronze so I ordered the "midnight black" Boona, only to realize that our hardware is actually a mix of chrome and satin nickel. As we slowly upgrade our bathroom, we'll match our hardware to the shower head. At least the dual-showerhead setup is already sorted!
 
 ## Real-Life Use
 
-The meme was funny, but the product? It's legit. I didn't expect much from a product that was once on Shark Tank, but the Boona Tandem Shower Head has exceeded expectations. It's become one of those purchases I'm genuinely happy about.
+The meme was interesting from the investment perspective, but the product? It's legit. I didn't expect much from a product that was once on Shark Tank, but the Boona Tandem Shower Head has exceeded expectations. It's become one of those purchases I'm genuinely happy about.
 
 This is not an ad, and I don't get paid anything for mentioning this at all -- I just think it is a great product (which is harder and harder to come across, it seems).
 
@@ -53,7 +53,7 @@ The Boona Tandem Shower Head has genuinely transformed our shower routine into s
 
 Worth checking out.
 
-{{< img src="/images/posts/boona.jpg" size="300x" alt="Boona Tandem Shower Head" >}}
+![boona tandem shower head](/images/posts/boona.png)
 
 **References:**
 - [Boona Website](https://boona.com/)
