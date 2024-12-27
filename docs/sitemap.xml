@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/posts/code/cbr-to-cbz-converter/</loc>
+    <lastmod>2024-12-27T07:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/code/</loc>
+    <lastmod>2024-12-27T07:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/</loc>
+    <lastmod>2024-12-27T07:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/</loc>
+    <lastmod>2024-12-27T07:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-27T07:18:01-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/posts/boona-tandem-showerhead/</loc>
     <lastmod>2024-12-27T07:14:26-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-27T07:14:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-27T07:14:26-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/renovation/</loc>
-    <lastmod>2024-12-27T07:14:26-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-27T07:14:26-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/encryption/</loc>
@@ -196,9 +202,6 @@
   </url><url>
     <loc>https://jrobb.org/tags/work/</loc>
     <lastmod>2011-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/code/</loc>
-    <lastmod>2011-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/archive/pseudo-randomness---my-prng/</loc>
     <lastmod>2011-02-05T00:00:00+00:00</lastmod>
