@@ -24,12 +24,12 @@ def update_links(root_dir, article_dict):
                 file_path = os.path.join(dirpath, filename)
                 with open(file_path, 'r+', encoding='utf-8') as file:
                     content = file.read()
-                    new_content = link_pattern.sub(lambda m: update_link(m, article_dict), content)
+                    new_content = link_pattern.sub(lambda m: update_link(m, article_dict, root_dir), content)
                     file.seek(0)
                     file.write(new_content)
                     file.truncate()
 
-def update_link(match, article_dict):
+def update_link(match, article_dict, root_dir):  # Added root_dir as a parameter
     title, old_url, article_id = match.groups()
     if article_id in article_dict:
         new_path = article_dict[article_id].replace(root_dir, '').lstrip('/')
