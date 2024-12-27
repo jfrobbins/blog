@@ -1,0 +1,7 @@
+{{ $image := (.Page.Resources.GetMatch (.Get "src")) }}
+{{ if $image }}
+  {{ $resized := $image.Resize (.Get "size") }}
+  <img src="{{ $resized.RelPermalink }}" alt="{{ .Get "alt" }}" />
+{{ else }}
+  <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" />
+{{ end }}
