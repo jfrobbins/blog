@@ -10,3 +10,12 @@
 [submodule "themes/paige"]
 	path = themes/paige
 	url = https://github.com/willfaught/paige.git
+[submodule "themes/hugo-bearcub"]
+	path = themes/hugo-bearcub
+	url = git@github.com:clente/hugo-bearcub.git
+[submodule "themes/triple-hyde"]
+	path = themes/triple-hyde
+	url = https://github.com/derme302/triple-hyde.git
+[submodule "themes/hugo-xterm"]
+	path = themes/hugo-xterm
+	url = git@github.com:manid2/hugo-xterm.git
