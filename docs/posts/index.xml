@@ -6,8 +6,15 @@
     <description>Recent content in Posts on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 07:18:01 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 07:25:51 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loop Incrementor</title>
+      <link>https://jrobb.org/posts/code/loop-incrementor/</link>
+      <pubDate>Fri, 27 Dec 2024 07:25:51 -0500</pubDate>
+      <guid>https://jrobb.org/posts/code/loop-incrementor/</guid>
+      <description>This code snippet is one that I made back in 2016. At the time, I was working on a lot of legacy VB6 code which was overrun with nested for-loops.&#xA;I started mocking up this loop-incrementor code to essentially make a sequence generator and get rid of the for-loops. This code was the simple idea behind a lot more complicated and elegant solutions I ended up using later.&#xA;Of course, this was just the first general concept, and it can definitely be improved upon in many ways.</description>
+    </item>
     <item>
       <title>Cbr to Cbz Converter</title>
       <link>https://jrobb.org/posts/code/cbr-to-cbz-converter/</link>
