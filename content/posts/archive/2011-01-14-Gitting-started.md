@@ -7,7 +7,7 @@ modified: '2011-01-14T00:00:00'
 slug: gitting-started
 tags:
 - jbs
-- Git
+- git
 title: Gitting started
 ---
 

@@ -2,7 +2,7 @@
 title = "Proton Pass: A Guide to Secure Password Management"
 date = 2024-12-26T07:40:37-05:00
 draft = false
-tags = ["privacy", "encryption", "password manager", "proton", "guides"]
+tags = ["privacy", "encryption", "passwords", "proton", "guides", "dadstuff"]
 +++
 
 # Proton Pass: A Guide to Secure Password Management

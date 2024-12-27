@@ -11,6 +11,7 @@ tags:
 - bash
 - bsd
 - gpl
+- licensing
 - jolicloud
 title: some stuffs
 ---

@@ -10,7 +10,7 @@ tags:
 title: Browsers etc.
 ---
 
-I had used[ firefox](http://www.mozilla.com/firefox/) for a long time, and then recently started using [chrome](http://www.google.com/chrome) / [chromium](http://code.google.com/chromium/).  It is nice in that it is faster, and load times are good.  however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn't even an option in my opinion.
+I had used [firefox](http://www.mozilla.com/firefox/) for a long time, and then recently started using [chrome](http://www.google.com/chrome) / [chromium](http://code.google.com/chromium/).  It is nice in that it is faster, and load times are good.  however, it seems that it cannot properly render some sites (they are few, but they are important!). I guess I need to say that IE is just terrible (although it is the best one ever), but really isn't even an option in my opinion.
 
  With the release of Firefox 3.6, I have moved back to using it... and it is faster than it was before.  Not a huge difference, not chrome  fast, but faster.  Not having a lot of add-ons helps, too.  I use [AdBlock Plus](http://adblockplus.org/) and [NoScript](http://noscript.net/), which are just awesome.
 
