@@ -11,16 +11,16 @@
     <atom:link href="https://jrobb.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loop Incrementor</title>
-      <link>https://jrobb.org/posts/code/loop-incrementor/</link>
+      <link>https://jrobb.org/code/loop-incrementor/</link>
       <pubDate>Fri, 27 Dec 2024 07:25:51 -0500</pubDate>
-      <guid>https://jrobb.org/posts/code/loop-incrementor/</guid>
+      <guid>https://jrobb.org/code/loop-incrementor/</guid>
       <description>This code snippet is one that I made back in 2016. At the time, I was working on a lot of legacy VB6 code which was overrun with nested for-loops.&#xA;I started mocking up this loop-incrementor code to essentially make a sequence generator and get rid of the for-loops. This code was the simple idea behind a lot more complicated and elegant solutions I ended up using later.&#xA;Of course, this was just the first general concept, and it can definitely be improved upon in many ways.</description>
     </item>
     <item>
       <title>Cbr to Cbz Converter</title>
-      <link>https://jrobb.org/posts/code/cbr-to-cbz-converter/</link>
+      <link>https://jrobb.org/code/cbr-to-cbz-converter/</link>
       <pubDate>Fri, 27 Dec 2024 07:18:01 -0500</pubDate>
-      <guid>https://jrobb.org/posts/code/cbr-to-cbz-converter/</guid>
+      <guid>https://jrobb.org/code/cbr-to-cbz-converter/</guid>
       <description>As I continue to go through and find old stuff that I&amp;rsquo;d done, I found this one. I wrote this simple script a while back to convert some digital comic books into a format that I could read on my Kindle e-reader.&#xA;Download Source File:&#xA;cbr_to_cbz.py github gist: https://gist.github.com/jfrobbins/442a27f798219f78b3da #!/usr/bin/env python # Author: Jon Robbins # License: GPL3+ # based on the idea from https://trisquel.info/en/wiki/how-convert-comic-book-archives-cbrcbr-cbz # # This script recursively loops through directories below a starting point and converts all cbr file to cbz files # # requires: # - unrar # - zip/unzip # # gist: https://gist.</description>
     </item>
     <item>

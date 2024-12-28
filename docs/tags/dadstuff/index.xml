@@ -7,49 +7,14 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
-    <lastBuildDate>Thu, 26 Dec 2024 07:40:37 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 18:32:54 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/dadstuff/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Proton Pass: A Guide to Secure Password Management</title>
-      <link>https://jrobb.org/posts/privacy/proton-pass/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/posts/privacy/proton-pass/</guid>
-      <description>Proton Pass: A Guide to Secure Password Management In a digital world where security breaches are increasingly common, using a password manager is no longer just an option but a necessity. In this guide, we delve into Proton Pass, Proton&amp;rsquo;s answer to secure password management, offering you step-by-step instructions on setup, usage, and integration. For a broader look at Proton&amp;rsquo;s privacy-focused services, check out my previous post on Proton&amp;rsquo;s encrypted offerings.</description>
-    </item>
-    <item>
-      <title>Proton Mail and other Services</title>
-      <link>https://jrobb.org/posts/privacy/proton-encrypted-services/</link>
-      <pubDate>Thu, 26 Dec 2024 07:18:41 -0500</pubDate>
-      <guid>https://jrobb.org/posts/privacy/proton-encrypted-services/</guid>
-      <description>Exploring Proton and Their Suite of Privacy-Focused Services In an age where digital privacy is increasingly under threat, Proton has emerged as a beacon for those seeking secure communication and data protection. Starting with Proton Mail, the company has expanded its offerings to include a variety of tools designed to keep your digital life private and secure.&#xA;Proton Mail: The Heart of Proton&amp;rsquo;s Services Advantages of Encrypted Communication&#xA;Proton Mail is renowned for its end-to-end encryption, ensuring that your email content is secure from the moment it leaves your device until it reaches the recipient.</description>
-    </item>
     <item>
       <title>What Is a Distributed Social Network Anyway?</title>
       <link>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
       <guid>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</guid>
       <description>What is a Distributed Social Network Anyway? Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let&amp;rsquo;s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I&amp;rsquo;m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let&amp;rsquo;s journey through the landscape of distributed social networks, where I&amp;rsquo;m reminiscent of the old identi.</description>
-    </item>
-    <item>
-      <title>Boglehead Investing</title>
-      <link>https://jrobb.org/guides/finance/boglehead-investing/</link>
-      <pubDate>Tue, 10 Dec 2024 19:58:37 -0500</pubDate>
-      <guid>https://jrobb.org/guides/finance/boglehead-investing/</guid>
-      <description>I&amp;rsquo;ve been meaning to do this particular post for a while. As a matter of fact, this is the main reason I&amp;rsquo;ve resurrected this website to begin with &amp;ndash; I wanted to document this for my kids, and for whoever else it is valuable for.&#xA;I&amp;rsquo;ve found myself outlining this a few times, so why not put it on the internet? :-) Besides, it&amp;rsquo;s easy.&#xA;What is a &amp;ldquo;Boglehead&amp;rdquo;? A Boglehead is someone who follows the investment advice and strategy of John C Bogle.</description>
-    </item>
-    <item>
-      <title>WeBreezes</title>
-      <link>https://jrobb.org/posts/archive/webreezes/</link>
-      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/webreezes/</guid>
-      <description>A long time ago I had a friend who called himself my &amp;ldquo;arch-nemesis.&amp;rdquo; Well, I suppose we were better friends in our younger days, but at some point along the way his weirdness kind of took over. We were still friends&amp;hellip;just also pseudo-enemies, haha. Yeah, it doesn&amp;rsquo;t really make any sense.&#xA;Anyway, this friend&amp;rsquo;s name was Ryan (later changed to Frederic). He is actually the person who introduced me to #linux, in the form of #RedHat version 4 or something&amp;ndash;it was still a while before they changed the name to &amp;ldquo;fedora.</description>
-    </item>
-    <item>
-      <title>How I got started</title>
-      <link>https://jrobb.org/posts/archive/how-i-got-started/</link>
-      <pubDate>Sat, 23 Dec 2006 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/how-i-got-started/</guid>
-      <description>I started out creating websites for myself and friends on geocities and other hosts that were similar back in the day (late 90s). Gradually I learned and came across new technologies, data formats, and programming languages.&#xA;Back in the summer of 2000, I had just graduated high school, the Internet was in what I consider its &amp;ldquo;prime&amp;rdquo;, and I was running way too many websites. They were all mostly silly or pointless, and I wanted to drop them all as I thought that did not make sense and was a waste of time.</description>
     </item>
   </channel>
 </rss>
