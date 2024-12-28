@@ -8,7 +8,7 @@ slug: how-i-got-started
 tags:
 - jbs
 - about
-- dadstuff
+- iamyourfather
 title: How I got started
 ---
 
