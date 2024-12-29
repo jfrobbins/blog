@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on jrobb.org</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://jrobb.org/tags/linux/</link>
     <description>Recent content in Linux on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Sat, 30 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Distrohopping 2014</title>
-      <link>http://localhost:1313/posts/archive/distrohopping-2014/</link>
+      <link>https://jrobb.org/posts/archive/distrohopping-2014/</link>
       <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/distrohopping-2014/</guid>
+      <guid>https://jrobb.org/posts/archive/distrohopping-2014/</guid>
       <description>There are so many good distributions, it is hard to settle on just one. For me, anyway.&#xA;In the past when I&amp;rsquo;ve started hopping, I&amp;rsquo;ve almost always wound up using Fedora or some debian-based distro like Linux Mint. Then I go back and forth.&#xA;I&amp;rsquo;ve been using LM for quite some time now (Debian Edition on 2 PCs, LM17 on 2 PCs) and plus Ubuntu desktop on one laptop and Ubuntu Server on my VPS and home server.</description>
     </item>
     <item>
       <title>Installing Chromium on Fedora 14</title>
-      <link>http://localhost:1313/posts/archive/installing-chromium-on-fedora-14/</link>
+      <link>https://jrobb.org/posts/archive/installing-chromium-on-fedora-14/</link>
       <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/installing-chromium-on-fedora-14/</guid>
+      <guid>https://jrobb.org/posts/archive/installing-chromium-on-fedora-14/</guid>
       <description>This is very easy&amp;hellip;actually I think it is too easy to even blog about&amp;hellip; but anyway. I just went here: repos.fedorapeople.org/repos/spot/chromium and then added the repos file to my /etc/yum.repos.d/ directory.&#xA;#filename: fedora-chromium.repo # Place this file in your /etc/yum.repos.d/ directory [fedora-chromium] name=Chromium web browser and deps baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/$basearch/ enabled=1 gpgcheck=0 [fedora-chromium-source] name=Chromium web browser and deps - Source baseurl=http://repos.fedorapeople.org/repos/spot/chromium/fedora-$releasever/SRPMS/ enabled=0 gpgcheck=0 After that, ran a &amp;ldquo;yum update&amp;rdquo; and &amp;ldquo;yum install chromium&amp;rdquo;, and that was it!</description>
     </item>
     <item>
       <title>WeBreezes</title>
-      <link>http://localhost:1313/posts/archive/webreezes/</link>
+      <link>https://jrobb.org/posts/archive/webreezes/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/webreezes/</guid>
+      <guid>https://jrobb.org/posts/archive/webreezes/</guid>
       <description>A long time ago I had a friend who called himself my &amp;ldquo;arch-nemesis.&amp;rdquo; Well, I suppose we were better friends in our younger days, but at some point along the way his weirdness kind of took over. We were still friends&amp;hellip;just also pseudo-enemies, haha. Yeah, it doesn&amp;rsquo;t really make any sense.&#xA;Anyway, this friend&amp;rsquo;s name was Ryan (later changed to Frederic). He is actually the person who introduced me to #linux, in the form of #RedHat version 4 or something&amp;ndash;it was still a while before they changed the name to &amp;ldquo;fedora.</description>
     </item>
     <item>
       <title>Linux vs BSD and an urge to hop</title>
-      <link>http://localhost:1313/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</link>
+      <link>https://jrobb.org/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</guid>
+      <guid>https://jrobb.org/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</guid>
       <description>So, my interest was peaked in BSD for some reason&amp;hellip;I think maybe I saw a release (GhostBSD perhaps), and I realized that I don&amp;rsquo;t really know much about it. I have briefly used PC-BSD (which is based on FreeBSD) before while I was distro-hopping, but I did not get very extensive use out of it.&#xA;I started searching for information about BSD and how it relates to (GNU/)Linux, which basically led me to this post: http://www.</description>
     </item>
     <item>
       <title>some recent distro hoppage</title>
-      <link>http://localhost:1313/posts/archive/some-recent-distro-hoppage/</link>
+      <link>https://jrobb.org/posts/archive/some-recent-distro-hoppage/</link>
       <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/some-recent-distro-hoppage/</guid>
+      <guid>https://jrobb.org/posts/archive/some-recent-distro-hoppage/</guid>
       <description>&lt;p&gt;I did have &lt;a href=&#34;http://www.jolicloud.com/&#34;&gt;Jolicloud&lt;/a&gt; on my eeePC (900A), and it was fine for a while.  Actually, it was a pretty neat distro.  However when you try to install things using apt-get like a normal distro instead of through the &amp;ldquo;app cloud&amp;rdquo;, some things stop working and it goes downhil.  This, combined with me itching to hop a couple of distros let me to switch.&lt;/p&gt;&#xA;&lt;p&gt;So I started out using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CBsQFjAA&amp;amp;url=http%3A%2F%2Funetbootin.sourceforge.net%2F&amp;amp;ei=mvY-TMfcPMGB8gbw3bWuCg&amp;amp;usg=AFQjCNFG2iJy14ueI6PKA0HBkn1cP-KoBg&#34;&gt;UNetBootin&lt;/a&gt; to create a Live USB stick for &lt;a href=&#34;http://distrowatch.com/fedora&#34;&gt;Fedora 13&lt;/a&gt; (LXDE), and installed on the EEE.  The eee is actually pretty well supported with Fedora, including the wireless (on the 900 model that I have, the 1100+ may be a different story).  This was okay, except that it was not optimized for the small screen, and some of the GUI prompts actually hung off of the screen.  Not to mention I was missing some &amp;ldquo;tap and click&amp;rdquo; functionality of the trackpad thing.  Total time installed&amp;hellip;. about 4 hours.&lt;/p&gt;&#xA;&lt;p&gt;From this point on&amp;hellip;I had a bit of trouble.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Identi.ca Client HeyBuddy</title>
-      <link>http://localhost:1313/posts/archive/identi.ca-client-heybuddy/</link>
+      <link>https://jrobb.org/posts/archive/identi.ca-client-heybuddy/</link>
       <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/identi.ca-client-heybuddy/</guid>
+      <guid>https://jrobb.org/posts/archive/identi.ca-client-heybuddy/</guid>
       <description>I&amp;rsquo;ve installed and been using HeyBuddy as a client for identi.ca. If you don&amp;rsquo;t know what identi.ca is&amp;hellip;it&amp;rsquo;s basically an open source Twitter, with more/better features.&#xA;This thing is great, keeps me from having to use mustard on my droid, or from keeping the webpage open. Status.net also has a desktop client, but I do not like it as well. Besides Heybuddy is &amp;ldquo;supposedly lightweight,&amp;rdquo; which is always great.&#xA;Check it out if you get the chance.</description>
     </item>
     <item>
       <title>My top 5 Linux Distributions and runners up</title>
-      <link>http://localhost:1313/posts/archive/my-top-5-linux-distributions-and-runners-up/</link>
+      <link>https://jrobb.org/posts/archive/my-top-5-linux-distributions-and-runners-up/</link>
       <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/my-top-5-linux-distributions-and-runners-up/</guid>
+      <guid>https://jrobb.org/posts/archive/my-top-5-linux-distributions-and-runners-up/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been running &lt;a href=&#34;http://archlinux.org&#34;&gt;ArchLinux&lt;/a&gt; on my desktop for a couple of years now, but these days I am getting on that computer less and less.  Little enough that I worry that my infrequency of system updates may cause some breakage.  To-date, I have not had any problems, but it could happen.&lt;/p&gt;&#xA;&lt;p&gt;This desktop hosts pictures, and runs ssh, samba, and cups primarily.  So, I was considering hopping to another distro that would possibly be more stable and run for longer periods without a need for manual updates.  After some discussion on &lt;a href=&#34;http://identi.ca&#34;&gt;identi.ca&lt;/a&gt;, I think I will be fine staying with Arch, though&amp;ndash;I believe I can still manage to update once a month or so. :-)&lt;/p&gt;&#xA;&lt;p&gt;I figure I will go ahead and re-detail my top 5 favorite Linux distros while I&amp;rsquo;m thinking about it, though. These are in order of my personal preference of use from past distro-hopping adventures:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://distrowatch.com/arch&#34;&gt;Arch&lt;/a&gt; &amp;hellip;naturally!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://distrowatch.com/crunchbang&#34;&gt;CrunchBang&lt;/a&gt; - I liked this one a lot the last time I tried it, and apparently now it is based off Debian instead of Ubuntu.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://distrowatch.com/sabayon&#34;&gt;Sabayon&lt;/a&gt; - although a bit bloated on the default ISO, this distro and I really got along, and the community was top-notch.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://distrowatch.com/fedora&#34;&gt;Fedora&lt;/a&gt; - I don&amp;rsquo;t think I really gave fedora the close look it deserved, but I liked what I saw for the brief time that I used it.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://distrowatch.com/pardus&#34;&gt;Pardus&lt;/a&gt; - this is definitely another good one.  I just didn&amp;rsquo;t &amp;ldquo;click&amp;rdquo; with it, but it was quality.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A few more that deserve mention as runners up are:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vuvuzela filter Yes</title>
-      <link>http://localhost:1313/posts/archive/vuvuzela-filter-yes/</link>
+      <link>https://jrobb.org/posts/archive/vuvuzela-filter-yes/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/vuvuzela-filter-yes/</guid>
+      <guid>https://jrobb.org/posts/archive/vuvuzela-filter-yes/</guid>
       <description>From DistroWatch Weekly:&#xA;Finally, somewhat off-topic, but sometimes it can&amp;rsquo;t hurt to add an amusing twist to the serious world of free software. During the last couple of weeks the infamous vuvuzela, obnoxiously accompanying every single match at the ongoing football world cup in South Africa, has become a source of irritation to many football fans around the world. The sound of the tuneless horn is reportedly not so bad when absorbing it in a stadium, but it tends to spoil the experience for those who watch the spectacle on TV.</description>
     </item>
     <item>
       <title>Mobile is the future</title>
-      <link>http://localhost:1313/posts/archive/mobile-is-the-future/</link>
+      <link>https://jrobb.org/posts/archive/mobile-is-the-future/</link>
       <pubDate>Sun, 20 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/mobile-is-the-future/</guid>
+      <guid>https://jrobb.org/posts/archive/mobile-is-the-future/</guid>
       <description>&lt;p&gt;As I was sitting here at home listening to the Linux adventure show podcast, I was just thinking about how mobilized everything is becoming.  The iPad is ridiculously popular, as are the android tablets and ipad clones.  Not to even mention the smartphone markets&amp;ndash;  I&amp;rsquo;m even writing this post on my iPhone!&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; And the majority of my post was deleted&amp;hellip; Thanks wordpress app&lt;/p&gt;&#xA;&lt;p&gt;Editing with the continuation, which is going to be different since this is several hours later, and I am outside enjoying some vino and a habana.&lt;/p&gt;&#xA;&lt;p&gt;There was a quote I saw on &lt;a href=&#34;http://identi.ca/&#34;&gt;identi.ca&lt;/a&gt; the other day, something like: &amp;ldquo;the year of the Linux desktop will be the year after the desktop dies&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I got bored... so Creating a www server</title>
-      <link>http://localhost:1313/posts/archive/i-got-bored...-so-creating-a-www-server/</link>
+      <link>https://jrobb.org/posts/archive/i-got-bored...-so-creating-a-www-server/</link>
       <pubDate>Wed, 03 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/i-got-bored...-so-creating-a-www-server/</guid>
+      <guid>https://jrobb.org/posts/archive/i-got-bored...-so-creating-a-www-server/</guid>
       <description>Over the weekend I had some time and then decided to do something I had always wanted to do: create an http server. I was using my desktop, which runs Arch of course, and went through several of these links and set my desktop up with Apache, PHP, and MySQL. Also, I installed vsftp as an FTP server.&#xA;I even signed up with DynDNS so that my dynamic IP can be updated to a (sub)domain and etc etc.</description>
     </item>
     <item>
       <title>Just a few interesting points</title>
-      <link>http://localhost:1313/posts/archive/just-a-few-interesting-points/</link>
+      <link>https://jrobb.org/posts/archive/just-a-few-interesting-points/</link>
       <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/just-a-few-interesting-points/</guid>
+      <guid>https://jrobb.org/posts/archive/just-a-few-interesting-points/</guid>
       <description>I&amp;rsquo;m glad I am not the only one that feels this way about Google:&#xA;Anti-Google Sentiment Reaches a Tipping Point Since my last topic was backups, and today is Backup Awareness day, here is another post about: http://blog.i-no.de//archives/2010/02/24/index.html#e2010-02-24T20_31_15.txt This would be interesting to read from the beginning: &amp;ldquo;Building an all-text Linux workstation&amp;rdquo;, current part is part 11. I went back to find part 8 and then gave up, part 1 is back in time somewhere!</description>
     </item>
     <item>
       <title>some stuffs</title>
-      <link>http://localhost:1313/posts/archive/some-stuffs/</link>
+      <link>https://jrobb.org/posts/archive/some-stuffs/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/some-stuffs/</guid>
+      <guid>https://jrobb.org/posts/archive/some-stuffs/</guid>
       <description>FreeBSD and the GPL -interesting article, although it gets a bit long. I liked BSD when I tried it, however I was ust much more comfortable with Linux&amp;ndash;if I had used and grown with BSD, I&amp;rsquo;m sure I could get comfortable with it, too.&#xA;Setting up a Linux server on a Windows network - hmmm&amp;hellip;&#xA;Jolicloud: The Operating System Download for Netbook Youve Been Looking For - Jolicloud is great! have it on my wife&amp;rsquo;s eeePC</description>
     </item>
   </channel>

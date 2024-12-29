@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bsd on jrobb.org</title>
-    <link>http://localhost:1313/tags/bsd/</link>
+    <link>https://jrobb.org/tags/bsd/</link>
     <description>Recent content in Bsd on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bsd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/bsd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux vs BSD and an urge to hop</title>
-      <link>http://localhost:1313/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</link>
+      <link>https://jrobb.org/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</guid>
+      <guid>https://jrobb.org/posts/archive/linux-vs-bsd-and-an-urge-to-hop/</guid>
       <description>So, my interest was peaked in BSD for some reason&amp;hellip;I think maybe I saw a release (GhostBSD perhaps), and I realized that I don&amp;rsquo;t really know much about it. I have briefly used PC-BSD (which is based on FreeBSD) before while I was distro-hopping, but I did not get very extensive use out of it.&#xA;I started searching for information about BSD and how it relates to (GNU/)Linux, which basically led me to this post: http://www.</description>
     </item>
     <item>
       <title>some stuffs</title>
-      <link>http://localhost:1313/posts/archive/some-stuffs/</link>
+      <link>https://jrobb.org/posts/archive/some-stuffs/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/some-stuffs/</guid>
+      <guid>https://jrobb.org/posts/archive/some-stuffs/</guid>
       <description>FreeBSD and the GPL -interesting article, although it gets a bit long. I liked BSD when I tried it, however I was ust much more comfortable with Linux&amp;ndash;if I had used and grown with BSD, I&amp;rsquo;m sure I could get comfortable with it, too.&#xA;Setting up a Linux server on a Windows network - hmmm&amp;hellip;&#xA;Jolicloud: The Operating System Download for Netbook Youve Been Looking For - Jolicloud is great! have it on my wife&amp;rsquo;s eeePC</description>
     </item>
   </channel>

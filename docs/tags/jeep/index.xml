@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeep on jrobb.org</title>
-    <link>http://localhost:1313/tags/jeep/</link>
+    <link>https://jrobb.org/tags/jeep/</link>
     <description>Recent content in Jeep on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Fri, 29 Oct 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/jeep/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/jeep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>general update</title>
-      <link>http://localhost:1313/posts/archive/general-update/</link>
+      <link>https://jrobb.org/posts/archive/general-update/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/general-update/</guid>
+      <guid>https://jrobb.org/posts/archive/general-update/</guid>
       <description>&lt;p&gt;I haven&amp;rsquo;t really been updating as I would like to.  I&amp;rsquo;ve been kind of kicking around the idea of moving away from wordpress, and converting all of my existing posts to html so I can import them into my hl&amp;ndash; blog.  Then I will have more control of the domain and all of that. Besides, although wordpress is really feature rich and awesome&amp;hellip;I think it is kind of bloated.  But it is also really easy.&lt;/p&gt;&#xA;&lt;p&gt;So, what&amp;rsquo;s been going on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>checking in</title>
-      <link>http://localhost:1313/posts/archive/checking-in/</link>
+      <link>https://jrobb.org/posts/archive/checking-in/</link>
       <pubDate>Thu, 14 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/checking-in/</guid>
+      <guid>https://jrobb.org/posts/archive/checking-in/</guid>
       <description>Not too much has been going on lately. Well&amp;hellip;we had a kid! On October 2nd: our third, a girl named Anastasia. So we have been busy with that. I have done a little with the jeep&amp;hellip;but not much: Mostly I am still just amassing parts still. I am also trying to decide between running a 220v line in the house and getting a bigger welder, vs getting a generator vs getting a welder/generator combo.</description>
     </item>
     <item>
       <title>1 Ton Axle Rebuild  Front Dana 60 part 1 hubs</title>
-      <link>http://localhost:1313/posts/archive/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</link>
+      <link>https://jrobb.org/posts/archive/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</link>
       <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</guid>
+      <guid>https://jrobb.org/posts/archive/1-ton-axle-rebuild--front-dana-60-part-1-hubs/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&amp;hellip;This is an ongoing work in progress&amp;hellip;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;As I have mentioned previously, I have &lt;a href=&#34;http://factorq.net/2010/09/06/jeep-rebuild-dana-60-time/&#34;&gt;attained a D60&lt;/a&gt; which I am going to install into my jeep as time and money allow.  This post is going to detail the teardown and rebuild procedure to get this junkyard axle back into tip-top shape&amp;ndash;to the extent of the upgrades that I plan to do.  As such, I will try to make this as picture-heavy as possible :-)  This post is somewhat echoed in [this thread on JF](&lt;a href=&#34;http://www.jeepforum.com/forum/f12/just-picked-up-front-d60-what-maintenance-should-i-do-1098475/%22&#34;&gt;http://www.jeepforum.com/forum/f12/just-picked-up-front-d60-what-maintenance-should-i-do-1098475/&amp;quot;&lt;/a&gt; target=&amp;quot;_blank).&lt;/p&gt;&#xA;&lt;p&gt;I want to go ahead and preface this with &lt;!-- raw HTML omitted --&gt;I have never done this before&lt;!-- raw HTML omitted --&gt;. This is my first dana 60 axle, as well as my first axle that has ever had hubs.&lt;/p&gt;&#xA;&lt;p&gt;I am mostly going along with [Mr.N&amp;rsquo;s Dana 44 Build up](&lt;a href=&#34;http://77cj.littlekeylime.com/Mr.N44.htm%22&#34;&gt;http://77cj.littlekeylime.com/Mr.N44.htm&amp;quot;&lt;/a&gt; target=&amp;quot;_blank) for the steps involved.&lt;/p&gt;&#xA;&lt;p&gt;Fresh off the trailer:&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;this sucker is heavy!&amp;rdquo;]&lt;!-- raw HTML omitted --&gt;[/caption]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jeep Rebuild Dana 60 Time</title>
-      <link>http://localhost:1313/posts/archive/jeep-rebuild-dana-60-time/</link>
+      <link>https://jrobb.org/posts/archive/jeep-rebuild-dana-60-time/</link>
       <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/jeep-rebuild-dana-60-time/</guid>
+      <guid>https://jrobb.org/posts/archive/jeep-rebuild-dana-60-time/</guid>
       <description>I picked up a front Dana 60 axle the other day&amp;ndash; it is from a 1979 F250. This thing is massive&amp;ndash;my internet searchage results detail that it weights in the neighborhood of 500lbs! I have a lot to do before I can actually use it, including but not limited to:&#xA;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;f350 front d60&amp;rdquo;][/caption]&#xA;Although my brother and I tried&amp;hellip;the ~500lb weight of this thing defeated us, and I had to go get an engine hoist to unload it and move it around!</description>
     </item>
     <item>
       <title>Jeep teardown Part II  the rear</title>
-      <link>http://localhost:1313/posts/archive/jeep-teardown-part-ii--the-rear/</link>
+      <link>https://jrobb.org/posts/archive/jeep-teardown-part-ii--the-rear/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/jeep-teardown-part-ii--the-rear/</guid>
+      <guid>https://jrobb.org/posts/archive/jeep-teardown-part-ii--the-rear/</guid>
       <description>Today I had planned to do the task of dropping the rear suspension, which should have been pretty easy compared to the front. Turned out, it was not destined to be that way.&#xA;One day this week I am going to pick up a completely rebuil dana 30 axle geared 4.88:1, and also a guy is coming to buy my 3.5&amp;quot; lift springs. Next step will be to buy some 1.</description>
     </item>
     <item>
       <title>The Jeep teardown begins</title>
-      <link>http://localhost:1313/posts/archive/the-jeep-teardown-begins/</link>
+      <link>https://jrobb.org/posts/archive/the-jeep-teardown-begins/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/the-jeep-teardown-begins/</guid>
+      <guid>https://jrobb.org/posts/archive/the-jeep-teardown-begins/</guid>
       <description>So, I have begun tearing apart my jeep&amp;ndash;and it has begun it&amp;rsquo;s long wait on jackstands. Yesterday morning I jacked up the front and started by removing the front driveshaft, whatever brake lines and things were still connected, shocks, tie rod, etc. Before I did all that, though, I did have the sense to go ahead and unbolt the passenger side hub and pop it out so I can easily remove the axleshaft later if I need to use it or remove the locker.</description>
     </item>
     <item>
       <title>Jeep escapades...and damages</title>
-      <link>http://localhost:1313/posts/archive/jeep-escapades...and-damages/</link>
+      <link>https://jrobb.org/posts/archive/jeep-escapades...and-damages/</link>
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/jeep-escapades...and-damages/</guid>
+      <guid>https://jrobb.org/posts/archive/jeep-escapades...and-damages/</guid>
       <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_385&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Broken axle and lower ball joint 2010.07.31&amp;rdquo;]&lt;a href=&#34;http://factorq.files.wordpress.com/2010/08/dsc09217_1.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;From the last time my friends and I had been  offroading, one of my front wheels was not spinning&amp;ndash;which I thought was just a vacuum actuator failure.  So I took Friday off work so I could try to fix it, and I replaced it with a cable mechanism that I put together.  Which still did not fix it.  The next step was removing the carrier, axles etc to see what else it could be&amp;ndash;to skip to the point, it was a &lt;!-- raw HTML omitted --&gt;snapped axle shaft&lt;!-- raw HTML omitted --&gt;.  Popped the nub out of the carrier, got my spare out of the shed, and put it all back together.  That all took about 8 or 9 hours on friday, we finished up around 11pm that night.&lt;/p&gt;&#xA;&lt;p&gt;Yesterday morning, we left to go offroading at what my kids call the &amp;ldquo;jeep park.&amp;rdquo;&amp;ndash;an offroad park on state property that is about an hour away.  We had originally intended to meet AT the park at 8am&amp;hellip;however everyone was running a bit late.  We were the last to get there, around 10am.  As we arrived, Mark was leaving with a busted rear driveshaft, so we went in and met the other guys.&lt;/p&gt;&#xA;&lt;p&gt;After a little bit of wheeling and everything being normal, it was not very long at all before we heard a loud &lt;!-- raw HTML omitted --&gt;&lt;em&gt;POP&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; as I was trying to make it up a rock face.  Then we noticed my wheel was not spinning&amp;hellip;crap, axle probably snapped again. This time the opposite side of the one we JUST fixed.  So I begin going up  easier way to try to limp out of there, and I didn&amp;rsquo;t get very far before realizing it was something a little more serious &amp;ndash;&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;The axleshaft had broken at the U-Joint&amp;ndash;and I mean it was pretty much obliterated.  The lower ball joint was completely broken off, as you can see in the picture (kind of).  The top ball joint was under extreme pressure, and along with the tie rod, the only thing holding the wheel/hub to the jeep.&lt;/p&gt;&#xA;&lt;p&gt;So naturally, i decided I would try to drive it out at least to the gravel road, where I could get a tow truck.  &amp;hellip;Nope. Didn&amp;rsquo;t get quite that far.&lt;/p&gt;</description>
     </item>
   </channel>

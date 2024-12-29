@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Licensing on jrobb.org</title>
-    <link>http://localhost:1313/tags/licensing/</link>
+    <link>https://jrobb.org/tags/licensing/</link>
     <description>Recent content in Licensing on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Fri, 19 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>some stuffs</title>
-      <link>http://localhost:1313/posts/archive/some-stuffs/</link>
+      <link>https://jrobb.org/posts/archive/some-stuffs/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/some-stuffs/</guid>
+      <guid>https://jrobb.org/posts/archive/some-stuffs/</guid>
       <description>FreeBSD and the GPL -interesting article, although it gets a bit long. I liked BSD when I tried it, however I was ust much more comfortable with Linux&amp;ndash;if I had used and grown with BSD, I&amp;rsquo;m sure I could get comfortable with it, too.&#xA;Setting up a Linux server on a Windows network - hmmm&amp;hellip;&#xA;Jolicloud: The Operating System Download for Netbook Youve Been Looking For - Jolicloud is great! have it on my wife&amp;rsquo;s eeePC</description>
     </item>
   </channel>

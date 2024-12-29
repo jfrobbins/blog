@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Www on jrobb.org</title>
-    <link>http://localhost:1313/tags/www/</link>
+    <link>https://jrobb.org/tags/www/</link>
     <description>Recent content in Www on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Sun, 22 Dec 2024 10:50:56 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/www/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/www/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making a Favicon</title>
-      <link>http://localhost:1313/guides/20241222-making-a-favicon/</link>
+      <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
-      <guid>http://localhost:1313/guides/20241222-making-a-favicon/</guid>
+      <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
       <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.</description>
     </item>
   </channel>

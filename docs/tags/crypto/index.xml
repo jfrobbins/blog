@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crypto on jrobb.org</title>
-    <link>http://localhost:1313/tags/crypto/</link>
+    <link>https://jrobb.org/tags/crypto/</link>
     <description>Recent content in Crypto on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Thu, 12 Dec 2024 15:50:29 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPG Cheat Sheet</title>
-      <link>http://localhost:1313/guides/gpg-cheat-sheet/</link>
+      <link>https://jrobb.org/guides/gpg-cheat-sheet/</link>
       <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>http://localhost:1313/guides/gpg-cheat-sheet/</guid>
+      <guid>https://jrobb.org/guides/gpg-cheat-sheet/</guid>
       <description>GPG Cheat Sheet I found this somewhere:</description>
     </item>
     <item>
       <title>Bitmessage</title>
-      <link>http://localhost:1313/posts/archive/crypto/bitmessage/</link>
+      <link>https://jrobb.org/posts/archive/crypto/bitmessage/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/crypto/bitmessage/</guid>
+      <guid>https://jrobb.org/posts/archive/crypto/bitmessage/</guid>
       <description>Lately I&amp;rsquo;ve started finding Bitmessage interesting again. I used it a little early on, but haven&amp;rsquo;t in a year or so.&#xA;After recovering my address, I&amp;rsquo;ve been back on the network and I&amp;rsquo;m remembering that I really like the idea of it&amp;ndash;mostly the simplicity! Compared to GPG, this is no contest that almost anyone could use this. Some people feel that GPG is damn near unusable, and while I don&amp;rsquo;t really agree, according to the guy in that talk I (and probably you) are considered the &amp;ldquo;technological elite.</description>
     </item>
   </channel>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on jrobb.org</title>
-    <link>http://localhost:1313/tags/news/</link>
+    <link>https://jrobb.org/tags/news/</link>
     <description>Recent content in News on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Wed, 23 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrobb.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vuvuzela filter Yes</title>
-      <link>http://localhost:1313/posts/archive/vuvuzela-filter-yes/</link>
+      <link>https://jrobb.org/posts/archive/vuvuzela-filter-yes/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/vuvuzela-filter-yes/</guid>
+      <guid>https://jrobb.org/posts/archive/vuvuzela-filter-yes/</guid>
       <description>From DistroWatch Weekly:&#xA;Finally, somewhat off-topic, but sometimes it can&amp;rsquo;t hurt to add an amusing twist to the serious world of free software. During the last couple of weeks the infamous vuvuzela, obnoxiously accompanying every single match at the ongoing football world cup in South Africa, has become a source of irritation to many football fans around the world. The sound of the tuneless horn is reportedly not so bad when absorbing it in a stadium, but it tends to spoil the experience for those who watch the spectacle on TV.</description>
     </item>
     <item>
       <title>Congressman Ron Paul on Healthcare video</title>
-      <link>http://localhost:1313/posts/archive/congressman-ron-paul-on-healthcare-video/</link>
+      <link>https://jrobb.org/posts/archive/congressman-ron-paul-on-healthcare-video/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/congressman-ron-paul-on-healthcare-video/</guid>
+      <guid>https://jrobb.org/posts/archive/congressman-ron-paul-on-healthcare-video/</guid>
       <description>[youtube=http://www.youtube.com/watch?v=foXQbmZxWYY&amp;amp;hl=en&amp;amp;fs=1&amp;amp;]&#xA;Click &amp;ldquo;Read More&amp;rdquo; to read a letter from RP (and another from John Tate) on this subject&#xA;As both a defender of Liberty and a Medical Doctor, Im very concerned about the plans the Obama Administration and many in Congress have to increase the governments role in healthcare.&#xA;Medical decisions being made by government bureaucrats, loss of privacy of medical data, and our ability to keep our own insurance and doctors are all up for grabs once Congress starts moving on these government takeover and rationing schemes.</description>
     </item>
     <item>
       <title>People are not smart enough to make their own decisions...</title>
-      <link>http://localhost:1313/posts/archive/people-are-not-smart-enough-to-make-their-own-decisions.../</link>
+      <link>https://jrobb.org/posts/archive/people-are-not-smart-enough-to-make-their-own-decisions.../</link>
       <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/archive/people-are-not-smart-enough-to-make-their-own-decisions.../</guid>
+      <guid>https://jrobb.org/posts/archive/people-are-not-smart-enough-to-make-their-own-decisions.../</guid>
       <description>so the government has to do it for us.&#xA;Senate approves FDA reg of tobacco&#xA;At least this guy got a reduced sentence, being he was obeying state law to the letter. Federal law has to control as much as possible, in order to justify its existence. 366 day sentence for pot dispensary owner&#xA;tags: #news&#xA;Published Date: Fri, 12 Jun 2009 11:22:00 +0000&#xA;Original URL | Original guid | PostID= 13</description>
     </item>
   </channel>
