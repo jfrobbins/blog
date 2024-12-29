@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site on jrobb.org</title>
-    <link>https://jrobb.org/tags/site/</link>
+    <link>http://localhost:1313/tags/site/</link>
     <description>Recent content in Site on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Thu, 07 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>moved to pelican</title>
-      <link>https://jrobb.org/posts/archive/moved-to-pelican/</link>
+      <link>http://localhost:1313/posts/archive/moved-to-pelican/</link>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/moved-to-pelican/</guid>
+      <guid>http://localhost:1313/posts/archive/moved-to-pelican/</guid>
       <description>I&amp;rsquo;ve recently decided to move from octopress to pelican, mostly because I&amp;rsquo;m much more familiar with Python than with Ruby. This is good because if I want to hack the source a bit, I can do that much easier.&#xA;Otherwise, they are very similar &amp;ndash; they both run and generate static html from source files (in my case, markdown).&#xA;I created this python script to convert all of my existing posts into a pelican-friendly format.</description>
     </item>
     <item>
       <title>Got it to work...the code display thing</title>
-      <link>https://jrobb.org/posts/archive/got-it-to-work...the-code-display-thing/</link>
+      <link>http://localhost:1313/posts/archive/got-it-to-work...the-code-display-thing/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/got-it-to-work...the-code-display-thing/</guid>
+      <guid>http://localhost:1313/posts/archive/got-it-to-work...the-code-display-thing/</guid>
       <description>So after doing a little work, I got the code tags to work in this blog software. Changes and etc can be found on the site: jbs.jrobb.org. Now I can post the bulk of the captcha code that I mentioned in my last post. For the full thing, just download the &amp;ldquo;jbs&amp;rdquo; software and check it out.&#xA;Terrible name, by the way: &amp;ldquo;jbs&amp;rdquo;&amp;ndash;if anyone can think of something better, please let me know!</description>
     </item>
     <item>
       <title>My First Post ... again</title>
-      <link>https://jrobb.org/posts/archive/my-first-post-again/</link>
+      <link>http://localhost:1313/posts/archive/my-first-post-again/</link>
       <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/my-first-post-again/</guid>
+      <guid>http://localhost:1313/posts/archive/my-first-post-again/</guid>
       <description>This is not truly a first post here, I am actually editing this on January 9, 2011.&#xA;All of the factoq.net posts have been brought over here, but I numbered them +1 from the lowest&amp;hellip;and this is the lowest article.&#xA;While all of the posts from the latest factorq.net have been imported, there were many (MANY) from the old factorq that are either lost or in archives. Some of the archived ones I could recover, but I am not sure if I want to&amp;ndash;they are in a MySQL DB that I had created (which would be easy enough to get to).</description>
     </item>
     <item>
       <title>Captcha and Tagger thing</title>
-      <link>https://jrobb.org/posts/archive/captcha-and-tagger-thing/</link>
+      <link>http://localhost:1313/posts/archive/captcha-and-tagger-thing/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/captcha-and-tagger-thing/</guid>
+      <guid>http://localhost:1313/posts/archive/captcha-and-tagger-thing/</guid>
       <description>So I wanted to enable the commentation on my blog, but hl&amp;ndash; does not incorporate any spam control by default.&#xA;Luckily, however, @jezra has made a post on this very same subject in the past.&#xA;Using his code adapted into my php stuffs, it appears to work perfectly!&#xA;I did go back as Jezra suggested and convert it to use a SESSION variable, I also made it change the problem more often.</description>
     </item>
     <item>
       <title>WP posts successfully copied and first post of the new year</title>
-      <link>https://jrobb.org/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</link>
+      <link>http://localhost:1313/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</link>
       <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</guid>
+      <guid>http://localhost:1313/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</guid>
       <description>So, I wrote a quick script to parse through the Wordpress XML dump file and extract all of the posts into an hlscript/hl&amp;ndash; HTML type format. This turned out to be VERY easy, and pretty quick to do. I&amp;rsquo;ve now already imported all of these posts into this blog, and now I will move the factorq.net domain over here whenever I have time. My goal is to have jrobb.org and factorq.</description>
     </item>
     <item>
       <title>jrob.co.cc is back on the air</title>
-      <link>https://jrobb.org/posts/archive/jrob.co.cc-is-back-on-the-air/</link>
+      <link>http://localhost:1313/posts/archive/jrob.co.cc-is-back-on-the-air/</link>
       <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/jrob.co.cc-is-back-on-the-air/</guid>
+      <guid>http://localhost:1313/posts/archive/jrob.co.cc-is-back-on-the-air/</guid>
       <description>A while back, I had made my own webserver. Recently as there had been a LOT of downtime with my (free) host&amp;hellip;again&amp;hellip;I decided I was just going to leave them and delete my account. Didn&amp;rsquo;t I set up Apache at home? So I figured I would give it a go. I set up the site, forwarded my ports, and had everything working. Then, I started reading about how this can be dangerous, DOS/DDOS attacks and other things of the like.</description>
     </item>
     <item>
       <title>jrob.co.cc back up...sort of</title>
-      <link>https://jrobb.org/posts/archive/jrob.co.cc-back-up...sort-of/</link>
+      <link>http://localhost:1313/posts/archive/jrob.co.cc-back-up...sort-of/</link>
       <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/jrob.co.cc-back-up...sort-of/</guid>
+      <guid>http://localhost:1313/posts/archive/jrob.co.cc-back-up...sort-of/</guid>
       <description>So The old host is back up. I am not really hosting any files there anymore, so it more or less just points here.&#xA;I host a few things on there that warrant keeping it, but nothing high priority so it does not really matter if it goes down again. Oh, and the MySQL db&amp;rsquo;s are all broken, so I had to disable anything that tried to connect. Lame!&#xA;http://jrob.co.cc</description>
     </item>
     <item>
       <title>Update free servers are not worth it</title>
-      <link>https://jrobb.org/posts/archive/update-free-servers-are-not-worth-it/</link>
+      <link>http://localhost:1313/posts/archive/update-free-servers-are-not-worth-it/</link>
       <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/update-free-servers-are-not-worth-it/</guid>
+      <guid>http://localhost:1313/posts/archive/update-free-servers-are-not-worth-it/</guid>
       <description>on the old site which I just transferred from (again), the MySQL db&amp;rsquo;s are all jacked up and non-working,so I am back here to stay.&#xA;I&amp;rsquo;ve changed about the Code Page, gave it a little more structure. I have yet to try to recover the lost posts from the other host. I imagine it is going to be quite the hassle.&#xA;In fact, they may not even be recoverable, if the databases were wiped out!</description>
     </item>
     <item>
       <title>Back to this domain</title>
-      <link>https://jrobb.org/posts/archive/back-to-this-domain/</link>
+      <link>http://localhost:1313/posts/archive/back-to-this-domain/</link>
       <pubDate>Wed, 16 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/back-to-this-domain/</guid>
+      <guid>http://localhost:1313/posts/archive/back-to-this-domain/</guid>
       <description>so the free server kept crashing due to &amp;ldquo;upgrades&amp;rdquo; which will make the service &amp;ldquo;better&amp;rdquo;&amp;ndash;so far it has only crashed more often.&#xA;factorq.net domain is now back up and running! I will have to revamp the code section a bit and bring it up to date and all that. Also I&amp;rsquo;ll have to see if I can get a hold of the posts I had made in between the previous post and this one that had been made on my own server.</description>
     </item>
     <item>
       <title>New server</title>
-      <link>https://jrobb.org/posts/archive/new-server/</link>
+      <link>http://localhost:1313/posts/archive/new-server/</link>
       <pubDate>Thu, 04 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/new-server/</guid>
+      <guid>http://localhost:1313/posts/archive/new-server/</guid>
       <description>So I think I am moving off of the wordpress domain and onto a new (well&amp;hellip;old) server.&#xA;Maybe, anyway! I haven&amp;rsquo;t yet decided. www.factorq.net&#xA;tags: #site info&#xA;Published Date: Fri, 05 Mar 2010 03:11:46 +0000&#xA;Original URL | Original guid | PostID= 252&#xA;original filename: 106</description>
     </item>
     <item>
       <title>&#34;Old&#34; fQ back up...sort of</title>
-      <link>https://jrobb.org/posts/archive/fq-back-up-sort-of/</link>
+      <link>http://localhost:1313/posts/archive/fq-back-up-sort-of/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/fq-back-up-sort-of/</guid>
+      <guid>http://localhost:1313/posts/archive/fq-back-up-sort-of/</guid>
       <description>I got my web host to get everything back together. I set up the domains and whatnot and now it&amp;rsquo;s back going again. I say &amp;ldquo;old&amp;rdquo; because it is really not all that old. Except for the &amp;ldquo;archive&amp;rdquo; part.&#xA;These URLs point to &amp;ldquo;Old&amp;rdquo; fQ: old.factorq.net oldfq.co.cc oldfactorq.co.cc (not yet active) itsatravesty.com (only active through sometime in August) itsatravesty.co.cc&#xA;These URLs still point to this (the main site): factorq.net factorq.co.cc</description>
     </item>
     <item>
       <title>Some more info about the site crash</title>
-      <link>https://jrobb.org/posts/archive/some-more-info-about-the-site-crash/</link>
+      <link>http://localhost:1313/posts/archive/some-more-info-about-the-site-crash/</link>
       <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/some-more-info-about-the-site-crash/</guid>
+      <guid>http://localhost:1313/posts/archive/some-more-info-about-the-site-crash/</guid>
       <description>So, apparently there is a backup of the website. However the (free) webhost has to re-create my account and set everything back up.&#xA;I really can&amp;rsquo;t complain, I mean&amp;hellip;it is a FREE host. However, lately the outages have been really common, and then now this complete deletion of my account. pretty crazy.&#xA;I think that I will stick with this (blogger), being it is still free, and the uptime is MUCH better.</description>
     </item>
   </channel>

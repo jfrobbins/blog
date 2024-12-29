@@ -48,7 +48,7 @@ enableRobotsTXT = true
   
 [[menu.main]]
   name = "Quotes"
-  url = "/tags/quotes/"
+  url = "/quotes/"
   weight = 10 
   
 [[menu.main]]
@@ -62,8 +62,8 @@ enableRobotsTXT = true
 #  weight = 30
 
 #[[menu.main]]
-#  name = "DadStuff"
-#  url = "/tags/dadstuff/"
+#  name = "Dad Stuff"
+#  url = "/tags/iamyourfather/"
 #  weight = 35  
   
 [[menu.main]]

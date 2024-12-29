@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on jrobb.org</title>
-    <link>https://jrobb.org/tags/contact/</link>
+    <link>http://localhost:1313/tags/contact/</link>
     <description>Recent content in Contact on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Tue, 24 Dec 2024 08:22:14 -0500</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://jrobb.org/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 24 Dec 2024 08:22:14 -0500</pubDate>
-      <guid>https://jrobb.org/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>How to contact me Social Networking (in order of use): x: @jrobbnc mastodon: @jrobb@mastodon.social Messaging: Signal: jon.57 E-mail: : I recommend you use gpg to send email privately.&#xA;You can reach me at jon followed by r. At pm.me.&#xA;My pubkey is below:&#xA;-----BEGIN PGP PUBLIC KEY BLOCK----- xjMEY2VQfhYJKwYBBAHaRw8BAQdAVFDaqVRR4Z55LNeoNG92VmeeKl0M2pOM kMLsB7M7ofzNF2pvbnJAcG0ubWUgPGpvbnJAcG0ubWU+wowEEBYKAD4FAmNl UH4ECwkHCAkQrbWnsLu2ikgDFQgKBBYAAgECGQECGwMCHgEWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAkioA/309Etr/iA8NUPCGa0apJyTB2r6TM4QSEhm4 qqUWmLhoAQD4uPHQAvXI1HriwD1hhOdQBED6mdqVroRUDF09LhrOBc44BGNl UH4SCisGAQQBl1UBBQEBB0DqS6xUnpV0rPSmqg3Sm58nOrIWAwhzPgTFueny T+Z4CwMBCAfCeAQYFggAKgUCY2VQfgkQrbWnsLu2ikgCGwwWIQQ6Xki5mtii w4E+UMmttaewu7aKSAAAxAkBAO3emqSj3UJHrha2OxBqJ6JiwYtCZDSrNSr7 iKH4CwoWAQCgEe1xzJvdIvmWgXNBW67G17yFCN6QqnWDg3LGv4T1DA== =5uxt -----END PGP PUBLIC KEY BLOCK----- </description>
     </item>
     <item>
       <title>Old and out of date contact Info</title>
-      <link>https://jrobb.org/posts/archive/contact-old-and-out-of-date/</link>
+      <link>http://localhost:1313/posts/archive/contact-old-and-out-of-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/archive/contact-old-and-out-of-date/</guid>
+      <guid>http://localhost:1313/posts/archive/contact-old-and-out-of-date/</guid>
       <description>###Social Networking (in order of use):&#xA;pump.io : jrobb@io.jrobb.org &amp;ndash; my main pump pump.io : jrobb@microca.st &amp;ndash; my backup pump, if something goes wrong with the first StatusNet/GNUsocial : jrobb@quitter.se twitter: @jrobbnc google+: +JonathanRobbinsNC twister : @jrobb &amp;ndash; I don&amp;rsquo;t use this much ###IRC: jrobb on FreeNode (usually hanging in #pump.io and/or #pump.io-offtopic) &amp;ndash; I&amp;rsquo;m rarely on IRC.&#xA;WhatsApp: (my phone number) &amp;ndash; As much as it bugs me that this isn&amp;rsquo;t free software, the end-to-end encryption is nice and the userbase is pretty large.</description>
     </item>
   </channel>

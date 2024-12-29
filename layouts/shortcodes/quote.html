@@ -1,4 +1,5 @@
+{{ $markdownContent := .Inner | markdownify }}
 <blockquote>
-  {{ .Inner }}
+  {{ $markdownContent }}
 </blockquote>
 <p><cite>{{ .Get "author" }}</cite></p>

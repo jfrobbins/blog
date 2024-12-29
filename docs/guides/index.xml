@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on jrobb.org</title>
-    <link>https://jrobb.org/guides/</link>
+    <link>http://localhost:1313/guides/</link>
     <description>Recent content in Guides on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Wed, 25 Dec 2024 22:35:59 -0500</lastBuildDate>
-    <atom:link href="https://jrobb.org/guides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Create mp4 from Images</title>
-      <link>https://jrobb.org/guides/create-mp4-from-images/</link>
+      <link>http://localhost:1313/guides/create-mp4-from-images/</link>
       <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
-      <guid>https://jrobb.org/guides/create-mp4-from-images/</guid>
+      <guid>http://localhost:1313/guides/create-mp4-from-images/</guid>
       <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp4 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
     </item>
     <item>
       <title>Clean Boot Partition for Upgrade</title>
-      <link>https://jrobb.org/guides/clean-boot-partition-for-upgrade/</link>
+      <link>http://localhost:1313/guides/clean-boot-partition-for-upgrade/</link>
       <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
-      <guid>https://jrobb.org/guides/clean-boot-partition-for-upgrade/</guid>
+      <guid>http://localhost:1313/guides/clean-boot-partition-for-upgrade/</guid>
       <description>Every time my laptop upgrades, I need to clear /boot so the kernels can update. I put this into a gist so I can easily find it and do it again since I can never remember what to do (lol).&#xA;Clean up /boot Source link: https://askubuntu.com/questions/345588/what-is-the-safest-way-to-clean-up-boot-partition First check your kernel version, so you won&amp;rsquo;t delete the in-use kernel image, running:&#xA;uname -r&#xA;Now run this command for a list of installed kernels:</description>
     </item>
     <item>
       <title>Git Cheat Sheet</title>
-      <link>https://jrobb.org/guides/git-cheat-sheet/</link>
+      <link>http://localhost:1313/guides/git-cheat-sheet/</link>
       <pubDate>Mon, 23 Dec 2024 07:56:58 -0500</pubDate>
-      <guid>https://jrobb.org/guides/git-cheat-sheet/</guid>
+      <guid>http://localhost:1313/guides/git-cheat-sheet/</guid>
       <description>from https://education.github.com/git-cheat-sheet-education.pdf:&#xA;This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
     </item>
     <item>
       <title>Making a Favicon</title>
-      <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
+      <link>http://localhost:1313/guides/20241222-making-a-favicon/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
-      <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
+      <guid>http://localhost:1313/guides/20241222-making-a-favicon/</guid>
       <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.</description>
     </item>
     <item>
       <title>My First Five Minutes on a Server</title>
-      <link>https://jrobb.org/guides/my-first-five-minutes-on-a-server/</link>
+      <link>http://localhost:1313/guides/my-first-five-minutes-on-a-server/</link>
       <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
-      <guid>https://jrobb.org/guides/my-first-five-minutes-on-a-server/</guid>
+      <guid>http://localhost:1313/guides/my-first-five-minutes-on-a-server/</guid>
       <description>I&amp;rsquo;ve been going through some of my backups and came across this post that I (used to) use all the time.&#xA;I originally grabbed this a long time ago from plusbryan.com, but now it appears to be down&amp;hellip; so I&amp;rsquo;m glad I saved it.&#xA;my_first_5mins_on_a_server.pdf Thanks, PlusBryan, whoever you are &amp;ndash; this has saved me a lot of time over the years!&#xA;Here is the post in its entirety (made with a little help from grok):</description>
     </item>
     <item>
       <title>GPG Cheat Sheet</title>
-      <link>https://jrobb.org/guides/gpg-cheat-sheet/</link>
+      <link>http://localhost:1313/guides/gpg-cheat-sheet/</link>
       <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/guides/gpg-cheat-sheet/</guid>
+      <guid>http://localhost:1313/guides/gpg-cheat-sheet/</guid>
       <description>GPG Cheat Sheet I found this somewhere:</description>
     </item>
     <item>
       <title>Boglehead Investing</title>
-      <link>https://jrobb.org/guides/finance/boglehead-investing/</link>
+      <link>http://localhost:1313/guides/finance/boglehead-investing/</link>
       <pubDate>Tue, 10 Dec 2024 19:58:37 -0500</pubDate>
-      <guid>https://jrobb.org/guides/finance/boglehead-investing/</guid>
+      <guid>http://localhost:1313/guides/finance/boglehead-investing/</guid>
       <description>I&amp;rsquo;ve been meaning to do this particular post for a while. As a matter of fact, this is the main reason I&amp;rsquo;ve resurrected this website to begin with &amp;ndash; I wanted to document this for my kids, and for whoever else it is valuable for.&#xA;I&amp;rsquo;ve found myself outlining this a few times, so why not put it on the internet? :-) Besides, it&amp;rsquo;s easy.&#xA;What is a &amp;ldquo;Boglehead&amp;rdquo;? A Boglehead is someone who follows the investment advice and strategy of John C Bogle.</description>
     </item>
     <item>
       <title>Transcode Mp4 Videos to X265 and Lower Bitrate</title>
-      <link>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
+      <link>http://localhost:1313/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
       <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
-      <guid>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
+      <guid>http://localhost:1313/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
       <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
     </item>
   </channel>

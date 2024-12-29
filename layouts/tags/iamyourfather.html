@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="tag-header">
+    <h1>iamyourfather</h1>
+    <p>
+      This tag is dedicated to content I've created for my kids. Here, you'll find posts about me, life lessons, and other information I think is important for them to know. 
+      Feel free to explore and learn more about your dad's thoughts, experiences, and advice.
+    </p>
+  </section>
+
+  <section class="tag-content">
+    <h2>Posts</h2>
+    <ul>
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}

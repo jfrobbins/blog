@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social on jrobb.org</title>
-    <link>https://jrobb.org/tags/social/</link>
+    <link>http://localhost:1313/tags/social/</link>
     <description>Recent content in Social on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Thu, 19 Dec 2024 18:32:54 -0500</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/social/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is a Distributed Social Network Anyway?</title>
-      <link>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</link>
+      <link>http://localhost:1313/posts/federation/what-is-a-distributed-social-network-anyway/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/posts/federation/what-is-a-distributed-social-network-anyway/</guid>
+      <guid>http://localhost:1313/posts/federation/what-is-a-distributed-social-network-anyway/</guid>
       <description>What is a Distributed Social Network Anyway? Ah, the digital age - where our lives are increasingly woven into the fabric of the internet. But let&amp;rsquo;s talk about a revolution, a shift away from the corporate giants that have, for too long, held our data, privacy, and freedoms hostage. I&amp;rsquo;m a Linux enthusiast, a FOSS advocate, and a firm believer in privacy and freedom. So, let&amp;rsquo;s journey through the landscape of distributed social networks, where I&amp;rsquo;m reminiscent of the old identi.</description>
     </item>
     <item>
       <title>Intro to Federated Social Networks</title>
-      <link>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</link>
+      <link>http://localhost:1313/posts/federation/intro-to-federated-social-networks/</link>
       <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</guid>
+      <guid>http://localhost:1313/posts/federation/intro-to-federated-social-networks/</guid>
       <description>Not very long ago there was an opportunity at the local LUG to volunteer to do lightning talks on some subject, and as a lightning talk is easier than a full-blown talk I decided to sign up and evangalize a bit on federated social networking.&#xA;I guess this subject is only tangentially related to Linux, but related enough to be interesting. The main point of federation is that it is encouraged for as many people as possible to run their own nodes&amp;ndash; this spreads the network around and makes it function well even if some portions of the network do get down (or are shut down).</description>
     </item>
   </channel>

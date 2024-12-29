@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <section class="quotes-page">
+    <h1>Quotes</h1>
+    <div class="quotes-grid">
+      {{ range .Pages }}
+        <article class="quote-item">
+          <blockquote>
+            {{ .Content }}
+          </blockquote>
+          <footer>
+            <cite>{{ .Params.author }}</cite>
+            {{ if .Params.date }}<time>{{ .Params.date | time.Format ":date_medium" }}</time>{{ end }}
+            <br><hr>
+          </footer>
+        </article>
+      {{ end }}      
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  </section>
+{{ end }}

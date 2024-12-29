@@ -2,396 +2,396 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jrobb.org</title>
-    <link>https://jrobb.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on jrobb.org</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
     <lastBuildDate>Fri, 27 Dec 2024 07:25:51 -0500</lastBuildDate>
-    <atom:link href="https://jrobb.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code</title>
-      <link>https://jrobb.org/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Fri, 27 Dec 2024 07:25:51 -0500</pubDate>
-      <guid>https://jrobb.org/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Renovation</title>
-      <link>https://jrobb.org/tags/renovation/</link>
+      <link>http://localhost:1313/tags/renovation/</link>
       <pubDate>Fri, 27 Dec 2024 07:14:26 -0500</pubDate>
-      <guid>https://jrobb.org/tags/renovation/</guid>
+      <guid>http://localhost:1313/tags/renovation/</guid>
       <description></description>
     </item>
     <item>
       <title>Encryption</title>
-      <link>https://jrobb.org/tags/encryption/</link>
+      <link>http://localhost:1313/tags/encryption/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/encryption/</guid>
+      <guid>http://localhost:1313/tags/encryption/</guid>
       <description></description>
     </item>
     <item>
       <title>Guides</title>
-      <link>https://jrobb.org/tags/guides/</link>
+      <link>http://localhost:1313/tags/guides/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/guides/</guid>
+      <guid>http://localhost:1313/tags/guides/</guid>
       <description></description>
     </item>
     <item>
       <title>Iamyourfather</title>
-      <link>https://jrobb.org/tags/iamyourfather/</link>
+      <link>http://localhost:1313/tags/iamyourfather/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/iamyourfather/</guid>
+      <guid>http://localhost:1313/tags/iamyourfather/</guid>
       <description></description>
     </item>
     <item>
       <title>Passwords</title>
-      <link>https://jrobb.org/tags/passwords/</link>
+      <link>http://localhost:1313/tags/passwords/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/passwords/</guid>
+      <guid>http://localhost:1313/tags/passwords/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://jrobb.org/tags/privacy/</link>
+      <link>http://localhost:1313/tags/privacy/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/privacy/</guid>
+      <guid>http://localhost:1313/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Proton</title>
-      <link>https://jrobb.org/tags/proton/</link>
+      <link>http://localhost:1313/tags/proton/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/proton/</guid>
+      <guid>http://localhost:1313/tags/proton/</guid>
       <description></description>
     </item>
     <item>
       <title>Quotes</title>
-      <link>https://jrobb.org/tags/quotes/</link>
+      <link>http://localhost:1313/tags/quotes/</link>
       <pubDate>Wed, 25 Dec 2024 22:18:01 -0500</pubDate>
-      <guid>https://jrobb.org/tags/quotes/</guid>
+      <guid>http://localhost:1313/tags/quotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Recipes</title>
-      <link>https://jrobb.org/tags/recipes/</link>
+      <link>http://localhost:1313/tags/recipes/</link>
       <pubDate>Wed, 25 Dec 2024 10:38:04 -0500</pubDate>
-      <guid>https://jrobb.org/tags/recipes/</guid>
+      <guid>http://localhost:1313/tags/recipes/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>https://jrobb.org/tags/about/</link>
+      <link>http://localhost:1313/tags/about/</link>
       <pubDate>Tue, 24 Dec 2024 08:22:14 -0500</pubDate>
-      <guid>https://jrobb.org/tags/about/</guid>
+      <guid>http://localhost:1313/tags/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://jrobb.org/tags/contact/</link>
+      <link>http://localhost:1313/tags/contact/</link>
       <pubDate>Tue, 24 Dec 2024 08:22:14 -0500</pubDate>
-      <guid>https://jrobb.org/tags/contact/</guid>
+      <guid>http://localhost:1313/tags/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://jrobb.org/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Mon, 23 Dec 2024 07:56:58 -0500</pubDate>
-      <guid>https://jrobb.org/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Www</title>
-      <link>https://jrobb.org/tags/www/</link>
+      <link>http://localhost:1313/tags/www/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
-      <guid>https://jrobb.org/tags/www/</guid>
+      <guid>http://localhost:1313/tags/www/</guid>
       <description></description>
     </item>
     <item>
       <title>Dadstuff</title>
-      <link>https://jrobb.org/tags/dadstuff/</link>
+      <link>http://localhost:1313/tags/dadstuff/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/tags/dadstuff/</guid>
+      <guid>http://localhost:1313/tags/dadstuff/</guid>
       <description></description>
     </item>
     <item>
       <title>Federation</title>
-      <link>https://jrobb.org/tags/federation/</link>
+      <link>http://localhost:1313/tags/federation/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/tags/federation/</guid>
+      <guid>http://localhost:1313/tags/federation/</guid>
       <description></description>
     </item>
     <item>
       <title>Social</title>
-      <link>https://jrobb.org/tags/social/</link>
+      <link>http://localhost:1313/tags/social/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/tags/social/</guid>
+      <guid>http://localhost:1313/tags/social/</guid>
       <description></description>
     </item>
     <item>
       <title>Fsf</title>
-      <link>https://jrobb.org/tags/fsf/</link>
+      <link>http://localhost:1313/tags/fsf/</link>
       <pubDate>Thu, 12 Dec 2024 16:04:30 -0500</pubDate>
-      <guid>https://jrobb.org/tags/fsf/</guid>
+      <guid>http://localhost:1313/tags/fsf/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>https://jrobb.org/tags/server/</link>
+      <link>http://localhost:1313/tags/server/</link>
       <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
-      <guid>https://jrobb.org/tags/server/</guid>
+      <guid>http://localhost:1313/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>https://jrobb.org/tags/crypto/</link>
+      <link>http://localhost:1313/tags/crypto/</link>
       <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/tags/crypto/</guid>
+      <guid>http://localhost:1313/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpg</title>
-      <link>https://jrobb.org/tags/gpg/</link>
+      <link>http://localhost:1313/tags/gpg/</link>
       <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/tags/gpg/</guid>
+      <guid>http://localhost:1313/tags/gpg/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>https://jrobb.org/tags/finance/</link>
+      <link>http://localhost:1313/tags/finance/</link>
       <pubDate>Tue, 10 Dec 2024 19:58:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/finance/</guid>
+      <guid>http://localhost:1313/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Media</title>
-      <link>https://jrobb.org/tags/media/</link>
+      <link>http://localhost:1313/tags/media/</link>
       <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
-      <guid>https://jrobb.org/tags/media/</guid>
+      <guid>http://localhost:1313/tags/media/</guid>
       <description></description>
     </item>
     <item>
       <title>Pumpio</title>
-      <link>https://jrobb.org/tags/pumpio/</link>
+      <link>http://localhost:1313/tags/pumpio/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/pumpio/</guid>
+      <guid>http://localhost:1313/tags/pumpio/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://jrobb.org/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://jrobb.org/tags/projects/</link>
+      <link>http://localhost:1313/tags/projects/</link>
       <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/projects/</guid>
+      <guid>http://localhost:1313/tags/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Site</title>
-      <link>https://jrobb.org/tags/site/</link>
+      <link>http://localhost:1313/tags/site/</link>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/site/</guid>
+      <guid>http://localhost:1313/tags/site/</guid>
       <description></description>
     </item>
     <item>
       <title>Jbs</title>
-      <link>https://jrobb.org/tags/jbs/</link>
+      <link>http://localhost:1313/tags/jbs/</link>
       <pubDate>Sat, 05 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/jbs/</guid>
+      <guid>http://localhost:1313/tags/jbs/</guid>
       <description></description>
     </item>
     <item>
       <title>Fossil</title>
-      <link>https://jrobb.org/tags/fossil/</link>
+      <link>http://localhost:1313/tags/fossil/</link>
       <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/fossil/</guid>
+      <guid>http://localhost:1313/tags/fossil/</guid>
       <description></description>
     </item>
     <item>
       <title>Scm</title>
-      <link>https://jrobb.org/tags/scm/</link>
+      <link>http://localhost:1313/tags/scm/</link>
       <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/scm/</guid>
+      <guid>http://localhost:1313/tags/scm/</guid>
       <description></description>
     </item>
     <item>
       <title>Work</title>
-      <link>https://jrobb.org/tags/work/</link>
+      <link>http://localhost:1313/tags/work/</link>
       <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/work/</guid>
+      <guid>http://localhost:1313/tags/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>https://jrobb.org/tags/random/</link>
+      <link>http://localhost:1313/tags/random/</link>
       <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/random/</guid>
+      <guid>http://localhost:1313/tags/random/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://jrobb.org/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Captcha</title>
-      <link>https://jrobb.org/tags/captcha/</link>
+      <link>http://localhost:1313/tags/captcha/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/captcha/</guid>
+      <guid>http://localhost:1313/tags/captcha/</guid>
       <description></description>
     </item>
     <item>
       <title>Tags</title>
-      <link>https://jrobb.org/tags/tags/</link>
+      <link>http://localhost:1313/tags/tags/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/tags/</guid>
+      <guid>http://localhost:1313/tags/tags/</guid>
       <description></description>
     </item>
     <item>
       <title>Archnemesis</title>
-      <link>https://jrobb.org/tags/archnemesis/</link>
+      <link>http://localhost:1313/tags/archnemesis/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/archnemesis/</guid>
+      <guid>http://localhost:1313/tags/archnemesis/</guid>
       <description></description>
     </item>
     <item>
       <title>Webreezes</title>
-      <link>https://jrobb.org/tags/webreezes/</link>
+      <link>http://localhost:1313/tags/webreezes/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/webreezes/</guid>
+      <guid>http://localhost:1313/tags/webreezes/</guid>
       <description></description>
     </item>
     <item>
       <title>Newyear</title>
-      <link>https://jrobb.org/tags/newyear/</link>
+      <link>http://localhost:1313/tags/newyear/</link>
       <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/newyear/</guid>
+      <guid>http://localhost:1313/tags/newyear/</guid>
       <description></description>
     </item>
     <item>
       <title>Factorq</title>
-      <link>https://jrobb.org/tags/factorq/</link>
+      <link>http://localhost:1313/tags/factorq/</link>
       <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/factorq/</guid>
+      <guid>http://localhost:1313/tags/factorq/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://jrobb.org/tags/life/</link>
+      <link>http://localhost:1313/tags/life/</link>
       <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/life/</guid>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Backups</title>
-      <link>https://jrobb.org/tags/backups/</link>
+      <link>http://localhost:1313/tags/backups/</link>
       <pubDate>Sat, 04 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/backups/</guid>
+      <guid>http://localhost:1313/tags/backups/</guid>
       <description></description>
     </item>
     <item>
       <title>Jeep</title>
-      <link>https://jrobb.org/tags/jeep/</link>
+      <link>http://localhost:1313/tags/jeep/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/jeep/</guid>
+      <guid>http://localhost:1313/tags/jeep/</guid>
       <description></description>
     </item>
     <item>
       <title>Accident</title>
-      <link>https://jrobb.org/tags/accident/</link>
+      <link>http://localhost:1313/tags/accident/</link>
       <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/accident/</guid>
+      <guid>http://localhost:1313/tags/accident/</guid>
       <description></description>
     </item>
     <item>
       <title>Motorcycle</title>
-      <link>https://jrobb.org/tags/motorcycle/</link>
+      <link>http://localhost:1313/tags/motorcycle/</link>
       <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/motorcycle/</guid>
+      <guid>http://localhost:1313/tags/motorcycle/</guid>
       <description></description>
     </item>
     <item>
       <title>Bsd</title>
-      <link>https://jrobb.org/tags/bsd/</link>
+      <link>http://localhost:1313/tags/bsd/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/bsd/</guid>
+      <guid>http://localhost:1313/tags/bsd/</guid>
       <description></description>
     </item>
     <item>
       <title>FOSS</title>
-      <link>https://jrobb.org/tags/foss/</link>
+      <link>http://localhost:1313/tags/foss/</link>
       <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/foss/</guid>
+      <guid>http://localhost:1313/tags/foss/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpl</title>
-      <link>https://jrobb.org/tags/gpl/</link>
+      <link>http://localhost:1313/tags/gpl/</link>
       <pubDate>Fri, 16 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/gpl/</guid>
+      <guid>http://localhost:1313/tags/gpl/</guid>
       <description></description>
     </item>
     <item>
       <title>Statusnet</title>
-      <link>https://jrobb.org/tags/statusnet/</link>
+      <link>http://localhost:1313/tags/statusnet/</link>
       <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/statusnet/</guid>
+      <guid>http://localhost:1313/tags/statusnet/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://jrobb.org/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Thu, 24 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
-      <link>https://jrobb.org/tags/news/</link>
+      <link>http://localhost:1313/tags/news/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/news/</guid>
+      <guid>http://localhost:1313/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Politico</title>
-      <link>https://jrobb.org/tags/politico/</link>
+      <link>http://localhost:1313/tags/politico/</link>
       <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/politico/</guid>
+      <guid>http://localhost:1313/tags/politico/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>https://jrobb.org/tags/mobile/</link>
+      <link>http://localhost:1313/tags/mobile/</link>
       <pubDate>Sun, 20 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/mobile/</guid>
+      <guid>http://localhost:1313/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>https://jrobb.org/tags/bash/</link>
+      <link>http://localhost:1313/tags/bash/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/bash/</guid>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Jolicloud</title>
-      <link>https://jrobb.org/tags/jolicloud/</link>
+      <link>http://localhost:1313/tags/jolicloud/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/jolicloud/</guid>
+      <guid>http://localhost:1313/tags/jolicloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Licensing</title>
-      <link>https://jrobb.org/tags/licensing/</link>
+      <link>http://localhost:1313/tags/licensing/</link>
       <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/licensing/</guid>
+      <guid>http://localhost:1313/tags/licensing/</guid>
       <description></description>
     </item>
   </channel>
