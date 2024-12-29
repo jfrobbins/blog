@@ -5,8 +5,8 @@ draft = false
 tags = ["quotes"]
 +++
 
-LLD
 
+{{< quote author="Young Dolph" >}}
 
 1. **Never Trust a Soul**: Dolph emphasizes not trusting anyone, highlighting the importance of self-reliance in the streets.
 
@@ -28,5 +28,9 @@ LLD
 
 10. **Live Life**: Finally, he encourages enjoying life, spending time with family, and making sure to live life to the fullest despite the hardships.
 
----
+{{< /quote >}}
+
+LLD
+
 [Source: HotNewHipHop](https://www.hotnewhiphop.com/494296-the-ten-dolph-commandments-new-video)
+
