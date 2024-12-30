@@ -2,19 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/</loc>
+    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/recipes/</loc>
+    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/</loc>
+    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/taco-soup/</loc>
+    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/sausage-and-tortelloni-soup/</loc>
+    <lastmod>2024-12-30T09:08:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/beef-and-broccoli/</loc>
+    <lastmod>2024-12-30T09:02:15-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/shepherds-pie/</loc>
+    <lastmod>2024-12-30T08:50:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/chicken-pot-pie-casserole/</loc>
+    <lastmod>2024-12-30T08:38:30-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/crockpot-red-curry-chicken/</loc>
+    <lastmod>2024-12-30T08:07:44-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/recipes/overnight-oats/</loc>
+    <lastmod>2024-12-30T08:01:48-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/tags/code/</loc>
     <lastmod>2024-12-27T07:25:51-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/code/</loc>
     <lastmod>2024-12-27T07:25:51-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-27T07:25:51-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/code/loop-incrementor/</loc>
-    <lastmod>2024-12-27T07:25:51-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2024-12-27T07:25:51-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/code/cbr-to-cbz-converter/</loc>
@@ -72,12 +99,6 @@
     <lastmod>2024-12-25T22:18:01-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/apple-pie/</loc>
-    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/recipes/</loc>
-    <lastmod>2024-12-25T10:38:04-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/recipes/</loc>
     <lastmod>2024-12-25T10:38:04-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/slow-cooker-thai-chicken-soup/</loc>
