@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
-    <lastBuildDate>Fri, 27 Dec 2024 07:25:51 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2024 09:15:13 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recipes</title>
+      <link>https://jrobb.org/tags/recipes/</link>
+      <pubDate>Mon, 30 Dec 2024 09:15:13 -0500</pubDate>
+      <guid>https://jrobb.org/tags/recipes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Code</title>
       <link>https://jrobb.org/tags/code/</link>
@@ -70,13 +77,6 @@
       <link>https://jrobb.org/tags/quotes/</link>
       <pubDate>Wed, 25 Dec 2024 22:18:01 -0500</pubDate>
       <guid>https://jrobb.org/tags/quotes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recipes</title>
-      <link>https://jrobb.org/tags/recipes/</link>
-      <pubDate>Wed, 25 Dec 2024 10:38:04 -0500</pubDate>
-      <guid>https://jrobb.org/tags/recipes/</guid>
       <description></description>
     </item>
     <item>
