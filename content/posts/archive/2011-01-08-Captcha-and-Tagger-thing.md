@@ -8,9 +8,6 @@ slug: captcha-and-tagger-thing
 tags:
 - jbs
 - site
-- tags
-- captcha
-- blog
 title: Captcha and Tagger thing
 ---
 

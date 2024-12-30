@@ -8,7 +8,7 @@ slug: ron-pauls-audit-the-fed-bill-passes-218-cosponsors
 tags:
 - jbs
 - politico
-title: Ron Paul039s Audit the Fed Bill Passes 218 Cosponsors
+title: Ron Paul's Audit the Fed Bill Passes 218 Cosponsors
 ---
 
 <span class="fullpost">

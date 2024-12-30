@@ -6,8 +6,7 @@ draft: false
 modified: '2009-06-12T00:00:00'
 slug: people-are-not-smart-enough-to-make-their-own-decisions...
 tags:
-- jbs
-- news
+- politico
 title: People are not smart enough to make their own decisions...
 ---
 

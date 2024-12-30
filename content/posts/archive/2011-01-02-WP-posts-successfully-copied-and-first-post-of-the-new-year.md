@@ -8,8 +8,6 @@ slug: wp-posts-successfully-copied-and-first-post-of-the-new-year
 tags:
 - jbs
 - site
-- site
-- newyear
 title: WP posts successfully copied and first post of the new year
 ---
 

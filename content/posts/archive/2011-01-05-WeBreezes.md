@@ -8,7 +8,6 @@ slug: webreezes
 tags:
 - jbs
 - linux
-- webreezes
 - archnemesis
 - iamyourfather
 title: WeBreezes

@@ -8,8 +8,6 @@ slug: wrecked-my-bike-yesterday
 tags:
 - jbs
 - life
-- accident
-- motorcycle
 title: Wrecked my bike yesterday
 ---
 

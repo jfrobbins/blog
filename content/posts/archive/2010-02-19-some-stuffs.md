@@ -7,12 +7,7 @@ modified: '2010-02-19T00:00:00'
 slug: some-stuffs
 tags:
 - jbs
-- linux
-- bash
-- bsd
-- gpl
 - licensing
-- jolicloud
 title: some stuffs
 ---
 

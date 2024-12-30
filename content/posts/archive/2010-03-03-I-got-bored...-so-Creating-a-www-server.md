@@ -7,7 +7,6 @@ modified: '2010-03-03T00:00:00'
 slug: i-got-bored...-so-creating-a-www-server
 tags:
 - jbs
-- linux
 - server
 title: I got bored... so Creating a www server
 ---

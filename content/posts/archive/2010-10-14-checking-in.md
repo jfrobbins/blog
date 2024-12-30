@@ -8,7 +8,7 @@ slug: checking-in
 tags:
 - jbs
 - jeep
-- random
+- life
 title: checking in
 ---
 

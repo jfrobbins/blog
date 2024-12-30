@@ -8,8 +8,6 @@ slug: version-control-synopsis-git-vs-fossil
 tags:
 - jbs
 - git
-- fossil
-- scm
 - work
 title: Version Control synopsis git vs fossil
 ---

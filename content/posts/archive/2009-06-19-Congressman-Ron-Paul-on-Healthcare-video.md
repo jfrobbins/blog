@@ -7,7 +7,7 @@ modified: '2009-06-19T00:00:00'
 slug: congressman-ron-paul-on-healthcare-video
 tags:
 - jbs
-- news
+- politico
 title: Congressman Ron Paul on Healthcare video
 ---
 

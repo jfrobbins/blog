@@ -7,6 +7,7 @@ modified: '2010-06-30T00:00:00'
 slug: favorite-distros
 tags:
 - jbs
+- linux
 title: Favorite Distros
 ---
 

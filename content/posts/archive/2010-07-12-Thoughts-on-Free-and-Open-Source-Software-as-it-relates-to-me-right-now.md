@@ -8,6 +8,7 @@ slug: thoughts-on-free-and-open-source-software-as-it-relates-to-me-right-now
 tags:
 - jbs
 - code
+- licensing
 title: Thoughts on Free and Open Source Software as it relates to me right now
 ---
 

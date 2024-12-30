@@ -8,7 +8,6 @@ slug: linux-vs-bsd-and-an-urge-to-hop
 tags:
 - jbs
 - linux
-- bsd
 title: Linux vs BSD and an urge to hop
 ---
 

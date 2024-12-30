@@ -6,7 +6,7 @@ draft: false
 modified: '2015-03-28T00:00:00'
 slug: bitmessage
 tags:
-- crypto
+- encryption
 title: Bitmessage
 ---
 Lately I've started finding [Bitmessage](https://www.bitmessage.org/wiki/Main_Page) interesting again. I used it a little early on, but haven't in a year or so.

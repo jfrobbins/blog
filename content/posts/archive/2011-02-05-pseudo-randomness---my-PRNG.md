@@ -7,7 +7,6 @@ modified: '2011-02-05T00:00:00'
 slug: pseudo-randomness---my-prng
 tags:
 - jbs
-- random
 - code
 title: pseudo randomness   my PRNG
 ---

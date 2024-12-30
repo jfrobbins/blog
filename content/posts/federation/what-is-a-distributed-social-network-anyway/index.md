@@ -2,7 +2,7 @@
 title = 'What Is a Distributed Social Network Anyway?'
 date = 2024-12-19T18:32:54-05:00
 draft = false
-tags = ["federation","social", "dadstuff"]
+tags = ["federation","social", "iamyourfather"]
 +++
 
 # What is a Distributed Social Network Anyway?

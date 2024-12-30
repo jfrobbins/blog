@@ -7,6 +7,7 @@ modified: '2010-07-03T00:00:00'
 slug: project-or-masters
 tags:
 - jbs
+- life
 title: Project or Masters
 ---
 

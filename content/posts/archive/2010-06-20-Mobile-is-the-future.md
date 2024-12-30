@@ -8,8 +8,6 @@ slug: mobile-is-the-future
 tags:
 - jbs
 - tech
-- linux
-- mobile
 title: Mobile is the future
 ---
 

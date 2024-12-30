@@ -7,8 +7,6 @@ modified: '2010-06-23T00:00:00'
 slug: vuvuzela-filter-yes
 tags:
 - jbs
-- news
-- linux
 title: Vuvuzela filter Yes
 ---
 

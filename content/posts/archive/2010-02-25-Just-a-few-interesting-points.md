@@ -7,7 +7,6 @@ modified: '2010-02-25T00:00:00'
 slug: just-a-few-interesting-points
 tags:
 - jbs
-- linux
 - backups
 title: Just a few interesting points
 ---

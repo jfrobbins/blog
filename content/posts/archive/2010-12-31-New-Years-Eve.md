@@ -8,10 +8,6 @@ slug: new-years-eve
 tags:
 - jbs
 - life
-- life
-- life
-- factorq
-- newyear
 title: New Years Eve
 ---
 

@@ -8,9 +8,6 @@ slug: got-it-to-work...the-code-display-thing
 tags:
 - jbs
 - site
-- blog
-- code
-- captcha
 title: Got it to work...the code display thing
 ---
 
