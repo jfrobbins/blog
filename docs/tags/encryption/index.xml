@@ -24,6 +24,20 @@
       <description>Exploring Proton and Their Suite of Privacy-Focused Services In an age where digital privacy is increasingly under threat, Proton has emerged as a beacon for those seeking secure communication and data protection. Starting with Proton Mail, the company has expanded its offerings to include a variety of tools designed to keep your digital life private and secure.&#xA;Proton Mail: The Heart of Proton&amp;rsquo;s Services Advantages of Encrypted Communication&#xA;Proton Mail is renowned for its end-to-end encryption, ensuring that your email content is secure from the moment it leaves your device until it reaches the recipient.</description>
     </item>
     <item>
+      <title>GPG Cheat Sheet</title>
+      <link>https://jrobb.org/guides/gpg-cheat-sheet/</link>
+      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
+      <guid>https://jrobb.org/guides/gpg-cheat-sheet/</guid>
+      <description>GPG Cheat Sheet I found this somewhere:</description>
+    </item>
+    <item>
+      <title>Bitmessage</title>
+      <link>https://jrobb.org/posts/archive/crypto/bitmessage/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/posts/archive/crypto/bitmessage/</guid>
+      <description>Lately I&amp;rsquo;ve started finding Bitmessage interesting again. I used it a little early on, but haven&amp;rsquo;t in a year or so.&#xA;After recovering my address, I&amp;rsquo;ve been back on the network and I&amp;rsquo;m remembering that I really like the idea of it&amp;ndash;mostly the simplicity! Compared to GPG, this is no contest that almost anyone could use this. Some people feel that GPG is damn near unusable, and while I don&amp;rsquo;t really agree, according to the guy in that talk I (and probably you) are considered the &amp;ldquo;technological elite.</description>
+    </item>
+    <item>
       <title>SSH box</title>
       <link>https://jrobb.org/posts/archive/ssh-box/</link>
       <pubDate>Sat, 05 Mar 2011 00:00:00 +0000</pubDate>

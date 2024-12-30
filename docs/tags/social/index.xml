@@ -23,5 +23,12 @@
       <guid>https://jrobb.org/posts/federation/intro-to-federated-social-networks/</guid>
       <description>Not very long ago there was an opportunity at the local LUG to volunteer to do lightning talks on some subject, and as a lightning talk is easier than a full-blown talk I decided to sign up and evangalize a bit on federated social networking.&#xA;I guess this subject is only tangentially related to Linux, but related enough to be interesting. The main point of federation is that it is encouraged for as many people as possible to run their own nodes&amp;ndash; this spreads the network around and makes it function well even if some portions of the network do get down (or are shut down).</description>
     </item>
+    <item>
+      <title>Identi.ca Client HeyBuddy</title>
+      <link>https://jrobb.org/posts/archive/identi.ca-client-heybuddy/</link>
+      <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/posts/archive/identi.ca-client-heybuddy/</guid>
+      <description>I&amp;rsquo;ve installed and been using HeyBuddy as a client for identi.ca. If you don&amp;rsquo;t know what identi.ca is&amp;hellip;it&amp;rsquo;s basically an open source Twitter, with more/better features.&#xA;This thing is great, keeps me from having to use mustard on my droid, or from keeping the webpage open. Status.net also has a desktop client, but I do not like it as well. Besides Heybuddy is &amp;ldquo;supposedly lightweight,&amp;rdquo; which is always great.&#xA;Check it out if you get the chance.</description>
+    </item>
   </channel>
 </rss>

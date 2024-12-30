@@ -108,13 +108,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dadstuff</title>
-      <link>https://jrobb.org/tags/dadstuff/</link>
-      <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
-      <guid>https://jrobb.org/tags/dadstuff/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Federation</title>
       <link>https://jrobb.org/tags/federation/</link>
       <pubDate>Thu, 19 Dec 2024 18:32:54 -0500</pubDate>
@@ -140,13 +133,6 @@
       <link>https://jrobb.org/tags/server/</link>
       <pubDate>Thu, 12 Dec 2024 15:53:08 -0500</pubDate>
       <guid>https://jrobb.org/tags/server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Crypto</title>
-      <link>https://jrobb.org/tags/crypto/</link>
-      <pubDate>Thu, 12 Dec 2024 15:50:29 -0500</pubDate>
-      <guid>https://jrobb.org/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
@@ -206,20 +192,6 @@
       <description></description>
     </item>
     <item>
-      <title>Fossil</title>
-      <link>https://jrobb.org/tags/fossil/</link>
-      <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/fossil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scm</title>
-      <link>https://jrobb.org/tags/scm/</link>
-      <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/scm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Work</title>
       <link>https://jrobb.org/tags/work/</link>
       <pubDate>Sun, 13 Feb 2011 00:00:00 +0000</pubDate>
@@ -227,59 +199,10 @@
       <description></description>
     </item>
     <item>
-      <title>Random</title>
-      <link>https://jrobb.org/tags/random/</link>
-      <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/random/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>https://jrobb.org/tags/blog/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Captcha</title>
-      <link>https://jrobb.org/tags/captcha/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/captcha/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tags</title>
-      <link>https://jrobb.org/tags/tags/</link>
-      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/tags/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Archnemesis</title>
       <link>https://jrobb.org/tags/archnemesis/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/archnemesis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Webreezes</title>
-      <link>https://jrobb.org/tags/webreezes/</link>
-      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/webreezes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Newyear</title>
-      <link>https://jrobb.org/tags/newyear/</link>
-      <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/newyear/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Factorq</title>
-      <link>https://jrobb.org/tags/factorq/</link>
-      <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/factorq/</guid>
       <description></description>
     </item>
     <item>
@@ -297,31 +220,17 @@
       <description></description>
     </item>
     <item>
+      <title>Random</title>
+      <link>https://jrobb.org/tags/random/</link>
+      <pubDate>Mon, 08 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/tags/random/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Jeep</title>
       <link>https://jrobb.org/tags/jeep/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/jeep/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Accident</title>
-      <link>https://jrobb.org/tags/accident/</link>
-      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/accident/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Motorcycle</title>
-      <link>https://jrobb.org/tags/motorcycle/</link>
-      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/motorcycle/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bsd</title>
-      <link>https://jrobb.org/tags/bsd/</link>
-      <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/bsd/</guid>
       <description></description>
     </item>
     <item>
@@ -339,10 +248,10 @@
       <description></description>
     </item>
     <item>
-      <title>Statusnet</title>
-      <link>https://jrobb.org/tags/statusnet/</link>
-      <pubDate>Sat, 10 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/statusnet/</guid>
+      <title>Licensing</title>
+      <link>https://jrobb.org/tags/licensing/</link>
+      <pubDate>Mon, 12 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://jrobb.org/tags/licensing/</guid>
       <description></description>
     </item>
     <item>
@@ -353,45 +262,10 @@
       <description></description>
     </item>
     <item>
-      <title>News</title>
-      <link>https://jrobb.org/tags/news/</link>
-      <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/news/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Politico</title>
       <link>https://jrobb.org/tags/politico/</link>
       <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/politico/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mobile</title>
-      <link>https://jrobb.org/tags/mobile/</link>
-      <pubDate>Sun, 20 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/mobile/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bash</title>
-      <link>https://jrobb.org/tags/bash/</link>
-      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/bash/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jolicloud</title>
-      <link>https://jrobb.org/tags/jolicloud/</link>
-      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/jolicloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Licensing</title>
-      <link>https://jrobb.org/tags/licensing/</link>
-      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/licensing/</guid>
       <description></description>
     </item>
   </channel>
