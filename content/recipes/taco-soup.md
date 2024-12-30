@@ -18,13 +18,13 @@ Delicious, easy to prepare, and with ingredients almost always stocked in the pa
 - 1 can (15 oz) pinto beans, no salt added
 - 1 can (15 oz) black beans, no salt added
 - 1 onion (white, red, or yellow, based on preference or availability), chopped
-- 2 tbsp black pepper (modify to taste)
+- 1 tbsp black pepper (modify to taste)
 - 1 tbsp minced garlic (or substitute with garlic powder if necessary)
 - 1 tbsp dark chili powder (modify to taste)
 - 4 tbsp ranch dressing powder or one packet (or substitute with additional garlic powder or an alternate mixture)
 - 4 cups (1 carton) chicken stock
 - 1 tbsp crushed red pepper (modify to taste)
-- 1 tbsp taco seasoning (modify to taste, add more as preferred)
+- 1/3 cup taco seasoning (modify to taste, add more as preferred)
 - 1 cup sliced fresh mushrooms (optional)
 
 **Notes:** 
