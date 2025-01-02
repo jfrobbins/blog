@@ -3,6 +3,7 @@ title = 'Overnight Oats'
 date = 2024-12-30T08:01:48-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 # Overnight Oats Recipe

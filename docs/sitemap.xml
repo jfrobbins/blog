@@ -2,8 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/posts/life/2025/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/categories/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/encryption/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/privacy/proton-vpn/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/goals/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/categories/goals/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/guides/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/iamyourfather/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
-    <lastmod>2024-12-30T09:15:13-05:00</lastmod>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/life/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/newyear/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/privacy/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/proton/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/categories/tech/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/vpn/</loc>
+    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/recipes/</loc>
     <lastmod>2024-12-30T09:15:13-05:00</lastmod>
@@ -11,10 +59,10 @@
     <loc>https://jrobb.org/recipes/</loc>
     <lastmod>2024-12-30T09:15:13-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/recipes/taco-soup/</loc>
+    <loc>https://jrobb.org/categories/recipes/</loc>
     <lastmod>2024-12-30T09:15:13-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/</loc>
+    <loc>https://jrobb.org/recipes/taco-soup/</loc>
     <lastmod>2024-12-30T09:15:13-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/recipes/sausage-and-tortelloni-soup/</loc>
@@ -38,6 +86,9 @@
     <loc>https://jrobb.org/tags/code/</loc>
     <lastmod>2024-12-27T07:25:51-05:00</lastmod>
   </url><url>
+    <loc>https://jrobb.org/categories/code/</loc>
+    <lastmod>2024-12-27T07:25:51-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/code/</loc>
     <lastmod>2024-12-27T07:25:51-05:00</lastmod>
   </url><url>
@@ -50,28 +101,10 @@
     <loc>https://jrobb.org/posts/boona-tandem-showerhead/</loc>
     <lastmod>2024-12-27T07:14:26-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/posts/</loc>
-    <lastmod>2024-12-27T07:14:26-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/renovation/</loc>
     <lastmod>2024-12-27T07:14:26-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/tags/encryption/</loc>
-    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/guides/</loc>
-    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/iamyourfather/</loc>
-    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/passwords/</loc>
-    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/privacy/</loc>
-    <lastmod>2024-12-26T07:40:37-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/proton/</loc>
     <lastmod>2024-12-26T07:40:37-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/privacy/proton-pass/</loc>
@@ -93,6 +126,9 @@
     <lastmod>2024-12-25T22:18:01-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/quotes/</loc>
+    <lastmod>2024-12-25T22:18:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/categories/quotes/</loc>
     <lastmod>2024-12-25T22:18:01-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/quotes/dolph-10-commandments/</loc>
@@ -250,9 +286,6 @@
   </url><url>
     <loc>https://jrobb.org/posts/archive/wp-posts-successfully-copied-and-first-post-of-the-new-year/</loc>
     <lastmod>2011-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/life/</loc>
-    <lastmod>2010-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/archive/new-years-eve/</loc>
     <lastmod>2010-12-31T00:00:00+00:00</lastmod>
@@ -466,8 +499,6 @@
   </url><url>
     <loc>https://jrobb.org/posts/archive/how-i-got-started/</loc>
     <lastmod>2006-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/categories/</loc>
   </url><url>
     <loc>https://jrobb.org/posts/archive/contact-old-and-out-of-date/</loc>
   </url>

@@ -3,6 +3,7 @@ title = 'Loop Incrementor'
 date = 2024-12-27T07:25:51-05:00
 draft = false
 tags = ["code"]
+categories = ['code']
 +++
 
 

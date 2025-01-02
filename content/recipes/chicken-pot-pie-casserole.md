@@ -3,6 +3,7 @@ title = 'Chicken Pot Pie Casserole'
 date = 2024-12-30T08:38:30-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 ## Ingredients

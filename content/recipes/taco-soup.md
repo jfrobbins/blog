@@ -3,6 +3,7 @@ title = 'Taco Soup'
 date = 2024-12-30T09:15:13-05:00
 draft = false
 tags = ['recipes']
+categories = ['recipes']
 +++
 
 This is probably our most beloved dinner option. 

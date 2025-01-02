@@ -3,6 +3,7 @@ title = 'Cbr to Cbz Converter'
 date = 2024-12-27T07:18:01-05:00
 draft = false
 tags = ["code"]
+categories = ['code']
 +++
 
 As I continue to go through and find old stuff that I'd done, I found this one.

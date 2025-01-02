@@ -7,8 +7,71 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
-    <lastBuildDate>Mon, 30 Dec 2024 09:15:13 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 08:24:18 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encryption</title>
+      <link>https://jrobb.org/tags/encryption/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/encryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Goals</title>
+      <link>https://jrobb.org/tags/goals/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/goals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guides</title>
+      <link>https://jrobb.org/tags/guides/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/guides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iamyourfather</title>
+      <link>https://jrobb.org/tags/iamyourfather/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/iamyourfather/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://jrobb.org/tags/life/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newyear</title>
+      <link>https://jrobb.org/tags/newyear/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/newyear/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://jrobb.org/tags/privacy/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proton</title>
+      <link>https://jrobb.org/tags/proton/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/proton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vpn</title>
+      <link>https://jrobb.org/tags/vpn/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/tags/vpn/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Recipes</title>
       <link>https://jrobb.org/tags/recipes/</link>
@@ -31,45 +94,10 @@
       <description></description>
     </item>
     <item>
-      <title>Encryption</title>
-      <link>https://jrobb.org/tags/encryption/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/encryption/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guides</title>
-      <link>https://jrobb.org/tags/guides/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/guides/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iamyourfather</title>
-      <link>https://jrobb.org/tags/iamyourfather/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/iamyourfather/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Passwords</title>
       <link>https://jrobb.org/tags/passwords/</link>
       <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
       <guid>https://jrobb.org/tags/passwords/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://jrobb.org/tags/privacy/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proton</title>
-      <link>https://jrobb.org/tags/proton/</link>
-      <pubDate>Thu, 26 Dec 2024 07:40:37 -0500</pubDate>
-      <guid>https://jrobb.org/tags/proton/</guid>
       <description></description>
     </item>
     <item>
@@ -203,13 +231,6 @@
       <link>https://jrobb.org/tags/archnemesis/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://jrobb.org/tags/archnemesis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>https://jrobb.org/tags/life/</link>
-      <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://jrobb.org/tags/life/</guid>
       <description></description>
     </item>
     <item>

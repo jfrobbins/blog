@@ -3,6 +3,7 @@ title = 'Sausage and Tortelloni Soup'
 date = 2024-12-30T09:08:01-05:00
 draft = false
 tags = ['recipes']
+categories = ['recipes']
 +++
 
 **Time:** 35 minutes
