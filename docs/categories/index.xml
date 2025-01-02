@@ -23,5 +23,26 @@
       <guid>https://jrobb.org/categories/tech/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Recipes</title>
+      <link>https://jrobb.org/categories/recipes/</link>
+      <pubDate>Mon, 30 Dec 2024 09:15:13 -0500</pubDate>
+      <guid>https://jrobb.org/categories/recipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://jrobb.org/categories/code/</link>
+      <pubDate>Fri, 27 Dec 2024 07:25:51 -0500</pubDate>
+      <guid>https://jrobb.org/categories/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotes</title>
+      <link>https://jrobb.org/categories/quotes/</link>
+      <pubDate>Wed, 25 Dec 2024 22:18:01 -0500</pubDate>
+      <guid>https://jrobb.org/categories/quotes/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
