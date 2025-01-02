@@ -3,6 +3,7 @@ title = 'Crockpot Red Curry Chicken'
 date = 2024-12-30T08:07:44-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 # Crock Pot Red Curry Chicken

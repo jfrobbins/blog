@@ -3,6 +3,7 @@ title = 'Apple Pie'
 date = 2024-12-25T10:38:04-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 # Apple Pie Recipe

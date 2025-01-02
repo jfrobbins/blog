@@ -3,6 +3,7 @@ title = 'Beef and Broccoli'
 date = 2024-12-30T09:02:15-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 ## Ingredients

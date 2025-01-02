@@ -3,6 +3,7 @@ title = 'Breakfast Egg Casserole'
 date = 2024-12-25T10:16:23-05:00
 draft = false
 tags = ["recipes"]
+categories = ['recipes']
 +++
 
 # Breakfast Casserole With Sausage and Peppers

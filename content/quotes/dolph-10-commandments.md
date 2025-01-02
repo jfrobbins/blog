@@ -3,6 +3,7 @@ title = "The 10 Dolph Commandments"
 date = 2024-12-25T22:18:01-05:00
 draft = false
 tags = ["quotes"]
+categories = ['quotes']
 +++
 
 
