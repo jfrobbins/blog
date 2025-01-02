@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Jon Robbins (CC BY 4.0)</copyright>
-    <lastBuildDate>Thu, 26 Dec 2024 07:40:37 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 08:24:18 -0500</lastBuildDate>
     <atom:link href="https://jrobb.org/tags/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Proton VPN: A Deep Dive into Digital Privacy</title>
+      <link>https://jrobb.org/posts/privacy/proton-vpn/</link>
+      <pubDate>Thu, 02 Jan 2025 08:24:18 -0500</pubDate>
+      <guid>https://jrobb.org/posts/privacy/proton-vpn/</guid>
+      <description>Exploring Proton VPN: A Deep Dive into Digital Privacy In the digital age, your online privacy is as precious as your physical security. Enter Proton VPN, a service designed by the privacy advocates at Proton to keep your internet activity secure, private, and unrestricted. For a broader look at Proton&amp;rsquo;s privacy-focused services, check out my post on Proton&amp;rsquo;s encrypted offerings.&#xA;What is a VPN? A Virtual Private Network (VPN) is essentially a service that creates a secure, encrypted tunnel between your device and the internet.</description>
+    </item>
     <item>
       <title>Proton Pass: A Guide to Secure Password Management</title>
       <link>https://jrobb.org/posts/privacy/proton-pass/</link>
