@@ -24,6 +24,20 @@
       <description>As I continue to go through and find old stuff that I&amp;rsquo;d done, I found this one. I wrote this simple script a while back to convert some digital comic books into a format that I could read on my Kindle e-reader.&#xA;Download Source File:&#xA;cbr_to_cbz.py github gist: https://gist.github.com/jfrobbins/442a27f798219f78b3da #!/usr/bin/env python # Author: Jon Robbins # License: GPL3+ # based on the idea from https://trisquel.info/en/wiki/how-convert-comic-book-archives-cbrcbr-cbz # # This script recursively loops through directories below a starting point and converts all cbr file to cbz files # # requires: # - unrar # - zip/unzip # # gist: https://gist.</description>
     </item>
     <item>
+      <title> Create mp4 from Images</title>
+      <link>https://jrobb.org/guides/create-mp4-from-images/</link>
+      <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
+      <guid>https://jrobb.org/guides/create-mp4-from-images/</guid>
+      <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp4 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
+    </item>
+    <item>
+      <title>Transcode Mp4 Videos to X265 and Lower Bitrate</title>
+      <link>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
+      <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
+      <guid>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
+      <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
+    </item>
+    <item>
       <title>pseudo randomness   my PRNG</title>
       <link>https://jrobb.org/posts/archive/pseudo-randomness---my-prng/</link>
       <pubDate>Sat, 05 Feb 2011 00:00:00 +0000</pubDate>

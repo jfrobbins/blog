@@ -44,5 +44,19 @@
       <guid>https://jrobb.org/categories/quotes/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Www</title>
+      <link>https://jrobb.org/categories/www/</link>
+      <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
+      <guid>https://jrobb.org/categories/www/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>https://jrobb.org/categories/finance/</link>
+      <pubDate>Tue, 10 Dec 2024 19:58:37 -0500</pubDate>
+      <guid>https://jrobb.org/categories/finance/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

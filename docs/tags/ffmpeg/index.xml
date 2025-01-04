@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ffmpeg on jrobb.org</title>
+    <link>https://jrobb.org/tags/ffmpeg/</link>
+    <description>Recent content in Ffmpeg on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Jon Robbins (CC BY 4.0)</copyright>
+    <lastBuildDate>Fri, 06 Dec 2024 08:34:57 -0500</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transcode Mp4 Videos to X265 and Lower Bitrate</title>
+      <link>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</link>
+      <pubDate>Fri, 06 Dec 2024 08:34:57 -0500</pubDate>
+      <guid>https://jrobb.org/guides/transcode-mp4-videos-to-x265-and-lower-bitrate/</guid>
+      <description>Yesterday at work I needed to send some video files, however they were huge. I used ffmpeg to transcode the files to H.265 and lowered the bitrate until they were an acceptable size &amp;ndash; I did this manually on the CLI a few times, and since there were several files in the directory I quickly tired of that.&#xA;So of course I needed a script to walk through the dir and do this for me!</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on jrobb.org</title>
+    <link>https://jrobb.org/tags/images/</link>
+    <description>Recent content in Images on jrobb.org</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Jon Robbins (CC BY 4.0)</copyright>
+    <lastBuildDate>Wed, 25 Dec 2024 22:35:59 -0500</lastBuildDate>
+    <atom:link href="https://jrobb.org/tags/images/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Create mp4 from Images</title>
+      <link>https://jrobb.org/guides/create-mp4-from-images/</link>
+      <pubDate>Wed, 25 Dec 2024 22:35:59 -0500</pubDate>
+      <guid>https://jrobb.org/guides/create-mp4-from-images/</guid>
+      <description>This is mostly sourced from the url here:&#xA;https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg Which I then put into this gist. And now this post.&#xA;Create mp4 from Images -pattern_type glob&#xA;This great option makes it easier to select the images in many cases.&#xA;Normal speed video with one image per frame at 30 FPS&#xA;create mp4 from pictures in a directory: ffmpeg -framerate 30 -pattern_type glob -i &#39;*.png&#39; \ -c:v libx264 -pix_fmt yuv420p out.mp4</description>
+    </item>
+    <item>
+      <title>Making a Favicon</title>
+      <link>https://jrobb.org/guides/20241222-making-a-favicon/</link>
+      <pubDate>Sun, 22 Dec 2024 10:50:56 -0500</pubDate>
+      <guid>https://jrobb.org/guides/20241222-making-a-favicon/</guid>
+      <description>Creating a Multi-Resolution Favicon for Your Website In today&amp;rsquo;s web environment, having a favicon that looks good across various devices and screen resolutions is crucial. Here&amp;rsquo;s a simple guide on how to create a multi-size favicon.ico file from a single 128x128 pixel image, using GIMP for resizing and icoutils on Ubuntu Linux for the final ICO creation.&#xA;Step 0: Creating an Image You have to have a starting point, something to actually make an icon from.</description>
+    </item>
+  </channel>
+</rss>
