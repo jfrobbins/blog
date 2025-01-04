@@ -2,7 +2,8 @@
 title = 'Making a Favicon'
 date = 2024-12-22T10:50:56-05:00
 draft = false
-tags = ["www","guides"]
+tags = ["www","guides", "images"]
+categories = ["www"]
 +++
 
 # Creating a Multi-Resolution Favicon for Your Website

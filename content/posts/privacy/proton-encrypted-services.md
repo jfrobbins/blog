@@ -3,6 +3,7 @@ title = 'Proton Mail and other Services'
 date = 2024-12-26T07:18:41-05:00
 draft = false
 tags =["proton","privacy","encryption", "iamyourfather"]
+categories = ["tech"]
 +++
 
 # Exploring Proton and Their Suite of Privacy-Focused Services

@@ -2,7 +2,8 @@
 title = ' Create mp4 from Images'
 date = 2024-12-25T22:35:59-05:00
 draft = false
-tags = ["guides"]
+tags = ["guides", "images", "code"]
+categories = ["code"]
 +++
 
 

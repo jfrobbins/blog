@@ -2,7 +2,8 @@
 title = 'My First Five Minutes on a Server'
 date = 2024-12-12T15:53:08-05:00
 draft = false
-tags = ["server", "guides"]
+tags = ["server", "guides", "www"]
+categories = ["www"]
 +++
 
 
