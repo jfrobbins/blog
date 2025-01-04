@@ -1,0 +1,16 @@
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+  {{ with .Get "src" }}
+    {{ $ext := path.Ext . }}
+    {{ if eq $ext ".mp3" }}
+      <source src="{{ . | relURL }}" type="audio/mpeg">
+    {{ else if eq $ext ".ogg" }}
+      <source src="{{ . | relURL }}" type="audio/ogg">
+    {{ else if or (eq $ext ".m4a") (eq $ext ".mp4") }}
+      <source src="{{ . | relURL }}" type="audio/mp4">
+    {{ else }}
+      <!-- Handle unknown types or add more specific checks here -->
+      <source src="{{ . | relURL }}" type="audio/*">
+    {{ end }}
+  {{ end }}
+  Your browser does not support the audio element.
+</audio>
