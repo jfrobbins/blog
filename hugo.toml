@@ -14,7 +14,8 @@ enableRobotsTXT = true
   author = "Jon Robbins"
   description = "Just my random thoughts"
   avatar = "/images/avatars/rm/grok-me-rm-style-2.jpg"
-  menu_item_separator = "<br>"
+  menu_item_separator = " / "
+#  menu_item_separator = "<br>"  
   favicon = "/favicon.ico"
   paginate = 20
   
@@ -33,7 +34,9 @@ enableRobotsTXT = true
   # information see layouts/partials/social_card.html
   generateSocialCard = true  
 
-
+#######################################################
+# menu items
+#######################################################
 
 [[menu.main]]
   name = "Home"
@@ -62,27 +65,28 @@ enableRobotsTXT = true
   url = "/tags/guides/"
   weight = 20 
 
-#[[menu.main]]
-#  name = "Recipes"
-#  url = "/tags/recipes/"
-#  weight = 30
+[[menu.main]]
+  name = "Recipes"
+  url = "/recipes/"
+  weight = 30
 
-#[[menu.main]]
-#  name = "Dad Stuff"
-#  url = "/tags/iamyourfather/"
-#  weight = 35  
+[[menu.main]]
+  name = "Dad Stuff"
+  url = "/tags/iamyourfather/"
+  weight = 35  
   
 [[menu.main]]
   name = "About"
   url = "/about/"
   weight = 40
 
-#[[menu.main]]
-#  name = "Contact"
-#  url = "/contact/"
-#  weight = 50
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 50
  
 
+#######################################################
 
 [[params.social]]
   icon = "brand-mastodon"
