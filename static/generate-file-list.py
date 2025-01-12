@@ -45,7 +45,7 @@ def generate_file_tree(input_dir, output_file, recursive=True, markdown=False):
                 full_path = os.path.join('audio', relative_root).replace('\\', '/')
                 
                 if relative_root == '.':
-                    f.write(f"## {full_path}/\n")
+                    f.write(f"## audio/\n")  # Corrected title for root directory
                     if files:
                         f.write("\n")
                 else:
@@ -56,7 +56,8 @@ def generate_file_tree(input_dir, output_file, recursive=True, markdown=False):
                 # List files in the current directory
                 for file in files:
                     if file.endswith(('.mp3', '.wav', '.ogg')):  # Adjust extensions as needed
-                        file_path = os.path.join(full_path, file)
+                        # Correct the path to avoid duplicate 'audio' and remove './'
+                        file_path = os.path.join(relative_root, file).replace('\\', '/').replace('./', '')
                         f.write(f"- [{file}](/audio/{file_path})\n")
                 
                 # Add a newline after listing files if there are more directories or files to come
