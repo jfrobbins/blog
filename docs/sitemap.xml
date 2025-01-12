@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/categories/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/efficiency/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/efficiency-in-meetings/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/meetings/</loc>
     <lastmod>2025-01-12T09:52:45-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/posts/</loc>
     <lastmod>2025-01-12T09:52:45-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/posts/life/2025/</loc>
-    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
+    <loc>https://jrobb.org/tags/productivity/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/categories/</loc>
+    <loc>https://jrobb.org/categories/productivity/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/professional/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/tags/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/life/2025/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/encryption/</loc>
@@ -42,9 +63,6 @@
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/proton/</loc>
-    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/tags/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/categories/tech/</loc>
