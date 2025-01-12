@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrobb.org/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jrobb.org/posts/</loc>
+    <lastmod>2025-01-12T09:52:45-05:00</lastmod>
+  </url><url>
     <loc>https://jrobb.org/posts/life/2025/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
@@ -26,16 +32,10 @@
     <loc>https://jrobb.org/tags/iamyourfather/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
-    <loc>https://jrobb.org/</loc>
-    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
-  </url><url>
     <loc>https://jrobb.org/tags/life/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/newyear/</loc>
-    <lastmod>2025-01-02T08:24:18-05:00</lastmod>
-  </url><url>
-    <loc>https://jrobb.org/posts/</loc>
     <lastmod>2025-01-02T08:24:18-05:00</lastmod>
   </url><url>
     <loc>https://jrobb.org/tags/privacy/</loc>
