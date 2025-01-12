@@ -19,3 +19,6 @@
 - [fear-and-loathing-in-las-vegas-chapter-08.ogg](/audio/books/fear-and-loathing-in-las-vegas/fear-and-loathing-in-las-vegas-chapter-08.ogg)
 - [fear-and-loathing-in-las-vegas-chapter-09.ogg](/audio/books/fear-and-loathing-in-las-vegas/fear-and-loathing-in-las-vegas-chapter-09.ogg)
 
+
+
+Generated using this script: [generate-file-list.py](/code/generate-file-list.py)
