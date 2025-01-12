@@ -1,13 +1,17 @@
 """
 Usage:
     python3 generate-file-list.py -i <input_directory> [-m] [-o <output_file>]
+    
+Here is how I'll usually run it (from my root dir):
+    python static/code/generate-file-list.py -i static/audio/ -r -m
+    -> File tree generated and saved to content/audio/_index.md
 
 Examples:
     - To generate an HTML file tree from 'audio/' directory:
-      python3 generate-file-list.py -i audio/
+      python3 generate-file-list.py -i ../audio/
     
     - To generate a Markdown file tree from 'audio/' directory:
-      python3 generate-file-list.py -i audio/ -m
+      python3 generate-file-list.py -i ../audio/ -m
     
     - To specify both input and output for HTML:
       python3 generate-file-list.py -i custom_audio_dir/ -o custom_index.html
@@ -63,6 +67,10 @@ def generate_file_tree(input_dir, output_file, recursive=True, markdown=False):
                 # Add a newline after listing files if there are more directories or files to come
                 if files and (dirs or next(os.walk(root))[1] or next(os.walk(root))[2]):
                     f.write("\n")
+                    
+            f.write("\n\n")
+            f.write("Generated using this script: [generate-file-list.py](/code/generate-file-list.py)")
+        
     else:
         with open(output_file, 'w') as f:
             f.write('<ul>\n')
