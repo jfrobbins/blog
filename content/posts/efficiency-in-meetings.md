@@ -1,7 +1,7 @@
 +++
 title = 'Efficiency: Meetings'
 date = 2025-01-12T09:52:45-05:00
-draft = true
+draft = false
 tags = ["meetings", "efficiency", "professional", "productivity"]
 categories = ["productivity"]
 +++
