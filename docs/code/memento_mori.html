@@ -1,4 +1,27 @@
 <!DOCTYPE html>
+<!-- 
+MIT License
+
+Copyright (c) 2025 [Your Name or Alias]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -31,6 +54,24 @@
       color: #666;
       margin-top: 10px;
     }
+    .quote {
+      font-style: italic;
+      margin-top: 10px;
+      color: #444;
+    }
+    .milestone-inputs, .symbol-inputs {
+      display: none;
+      margin-top: 10px;
+    }
+    .milestone-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .milestone-row input[type="text"] {
+      margin-right: 10px;
+      width: 150px;
+    }
   </style>
 </head>
 <body>
@@ -51,6 +92,31 @@
       <option value="text">ASCII text file</option>
     </select>
   </div>
+  <div>
+    <label><input type="checkbox" id="milestones"> Enable milestone markers</label>
+    <div class="milestone-inputs" id="milestone-inputs">
+      <p>Add up to 3 milestones:</p>
+      <div class="milestone-row">
+        <input type="text" id="milestone1-label" placeholder="Label (e.g., Graduation)">
+        <input type="date" id="milestone1-date">
+      </div>
+      <div class="milestone-row">
+        <input type="text" id="milestone2-label" placeholder="Label (e.g., Wedding)">
+        <input type="date" id="milestone2-date">
+      </div>
+      <div class="milestone-row">
+        <input type="text" id="milestone3-label" placeholder="Label (e.g., First Job)">
+        <input type="date" id="milestone3-date">
+      </div>
+    </div>
+  </div>
+  <div>
+    <label><input type="checkbox" id="custom-symbols"> Use custom symbols</label>
+    <div class="symbol-inputs" id="symbol-inputs">
+      <label>Lived weeks: <input type="text" id="lived-symbol" size="2" maxlength="1" value="●"></label>
+      <label>Future weeks: <input type="text" id="future-symbol" size="2" maxlength="1" value="○"></label>
+    </div>
+  </div>
   <button id="calculate">Calculate</button>
   <div id="result"></div>
 
@@ -64,7 +130,7 @@
     const columnSpacing = 20;
     const asciiColumnSpacing = 5;
 
-    // Create lived dot canvas
+    // Pre-rendered dot images
     const livedDotCanvas = document.createElement('canvas');
     livedDotCanvas.width = dotSize;
     livedDotCanvas.height = dotSize;
@@ -77,7 +143,6 @@
     livedCtx.arc(dotSize / 2, dotSize / 2, dotSize / 2 - 1, 0, 2 * Math.PI);
     livedCtx.fill();
 
-    // Create future dot canvas
     const futureDotCanvas = document.createElement('canvas');
     futureDotCanvas.width = dotSize;
     futureDotCanvas.height = dotSize;
@@ -87,6 +152,48 @@
     futureCtx.beginPath();
     futureCtx.arc(dotSize / 2, dotSize / 2, dotSize / 2 - 1, 0, 2 * Math.PI);
     futureCtx.stroke();
+
+    const milestoneDotCanvas = document.createElement('canvas');
+    milestoneDotCanvas.width = dotSize;
+    milestoneDotCanvas.height = dotSize;
+    const milestoneCtx = milestoneDotCanvas.getContext('2d');
+    milestoneCtx.fillStyle = 'yellow';
+    milestoneCtx.beginPath();
+    milestoneCtx.moveTo(dotSize / 2, 1);
+    milestoneCtx.lineTo(dotSize - 1, dotSize - 1);
+    milestoneCtx.lineTo(1, dotSize - 1);
+    milestoneCtx.closePath();
+    milestoneCtx.fill();
+    milestoneCtx.strokeStyle = 'black';
+    milestoneCtx.lineWidth = 1;
+    milestoneCtx.stroke();
+
+    // Expanded inspirational quotes from historical figures
+    const quotes = [
+      "The life you have left is a gift. Cherish it. — Marcus Aurelius",
+      "You could leave life right now. Let that determine what you do and say and think. — Epictetus",
+      "To practice death is to practice freedom. — Montaigne",
+      "Time is the most valuable thing a man can spend. — Theophrastus",
+      "Every day is a new life to a wise man. — Seneca",
+      "The life of man is of a short duration; we must use it well. — Plato",
+      "It is not death that a man should fear, but he should fear never beginning to live. — Marcus Aurelius",
+      "The life so short, the craft so long to learn. — Hippocrates",
+      "We are but dust and shadow. — Horace",
+      "Men fear death as children fear to go in the dark. — Francis Bacon",
+      "The life of man is brief; let us make it full. — Cicero",
+      "What need is there to weep over parts of life? The whole of it calls for tears. — Seneca",
+      "Death is not an evil; what is it then? The end of life. — Socrates",
+      "Our life is what our thoughts make it. — Marcus Aurelius",
+      "The art of living well and the art of dying well are one. — Epicurus"
+    ];
+
+    // Toggle visibility of milestone and symbol inputs
+    document.getElementById('milestones').addEventListener('change', function() {
+      document.getElementById('milestone-inputs').style.display = this.checked ? 'block' : 'none';
+    });
+    document.getElementById('custom-symbols').addEventListener('change', function() {
+      document.getElementById('symbol-inputs').style.display = this.checked ? 'block' : 'none';
+    });
 
     document.getElementById('calculate').addEventListener('click', function() {
       const birthDateStr = document.getElementById('birthdate').value;
@@ -103,13 +210,19 @@
       const totalWeeks = totalYears * weeksPerYear;
       const weeksLivedCapped = Math.min(weeksLived, totalWeeks);
 
+      const useMilestones = document.getElementById('milestones').checked;
+      const milestones = useMilestones ? getMilestones() : [];
+      const useCustomSymbols = document.getElementById('custom-symbols').checked;
+      const livedSymbol = useCustomSymbols ? document.getElementById('lived-symbol').value || '?' : '●';
+      const futureSymbol = useCustomSymbols ? document.getElementById('future-symbol').value || '?' : '○';
+
       if (format === 'ascii') {
-        const ascii = generateASCII(weeksLivedCapped);
-        displayASCII(ascii);
+        const ascii = generateASCII(weeksLivedCapped, milestones, livedSymbol, futureSymbol);
+        displayASCII(ascii, getRandomQuote());
       } else if (format === 'png') {
-        downloadPNG(weeksLivedCapped);
+        downloadPNG(weeksLivedCapped, milestones);
       } else if (format === 'text') {
-        const ascii = generateASCII(weeksLivedCapped);
+        const ascii = generateASCII(weeksLivedCapped, milestones, livedSymbol, futureSymbol);
         downloadText(ascii);
       }
     });
@@ -117,16 +230,33 @@
     function calculateWeeksLived(birthDateStr) {
       const birthDate = new Date(birthDateStr);
       const today = new Date();
-      if (birthDate > today) {
-        return -1;
-      }
+      if (birthDate > today) return -1;
       const diffTime = today - birthDate;
       const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-      const weeksLived = Math.floor(diffDays / 7);
-      return weeksLived;
+      return Math.floor(diffDays / 7);
     }
 
-    function generateASCII(weeksLived) {
+    function getMilestones() {
+      const milestones = [];
+      for (let i = 1; i <= 3; i++) {
+        const label = document.getElementById(`milestone${i}-label`).value.trim();
+        const dateStr = document.getElementById(`milestone${i}-date`).value;
+        if (label && dateStr) {
+          const msDate = new Date(dateStr);
+          if (!isNaN(msDate)) {
+            const birthDate = new Date(document.getElementById('birthdate').value);
+            const diffTime = msDate - birthDate;
+            const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
+            if (diffWeeks >= 0 && diffWeeks < totalYears * weeksPerYear) {
+              milestones.push({ week: diffWeeks, label });
+            }
+          }
+        }
+      }
+      return milestones;
+    }
+
+    function generateASCII(weeksLived, milestones, livedSymbol, futureSymbol) {
       let ascii = '';
       for (let row = 0; row < yearsPerColumn; row++) {
         let line = '';
@@ -135,10 +265,13 @@
           if (year < totalYears) {
             for (let week = 0; week < weeksPerYear; week++) {
               const n = year * weeksPerYear + week;
-              if (n < weeksLived) {
-                line += '■';
+              const milestone = milestones.find(m => m.week === n);
+              if (milestone) {
+                line += '*';
+              } else if (n < weeksLived) {
+                line += livedSymbol;
               } else {
-                line += '□';
+                line += futureSymbol;
               }
             }
           }
@@ -151,12 +284,14 @@
       return ascii;
     }
 
-    function displayASCII(asciiString) {
+    function displayASCII(asciiString, quote) {
       const resultDiv = document.getElementById('result');
-      resultDiv.innerHTML = '<pre>' + asciiString + '</pre>';
+      let html = '<pre>' + asciiString + '</pre>';
+      html += `<p class="quote">${quote}</p>`;
+      resultDiv.innerHTML = html;
     }
 
-    function downloadPNG(weeksLived) {
+    function downloadPNG(weeksLived, milestones) {
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
       canvas.width = numColumns * (weeksPerYear * dotSize) + (numColumns - 1) * columnSpacing;
@@ -173,7 +308,10 @@
             const n = year * weeksPerYear + week;
             const x = panel * (weeksPerYear * dotSize + columnSpacing) + week * dotSize;
             const y = row * dotSize;
-            if (n < weeksLived) {
+            const milestone = milestones.find(m => m.week === n);
+            if (milestone) {
+              ctx.drawImage(milestoneDotCanvas, x, y);
+            } else if (n < weeksLived) {
               ctx.drawImage(livedDotCanvas, x, y);
             } else {
               ctx.drawImage(futureDotCanvas, x, y);
@@ -196,6 +334,10 @@
       a.download = 'memento_mori.txt';
       a.click();
       URL.revokeObjectURL(url);
+    }
+
+    function getRandomQuote() {
+      return quotes[Math.floor(Math.random() * quotes.length)];
     }
   </script>
 </body>
