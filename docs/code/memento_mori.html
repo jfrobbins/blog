@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memento Mori Calendar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    pre {
+      font-family: monospace;
+      white-space: pre;
+      background-color: #f5f5f5;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    div {
+      margin-bottom: 15px;
+    }
+    label {
+      margin-right: 10px;
+    }
+    button {
+      padding: 5px 15px;
+    }
+    .privacy-notice {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Memento Mori Calendar</h1>
+  <p class="privacy-notice">
+    Privacy Notice: I don't want your data, and I do not track any of it. This application runs entirely in your browser, ensuring your information stays private.
+  </p>
+  <p>Enter your birth date to see your life in weeks (assuming a 90-year lifespan).</p>
+  <div>
+    <label for="birthdate">Enter your birth date:</label>
+    <input type="date" id="birthdate">
+  </div>
+  <div>
+    <label for="format">Choose output format:</label>
+    <select id="format">
+      <option value="ascii">ASCII in browser</option>
+      <option value="png">PNG image</option>
+      <option value="text">ASCII text file</option>
+    </select>
+  </div>
+  <button id="calculate">Calculate</button>
+  <div id="result"></div>
+
+  <script>
+    // Constants
+    const totalYears = 90;
+    const weeksPerYear = 52;
+    const yearsPerColumn = 30;
+    const numColumns = Math.ceil(totalYears / yearsPerColumn);
+    const dotSize = 10;
+    const columnSpacing = 20;
+    const asciiColumnSpacing = 5;
+
+    // Create lived dot canvas
+    const livedDotCanvas = document.createElement('canvas');
+    livedDotCanvas.width = dotSize;
+    livedDotCanvas.height = dotSize;
+    const livedCtx = livedDotCanvas.getContext('2d');
+    const gradient = livedCtx.createRadialGradient(dotSize / 2, dotSize / 2, 0, dotSize / 2, dotSize / 2, dotSize / 2);
+    gradient.addColorStop(0, '#333');
+    gradient.addColorStop(1, '#000');
+    livedCtx.fillStyle = gradient;
+    livedCtx.beginPath();
+    livedCtx.arc(dotSize / 2, dotSize / 2, dotSize / 2 - 1, 0, 2 * Math.PI);
+    livedCtx.fill();
+
+    // Create future dot canvas
+    const futureDotCanvas = document.createElement('canvas');
+    futureDotCanvas.width = dotSize;
+    futureDotCanvas.height = dotSize;
+    const futureCtx = futureDotCanvas.getContext('2d');
+    futureCtx.strokeStyle = 'black';
+    futureCtx.lineWidth = 1;
+    futureCtx.beginPath();
+    futureCtx.arc(dotSize / 2, dotSize / 2, dotSize / 2 - 1, 0, 2 * Math.PI);
+    futureCtx.stroke();
+
+    document.getElementById('calculate').addEventListener('click', function() {
+      const birthDateStr = document.getElementById('birthdate').value;
+      if (!birthDateStr) {
+        alert('Please enter your birth date.');
+        return;
+      }
+      const format = document.getElementById('format').value;
+      const weeksLived = calculateWeeksLived(birthDateStr);
+      if (weeksLived < 0) {
+        alert('Birth date cannot be in the future.');
+        return;
+      }
+      const totalWeeks = totalYears * weeksPerYear;
+      const weeksLivedCapped = Math.min(weeksLived, totalWeeks);
+
+      if (format === 'ascii') {
+        const ascii = generateASCII(weeksLivedCapped);
+        displayASCII(ascii);
+      } else if (format === 'png') {
+        downloadPNG(weeksLivedCapped);
+      } else if (format === 'text') {
+        const ascii = generateASCII(weeksLivedCapped);
+        downloadText(ascii);
+      }
+    });
+
+    function calculateWeeksLived(birthDateStr) {
+      const birthDate = new Date(birthDateStr);
+      const today = new Date();
+      if (birthDate > today) {
+        return -1;
+      }
+      const diffTime = today - birthDate;
+      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+      const weeksLived = Math.floor(diffDays / 7);
+      return weeksLived;
+    }
+
+    function generateASCII(weeksLived) {
+      let ascii = '';
+      for (let row = 0; row < yearsPerColumn; row++) {
+        let line = '';
+        for (let panel = 0; panel < numColumns; panel++) {
+          const year = row + panel * yearsPerColumn;
+          if (year < totalYears) {
+            for (let week = 0; week < weeksPerYear; week++) {
+              const n = year * weeksPerYear + week;
+              if (n < weeksLived) {
+                line += '■';
+              } else {
+                line += '□';
+              }
+            }
+          }
+          if (panel < numColumns - 1) {
+            line += ' '.repeat(asciiColumnSpacing);
+          }
+        }
+        ascii += line + '\n';
+      }
+      return ascii;
+    }
+
+    function displayASCII(asciiString) {
+      const resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = '<pre>' + asciiString + '</pre>';
+    }
+
+    function downloadPNG(weeksLived) {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = numColumns * (weeksPerYear * dotSize) + (numColumns - 1) * columnSpacing;
+      canvas.height = yearsPerColumn * dotSize;
+
+      ctx.fillStyle = 'white';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      for (let row = 0; row < yearsPerColumn; row++) {
+        for (let panel = 0; panel < numColumns; panel++) {
+          const year = row + panel * yearsPerColumn;
+          if (year >= totalYears) continue;
+          for (let week = 0; week < weeksPerYear; week++) {
+            const n = year * weeksPerYear + week;
+            const x = panel * (weeksPerYear * dotSize + columnSpacing) + week * dotSize;
+            const y = row * dotSize;
+            if (n < weeksLived) {
+              ctx.drawImage(livedDotCanvas, x, y);
+            } else {
+              ctx.drawImage(futureDotCanvas, x, y);
+            }
+          }
+        }
+      }
+      const dataURL = canvas.toDataURL('image/png');
+      const a = document.createElement('a');
+      a.href = dataURL;
+      a.download = 'memento_mori.png';
+      a.click();
+    }
+
+    function downloadText(asciiString) {
+      const blob = new Blob([asciiString], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'memento_mori.txt';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
