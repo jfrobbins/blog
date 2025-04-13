@@ -1,7 +1,7 @@
 +++
 title = 'Boglehead Investing'
 date = 2024-12-10T19:58:37-05:00
-updated: 2025-04-13T12:00:00Z
+updated = 2025-04-13T12:00:00Z
 draft = false
 tags = ["finance", "guides", "iamyourfather"]
 categories = ["finance"]
