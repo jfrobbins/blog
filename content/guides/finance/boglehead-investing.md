@@ -1,6 +1,7 @@
 +++
 title = 'Boglehead Investing'
 date = 2024-12-10T19:58:37-05:00
+updated: 2025-04-13T12:00:00Z
 draft = false
 tags = ["finance", "guides", "iamyourfather"]
 categories = ["finance"]
@@ -88,14 +89,21 @@ As a guideline, something like:
 Here is what I invest in with my taxable investment account (I use [Fidelity](https://fidelity.com), but Scottrade/Robinhood/Vanguard/etc all have the same types of funds):
 
 - `FDLXX` / Fidelity Treasury Only Money Market Fund
-  - I use this as a high-yield savings account! 
+  - I use this as a high-yield savings account! (think emergency fund up to a certain threshold, then other planable expenses)
   - I keep some amount of money in my local bank, and get a reasonable rate, but this Treasury only MM fund will almost always have a higher interest than through a bank or credit union -- basically skipping the middle man!
-- `VTI` / Vanguard Total Stock Market Index Fund (US)
-  - ALL US stocks, portioned by market cap (the bigger the company, the higher the percentage in the fund)
-  - I invest `70%` in `VTI`
-- `VXUS` / Vanguard Total International Stock Market Index Fund (non-US)
-  - The US isn't the entire world, so this fleshes out the rest of it -- all of the world _except_ the US stocks
-  - I invest `30%` in `VXUS`
+- Self-balanced:
+  - `VTI` / Vanguard Total Stock Market Index Fund (US)
+    - ALL US stocks, portioned by market cap (the bigger the company, the higher the percentage in the fund)
+    - I used to invest `70%` in `VTI`
+  - `VXUS` / Vanguard Total International Stock Market Index Fund (non-US)
+    - The US isn't the entire world, so this fleshes out the rest of it -- all of the world _except_ the US stocks
+    - I used to invest `30%` in `VXUS`
+  - Every so often, the _value_ balance of each will shift the percentages, and usually one will rebalance -- by selling off one and buying the other, or changing future contribution mix to balance it back out.
+- Auto-balanced:
+  - `VT`: The Vanguard Total World Stock ETF (VT) tracks the FTSE Global All Cap Index, offering broad, low-cost exposure to global equities across developed and emerging markets.
+  - For a negligable expense ratio delta`*`, you can just buy into `VT` instead of (`VTI` + `VXUS`) -- this covers the entire world index and automatically rebalances periodically. 
+    - `*` The 0.024% delta translates to $24 per year on a $100,000 investment, which is modest but can compound over time for larger portfolios or longer horizons.
+  - Perfection: Why make things more difficult than they need to be, amiright?
 - Bonds
   - 0%
   - you may say, "what?! no bonds? what kind of boglehead are you?"
